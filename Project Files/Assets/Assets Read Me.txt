@@ -1,0 +1,3 @@
+Plz try to keep everthing inside the resources folder so that things can be easily accessed via script using Resources.Load()
+
+Also try to stick to a naming convention when labelling common items E.g. all weapons should have "Tier, type (Sword or bow), number" so that they can be dynamically loaded at runtime
