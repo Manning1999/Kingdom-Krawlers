@@ -10,7 +10,7 @@ using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
+public class TwoDimensionalPlayerMovement : MonoBehaviour
 {
 
 
@@ -39,6 +39,9 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
     [Tooltip("Force with which the player will jump. ONLY APPLIES TO PLATFORMER GAMES")]
     protected float jumpForce = 300;
 
+    [Tooltip("Set the gravity strength here INSTEAD of in the rigidbody to prevent conflicts")]
+    protected float gravityStrength = 1;
+
     //if the player is on the ground
     protected bool isGrounded = false;
 
@@ -48,10 +51,6 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
 
 
     [Header("Player Attributes")]
-    [SerializeField]
-    protected int health;
-    public int _health { get { return health; } protected set { health = value; } }
-
     [SerializeField]
     [Tooltip("How fast the character should move when walking")]
     protected float walkSpeed;
@@ -114,11 +113,11 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
 
             if(movementType != MovementType.Platformer)
             {
-                rb.simulated = false;
+                rb.gravityScale = 0;
             }
             else
             {
-                rb.simulated = true;
+                rb.gravityScale = gravityStrength;
             }
         }
         catch (Exception e)
@@ -296,7 +295,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
                         if (!Input.GetKey(moveDownButton) && !Input.GetKey(moveUpButton) && !Input.GetKey(moveLeftButton) && !Input.GetKey(moveRightButton))
                         {
 
-                            anim.SetInteger("Direction", 0);
+                            anim.SetInteger("Direction", anim.GetInteger("Direction"));
 
                         }
                         break;
@@ -332,7 +331,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
                         if (!Input.GetKey(moveDownButton) && !Input.GetKey(moveUpButton) && !Input.GetKey(moveLeftButton) && !Input.GetKey(moveRightButton))
                         {
                             direction = Direction.Idle;
-                            anim.SetInteger("Direction", 0);
+                            anim.SetInteger("Direction", anim.GetInteger("Direction"));
                         }
 
 
@@ -625,22 +624,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
 
     }
 
-
-
-    //This is a part of the IHurtable interface
-    public virtual void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if(health <= 0)
-        {
-            Die();
-        }
-    }
-
-
-
-
+    
     protected virtual void OnCollisionEnter2D(Collision2D col)
     {
 
@@ -663,21 +647,5 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour, IHurtable
         }
 
     }
-    
-
-
-
-
-
-    protected virtual void Die()
-    {
-        Debug.Log("Player is now dead");
-
-    }
-
-
-
-
-
 
 }

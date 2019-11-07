@@ -1,7 +1,607 @@
 fileFormatVersion: 2
 guid: 31ce3e7fb34e5f448b33fe74ed3ff1c6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4550583140606598935
+    second: world_map_tiles_0
+  - first:
+      213: -2642357552748102180
+    second: world_map_tiles_1
+  - first:
+      213: -753545945613039853
+    second: world_map_tiles_2
+  - first:
+      213: 7721818854610044636
+    second: world_map_tiles_3
+  - first:
+      213: 5668172183863022229
+    second: world_map_tiles_4
+  - first:
+      213: 6717968649844282551
+    second: world_map_tiles_5
+  - first:
+      213: 213412828422669776
+    second: world_map_tiles_6
+  - first:
+      213: -8315802031198517924
+    second: world_map_tiles_7
+  - first:
+      213: -7535950310470600216
+    second: world_map_tiles_8
+  - first:
+      213: -6745043420874346666
+    second: world_map_tiles_9
+  - first:
+      213: -5991944843302601539
+    second: world_map_tiles_10
+  - first:
+      213: -7654792306820712103
+    second: world_map_tiles_11
+  - first:
+      213: -7708618783056595465
+    second: world_map_tiles_12
+  - first:
+      213: 6059160030956990819
+    second: world_map_tiles_13
+  - first:
+      213: -7777024110508073237
+    second: world_map_tiles_14
+  - first:
+      213: -7723417756358962053
+    second: world_map_tiles_15
+  - first:
+      213: -3429715006410142006
+    second: world_map_tiles_16
+  - first:
+      213: -3936302200913519914
+    second: world_map_tiles_17
+  - first:
+      213: -4388711868590299447
+    second: world_map_tiles_18
+  - first:
+      213: -5725484560261764569
+    second: world_map_tiles_19
+  - first:
+      213: -5837262831839536125
+    second: world_map_tiles_20
+  - first:
+      213: 3414409489939616916
+    second: world_map_tiles_21
+  - first:
+      213: 1582185291080301959
+    second: world_map_tiles_22
+  - first:
+      213: -5781529969613955765
+    second: world_map_tiles_23
+  - first:
+      213: -7978066437859729318
+    second: world_map_tiles_24
+  - first:
+      213: 988556368619544148
+    second: world_map_tiles_25
+  - first:
+      213: -4624638453687891064
+    second: world_map_tiles_26
+  - first:
+      213: 6682069462048160297
+    second: world_map_tiles_27
+  - first:
+      213: 9171905111152439599
+    second: world_map_tiles_28
+  - first:
+      213: -7033313269191556332
+    second: world_map_tiles_29
+  - first:
+      213: 8056186497782542735
+    second: world_map_tiles_30
+  - first:
+      213: -3279169488187549677
+    second: world_map_tiles_31
+  - first:
+      213: 5772327620015511502
+    second: world_map_tiles_32
+  - first:
+      213: -3168401012849995877
+    second: world_map_tiles_33
+  - first:
+      213: 9012401157518666541
+    second: world_map_tiles_34
+  - first:
+      213: 8151865134331666480
+    second: world_map_tiles_35
+  - first:
+      213: -3267477359379391196
+    second: world_map_tiles_36
+  - first:
+      213: -2306778941175790497
+    second: world_map_tiles_37
+  - first:
+      213: -3768627622698534107
+    second: world_map_tiles_38
+  - first:
+      213: 1084021065945185627
+    second: world_map_tiles_39
+  - first:
+      213: 3004025575067662944
+    second: world_map_tiles_40
+  - first:
+      213: -6989323391260166176
+    second: world_map_tiles_41
+  - first:
+      213: -5681459871820349734
+    second: world_map_tiles_42
+  - first:
+      213: -7186291919273211242
+    second: world_map_tiles_43
+  - first:
+      213: -5470600761659100279
+    second: world_map_tiles_44
+  - first:
+      213: -6650980629818755177
+    second: world_map_tiles_45
+  - first:
+      213: 5891748241490871390
+    second: world_map_tiles_46
+  - first:
+      213: 7446526661071316652
+    second: world_map_tiles_47
+  - first:
+      213: 6801288046026662817
+    second: world_map_tiles_48
+  - first:
+      213: -3542197198348692513
+    second: world_map_tiles_49
+  - first:
+      213: 4904810533088647340
+    second: world_map_tiles_50
+  - first:
+      213: 7166463451817409748
+    second: world_map_tiles_51
+  - first:
+      213: -6115835695466139153
+    second: world_map_tiles_52
+  - first:
+      213: -8643734989908751516
+    second: world_map_tiles_53
+  - first:
+      213: -2025030878582130487
+    second: world_map_tiles_54
+  - first:
+      213: 9107717040488894601
+    second: world_map_tiles_55
+  - first:
+      213: -4724582164799766805
+    second: world_map_tiles_56
+  - first:
+      213: 7382068782679125011
+    second: world_map_tiles_57
+  - first:
+      213: 4410803715511387811
+    second: world_map_tiles_58
+  - first:
+      213: 1279745689213095716
+    second: world_map_tiles_59
+  - first:
+      213: 1629854886067343464
+    second: world_map_tiles_60
+  - first:
+      213: 4828856528965866420
+    second: world_map_tiles_61
+  - first:
+      213: 1977734726788619605
+    second: world_map_tiles_62
+  - first:
+      213: 2139427230540081006
+    second: world_map_tiles_63
+  - first:
+      213: -421186602961323267
+    second: world_map_tiles_64
+  - first:
+      213: 3250160540750380016
+    second: world_map_tiles_65
+  - first:
+      213: 6507479500255152795
+    second: world_map_tiles_66
+  - first:
+      213: -3420142180723499519
+    second: world_map_tiles_67
+  - first:
+      213: 5477805235767853738
+    second: world_map_tiles_68
+  - first:
+      213: 5025488692335330390
+    second: world_map_tiles_69
+  - first:
+      213: 8274155781880297710
+    second: world_map_tiles_70
+  - first:
+      213: -4427746326096212027
+    second: world_map_tiles_71
+  - first:
+      213: -3897497164308099561
+    second: world_map_tiles_72
+  - first:
+      213: -2077172426385940485
+    second: world_map_tiles_73
+  - first:
+      213: 6606941690494366870
+    second: world_map_tiles_74
+  - first:
+      213: -879890959844970539
+    second: world_map_tiles_75
+  - first:
+      213: 1964958277443178911
+    second: world_map_tiles_76
+  - first:
+      213: -7166249373892874920
+    second: world_map_tiles_77
+  - first:
+      213: -4137909172005555432
+    second: world_map_tiles_78
+  - first:
+      213: -5815381063312341762
+    second: world_map_tiles_79
+  - first:
+      213: 7314223172544597738
+    second: world_map_tiles_80
+  - first:
+      213: 7875706265928724398
+    second: world_map_tiles_81
+  - first:
+      213: -8853309390029682810
+    second: world_map_tiles_82
+  - first:
+      213: -5555808338881481834
+    second: world_map_tiles_83
+  - first:
+      213: 8153232756344428813
+    second: world_map_tiles_84
+  - first:
+      213: 5739235732495006133
+    second: world_map_tiles_85
+  - first:
+      213: -4369416157868356583
+    second: world_map_tiles_86
+  - first:
+      213: -8106880957129146886
+    second: world_map_tiles_87
+  - first:
+      213: 8754786686351554912
+    second: world_map_tiles_88
+  - first:
+      213: 1616323347123939286
+    second: world_map_tiles_89
+  - first:
+      213: 594207311387046191
+    second: world_map_tiles_90
+  - first:
+      213: -4111135744493331898
+    second: world_map_tiles_91
+  - first:
+      213: -757362792000933165
+    second: world_map_tiles_92
+  - first:
+      213: 8511999586704587089
+    second: world_map_tiles_93
+  - first:
+      213: 4739482361606981951
+    second: world_map_tiles_94
+  - first:
+      213: -5300076282269326792
+    second: world_map_tiles_95
+  - first:
+      213: -1493355013932885484
+    second: world_map_tiles_96
+  - first:
+      213: -5499744772778160418
+    second: world_map_tiles_97
+  - first:
+      213: -6762219440298617372
+    second: world_map_tiles_98
+  - first:
+      213: 7422037916320134596
+    second: world_map_tiles_99
+  - first:
+      213: -4191457543215964333
+    second: world_map_tiles_100
+  - first:
+      213: -992893490566802911
+    second: world_map_tiles_101
+  - first:
+      213: -1061967106795777789
+    second: world_map_tiles_102
+  - first:
+      213: -5769651080675570079
+    second: world_map_tiles_103
+  - first:
+      213: -2637774305487748841
+    second: world_map_tiles_104
+  - first:
+      213: 6890730438851883454
+    second: world_map_tiles_105
+  - first:
+      213: -8994934711065514636
+    second: world_map_tiles_106
+  - first:
+      213: -2141494875093219880
+    second: world_map_tiles_107
+  - first:
+      213: 1038393750699875793
+    second: world_map_tiles_108
+  - first:
+      213: -7624040616556624804
+    second: world_map_tiles_109
+  - first:
+      213: -2122979464866709973
+    second: world_map_tiles_110
+  - first:
+      213: 8632859688011047236
+    second: world_map_tiles_111
+  - first:
+      213: -1316997144218614438
+    second: world_map_tiles_112
+  - first:
+      213: 3885051974576584343
+    second: world_map_tiles_113
+  - first:
+      213: 1069704001932522294
+    second: world_map_tiles_114
+  - first:
+      213: 4596476562369839062
+    second: world_map_tiles_115
+  - first:
+      213: -115471201751423855
+    second: world_map_tiles_116
+  - first:
+      213: -8407642936211413678
+    second: world_map_tiles_117
+  - first:
+      213: 1127515986716234020
+    second: world_map_tiles_118
+  - first:
+      213: 1998495576725173075
+    second: world_map_tiles_119
+  - first:
+      213: 8545215171553113372
+    second: world_map_tiles_120
+  - first:
+      213: 4145480320114638573
+    second: world_map_tiles_121
+  - first:
+      213: 3779085170228265894
+    second: world_map_tiles_122
+  - first:
+      213: 6116264278780356536
+    second: world_map_tiles_123
+  - first:
+      213: -7421944554959151609
+    second: world_map_tiles_124
+  - first:
+      213: -4573484094817088988
+    second: world_map_tiles_125
+  - first:
+      213: 7673692919528699162
+    second: world_map_tiles_126
+  - first:
+      213: 8724785113942483246
+    second: world_map_tiles_127
+  - first:
+      213: -8444416048424471761
+    second: world_map_tiles_128
+  - first:
+      213: 4168130562713546138
+    second: world_map_tiles_129
+  - first:
+      213: 312793459267216568
+    second: world_map_tiles_130
+  - first:
+      213: 6670110296808220636
+    second: world_map_tiles_131
+  - first:
+      213: -3325974835055342199
+    second: world_map_tiles_132
+  - first:
+      213: 797539545490870740
+    second: world_map_tiles_133
+  - first:
+      213: -6790500812953637350
+    second: world_map_tiles_134
+  - first:
+      213: 3717678843267984108
+    second: world_map_tiles_135
+  - first:
+      213: -7410665548194147051
+    second: world_map_tiles_136
+  - first:
+      213: 3085550517462624522
+    second: world_map_tiles_137
+  - first:
+      213: 7323282673464289075
+    second: world_map_tiles_138
+  - first:
+      213: -6938063820246006830
+    second: world_map_tiles_139
+  - first:
+      213: 6965896559750912398
+    second: world_map_tiles_140
+  - first:
+      213: -830298699062837397
+    second: world_map_tiles_141
+  - first:
+      213: 3471705982538947613
+    second: world_map_tiles_142
+  - first:
+      213: 329937016334913034
+    second: world_map_tiles_143
+  - first:
+      213: -5937660559929532944
+    second: world_map_tiles_144
+  - first:
+      213: 5449357223442737789
+    second: world_map_tiles_145
+  - first:
+      213: 6342216800561952774
+    second: world_map_tiles_146
+  - first:
+      213: 6529992797244060497
+    second: world_map_tiles_147
+  - first:
+      213: 4651212633523455699
+    second: world_map_tiles_148
+  - first:
+      213: 2669264553747851921
+    second: world_map_tiles_149
+  - first:
+      213: -265356500901029838
+    second: world_map_tiles_150
+  - first:
+      213: -5071702821545493764
+    second: world_map_tiles_151
+  - first:
+      213: -6208927029266251025
+    second: world_map_tiles_152
+  - first:
+      213: 5122534288094793101
+    second: world_map_tiles_153
+  - first:
+      213: 314141164160867421
+    second: world_map_tiles_154
+  - first:
+      213: 7613160206625329773
+    second: world_map_tiles_155
+  - first:
+      213: 1718070179576876761
+    second: world_map_tiles_156
+  - first:
+      213: -8106217779068414950
+    second: world_map_tiles_157
+  - first:
+      213: 1318523434789366039
+    second: world_map_tiles_158
+  - first:
+      213: 667105855885413020
+    second: world_map_tiles_159
+  - first:
+      213: 1255639718055513806
+    second: world_map_tiles_160
+  - first:
+      213: 8032645185786786248
+    second: world_map_tiles_161
+  - first:
+      213: 5460919665924802906
+    second: world_map_tiles_162
+  - first:
+      213: 8876566868507405579
+    second: world_map_tiles_163
+  - first:
+      213: 3226434921846493050
+    second: world_map_tiles_164
+  - first:
+      213: -280696125282840712
+    second: world_map_tiles_165
+  - first:
+      213: -8770674729935923244
+    second: world_map_tiles_166
+  - first:
+      213: 6487953296151633970
+    second: world_map_tiles_167
+  - first:
+      213: 8195547944756706736
+    second: world_map_tiles_168
+  - first:
+      213: 7659691417656418576
+    second: world_map_tiles_169
+  - first:
+      213: 7893117058767807177
+    second: world_map_tiles_170
+  - first:
+      213: 4123525795436122463
+    second: world_map_tiles_171
+  - first:
+      213: -8585652309784371324
+    second: world_map_tiles_172
+  - first:
+      213: -3049072534460674187
+    second: world_map_tiles_173
+  - first:
+      213: 3175918018465059354
+    second: world_map_tiles_174
+  - first:
+      213: -8987131845783757895
+    second: world_map_tiles_175
+  - first:
+      213: 9094044672842139895
+    second: world_map_tiles_176
+  - first:
+      213: -4216776798987109936
+    second: world_map_tiles_177
+  - first:
+      213: 3033967786520481357
+    second: world_map_tiles_178
+  - first:
+      213: 916674298275711875
+    second: world_map_tiles_179
+  - first:
+      213: -3304506554881696382
+    second: world_map_tiles_180
+  - first:
+      213: 5847212332399037808
+    second: world_map_tiles_181
+  - first:
+      213: -1948750636215480864
+    second: world_map_tiles_182
+  - first:
+      213: 6738215389831436822
+    second: world_map_tiles_183
+  - first:
+      213: -4275556569640230688
+    second: world_map_tiles_184
+  - first:
+      213: -7119534745631818175
+    second: world_map_tiles_185
+  - first:
+      213: 6760624725804618266
+    second: world_map_tiles_186
+  - first:
+      213: 333972693231234054
+    second: world_map_tiles_187
+  - first:
+      213: -4006412947325402711
+    second: world_map_tiles_188
+  - first:
+      213: -7880049757976037742
+    second: world_map_tiles_189
+  - first:
+      213: -7963993146834387411
+    second: world_map_tiles_190
+  - first:
+      213: -7195163794207843729
+    second: world_map_tiles_191
+  - first:
+      213: 5373680253434475257
+    second: world_map_tiles_192
+  - first:
+      213: 7854791380504314122
+    second: world_map_tiles_193
+  - first:
+      213: -1653990084812003655
+    second: world_map_tiles_194
+  - first:
+      213: -1905429680144606880
+    second: world_map_tiles_195
+  - first:
+      213: -8922512254808025439
+    second: world_map_tiles_196
+  - first:
+      213: -2348388558247380491
+    second: world_map_tiles_197
+  - first:
+      213: 5343577262401458637
+    second: world_map_tiles_198
+  - first:
+      213: 6626656851916559933
+    second: world_map_tiles_199
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +640,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,7 +658,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,9 +669,4222 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: world_map_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9501ccb02fd9ab74da14e497d62f9a39
+      internalID: -4550583140606598935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c560b2cdbf693644830c9fa6d346bfd
+      internalID: -2642357552748102180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70122585c7f4b714db6c5c7552c7835b
+      internalID: -753545945613039853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 885
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cf1a3b241f94a48a6c3bff04c261d5
+      internalID: 7721818854610044636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f6b209c2b93be43b1a805f3e5dbbe5
+      internalID: 5668172183863022229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1cfceeeceabbc4b9fce9513ed0bde8
+      internalID: 6717968649844282551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22669f4d886cef4ca4f94812ba3c111
+      internalID: 213412828422669776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 868
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b24459033981743950cb9ec4775447
+      internalID: -8315802031198517924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 851
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37811b7b7f37797468cf140bb0bbebaa
+      internalID: -7535950310470600216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 851
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13235101f9db9499205b6512340fcb
+      internalID: -6745043420874346666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 851
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bcefd470f6abf4982f45a3b75b0d1d
+      internalID: -5991944843302601539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 851
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bb0e1a2e3be744dbac80ade98d02d2
+      internalID: -7654792306820712103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 834
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffdf88115c06bb49938701b73d57aaa
+      internalID: -7708618783056595465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 834
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794b78e3c957a824983d39938bede828
+      internalID: 6059160030956990819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 834
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb40a071fd1ba443aaad081bed63e09
+      internalID: -7777024110508073237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 834
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda05b43b8165a04c9552b39a9289a37
+      internalID: -7723417756358962053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6281db7e015304493f4217a6453e1a
+      internalID: -3429715006410142006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07e3db11d1af0e4cbc1af1dcf4b425c
+      internalID: -3936302200913519914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d169b9fc688cf504aa9130dee8a72080
+      internalID: -4388711868590299447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 817
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938c5336bd0591543a7ce836fe83c49e
+      internalID: -5725484560261764569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039a3174bfee48c488e51b43869cdc49
+      internalID: -5837262831839536125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b532ea2768dea6488400112dee7e701
+      internalID: 3414409489939616916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74f15c276a427747a58c7a35a9c99e6
+      internalID: 1582185291080301959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06c91d317211364c8a9ab44ef32ad15
+      internalID: -5781529969613955765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9e211eb8864b648921947eaadbf1d3
+      internalID: -7978066437859729318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef6e9b3cd7c1e3409dbf473d47a212b
+      internalID: 988556368619544148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f74c276ff5f7304382976d9d12993df
+      internalID: -4624638453687891064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 783
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc56e8f6bc9753243b12e4cff9eda246
+      internalID: 6682069462048160297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35406210f071e26419f7610b6e4b89f2
+      internalID: 9171905111152439599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8b199cdd72024ab2b1ea541a05740
+      internalID: -7033313269191556332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4d56503caa3f24f9c6a54769fb00c0
+      internalID: 8056186497782542735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24a5886c23ba874ca13542858fe6f26
+      internalID: -3279169488187549677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6acbffc97d2a142b61da1563bee13d
+      internalID: 5772327620015511502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f00505ac352ed4ea4e38d7ddf7e0c3
+      internalID: -3168401012849995877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992aa8b9085e17e4fa893b71e2d5ef87
+      internalID: 9012401157518666541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76729468628406a4e9d01e250cb7a58b
+      internalID: 8151865134331666480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 732
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd2b286987fd194cbe3ebc7c58c97f0
+      internalID: -3267477359379391196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 732
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b3230c42aee8458b59000efa62ede
+      internalID: -2306778941175790497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 732
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820049890159771429dd15a1c8332eaf
+      internalID: -3768627622698534107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 732
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6712cdb5a6724024a9a4f46450761af1
+      internalID: 1084021065945185627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f067f142827f4b4483f854ebfa06e60
+      internalID: 3004025575067662944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1267952ca0ccd4ea433dd324ac9683
+      internalID: -6989323391260166176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecdb4f1f8fed9e458a9324bf4e32217
+      internalID: -5681459871820349734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1802f199e80fd4547a858200889fb094
+      internalID: -7186291919273211242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 698
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a339d2104cfe443be2046c88503f63
+      internalID: -5470600761659100279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 698
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef8170e17d900740b04aeb7967392b5
+      internalID: -6650980629818755177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 698
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e580ac85edefc9e4495cac5eb213f5c6
+      internalID: 5891748241490871390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 698
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f705b566339b3c8499c235780ad2cc6b
+      internalID: 7446526661071316652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 681
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a897788a9dc13478e05f9ef14f0558
+      internalID: 6801288046026662817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 681
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01880efadd2925d4da55aff56a60fab6
+      internalID: -3542197198348692513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 681
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a40295e447dd34081000bcc4113afa
+      internalID: 4904810533088647340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 681
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ef7447a902841499d186e84d9b544c
+      internalID: 7166463451817409748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220d4803830b2e149b9c801f2244ac6b
+      internalID: -6115835695466139153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89e33035f1ccb0468ea0b7fbea1b1f9
+      internalID: -8643734989908751516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e85e2ae54ab9f4791c61b39c85f751
+      internalID: -2025030878582130487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 664
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db156ce52c89fb4db43fac2b786b4b2
+      internalID: 9107717040488894601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 647
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2e99072fc242d48aa3c7301e10301b
+      internalID: -4724582164799766805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 647
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bea6c89746e6f44995e55194ddef7a5
+      internalID: 7382068782679125011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 647
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b096fb220b2022149b97b26c8bc9cdf3
+      internalID: 4410803715511387811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 647
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c3d42f1f756746a0c38a03f32511b
+      internalID: 1279745689213095716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 630
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c83be82e8b2384a89f5610875f9d6f
+      internalID: 1629854886067343464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 630
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809bfc0677b178644a57c471ac106b24
+      internalID: 4828856528965866420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 630
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604e80cf0ff66df4390edd329d919f04
+      internalID: 1977734726788619605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 630
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6f5d1b2e2f6844cb2c7226f8dbd3bf
+      internalID: 2139427230540081006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 613
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a19088fb2f0be4d883ec778228d792
+      internalID: -421186602961323267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 613
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a979b6dfe50794e8d492436d1e729b
+      internalID: 3250160540750380016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 613
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccdf0e9ae4edfd4f909db41969e0252
+      internalID: 6507479500255152795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 613
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a24925578584e45877cf4e20bece93
+      internalID: -3420142180723499519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 596
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1347c20e521454a92331f7fa606190
+      internalID: 5477805235767853738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 596
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436287639d41020418db6c7ccb2b5272
+      internalID: 5025488692335330390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 596
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e276c30d4f4de4bba077044807fecc
+      internalID: 8274155781880297710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 596
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d56236cef22eb745bcaf9c712da8172
+      internalID: -4427746326096212027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 579
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b531a2afdc99d2a4689d2e303624f133
+      internalID: -3897497164308099561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 579
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369c8a063f84430448dd6fcc8bae17f7
+      internalID: -2077172426385940485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 579
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27097314530c2044ab448b5b0eb5a310
+      internalID: 6606941690494366870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 579
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1effac9bfd5241f48909fefe9660973c
+      internalID: -879890959844970539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 562
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8638cc04a64b8d9489327761ae7adcbb
+      internalID: 1964958277443178911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 562
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bcd0cab6a02d04fb35627523dc649f
+      internalID: -7166249373892874920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 562
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd43f64cf2ee3b24d98349acae56c55c
+      internalID: -4137909172005555432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 562
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b8b0450aa74114bb2e0991ec86dbe4
+      internalID: -5815381063312341762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 545
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f70165812b079b42aac6ee6787dca52
+      internalID: 7314223172544597738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 545
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5b5bce595ae2545910d2c249721675
+      internalID: 7875706265928724398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_82
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 545
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91d07f63c6f7f749af00579a5968b17
+      internalID: -8853309390029682810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 545
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bd3378f1832b144ba34111956ba0e3
+      internalID: -5555808338881481834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b029edf58cdf1244eaeed2807958c9fc
+      internalID: 8153232756344428813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_85
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851dfeb0adaf6234cbaba2cedee7d944
+      internalID: 5739235732495006133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_86
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6087f685b150be4e9984a03b53a9f7f
+      internalID: -4369416157868356583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_87
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336af629480efb646a7f8b5d745dbee9
+      internalID: -8106880957129146886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99e98a23db388c48bb7b2a866bce7d9
+      internalID: 8754786686351554912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8cd8d6da84f8b469ec8260c0cbd148
+      internalID: 1616323347123939286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_90
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3514ac26ad0d744483dd0ac46e84208
+      internalID: 594207311387046191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_91
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f06c0f2ec9b9424db2e84fd3a1f5d1a
+      internalID: -4111135744493331898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7630bc7fabea80b4788854f11adfdd87
+      internalID: -757362792000933165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_93
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c27dbceea7f874fb773a0a036c2eb3
+      internalID: 8511999586704587089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_94
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263ca3ee49048ce4b9631a66c3c7a453
+      internalID: 4739482361606981951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_95
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab43e46ff8b3fa4e9397cf959c58c45
+      internalID: -5300076282269326792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dc96b8c7a7cde4a9d1d5a3c7a881f1
+      internalID: -1493355013932885484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_97
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 477
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f657a70bc73cb6499f4cb39f303a79e
+      internalID: -5499744772778160418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_98
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02674dabfcb6214b88e5f4918835bd9
+      internalID: -6762219440298617372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_99
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da53ef1558401b5459b91c0a16aba451
+      internalID: 7422037916320134596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8979b7f5b9fd7174995559cc6af42fde
+      internalID: -4191457543215964333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_101
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24726e4644184cb4ea8d1df6f1708030
+      internalID: -992893490566802911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_102
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd95eea9890dca4d9810ca9d0aaee85
+      internalID: -1061967106795777789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_103
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 466
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48e21143225e6840b5e69e3389b1dff
+      internalID: -5769651080675570079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 448
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29ce5885ff313347aff9a946fcddd45
+      internalID: -2637774305487748841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_105
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fa8b20ba42d9c479fb306f29a2fc6a
+      internalID: 6890730438851883454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_106
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 443
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646b6d9d34252cf428997434b6837723
+      internalID: -8994934711065514636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_107
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 443
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445f61dfbd889394d9812a26384f0a96
+      internalID: -2141494875093219880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 432
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bace966c9d3fff04095c8b66ffe2aafe
+      internalID: 1038393750699875793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_109
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 432
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4035be4d4c53148a5cf9ad31b3b8ef
+      internalID: -7624040616556624804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_110
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 434
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b518678858afee40ae50f70751a6804
+      internalID: -2122979464866709973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_111
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 432
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e650b405b854940a84e689c513b594
+      internalID: 8632859688011047236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 415
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf01388f574fff478b08045353b8ab3
+      internalID: -1316997144218614438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 409
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fb49093a0f59044bae6dfa06227b9f
+      internalID: 3885051974576584343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_114
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 409
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de61da9f897ecc4eb7e416149ef1e42
+      internalID: 1069704001932522294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_115
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 409
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85970f30d46fbcd429f96fadbffeb380
+      internalID: 4596476562369839062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 392
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd42746eccd1a1d44bfa2c7856b0be23
+      internalID: -115471201751423855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_117
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 400
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1406962ba81f9f4382c4a14b4fcdc5f
+      internalID: -8407642936211413678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_118
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 392
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b85b4839ff96054691d722edd0bec45
+      internalID: 1127515986716234020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_119
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 375
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde06bc6093595a44b8fa9bdba913c39
+      internalID: 1998495576725173075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_120
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 385
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdeadba1a5077a449438deaaebe6dea
+      internalID: 8545215171553113372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_121
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 382
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e0a70b962be3b478fbf3dcf4bb9bc6
+      internalID: 4145480320114638573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_122
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 375
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d026e101466d7c841b373c6549d165c3
+      internalID: 3779085170228265894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_123
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 375
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20040cfbf84b58a44a8dffe791fc8fa0
+      internalID: 6116264278780356536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_124
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 365
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4048f8a40aa5464e9bfd2946df7fffe
+      internalID: -7421944554959151609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_125
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 368
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a084cde99aaa9049b7e8ffbad82e6ba
+      internalID: -4573484094817088988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_126
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 365
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8530cd570056e37458cfa2a02a599774
+      internalID: 7673692919528699162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_127
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 344
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4383bdf2c7fc46948acf49ac9c04d5ff
+      internalID: 8724785113942483246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 358
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee04f919719969742b889114c9c6a50d
+      internalID: -8444416048424471761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_129
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 341
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5410d5f1ae3ea1d4198602def9ad274c
+      internalID: 4168130562713546138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_130
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 342
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3781b8e73b7d594196c1c121ee6b3bc
+      internalID: 312793459267216568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_131
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 325
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c92131ecba158f49bcf5ca95ab9954f
+      internalID: 6670110296808220636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_132
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 325
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fbedcd180f23c44abec7fba10332bb
+      internalID: -3325974835055342199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_133
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 325
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2b122a72dcb9748a50b388da0d8744
+      internalID: 797539545490870740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_134
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 325
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b012426acf5334429832f8b03c8ab02
+      internalID: -6790500812953637350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_135
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 318
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9c27b31c149c14ea17ffdb46bc38e2
+      internalID: 3717678843267984108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_136
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 302
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860a75bc931cb0045af7a1bc47934fa9
+      internalID: -7410665548194147051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_137
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 302
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb9a7183bf285547b8336fe174668ff
+      internalID: 3085550517462624522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_138
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 273
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afe83e24a4198a44bcf2fe6307c40f5
+      internalID: 7323282673464289075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_139
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 273
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab5836f79e0f0d48b517805b988da54
+      internalID: -6938063820246006830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_140
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 273
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893dac4f7eb05be4592aea67f7bdd6b7
+      internalID: 6965896559750912398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_141
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 256
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f06a9c13d548eb498865bd596545133
+      internalID: -830298699062837397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_142
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 239
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be7a899d67b70841ac901a1e32c66f0
+      internalID: 3471705982538947613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17724977c5da9d14bb0dcc88636fb34d
+      internalID: 329937016334913034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_144
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 239
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a7aa68429c7ca49bc0f41ce9b4b85c
+      internalID: -5937660559929532944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_145
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 239
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d73bbf28d668d45ab2584f9e84aff9
+      internalID: 5449357223442737789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_146
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 222
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae58e63f54cc6242a4f68aa7d6d7d05
+      internalID: 6342216800561952774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_147
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 222
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf7ccc72e26aba4e92f1bc485b7078e
+      internalID: 6529992797244060497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_148
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 226
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1088a227d4a347d4f8ca31dc9e06c38c
+      internalID: 4651212633523455699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_149
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 222
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13734ed127c0bd4794c5c271839c611
+      internalID: 2669264553747851921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_150
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7018768dcd1b92e409d700d4458baeab
+      internalID: -265356500901029838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_151
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c68fcaf3f7c0f41bc2925ba32c1bf1
+      internalID: -5071702821545493764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_152
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 205
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06baf12b22ab69b4ab4fb2531c4cd05a
+      internalID: -6208927029266251025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_153
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95240547df5d40a45a36c442cd0dbbbd
+      internalID: 5122534288094793101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_154
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3db647927ee8543ad919fadf15a971
+      internalID: 314141164160867421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_155
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c848e7e5ea732b47b0706bbdc231217
+      internalID: 7613160206625329773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_156
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 188
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733892e2fc0c70f42bd556317c13256d
+      internalID: 1718070179576876761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_157
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b1c4a553a39934fa62792ed23c3086
+      internalID: -8106217779068414950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_158
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95b202efcf343b4e8e9ff4061059ed2
+      internalID: 1318523434789366039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_159
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b9046cd2f71334c82cbc86a754b8e1
+      internalID: 667105855885413020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_160
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 171
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ca086fb27d51648aaa159031a4eba9
+      internalID: 1255639718055513806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_161
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 182
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be1f9133e2a71a47aab26500ef5f9b5
+      internalID: 8032645185786786248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_162
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a40bfa453da44429c0c252177e8d8c
+      internalID: 5460919665924802906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_163
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 154
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be675b6cfa0ff4ea9a70188573a8eb
+      internalID: 8876566868507405579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_164
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 154
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a928d03ab88c4114e8fdd151417f78aa
+      internalID: 3226434921846493050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_165
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 137
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e807c7dc43f1a6f449b43a15f7a813eb
+      internalID: -280696125282840712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_166
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 148
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90b1df8b8c0bcf488d4c4108ce4b194
+      internalID: -8770674729935923244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 142
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ea64426245d544eaf5b323b5b393d2
+      internalID: 6487953296151633970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 125
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b81545b874e88643b454111f91d42e7
+      internalID: 8195547944756706736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_169
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459a0bca264002945b562b079f1fcecd
+      internalID: 7659691417656418576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_170
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 126
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed7bdfae6968104287cbbafea70d3a3
+      internalID: 7893117058767807177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_171
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 120
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01682e863c018b1438d8904471369625
+      internalID: 4123525795436122463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_172
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8bc6d355f9a5e408ca1b88ed04e95c
+      internalID: -8585652309784371324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_173
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 103
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5995d565ea9170143b45e5840a096d29
+      internalID: -3049072534460674187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_174
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 104
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec6ff6673d43e649b1e6c6a52179ccf
+      internalID: 3175918018465059354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_175
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 103
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476d4e3e69f46ec43ab7adaf2f7bb445
+      internalID: -8987131845783757895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_176
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 87
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b792cfac6d42548b0b2973c8ac00ca
+      internalID: 9094044672842139895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_177
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857e1ca14f78d95449bc8a8d9150a4ce
+      internalID: -4216776798987109936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_178
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6453c5dfe936bc4ca60267cf9c38e1f
+      internalID: 3033967786520481357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_179
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51471eee1147a541acc662e77b5ce40
+      internalID: 916674298275711875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81d8fa54aa06e7498cda15cf2368e43
+      internalID: -3304506554881696382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_181
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 69
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e380ff700df7d4b85cef7d942fd1f7
+      internalID: 5847212332399037808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_182
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 69
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dff35ba4dca14944b1edbf13384e398
+      internalID: -1948750636215480864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_183
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 69
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec041ff65de1eb49adb14c0deb141e1
+      internalID: 6738215389831436822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_184
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc0e82cd9c18b949a27133da7c57e50
+      internalID: -4275556569640230688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_185
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9c65fa4e217494698295999d042eb1
+      internalID: -7119534745631818175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_186
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228edcf66b1360043acc4702f81505f9
+      internalID: 6760624725804618266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_187
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f6a53ab85c1114e96d4679b18eda66
+      internalID: 333972693231234054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_188
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df4053f5154fca489f1380a23998da8
+      internalID: -4006412947325402711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_189
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b827d8b946412ed47beae2c8697db604
+      internalID: -7880049757976037742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_190
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 36
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7e45857c95e9f4fb39921486744568
+      internalID: -7963993146834387411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_191
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 36
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e7fb6263f557c4f8d711a06c9a5f75
+      internalID: -7195163794207843729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_192
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 23
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cba7d8644aeb74f8610ec818a0f517
+      internalID: 5373680253434475257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_193
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 23
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39885c6c4a7fcb42b3848fd56b3074d
+      internalID: 7854791380504314122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_194
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 18
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3012d71870747ae4aacee801a449b73c
+      internalID: -1653990084812003655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_195
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 18
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cf91e354ebb1340ac267a344640bf1
+      internalID: -1905429680144606880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_196
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3af3ca2738d27a43849d43a916e1c10
+      internalID: -8922512254808025439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_197
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eeda77d6f6fc848bbc4ce58d5d3012
+      internalID: -2348388558247380491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_198
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50056ecd48659a449e6b0968d6d21d8
+      internalID: 5343577262401458637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world_map_tiles_199
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afb95d845c54da46b683242b4d8b5e0
+      internalID: 6626656851916559933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
