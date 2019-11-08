@@ -1,11 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 {
 
-    [Header("Kingdom Krawler Player Attributes")]
+
+    //create singleton
+    public static PlayerController instance;
+    private static PlayerController _instance;
+
+    public static PlayerController Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = GameObject.FindObjectOfType<PlayerController>();
+            }
+
+            return _instance;
+        }
+    }
+
+
+
+    [Header("Kingdom Krawlers Player Attributes")]
     [SerializeField]
     protected int maxHealth;
     public int _maxHealth { get { return maxHealth; } protected set { maxHealth = value; } }
@@ -16,8 +38,11 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected int currentHealth;
     public int _health { get { return currentHealth; } protected set { currentHealth = value; } }
 
+    [SerializeField]
+    protected int healthLostOnDeath = 10;
 
-
+    protected bool isRespawning = false;
+    protected bool beenPlaced = false;
 
     [SerializeField]
     protected KeyCode dashButton = KeyCode.Space;
@@ -37,26 +62,108 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
     protected Vector3 dashLocation;
 
-    // Start is called before the first frame update
-    protected override void Start()
-    {
-        base.Start();
 
+    [SerializeField]
+    [Tooltip("This should be the level where the player will respawn. Leave empty to respawn in the current level")]
+    protected string levelToRespawnIn = "";
+
+
+    [SerializeField]
+    [Tooltip("If the player has fallen into a chasm or ravine, how fast should they fall")]
+    protected float fallSpeed = 3;
+
+    protected bool isFalling = false;
+
+    protected Vector3 fallPos;
+
+
+
+    protected static PlayerController playerInstance;
+
+    // Start is called before the first frame update
+    protected override void Awake()
+    {
+        base.Awake();
+        DontDestroyOnLoad(this);
+
+
+        if (playerInstance == null)
+        {
+            playerInstance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+    }
+
+    protected void Start()
+    {
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
         baseHealth = maxHealth;
+
+        
+        
+    }
+
+
+    protected void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        isFalling = false;
+        canMove = true;
+        anim.SetInteger("Direction", 4);
+        Debug.Log("loaded");
+        anim.ResetTrigger("Falling");
+
+        beenPlaced = false;
+       // transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.2f);
     }
 
     // Update is called once per frame
     protected override void Update()
     {
         base.Update();
-        
 
-        if(isDashing == true)
+
+
+        if (beenPlaced == false)
         {
-            transform.position = Vector3.Lerp(transform.position, dashLocation, dashSpeed * Time.deltaTime);
+            if (isRespawning == true)
+            {
+                try
+                {
+                    transform.position = RespawnPoint.Instance.transform.position;
+                    isRespawning = false;
+                    beenPlaced = true;
+                }
+                catch (Exception e) { }
+            }
+            else
+            {
+                try
+                {
+                    transform.position = EntryPoint.Instance.transform.position;
+                    beenPlaced = true;
+                }
+                catch (Exception e) { }
+            }
         }
 
-        if(Vector3.Distance(transform.position, dashLocation) < 0.3f)
+
+       
+
+        //if the player is in the process of dashing then move them from their current location to the mouse's location at the specified speed
+        if (isDashing == true)
+        {
+            transform.position = Vector3.Lerp(transform.position, dashLocation, dashSpeed * Time.deltaTime);
+
+        }
+
+
+        //if the player is near the dash destination then stop dashing (This is done to prevent a bug where if the player isn't EXACTLY at the dash location then it won't reset the isDashing variable)
+        if(Vector3.Distance(transform.position, dashLocation) < 0.2f)
         {
             isDashing = false;
         }
@@ -69,6 +176,13 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             canDash = false;
             StartCoroutine(DashTimer());
 
+        }
+
+
+        if(isFalling == true)
+        {
+            
+            transform.position = Vector3.Lerp(transform.position, fallPos, fallSpeed * Time.deltaTime);
         }
 
 
@@ -88,6 +202,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     }
 
 
+    
 
    
 
@@ -104,19 +219,99 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     {
         base.OnCollisionEnter2D(col);
 
-        isDashing = false;
+        
 
-        if(col.transform.GetComponent<IHurtable>() != null)
+
+        if (isDashing == true)
         {
-            col.transform.GetComponent<IHurtable>().TakeDamage(dashDamage);
+            if (col.transform.GetComponent<IHurtable>() != null)
+            {
+                col.transform.GetComponent<IHurtable>().TakeDamage(dashDamage);
+            }
+        }
+
+        isDashing = false;
+    }
+
+
+
+
+    protected void OnTriggerStay2D(Collider2D col)
+    {
+
+        //if the player has entered a chasm
+        if(col.transform.GetComponent<Chasm>() != null && isDashing == false && isFalling == false)
+        {
+            isFalling = true;
+
+
+            //change where the player will fall towards depending on whether the chasm is wide or long
+            if (col.transform.GetComponent<Chasm>()._fallDirection == Chasm.FallDirection.UpDown)
+            {
+                fallPos = new Vector3(transform.position.x, col.transform.position.y, transform.position.z);
+            }
+            else
+            {
+                fallPos = new Vector3(col.transform.position.x, transform.position.y, transform.position.z);
+            }
+
+
+            //prevent the player from controlling movement and then player the falling animation adn start the death timer to give the animation time to play
+            canMove = false;
+            anim.SetTrigger("Falling");
+            anim.SetInteger("Direction", 0);
+            StartCoroutine(DeathTimer());
+        }
+        
+
+        if(col.transform.GetComponent<EntryPoint>() != null)
+        {
+            if (levelToRespawnIn.Equals(""))
+            {
+                Debug.Log("****************This doesn't lead anywhere yet!! Enter what scene it should load****************");
+            }
+            else
+            {
+                isRespawning = false;
+                SceneManager.LoadScene(col.transform.GetComponent<EntryPoint>()._linkedScene);
+
+            }
         }
     }
 
 
 
+
+    //context menu allows the user to right click on the script in the inspector and immediately execute this method
+    [ContextMenu("Die")]
     protected virtual void Die()
     {
         Debug.Log("Player is now dead");
+        //Death animation
+        StartCoroutine(DeathTimer());
+
+    }
+
+
+    protected IEnumerator DeathTimer()
+    {
+        maxHealth -= healthLostOnDeath;
+        currentHealth = maxHealth;
+        yield return new WaitForSeconds(5f);
+        //Bring up death menu 
+        //for testing purposes it will automatically be set to respawn
+        isRespawning = true;
+        if (levelToRespawnIn.Equals(""))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else
+        {
+            SceneManager.LoadScene(levelToRespawnIn);
+            
+        }
+        isFalling = false;
+       
 
     }
 }
