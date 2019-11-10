@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#pragma warning disable CS0168 // Variable is declared but never used
+
+#pragma warning disable RECS0022 // A catch clause that catches System.Exception and has an empty body
 public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 {
 
@@ -36,7 +39,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
     [SerializeField]
     protected int currentHealth;
-    public int _health { get { return currentHealth; } protected set { currentHealth = value; } }
+    public int _currentHealth { get { return currentHealth; } protected set { currentHealth = value; } }
 
     [SerializeField]
     protected int healthLostOnDeath = 10;
@@ -52,12 +55,15 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
     protected bool canDash = true;
 
+    public bool _canDash { get { return canDash; } protected set { canDash = value; } }
+
     protected bool isDashing = false;
 
     [SerializeField]
     protected float dashSpeed = 7;
 
     [SerializeField]
+    [Tooltip("When the player dashes and hits an enemy, how much damage should they deal to the enemy")]
     protected int dashDamage = 10;
 
     protected Vector3 dashLocation;
@@ -68,6 +74,9 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected string levelToRespawnIn = "";
 
 
+    protected string travelLocation = "";
+
+
     [SerializeField]
     [Tooltip("If the player has fallen into a chasm or ravine, how fast should they fall")]
     protected float fallSpeed = 3;
@@ -75,6 +84,54 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected bool isFalling = false;
 
     protected Vector3 fallPos;
+
+
+	[SerializeField]
+	protected GameObject deadBody;
+
+
+    [Header("Levelling Stats")]
+    protected int playerLevel = 1;
+    public int _playerLevel { get { return playerLevel; } protected set { playerLevel = value; } }
+
+    protected int experienceGained = 0;
+    public int _experienceGained { get { return experienceGained; } protected set { experienceGained = value; } }
+
+    [SerializeField]
+    protected int experienceToLevelUp = 150;
+    public int _experienceToLevelUp { get { return experienceToLevelUp; } protected set { experienceToLevelUp = value; } }
+
+    [SerializeField]
+    protected int healthGainOnLevelUp = 10;
+
+    [SerializeField]
+    protected float dashTimerDecreaseOnLevel = 0.1f;
+
+    [SerializeField]
+    protected int dashDamageIncreaseOnLevel = 2;
+
+    [SerializeField]
+    protected int experienceRequiredPercentageIncrease = 12;
+
+
+    [SerializeField]
+    protected GameObject levelUpEffects = null;
+
+
+    [Header("Sounds")]
+
+    [SerializeField]
+    protected AudioClip levelUpSound;
+
+    [SerializeField]
+    protected List<AudioClip> hitSounds;
+
+
+    [SerializeField]
+    protected AudioClip lootCollectedSound;
+
+    [SerializeField]
+    protected AudioClip dashSound;
 
 
 
@@ -103,6 +160,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
         SceneManager.sceneLoaded += OnSceneLoaded;
         baseHealth = maxHealth;
+        audio = transform.GetComponent<AudioSource>();
 
         
         
@@ -113,12 +171,14 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     {
         isFalling = false;
         canMove = true;
+        transform.GetComponent<SpriteRenderer>().enabled = true;
+        rb.simulated = true;
         anim.SetInteger("Direction", 4);
         Debug.Log("loaded");
         anim.ResetTrigger("Falling");
 
         beenPlaced = false;
-       // transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.2f);
+       
     }
 
     // Update is called once per frame
@@ -138,16 +198,44 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
                     isRespawning = false;
                     beenPlaced = true;
                 }
-                catch (Exception e) { }
+                catch (Exception) { }
             }
             else
             {
                 try
                 {
-                    transform.position = EntryPoint.Instance.transform.position;
+                    foreach (EntryPoint possibleEntrance in FindObjectsOfType<EntryPoint>())
+                    {
+                        if (possibleEntrance.name == travelLocation)
+                        {
+                            switch (possibleEntrance.spawnDirection) {
+
+                                case EntryPoint.SpawnDirection.Above:
+                                transform.position = possibleEntrance.transform.position + transform.up * possibleEntrance._spawnDistance;
+                                break;
+
+                                case EntryPoint.SpawnDirection.Below:
+                                    transform.position = possibleEntrance.transform.position + transform.up * -possibleEntrance._spawnDistance;
+                                    break;
+
+                                case EntryPoint.SpawnDirection.Right:
+                                    transform.position = possibleEntrance.transform.position + transform.right * possibleEntrance._spawnDistance;
+                                    break;
+
+                                case EntryPoint.SpawnDirection.Left:
+                                    transform.position = possibleEntrance.transform.position + transform.right * -possibleEntrance._spawnDistance;
+                                    break;
+
+                            }
+                        }
+                    }
+                    
                     beenPlaced = true;
                 }
+
                 catch (Exception e) { }
+
+
             }
         }
 
@@ -175,13 +263,15 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             isDashing = true;
             canDash = false;
             StartCoroutine(DashTimer());
+            audio.clip = dashSound;
+            audio.Play();
 
         }
 
 
         if(isFalling == true)
         {
-            
+            canDash = false;
             transform.position = Vector3.Lerp(transform.position, fallPos, fallSpeed * Time.deltaTime);
         }
 
@@ -211,7 +301,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     {
         yield return new WaitForSeconds(dashCoolDownTime);
         canDash = true;
+        
     }
+
+
 
 
 
@@ -226,12 +319,28 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         {
             if (col.transform.GetComponent<IHurtable>() != null)
             {
+                audio.clip = hitSounds[UnityEngine.Random.Range(0, hitSounds.Count)];
                 col.transform.GetComponent<IHurtable>().TakeDamage(dashDamage);
             }
         }
 
         isDashing = false;
     }
+
+
+
+    protected void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.transform.GetComponent<DeadBody>() != null)
+        {
+            Destroy(col.gameObject);
+            audio.clip = levelUpSound;
+            audio.Play();
+            LoseDeathPenalty();
+        }
+    }
+    
+
 
 
 
@@ -264,22 +373,89 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         }
         
 
+        //if the player moves into an entrypoint, travel to the relavent
         if(col.transform.GetComponent<EntryPoint>() != null)
         {
-            if (levelToRespawnIn.Equals(""))
-            {
-                Debug.Log("****************This doesn't lead anywhere yet!! Enter what scene it should load****************");
-            }
-            else
-            {
-                isRespawning = false;
-                SceneManager.LoadScene(col.transform.GetComponent<EntryPoint>()._linkedScene);
-
-            }
+            Travel(col);   
         }
     }
 
 
+
+
+
+    protected void Travel(Collider2D col)
+    {
+        if (col.transform.GetComponent<EntryPoint>()._linkedScene.Equals("") || col.transform.GetComponent<EntryPoint>()._linkedEntrance.Equals(""))
+        {
+            Debug.Log("****************This doesn't lead anywhere yet!! Enter what scene it should load****************");
+        }
+        else
+        {
+            isRespawning = false;
+            SceneManager.LoadScene(col.transform.GetComponent<EntryPoint>()._linkedScene);
+            travelLocation = col.transform.GetComponent<EntryPoint>()._linkedEntrance;
+        }
+    }
+
+
+
+
+   
+
+
+    //Call this function whenever an experience gaining activity is completed e.g. An enemy dying. 
+    public void GainExperience(int experience)
+    {
+        experienceGained += experience;
+
+        //if the player has gained enough experience to level up then call the level up functions
+        if(experienceGained >= experienceToLevelUp)
+        {
+            LevelUp();
+        }
+
+        
+    }
+
+
+
+    [ContextMenu("Level Up")]
+    protected void LevelUp()
+    {
+        playerLevel++;
+        maxHealth += healthGainOnLevelUp;
+        currentHealth = maxHealth;
+
+        dashCoolDownTime -= dashTimerDecreaseOnLevel;
+        canDash = true;
+
+        dashDamage += dashDamageIncreaseOnLevel;
+
+
+        experienceGained = experienceGained - experienceToLevelUp;
+        experienceToLevelUp = experienceToLevelUp + (experienceToLevelUp / 100 * experienceRequiredPercentageIncrease);
+
+
+        levelUpEffects.transform.GetComponent<Animator>().SetTrigger("LevelUp");
+        audio.clip = levelUpSound;
+        audio.Play();
+    }
+
+
+
+
+    protected void LoseDeathPenalty()
+    {
+        levelUpEffects.transform.GetComponent<Animator>().SetTrigger("LevelUp");
+        maxHealth += healthLostOnDeath;
+        
+    }
+
+
+
+
+   
 
 
     //context menu allows the user to right click on the script in the inspector and immediately execute this method
@@ -289,14 +465,20 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         Debug.Log("Player is now dead");
         //Death animation
         StartCoroutine(DeathTimer());
+        transform.GetComponent<SpriteRenderer>().enabled = false;
+        transform.GetComponent<Rigidbody2D>().simulated = false;
+		Instantiate(deadBody, transform.position, Quaternion.identity);
 
     }
 
 
+
+
+
+    //How long the game should wait before respawning the player
     protected IEnumerator DeathTimer()
     {
-        maxHealth -= healthLostOnDeath;
-        currentHealth = maxHealth;
+        
         yield return new WaitForSeconds(5f);
         //Bring up death menu 
         //for testing purposes it will automatically be set to respawn
@@ -311,7 +493,13 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             
         }
         isFalling = false;
-       
+        maxHealth -= healthLostOnDeath;
+        currentHealth = maxHealth;
+
 
     }
+
+
+#pragma warning restore RECS0022 // A catch clause that catches System.Exception and has an empty body
+#pragma warning restore CS0168 // Variable is declared but never used
 }
