@@ -66,6 +66,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     [Tooltip("When the player dashes and hits an enemy, how much damage should they deal to the enemy")]
     protected int dashDamage = 10;
 
+    [SerializeField]
+    [Tooltip("This should be all the layers that the player is NOT able to dash through")]
+    protected LayerMask dashObstacles;
+
     protected Vector3 dashLocation;
 
 
@@ -259,7 +263,27 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         if (Input.GetKeyDown(dashButton) && canDash == true)
         {
             dashLocation = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            dashLocation.z = transform.position.z;
+
+
+
+            Vector2 direction = dashLocation - transform.position;
+            float distance = Vector2.Distance(dashLocation, transform.position);
+
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, dashObstacles);
+
+            if (hit.collider != null)
+            {
+                Debug.Log("Can't get through");
+                dashLocation = hit.point;
+            }
+            else
+            {
+                Debug.Log("can get through");
+            }
+
+
+
+                dashLocation.z = transform.position.z;
             isDashing = true;
             canDash = false;
             StartCoroutine(DashTimer());

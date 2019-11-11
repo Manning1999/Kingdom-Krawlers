@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: 52941d78a31456140bc6d689b7ec0188
+guid: 7fddccb8a06b72c4c9f8207a7f10b935
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1649060181413527297
-    second: Items_Skull_0
+      213: -7192611557154569121
+    second: Creep_0
   - first:
-      213: 8680455703702395911
-    second: Items_Skull_1
+      213: -6719357243059071191
+    second: Creep_1
   - first:
-      213: -8211812628232078199
-    second: Items_Skull_2
+      213: 8092132826782326331
+    second: Creep_2
   - first:
-      213: -1373883272290695748
-    second: Items_Skull_3
+      213: 247127490492637816
+    second: Creep_3
   - first:
-      213: -3147677808065969049
-    second: Items_Skull_4
+      213: 805903109325589997
+    second: Creep_4
   - first:
-      213: -5443702351013064944
-    second: Items_Skull_5
+      213: -8134849028514026809
+    second: Creep_5
   - first:
-      213: 8122553575671378028
-    second: Items_Skull_6
+      213: 8012009366718510671
+    second: Creep_6
   - first:
-      213: 1945082913681619332
-    second: Items_Skull_7
+      213: 7277366863617235044
+    second: Creep_7
+  - first:
+      213: 2912940914019598177
+    second: Creep_8
+  - first:
+      213: -5254298587274893820
+    second: Creep_9
+  - first:
+      213: -775532076560506070
+    second: Creep_10
+  - first:
+      213: -186207759838753056
+    second: Creep_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -82,7 +94,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +105,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -104,39 +117,18 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Items_Skull_0
+      name: Creep_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 13
-        height: 16
+        x: 0
+        y: 288
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb8c651af182c64e9401c54a85c0be0
-      internalID: 1649060181413527297
+      spriteID: d157ece9f2f4b984cb78ca5f23c2ea77
+      internalID: -7192611557154569121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_Skull_1
+      name: Creep_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
-        width: 15
-        height: 16
+        x: 72
+        y: 288
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbcd75afbb22e84499d74855da4b9ead
-      internalID: 8680455703702395911
+      spriteID: 6c75e21839026ce4e8d79cb3ab19dc41
+      internalID: -6719357243059071191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_Skull_2
+      name: Creep_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 15
-        height: 16
+        x: 144
+        y: 288
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aa0e4a53a7f095418387ffdc9e5e35d
-      internalID: -8211812628232078199
+      spriteID: 1fec4c2dd446e5b4ea48b37a099778c0
+      internalID: 8092132826782326331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_Skull_3
+      name: Creep_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 15
-        height: 16
+        x: 0
+        y: 192
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b44bf5d96f21d14196b18d553e3733a
-      internalID: -1373883272290695748
+      spriteID: 2737820d17a48c442a6b7610b4c5d33e
+      internalID: 247127490492637816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_Skull_4
+      name: Creep_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 0
-        width: 13
-        height: 16
+        x: 72
+        y: 192
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e34d2c2ec52270499c926267e1ab9c5
-      internalID: -3147677808065969049
+      spriteID: 3f5f26ea222c00e4fb822034886cb08c
+      internalID: 805903109325589997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_Skull_5
+      name: Creep_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 15
-        height: 16
+        x: 144
+        y: 192
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7fce2111a0423b42ad636eb83785b82
-      internalID: -5443702351013064944
+      spriteID: 2df614c5323fe794ca3b0b199c3394b5
+      internalID: -8134849028514026809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_Skull_6
+      name: Creep_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 15
-        height: 16
+        x: 0
+        y: 96
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a80fb9e23a78e0640bf52459818429e4
-      internalID: 8122553575671378028
+      spriteID: 8215d8efefa31b24793f9fdefc6b70ac
+      internalID: 8012009366718510671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Items_Skull_7
+      name: Creep_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 15
-        height: 16
+        x: 72
+        y: 96
+        width: 72
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,8 +283,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 420b7f8a2a319764d952ac9025755a31
-      internalID: 1945082913681619332
+      spriteID: 6622d51a0775c144e94fa96d284e4fb4
+      internalID: 7277366863617235044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creep_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42879da35f052904c92ac9cd67229497
+      internalID: 2912940914019598177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creep_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c618b795c727bad4988eb3abf7ddaaf5
+      internalID: -5254298587274893820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creep_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9670156536b6e428fdb4b3cd9d9c73
+      internalID: -775532076560506070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creep_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88aad6ff5ec62a4090f1ff4e8bad206
+      internalID: -186207759838753056
       vertices: []
       indices: 
       edges: []
@@ -300,7 +376,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5264b3cbf0d1a8f498acd036dd2fde88
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
