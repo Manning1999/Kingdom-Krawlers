@@ -5821,7 +5821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &563525595
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59543,10 +59543,13 @@ MonoBehaviour:
   walkingSounds: []
   maxHealth: 100
   currentHealth: 100
+  healthLostOnDeath: 10
   dashButton: 32
   dashCoolDownTime: 4
   dashSpeed: 7
   dashDamage: 10
+  levelToRespawnIn: 
+  fallSpeed: 3
 --- !u!1 &1143440369
 GameObject:
   m_ObjectHideFlags: 0

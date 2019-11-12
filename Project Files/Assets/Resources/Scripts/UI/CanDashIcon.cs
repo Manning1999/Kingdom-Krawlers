@@ -8,7 +8,12 @@ public class CanDashIcon : MonoBehaviour
     //public GameObject Player;
     public Material statusMaterial;
     
-    private bool canDash;
+    protected bool canDash;
+    public bool _canDash
+    {
+        get { return PlayerController.Instance._canDash; }
+        private set { canDash = value; }
+    }
     
 
 
@@ -21,20 +26,6 @@ public class CanDashIcon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
-        // Player.GetComponent<PlayerController>();
-        if (Input.GetButtonDown("Fire2"))
-        {
-            canDash = true;
-        }
-
-        if (Input.GetButtonDown("Fire1"))
-        {
-            canDash = false;
-        }
-
-
         if (canDash == true)
         {
             
