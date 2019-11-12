@@ -7,15 +7,12 @@ public class CanDashIcon : MonoBehaviour
 {
     //public GameObject Player;
     public Material statusMaterial;
-    
-    protected bool canDash;
-    public bool _canDash
-    {
-        get { return PlayerController.Instance._canDash; }
-        private set { canDash = value; }
-    }
-    
 
+    protected bool canDash;
+    
+   
+
+    
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +23,8 @@ public class CanDashIcon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        canDash = PlayerController.Instance._canDash;
         if (canDash == true)
         {
             

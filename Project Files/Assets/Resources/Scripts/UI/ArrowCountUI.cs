@@ -16,6 +16,7 @@ public class ArrowCountUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //arrows = PlayerController.Instance._arrows;
         GetComponent<Text>().text = arrows.ToString();
     }
 }
