@@ -57,9 +57,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected bool beenPlaced = false;
 
     [Header("Dashing")]
-    [SerializeField]
-    [Tooltip("The button the player presses to dash")]
-    protected KeyCode dashButton = KeyCode.Space;
+    
 
     [SerializeField]
     [Tooltip("This is how long the player must wait between dashes")]
@@ -289,9 +287,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         if(Vector3.Distance(transform.position, dashLocation) < 0.05f)
         {
             isDashing = false;
+            canMove = true;
         }
 
-        if (Input.GetKeyDown(dashButton) && canDash == true)
+        if (Input.GetMouseButtonDown(2) && canDash == true)
         {
             dashLocation = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -382,9 +381,9 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             }
             dashHitParticles.transform.position = col.collider.ClosestPoint(transform.position);
             dashHitParticles.transform.GetComponent<Animator>().SetTrigger("Hit");
-            
+            canMove = true;
         }
-
+       
         isDashing = false;
     }
 
