@@ -47,5 +47,12 @@ public class DeadBody : MonoBehaviour
         }
     }
 
+    public void Hide()
+    {
+        transform.GetComponent<SpriteRenderer>().enabled = false;
+        transform.GetComponent<Collider2D>().enabled = false;
+        soulObject.SetActive(false);
+    }
+
     
 }

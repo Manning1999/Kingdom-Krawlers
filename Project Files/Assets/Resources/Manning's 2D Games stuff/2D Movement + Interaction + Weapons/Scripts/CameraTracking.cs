@@ -194,7 +194,7 @@ public class CameraTracking : MonoBehaviour
 
 
 
-
+    //If the target is changing then lag the camera so it pans smoothly between the old target and the new target
     public void ChangeTarget(GameObject newTarget)
     {
         target = newTarget;

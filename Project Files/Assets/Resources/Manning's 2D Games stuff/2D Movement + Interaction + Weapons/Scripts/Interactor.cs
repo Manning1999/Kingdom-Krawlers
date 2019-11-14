@@ -58,7 +58,7 @@ public class Interactor : MonoBehaviour
 
     }
 
-
+    //if an interactable object enters the trigger zone, add it to the list of interactables
     private void OnTriggerEnter2D(Collider2D col)
     {
 
@@ -74,7 +74,7 @@ public class Interactor : MonoBehaviour
     }
 
 
-
+    //if an interactable object leaves the trigger zone then remove it from the list of interactables
     private void OnTriggerExit2D(Collider2D col)
     {
 
@@ -93,7 +93,7 @@ public class Interactor : MonoBehaviour
 
 
 
-
+    //check what is closest to the player out of the things in the list of interactables
     private void CheckList()
     {
 
