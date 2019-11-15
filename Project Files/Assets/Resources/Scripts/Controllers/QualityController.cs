@@ -12,6 +12,20 @@ public class QualityController : MonoBehaviour
 
     private bool isFullScreen = true;
 
+    [SerializeField]
+    private List<UnityEngine.UI.Button> overallQualityButtons;
+
+    [SerializeField]
+    private List<UnityEngine.UI.Button> antiAliasingButtons;
+
+    [SerializeField]
+    private List<UnityEngine.UI.Button> vSyncButtons;
+
+    [SerializeField]
+    private List<UnityEngine.UI.Button> textureQualityButtons;
+
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,13 +42,58 @@ public class QualityController : MonoBehaviour
 
     public void SetOverallQuality(int qualityLevel)
     {
-        QualitySettings.SetQualityLevel(qualityLevel);     
+        QualitySettings.SetQualityLevel(qualityLevel);
+        
+        foreach(UnityEngine.UI.Button button in antiAliasingButtons)
+        {
+            if (button.transform.GetComponent<QualitySetting>()._settingValue == QualitySettings.antiAliasing)
+            {
+                button.interactable = false;
+            }
+            else
+            {
+                button.interactable = true;
+            }
+        }
+
+        foreach (UnityEngine.UI.Button button in vSyncButtons)
+        {
+            if(button.transform.GetComponent<QualitySetting>()._settingValue == QualitySettings.vSyncCount)
+            {
+                button.interactable = false;
+            }
+            else
+            {
+                button.interactable = true;
+            }
+        }
+
+        foreach (UnityEngine.UI.Button button in textureQualityButtons)
+        {
+            if (button.transform.GetComponent<QualitySetting>()._settingValue == QualitySettings.masterTextureLimit)
+            {
+                button.interactable = false;
+            }
+            else
+            {
+                button.interactable = true;
+            }
+        }
+
+
     }
 
 
     public void SetAntiAliasing(int quality)
     {
+        Debug.Log(QualitySettings.antiAliasing);
         QualitySettings.antiAliasing = quality;
+
+        foreach(UnityEngine.UI.Button button in overallQualityButtons)
+        {
+            button.interactable = true;
+        }
+
     }
 
 
@@ -66,6 +125,11 @@ public class QualityController : MonoBehaviour
     {
         isFullScreen = set;
         Screen.SetResolution(Screen.width, Screen.height, isFullScreen);
+    }
+
+    public void SetTextureQuality(int quality)
+    {
+        QualitySettings.masterTextureLimit = quality;
     }
 
 }
