@@ -2,15 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LootBoss : MonoBehaviour
+public class RandomLootChest : MonoBehaviour
 {
-    public List<GameObject> lights;
+   
+
+    public List<GameObject> loot;
     public float[] table =
     {
-     100, // Coins (10000)
-     
-
-
+     9, // Coins (5-500)
+     9, // Arrows
+     9, // Grey Sword
+     9, // Health Potion      
+     9, // Grey Bow
+     9, // Blue Sword
+     9, // Blue Bow
+     9, // Health Regen Potion
+     9, // Speed Potion
+     9, // Strength Potion
+     9, // Invisibility Potion
+     9, // Haste Potion
     };
 
     public float total;
@@ -23,6 +33,7 @@ public class LootBoss : MonoBehaviour
         foreach (var item in table)
         {
             total += item;
+             
         }
 
         randomNumber = UnityEngine.Random.Range(0, (total));
@@ -31,7 +42,7 @@ public class LootBoss : MonoBehaviour
         {
             if (randomNumber <= table[i])
             {
-                lights[i].SetActive(true);
+                Instantiate(loot[i]);     //Spawns item
                 return;
             }
             else

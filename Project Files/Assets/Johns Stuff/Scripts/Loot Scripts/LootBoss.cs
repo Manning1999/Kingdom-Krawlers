@@ -2,16 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomLootGolem : MonoBehaviour
+public class LootBoss : MonoBehaviour
 {
-    public List<GameObject> lights;
+    public List<GameObject> loot;
     public float[] table =
     {
-     50, // Coins (35-100)
-     20, // Health Potion
-     15, // Health Regen Potion
-     10, // Blue Sword      
-     5, // Blue Bow
+     100, // Coins (10000)
      
 
 
@@ -35,7 +31,7 @@ public class RandomLootGolem : MonoBehaviour
         {
             if (randomNumber <= table[i])
             {
-                lights[i].SetActive(true);
+                Instantiate(loot[i]);     //Spawns item
                 return;
             }
             else

@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class RandomLootSkeleton : MonoBehaviour
 {
-    public List<GameObject> lights;
+    public List<GameObject> loot;
     public float[] table =
     {
-     50, // Coins (15-35)
-     15, // Arrows
-     15, // Health Potion
-     10, // Grey Bow      
-     5, // Blue Bow
-     4, // Health Regen Potion
      1, //Blue Sword
-
+     4, // Health Regen Potion
+     5, // Blue Bow
+     10, // Grey Bow 
+     15, // Health Potion
+     15, // Arrows
+     50, // Coins (15-35)
     };
 
     public float total;
@@ -35,7 +34,7 @@ public class RandomLootSkeleton : MonoBehaviour
         {
             if (randomNumber <= table[i])
             {
-                lights[i].SetActive(true);
+                Instantiate(loot[i]);     //Spawns item
                 return;
             }
             else

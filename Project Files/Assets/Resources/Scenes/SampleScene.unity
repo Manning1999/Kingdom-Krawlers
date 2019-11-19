@@ -85090,6 +85090,7 @@ GameObject:
   - component: {fileID: 2022947231}
   - component: {fileID: 2022947232}
   - component: {fileID: 2022947233}
+  - component: {fileID: 2022947234}
   m_Layer: 0
   m_Name: Creep
   m_TagString: Untagged
@@ -85218,6 +85219,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2022947234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022947228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b78af25cb43a946b1bec3093ad64dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loot: []
+  table:
+  - 1
+  - 4
+  - 5
+  - 10
+  - 15
+  - 65
+  total: 0
+  randomNumber: 0
 --- !u!1 &2028157340
 GameObject:
   m_ObjectHideFlags: 0
