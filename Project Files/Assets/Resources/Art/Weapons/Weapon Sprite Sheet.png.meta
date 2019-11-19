@@ -73,16 +73,16 @@ TextureImporter:
     second: Weapon Sprite Sheet_28
   - first:
       213: 1899642935618872360
-    second: Weapon Sprite Sheet_33
+    second: Bow 1
   - first:
       213: -2943649710136103269
-    second: Weapon Sprite Sheet_34
+    second: Bow 2
   - first:
       213: 8872318744520564111
-    second: Weapon Sprite Sheet_35
+    second: Bow 3
   - first:
       213: 878739576302812805
-    second: Weapon Sprite Sheet_36
+    second: Bow 4
   - first:
       213: -1848890203516335578
     second: Weapon Sprite Sheet_2
@@ -611,7 +611,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_33
+      name: Bow 1
       rect:
         serializedVersion: 2
         x: 22
@@ -632,7 +632,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_34
+      name: Bow 2
       rect:
         serializedVersion: 2
         x: 228
@@ -653,10 +653,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_35
+      name: Bow 3
       rect:
         serializedVersion: 2
-        x: 438
+        x: 440
         y: 649
         width: 42
         height: 42
@@ -674,7 +674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_36
+      name: Bow 4
       rect:
         serializedVersion: 2
         x: 644

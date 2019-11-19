@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2300732307028333066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2300732307028333064}
+  - component: {fileID: 2300732307028333065}
+  - component: {fileID: 2300732307028333062}
+  - component: {fileID: 2300732307028333063}
+  m_Layer: 0
+  m_Name: Controllers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2300732307028333064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.09, y: 6.85, z: -0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2300732307028333065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159d7071b08ee3246b07582d362d80d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2300732307028333062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e90fdddc1c4870849a6c15fce70a8174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordStats:
+  - tier: Grey
+    minDamage: 1
+    maxDamage: 15
+    minAttackSpeed: 1.2
+    maxAttackSpeed: 0.8
+    baseValue: 5
+    possibleSprites:
+    - {fileID: -7498362860620262534, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 8388320878490711942, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 5549041932812563717, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -1848890203516335578, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 194581361588180964, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -5129018611259825643, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 9083995368027599888, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 5693830703642767778, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+  - tier: blue
+    minDamage: 15
+    maxDamage: 30
+    minAttackSpeed: 0.8
+    maxAttackSpeed: 0.5
+    baseValue: 0
+    possibleSprites:
+    - {fileID: 336283729732301074, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -1815272878763697944, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -8918777406050621082, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -3731263825877814619, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -1175853727629983997, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+  - tier: gold
+    minDamage: 30
+    maxDamage: 45
+    minAttackSpeed: 0.5
+    maxAttackSpeed: 0.2
+    baseValue: 0
+    possibleSprites:
+    - {fileID: 5818799726487204595, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -3731263825877814619, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 4901994437673696230, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -7003085622725692751, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -599183092998106742, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 9083995368027599888, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -1815272878763697944, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -2938255571408682076, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+  bowStats:
+  - tier: grey
+    minDamage: 3
+    maxDamage: 10
+    minAttackSpeed: 2
+    maxAttackSpeed: 1.4
+    baseValue: 8
+    possibleSprites:
+    - {fileID: 1899642935618872360, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 8872318744520564111, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -2943649710136103269, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+  - tier: blue
+    minDamage: 10
+    maxDamage: 17
+    minAttackSpeed: 1.4
+    maxAttackSpeed: 0.7
+    baseValue: 20
+    possibleSprites:
+    - {fileID: -2943649710136103269, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 8872318744520564111, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 878739576302812805, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -2943649710136103269, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -2943649710136103269, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+  - tier: gold
+    minDamage: 17
+    maxDamage: 24
+    minAttackSpeed: 0.7
+    maxAttackSpeed: 0.3
+    baseValue: 30
+    possibleSprites:
+    - {fileID: 878739576302812805, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 878739576302812805, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -2943649710136103269, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 878739576302812805, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: -2943649710136103269, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+    - {fileID: 8872318744520564111, guid: cdf7e64f8a593bc488754b135ad3a9e0, type: 3}
+--- !u!114 &2300732307028333063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de982c88eb9e38948b3eac0290cc0f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventorySize: 25
+  inventoryItems: []
+  playerMoney: 0

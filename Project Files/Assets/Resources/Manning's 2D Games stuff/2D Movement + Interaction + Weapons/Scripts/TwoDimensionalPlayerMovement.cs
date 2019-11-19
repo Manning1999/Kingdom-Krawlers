@@ -107,6 +107,10 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
     protected bool canMove = true;
 
 
+    protected Vector3 moveDirection;
+
+
+
 
     // Start is called before the first frame update
     protected virtual void Awake()
@@ -154,7 +158,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
         }
 
         oldPosition = transform.position;
-        canMove = true;
+        canMove = true;    
     }
 
 
@@ -163,6 +167,10 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
+
+        moveDirection = (transform.position - oldPosition).normalized;
+        
+
 
         if(oldPosition != transform.position)
         {
@@ -191,6 +199,8 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
                 isRunning = false;
             }
         }
+
+
 
 
         //Chance the players current speed to the runspeed if isRunning is true

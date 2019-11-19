@@ -134,6 +134,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected int dashDamageIncreaseOnLevel = 2;
 
     [SerializeField]
+    [Tooltip("If the player is set to dash in the direction of movement, how dfar should they dash")]
+    protected float dashDistance = 4;
+
+    [SerializeField]
     [Tooltip("This is the percentage that experience needed to level up will increase by")]
     protected int experienceRequiredPercentageIncrease = 12;
 
@@ -158,6 +162,27 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     [SerializeField]
     protected AudioClip dashSound;
 
+    [SerializeField]
+    protected bool dashInMouseDirection = true;
+
+    [SerializeField]
+    protected Sword equippedSword;
+    public Sword _equippedSword { get { return equippedSword; } }
+
+    [SerializeField]
+    protected Bow equippedBow;
+    public Bow _equippedBow { get { return equippedBow; } }
+
+    [SerializeField]
+    protected GameObject bowSlot;
+    public GameObject _bowSlot { get { return bowSlot; } }
+
+    [SerializeField]
+    protected GameObject swordSlot;
+    public GameObject _swordSlot { get { return swordSlot; } }
+
+   
+
 
 
     protected static PlayerController playerInstance;
@@ -178,6 +203,8 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             Destroy(gameObject);
         }
 
+        dashInMouseDirection = GameplaySettings.Instance._dashTowardsMousePosition;
+
     }
 
     protected void Start()
@@ -186,6 +213,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         SceneManager.sceneLoaded += OnSceneLoaded;
         baseHealth = maxHealth;
         audio = transform.GetComponent<AudioSource>();
+        
    
     }
 
@@ -210,7 +238,25 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected override void Update()
     {
         base.Update();
-        var test2 = Convert.ToDouble(test);
+
+
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            //use sword
+            equippedSword.Use();
+            equippedBow.Show(false);
+            equippedSword.Show(true);
+        }
+        if (Input.GetMouseButtonDown(1))
+        {
+            //use bow
+            equippedBow.Use();
+            equippedBow.Show(true);
+            equippedSword.Show(false);
+            
+        }
+        
 
         //if the player is respawning or travelling between areas, this checks for whether they have been moved to the appropriate spot
         if (beenPlaced == false)
@@ -290,37 +336,34 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             canMove = true;
         }
 
-        if (Input.GetMouseButtonDown(2) && canDash == true)
+        
+
+        if (canDash == true)
         {
-            dashLocation = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
 
-
-            Vector2 direction = dashLocation - transform.position;
-            float distance = Vector2.Distance(dashLocation, transform.position);
-
-            //use a raycast to see if anything is in the way of the dash. If there is something in the way, then dash to that thing that is in the way
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, dashObstacles);
-
-            if (hit.collider != null)
+            if (dashInMouseDirection == true)
             {
-                Debug.Log("Can't get through");
-                dashLocation = hit.point;
+                if (Input.GetMouseButtonDown(2))
+                {
+                    dashLocation = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    SetDashLocation();
+                }
             }
             else
             {
-                Debug.Log("can get through");
+                if(Input.GetKeyDown(KeyCode.Space))
+                {
+                    Debug.Log(moveDirection);
+                    dashLocation = new Vector2(transform.position.x, transform.position.y) + (new Vector2(moveDirection.x, moveDirection.y) * dashDistance);
+                    SetDashLocation();
+
+                }
             }
 
 
 
-                dashLocation.z = transform.position.z;
-            isDashing = true;
-            canDash = false;
-            StartCoroutine(DashTimer());
-            audio.clip = dashSound;
-            audio.Play();
-
+            
         }
 
 
@@ -551,6 +594,55 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 		Instantiate(deadBody, transform.position, Quaternion.identity);
 
     }
+
+    public virtual void ChangeDashType(bool type)
+    {
+        dashInMouseDirection = type;
+    }
+
+    protected void SetDashLocation()
+    {
+
+        Vector2 direction = dashLocation - transform.position;
+        float distance = Vector2.Distance(dashLocation, transform.position);
+
+        //use a raycast to see if anything is in the way of the dash. If there is something in the way, then dash to that thing that is in the way
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, dashObstacles);
+
+        if (hit.collider != null)
+        {
+            Debug.Log("Can't get through");
+            dashLocation = hit.point;
+        }
+        else
+        {
+            Debug.Log("can get through");
+        }
+
+
+
+        dashLocation.z = transform.position.z;
+        isDashing = true;
+        canDash = false;
+        StartCoroutine(DashTimer());
+        audio.clip = dashSound;
+        audio.Play();
+    }
+
+
+    public void EquipBow(Bow bow)
+    {
+        equippedBow = bow;
+        equippedBow.transform.parent = bowSlot.transform;
+    }
+
+    public void EquipSword(Sword sword)
+    {
+        equippedSword = sword;
+        equippedSword.transform.parent = swordSlot.transform;
+    }
+
+   
 
     
 
