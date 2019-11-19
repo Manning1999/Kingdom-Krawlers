@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomLoot : MonoBehaviour
+public class RandomLootGolem : MonoBehaviour
 {
-    public List<GameObject> lights;
+    public List<GameObject> loot;
     public float[] table =
     {
-     65, // Coins (5-15)
-     15, // Arrows
-     10, // Grey Sword
-     5, // Health Potion      
-     4, // Grey Bow
-     1, //Blue Sword
+     5, // Blue Bow
+     10, // Blue Sword
+     15, // Health Regen Potion
+     20, // Health Potion
+     50, // Coins (35-100)
 
 
     };
@@ -25,27 +23,27 @@ public class RandomLoot : MonoBehaviour
         // tally total weight
         // draw random number between 0 and total weight (100) 
 
-        foreach(var item in table)
+        foreach (var item in table)
         {
             total += item;
         }
 
         randomNumber = UnityEngine.Random.Range(0, (total));
 
-       for(int i = 0; i < table.Length; i++)
+        for (int i = 0; i < table.Length; i++)
         {
             if (randomNumber <= table[i])
             {
-                lights[i].SetActive(true);
+                Instantiate(loot[i]);     //Spawns item
                 return;
             }
             else
             {
                 randomNumber -= table[i];
-                
+
             }
         }
-       
+
 
         //randomnumber = 49
 
@@ -68,8 +66,5 @@ public class RandomLoot : MonoBehaviour
         // 15 - 10 = 5
         // 5 <= 5?
         // Health potion
-
-
     }
-
 }
