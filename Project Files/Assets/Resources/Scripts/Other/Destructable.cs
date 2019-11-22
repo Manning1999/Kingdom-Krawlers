@@ -6,6 +6,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Destructable : MonoBehaviour, IHurtable
 {
@@ -24,6 +25,8 @@ public class Destructable : MonoBehaviour, IHurtable
     protected List<Sprite> damageStates;
 
     protected int reachedState = 0;
+
+    public UnityEvent OnDestroy;
 
 
     //used to automatically calculate what range of health each damage state would be
@@ -106,6 +109,7 @@ public class Destructable : MonoBehaviour, IHurtable
         try
         {
             anim.enabled = true;
+            OnDestroy.Invoke();
         }
         catch (Exception e) { }
         StartCoroutine(DestroyTimer());

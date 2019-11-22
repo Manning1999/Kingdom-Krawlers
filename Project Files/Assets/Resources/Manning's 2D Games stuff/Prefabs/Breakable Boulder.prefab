@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9095233964119397061}
   - component: {fileID: 9095233964119397062}
   - component: {fileID: 9095233964119397063}
+  - component: {fileID: 1770284696}
   m_Layer: 0
   m_Name: Breakable Boulder
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 9095233964119397058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.54, y: -3.08, z: 0}
-  m_LocalScale: {x: 0.4804739, y: 0.4804739, z: 0.4804739}
+  m_LocalScale: {x: 0.19212785, y: 0.19212785, z: 0.19212785}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -103,6 +104,20 @@ MonoBehaviour:
   - {fileID: -8471095213289756079, guid: 3c1ee4d1ea4664e51ae23608a677f0fc, type: 3}
   - {fileID: 4565039734943261924, guid: 3c1ee4d1ea4664e51ae23608a677f0fc, type: 3}
   - {fileID: 266892473509564763, guid: 3c1ee4d1ea4664e51ae23608a677f0fc, type: 3}
+  OnDestroy:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1770284696}
+        m_MethodName: DecideLootToDrop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!58 &9095233964119397062
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -138,3 +153,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1770284696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9095233964119397058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64cb7eef408a7d4bbcdc06d52406593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potentialLootDropList:
+  - loot: {fileID: 1587619264327156366, guid: 6a369ffabdee0cf4b996edce9cd2fc76, type: 3}
+    dropChance: 15
+  - loot: {fileID: 1508686281516805701, guid: 899a6c48ac8010e4b8aca041cc34fb5e, type: 3}
+    dropChance: 10
+  - loot: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac, type: 3}
+    dropChance: 25
+  - loot: {fileID: 5623468307686142958, guid: 10e773b9c75800d48a7b45ce7a3ab911, type: 3}
+    dropChance: 25
+  - loot: {fileID: 7571801918316217, guid: 9f044faa821b2d74286128db4e2d8d0a, type: 3}
+    dropChance: 15
+  - loot: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921, type: 3}
+    dropChance: 10

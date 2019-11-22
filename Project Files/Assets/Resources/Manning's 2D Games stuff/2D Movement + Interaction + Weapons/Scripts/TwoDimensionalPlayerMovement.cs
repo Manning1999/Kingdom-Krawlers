@@ -233,7 +233,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
                         case MovementType.FullMovement:
                             if (Input.GetKey(moveRightButton))
                             {
-
+                                Debug.Log("Pressing d");
                                 transform.position = new Vector3(transform.position.x + currentMoveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
                                 if (Input.GetKey(moveUpButton))
                                 {
@@ -251,7 +251,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
                             }
                             if (Input.GetKey(moveLeftButton))
                             {
-
+                                Debug.Log("Pressing a");
                                 transform.position = new Vector3(transform.position.x - currentMoveSpeed * Time.deltaTime, transform.position.y, transform.position.z);
                                 if (Input.GetKey(moveUpButton))
                                 {
@@ -269,7 +269,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
 
                             if (Input.GetKey(moveUpButton))
                             {
-
+                                Debug.Log("Pressing w");
                                 transform.position = new Vector3(transform.position.x, transform.position.y + currentMoveSpeed * Time.deltaTime, transform.position.z);
 
 
@@ -289,7 +289,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
 
                             if (Input.GetKey(moveDownButton))
                             {
-
+                                Debug.Log("Pressing s");
                                 transform.position = new Vector3(transform.position.x, transform.position.y - currentMoveSpeed * Time.deltaTime, transform.position.z);
 
                                 if (Input.GetKey(moveRightButton))
