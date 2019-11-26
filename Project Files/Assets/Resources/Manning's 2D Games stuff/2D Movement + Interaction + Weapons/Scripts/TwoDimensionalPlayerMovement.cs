@@ -411,7 +411,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
                     float angleRadius = Mathf.Atan2(mousePosition.y - transform.position.y, mousePosition.x - transform.position.x);
                     float angle = (180 / Mathf.PI) * angleRadius;
                     angle = (angle < 0) ? angle + 360 : angle;
-                    Debug.Log(angle);
+
 
                     switch (movementType)
                     {
