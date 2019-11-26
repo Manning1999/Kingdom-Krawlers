@@ -146,6 +146,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     [Tooltip("This is the gameobject with the particles affects for levelling up")]
     protected GameObject levelUpEffects = null;
 
+    [SerializeField]
+    [Tooltip("these are the particles that will show when the player is able to dash again")]
+    protected GameObject canDashparticles = null;
+
 
     [Header("Sounds")]
     [SerializeField]
@@ -160,7 +164,12 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected AudioClip lootCollectedSound;
 
     [SerializeField]
+    [Tooltip("This ios the sound that will play when the player dashes")]
     protected AudioClip dashSound;
+
+    [SerializeField]
+    [Tooltip("This is the sound that will play when the player is able to dash again")]
+    protected AudioClip canDashSound;
 
     [SerializeField]
     protected bool dashInMouseDirection = true;
@@ -243,17 +252,42 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
         if (Input.GetMouseButtonDown(0))
         {
-            //use sword
-            equippedSword.Use();
-            equippedBow.Show(false);
-            equippedSword.Show(true);
+            if (equippedSword != null)
+            {
+                //use sword
+                equippedSword.Use();
+                equippedSword.Show(true);
+
+                //Hide the bow if one is equipped
+                if (equippedBow != null)
+                {
+                    equippedBow.Show(false);
+                    
+                }
+
+            }
+            else
+            {
+                MessageLog.Instance.UpdateLog("You do not have a sword equipped");
+            }
         }
-        if (Input.GetMouseButtonDown(1))
+
+            if (Input.GetMouseButtonDown(1))
         {
-            //use bow
-            equippedBow.Use();
-            equippedBow.Show(true);
-            equippedSword.Show(false);
+            if (equippedBow != null)
+            {
+                //use bow
+                equippedBow.Use();
+                equippedBow.Show(true);
+                if (equippedSword != null)
+                {
+                    equippedSword.Show(false);
+                }
+            }
+            else
+            {
+                MessageLog.Instance.UpdateLog("You do not have a bow equipped");
+            }
             
         }
         
@@ -400,7 +434,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     {
         yield return new WaitForSeconds(dashCoolDownTime);
         canDash = true;
-        
+        canDashparticles.transform.GetComponent<Animator>().SetTrigger("CanDash");
+        audio.clip = canDashSound;
+        audio.volume = audio.volume / 2;
+        audio.Play();
     }
 
 
@@ -440,6 +477,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         {
             Destroy(col.gameObject);
             audio.clip = levelUpSound;
+            audio.volume = 1;
             audio.Play();
             LoseDeathPenalty();
         }
@@ -559,6 +597,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         //play the level up affects
         levelUpEffects.transform.GetComponent<Animator>().SetTrigger("LevelUp");
         audio.clip = levelUpSound;
+        audio.volume = 1;
         audio.Play();
     }
 
@@ -605,7 +644,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
         Vector2 direction = dashLocation - transform.position;
         float distance = Vector2.Distance(dashLocation, transform.position);
-
+        canMove = false;
         //use a raycast to see if anything is in the way of the dash. If there is something in the way, then dash to that thing that is in the way
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, dashObstacles);
 
@@ -626,6 +665,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         canDash = false;
         StartCoroutine(DashTimer());
         audio.clip = dashSound;
+        audio.volume = 0.7f;
         audio.Play();
     }
 
