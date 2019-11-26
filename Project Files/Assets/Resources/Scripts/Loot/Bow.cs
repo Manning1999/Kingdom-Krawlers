@@ -2,114 +2,145 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bow : Loot
+namespace ManningsLootSystem
 {
-
-    [SerializeField]
-    protected string tier;
-
-    [SerializeField]
-    protected int damage;
-
-    [SerializeField]
-    protected float attackSpeed;
-
-
-    [SerializeField]
-    protected GameObject arrow = null;
-
-
-    [SerializeField]
-    private bool isEquipped;
-
-
-
-    [SerializeField]
-    protected Vector3 aimingDirection;
-
-
-
-    // Start is called before the first frame update
-    protected override void Start()
-    {
-        base.Start();    
-    }
-
-
-    public override void Generate()
+    public class Bow : Loot
     {
 
+        [SerializeField]
+        protected string tier;
+
+        [SerializeField]
+        protected int damage;
+
+        [SerializeField]
+        protected float attackSpeed;
 
 
-        foreach (LootController.BowStats bowTier in LootController.Instance._bowStats)
+        [SerializeField]
+        protected GameObject arrow = null;
+
+
+        [SerializeField]
+        private bool isEquipped;
+
+
+
+        [SerializeField]
+        protected Vector3 aimingDirection;
+
+        private bool canAttack = true;
+
+
+
+        // Start is called before the first frame update
+        protected override void Start()
         {
-            if (bowTier.tier == tier)
+            base.Start();
+        }
+
+
+        public override void Generate()
+        {
+
+
+
+            foreach (LootController.BowStats bowTier in LootController.Instance._bowStats)
             {
-                Debug.Log("generating stats now");
-                icon = bowTier.possibleSprites[Random.Range(0, bowTier.possibleSprites.Count)];
+                if (bowTier.tier == tier)
+                {
+                    Debug.Log("generating stats now");
+                    icon = bowTier.possibleSprites[Random.Range(0, bowTier.possibleSprites.Count)];
 
-                damage = Random.Range(bowTier.minDamage, bowTier.maxDamage);
-                attackSpeed = Random.Range(bowTier.minAttackSpeed, bowTier.maxAttackSpeed);
-                statsDecided = true;
+                    damage = Random.Range(bowTier.minDamage, bowTier.maxDamage);
+                    attackSpeed = Random.Range(bowTier.minAttackSpeed, bowTier.maxAttackSpeed);
+                    statsDecided = true;
 
-                value = bowTier.baseValue + damage + Mathf.RoundToInt(attackSpeed * 5);
+                    value = bowTier.baseValue + damage + Mathf.RoundToInt(attackSpeed * 5);
 
-                break;
+                    break;
+                }
             }
         }
-    }
 
 
-    public override void AddToInventory()
-    {
-        base.AddToInventory();
-
-        if(PlayerController.Instance._equippedBow == null)
+        public override void AddToInventory()
         {
-            Equip();
+            base.AddToInventory();
+
+            if (ManningsLootSystemPlayerController.Instance._equippedBow == null)
+            {
+                Equip();
+            }
         }
-    }
 
-    // Update is called once per frame
-    protected override void Update()
-    {
-        if(owner != null)
+        // Update is called once per frame
+        protected override void Update()
         {
-            transform.position = owner.transform.position;
-        }        
-    }
+
+            base.Update();
 
 
-
-
-    public override void Use()
-    {
-        //shoot an arrow
-        Debug.Log("Shot an arrow");
-    }
-
-
-    public void Equip(bool set = true)
-    {
-        if(set == true)
-        {
-            
-            isEquipped = true;
-            PlayerController.Instance.EquipBow(this);
-            
+            if (owner != null)
+            {
+                transform.position = owner.transform.position - transform.forward * 0.05f; ;
+            }
         }
-        else
+
+
+
+
+        public override void Use()
         {
-            
-            isEquipped = false;
+            if (canAttack == true && InventoryController.Instance._arrowCount > 0)
+            {
+                //shoot an arrow
+                Debug.Log("Shot an arrow" + transform.parent.transform.eulerAngles.z);
+                GameObject newArrow = Instantiate(arrow, transform.position + transform.right * 0.15f, transform.rotation) as GameObject;
+                newArrow.transform.rotation = Quaternion.Euler(new Vector3(transform.rotation.x, transform.rotation.y, transform.eulerAngles.z - 90));
+                StartCoroutine(AttackSpeedTimer());
+                InventoryController.Instance.UpdateArrows(-1);
+            }
+            else
+            {
+                if(InventoryController.Instance._arrowCount <= 0)
+                {
+                    MessageLog.Instance.UpdateLog("You do not have any arrows left");
+                }
+            }
         }
-    }
+
+
+        public void Equip(bool set = true)
+        {
+            if (set == true)
+            {
+
+                isEquipped = true;
+                ManningsLootSystemPlayerController.Instance.EquipBow(this);
+
+            }
+            else
+            {
+
+                isEquipped = false;
+            }
+        }
 
 
 
-    public void Show(bool set)
-    {
-        anim.SetBool("isEquipped", set);
+        public void Show(bool set)
+        {
+            anim.SetBool("isEquipped", set);
 
+        }
+
+
+        protected IEnumerator AttackSpeedTimer()
+        {
+            canAttack = false;
+            yield return new WaitForSeconds(attackSpeed);
+            canAttack = true;
+        }
     }
 }

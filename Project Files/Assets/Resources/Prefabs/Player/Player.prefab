@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 207925935}
   - component: {fileID: 207925937}
   - component: {fileID: 207925936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Can Dash particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 1858811098}
   - component: {fileID: 1858811100}
   - component: {fileID: 1858811099}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LevelUpEffects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 1892255390}
   - component: {fileID: 1892255392}
   - component: {fileID: 1892255391}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CollisionParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,7 +310,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4245624462670079969}
-  m_Layer: 0
+  - component: {fileID: 870005627}
+  m_Layer: 10
   m_Name: Bow Slow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,12 +326,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4502639557292720353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.05}
   m_LocalScale: {x: 5, y: 5, z: 1.0000108}
   m_Children: []
   m_Father: {fileID: 5084317046183880093}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &870005627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4502639557292720353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c31e6c139df5ba48b5e7169598e5e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5084317045261050004
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +356,7 @@ GameObject:
   - component: {fileID: 5084317045261050003}
   - component: {fileID: 5084317045261050002}
   - component: {fileID: 5084317045261050001}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,9 +447,9 @@ GameObject:
   - component: {fileID: 5084317046183880094}
   - component: {fileID: 5084317046183880080}
   - component: {fileID: 5084317046183880090}
-  - component: {fileID: 8918564950877054583}
   - component: {fileID: 4416347863077761908}
-  m_Layer: 0
+  - component: {fileID: 5425592639944328594}
+  m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +662,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8918564950877054583
+--- !u!70 &4416347863077761908
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5084317046183880083}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.45, y: 0.87}
+  m_Direction: 0
+--- !u!114 &5425592639944328594
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -658,16 +687,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5084317046183880083}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89670df9649b14f48ba8f24edb7caaf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 80e28cd48b98bb846b0582d18c386a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   lookMode: 1
-  animateRotation: 1
+  animateRotation: 0
   movementType: 1
   jumpForce: 300
   direction: 4
-  walkSpeed: 0.8
-  runSpeed: 1.7
+  walkSpeed: 1.1
+  runSpeed: 1.4
   moveUpButton: 119
   moveDownButton: 115
   moveLeftButton: 97
@@ -697,39 +726,15 @@ MonoBehaviour:
   levelUpEffects: {fileID: 1858811097}
   canDashparticles: {fileID: 207925934}
   levelUpSound: {fileID: 8300000, guid: f19c9a797f877f346bd4ccec229e2ff3, type: 3}
-  hitSounds:
-  - {fileID: 8300000, guid: f972801bc0ae0e147b1d8c531791b6a8, type: 3}
-  - {fileID: 8300000, guid: 395e5a4599e623c43bac2744e2334f62, type: 3}
-  - {fileID: 8300000, guid: f1966f3ab3d911c40a7b977584f5976c, type: 3}
-  - {fileID: 8300000, guid: b7d0a081559f9dd4faf9238a3ded094f, type: 3}
-  - {fileID: 8300000, guid: 7b9f47ff79bffd747bbb66f29c117090, type: 3}
-  - {fileID: 8300000, guid: 29a9f677994a5a8469a2d649c9fbc07c, type: 3}
-  - {fileID: 8300000, guid: f8e624b0c9e79424fbaf3704d5636359, type: 3}
-  - {fileID: 8300000, guid: 377cca28c1282004381ec2efe629d484, type: 3}
-  - {fileID: 8300000, guid: f0e56aa127f8f0a44802ca50f7625504, type: 3}
-  lootCollectedSound: {fileID: 0}
+  hitSounds: []
+  lootCollectedSound: {fileID: 8300000, guid: 55650176947db4b4d9de42741757fba9, type: 3}
   dashSound: {fileID: 8300000, guid: 0d0831c376d083346a8f8b91e8ac7714, type: 3}
+  canDashSound: {fileID: 8300000, guid: a0a079cd84ac2a047b7105600bf07db5, type: 3}
   dashInMouseDirection: 1
   equippedSword: {fileID: 0}
   equippedBow: {fileID: 0}
   bowSlot: {fileID: 4502639557292720353}
   swordSlot: {fileID: 5820394027660845557}
---- !u!70 &4416347863077761908
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5084317046183880083}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.45, y: 0.87}
-  m_Direction: 0
 --- !u!1 &5820394027660845557
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +744,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6603605243904646822}
-  m_Layer: 0
+  - component: {fileID: 1752815132}
+  m_Layer: 10
   m_Name: Sword Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -754,9 +760,21 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5820394027660845557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.05}
+  m_LocalScale: {x: -5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 5084317046183880093}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1752815132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5820394027660845557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c31e6c139df5ba48b5e7169598e5e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

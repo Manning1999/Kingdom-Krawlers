@@ -2,17 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Potion : MonoBehaviour
+namespace ManningsLootSystem
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public class Potion : Loot
     {
-        
+
+        [SerializeField]
+        protected AudioClip useSound;
+
+        protected AudioSource audio;
+
+        protected void Start()
+        {
+            base.Start();
+        }
+
+        public void Use()
+        {
+
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

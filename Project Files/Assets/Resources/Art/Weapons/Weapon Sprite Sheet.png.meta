@@ -86,6 +86,15 @@ TextureImporter:
   - first:
       213: -1848890203516335578
     second: Weapon Sprite Sheet_2
+  - first:
+      213: -6797886676057144242
+    second: Weapon Sprite Sheet_9
+  - first:
+      213: 8161120286630919904
+    second: Weapon Sprite Sheet_14
+  - first:
+      213: 1572848790057153458
+    second: Weapon Sprite Sheet_16
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -194,10 +203,10 @@ TextureImporter:
       name: Weapon Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 221
+        x: 218
         y: 986
-        width: 57
-        height: 57
+        width: 59
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,9 +224,9 @@ TextureImporter:
       name: Weapon Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 1079
+        x: 1083
         y: 992
-        width: 66
+        width: 62
         height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -238,7 +247,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1311
         y: 996
-        width: 45
+        width: 48
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -257,10 +266,10 @@ TextureImporter:
       name: Weapon Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 1512
-        y: 974
-        width: 57
-        height: 106
+        x: 1524
+        y: 990
+        width: 45
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +308,10 @@ TextureImporter:
       name: Weapon Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 440
-        y: 999
-        width: 51
-        height: 12
+        x: 449
+        y: 982
+        width: 37
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,34 +326,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 999
-        width: 51
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c694e24c023ecf4d8df4ee65b9fc83c
-      internalID: -8918777406050621082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Weapon Sprite Sheet_11
       rect:
         serializedVersion: 2
-        x: 872
-        y: 999
-        width: 51
-        height: 12
+        x: 881
+        y: 981
+        width: 37
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,10 +350,10 @@ TextureImporter:
       name: Weapon Sprite Sheet_13
       rect:
         serializedVersion: 2
-        x: 622
+        x: 650
         y: 881
-        width: 82
-        height: 82
+        width: 54
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,9 +371,9 @@ TextureImporter:
       name: Weapon Sprite Sheet_17
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 876
-        width: 43
+        width: 50
         height: 57
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -469,7 +457,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1070
         y: 881
-        width: 66
+        width: 61
         height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -489,9 +477,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1289
-        y: 868
-        width: 63
-        height: 70
+        y: 870
+        width: 53
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,34 +515,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_25
-      rect:
-        serializedVersion: 2
-        x: 1722
-        y: 874
-        width: 42
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f802249739c3abc439929368c5f28433
-      internalID: 9083995368027599888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Weapon Sprite Sheet_26
       rect:
         serializedVersion: 2
-        x: 15
-        y: 768
-        width: 60
-        height: 51
+        x: 18
+        y: 762
+        width: 52
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +539,10 @@ TextureImporter:
       name: Weapon Sprite Sheet_27
       rect:
         serializedVersion: 2
-        x: 268
-        y: 777
-        width: 12
-        height: 27
+        x: 261
+        y: 778
+        width: 25
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,10 +560,10 @@ TextureImporter:
       name: Weapon Sprite Sheet_28
       rect:
         serializedVersion: 2
-        x: 439
-        y: 759
-        width: 66
-        height: 57
+        x: 438
+        y: 760
+        width: 64
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,10 +581,10 @@ TextureImporter:
       name: Bow 1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 644
-        width: 42
-        height: 42
+        x: 38
+        y: 635
+        width: 20
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +602,10 @@ TextureImporter:
       name: Bow 2
       rect:
         serializedVersion: 2
-        x: 228
-        y: 648
-        width: 42
-        height: 42
+        x: 243
+        y: 641
+        width: 23
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +623,10 @@ TextureImporter:
       name: Bow 3
       rect:
         serializedVersion: 2
-        x: 440
-        y: 649
-        width: 42
-        height: 42
+        x: 454
+        y: 639
+        width: 20
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,10 +644,10 @@ TextureImporter:
       name: Bow 4
       rect:
         serializedVersion: 2
-        x: 644
-        y: 653
-        width: 42
-        height: 42
+        x: 661
+        y: 646
+        width: 22
+        height: 57
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -711,6 +678,27 @@ TextureImporter:
       bones: []
       spriteID: 61b42573cf4f7594f996475cf5212c83
       internalID: -1848890203516335578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 982
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e98c7af18ce0d2499e42d8d9c2160d1
+      internalID: 1080717351382735312
       vertices: []
       indices: 
       edges: []

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using ManningsLootSystem;
 
 
 //suppresses warnings for unused variables
@@ -164,7 +165,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     protected AudioClip lootCollectedSound;
 
     [SerializeField]
-    [Tooltip("This ios the sound that will play when the player dashes")]
+    [Tooltip("This is the sound that will play when the player dashes")]
     protected AudioClip dashSound;
 
     [SerializeField]
@@ -174,27 +175,13 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     [SerializeField]
     protected bool dashInMouseDirection = true;
 
-    [SerializeField]
-    protected Sword equippedSword;
-    public Sword _equippedSword { get { return equippedSword; } }
-
-    [SerializeField]
-    protected Bow equippedBow;
-    public Bow _equippedBow { get { return equippedBow; } }
-
-    [SerializeField]
-    protected GameObject bowSlot;
-    public GameObject _bowSlot { get { return bowSlot; } }
-
-    [SerializeField]
-    protected GameObject swordSlot;
-    public GameObject _swordSlot { get { return swordSlot; } }
+    
 
    
 
 
 
-    protected static PlayerController playerInstance;
+    private static PlayerController playerInstance;
 
     // Start is called before the first frame update
     protected override void Awake()
@@ -209,6 +196,8 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         }
         else
         {
+            
+            Debug.Log("base destroying player now");
             Destroy(gameObject);
         }
 
@@ -216,7 +205,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
     }
 
-    protected void Start()
+    protected virtual void Start()
     {
 
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -250,46 +239,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
 
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (equippedSword != null)
-            {
-                //use sword
-                equippedSword.Use();
-                equippedSword.Show(true);
-
-                //Hide the bow if one is equipped
-                if (equippedBow != null)
-                {
-                    equippedBow.Show(false);
-                    
-                }
-
-            }
-            else
-            {
-                MessageLog.Instance.UpdateLog("You do not have a sword equipped");
-            }
-        }
-
-            if (Input.GetMouseButtonDown(1))
-        {
-            if (equippedBow != null)
-            {
-                //use bow
-                equippedBow.Use();
-                equippedBow.Show(true);
-                if (equippedSword != null)
-                {
-                    equippedSword.Show(false);
-                }
-            }
-            else
-            {
-                MessageLog.Instance.UpdateLog("You do not have a bow equipped");
-            }
-            
-        }
+        
         
 
         //if the player is respawning or travelling between areas, this checks for whether they have been moved to the appropriate spot
@@ -453,7 +403,8 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         //If the player is dashing and they collide with something that can be hurt, then hurt them and play the hit sound
         if (isDashing == true)
         {
-            audio.clip = hitSounds[UnityEngine.Random.Range(0, hitSounds.Count)];
+            Debug.Log(col.transform.name);
+           // audio.clip = hitSounds[UnityEngine.Random.Range(0, hitSounds.Count)];
             if (col.transform.GetComponent<IHurtable>() != null)
             {
                 
@@ -462,9 +413,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             dashHitParticles.transform.position = col.collider.ClosestPoint(transform.position);
             dashHitParticles.transform.GetComponent<Animator>().SetTrigger("Hit");
             canMove = true;
+            isDashing = false;
         }
        
-        isDashing = false;
+        
     }
 
 
@@ -624,6 +576,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         Debug.Log("Player is now dead");
         //Death animation
         StartCoroutine(DeathTimer());
+        canMove = false;
 
         //disable the player's renderer and rigidbody
         transform.GetComponent<SpriteRenderer>().enabled = false;
@@ -670,17 +623,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     }
 
 
-    public void EquipBow(Bow bow)
-    {
-        equippedBow = bow;
-        equippedBow.transform.parent = bowSlot.transform;
-    }
-
-    public void EquipSword(Sword sword)
-    {
-        equippedSword = sword;
-        equippedSword.transform.parent = swordSlot.transform;
-    }
+   
 
    
 

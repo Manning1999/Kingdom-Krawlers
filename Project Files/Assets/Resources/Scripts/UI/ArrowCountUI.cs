@@ -5,18 +5,27 @@ using UnityEngine.UI;
 
 public class ArrowCountUI : MonoBehaviour
 {
-    public int arrows;
 
-    // Start is called before the first frame update
-    void Start()
+    //create singleton
+    public static ArrowCountUI instance;
+    private static ArrowCountUI _instance;
+
+    public static ArrowCountUI Instance
     {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = GameObject.FindObjectOfType<ArrowCountUI>();
+            }
 
+            return _instance;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void UpdateArrowGUI(int arrows)
     {
-        //arrows = PlayerController.Instance._arrows;
-        GetComponent<Text>().text = arrows.ToString();
+        transform.GetComponent<Text>().text = arrows.ToString();
     }
 }

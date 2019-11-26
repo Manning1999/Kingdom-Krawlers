@@ -27,6 +27,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         target = FindObjectOfType<PlayerController>().transform;
+        Debug.Log(target);
 
         myRigidbody = GetComponent<Rigidbody2D>();
 
