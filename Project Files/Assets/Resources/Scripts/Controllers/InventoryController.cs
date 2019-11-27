@@ -23,6 +23,8 @@ namespace ManningsLootSystem
             }
         }
 
+        [SerializeField]
+        private Potion potionTest = null;
 
         [SerializeField]
         protected int inventorySize;
@@ -41,6 +43,22 @@ namespace ManningsLootSystem
 
         [SerializeField]
         protected AudioClip collectLootSound;
+
+
+
+        [System.Serializable]
+        public class Potions
+        {
+            public Potion potionType = null;
+            public int quantityOwned = 0;
+            public KeyCode usePotionButton;
+
+            
+        }
+
+        [SerializeField]
+        protected List<Potions> potions = new List<Potions>();
+
 
         protected AudioSource audio;
 
@@ -70,11 +88,39 @@ namespace ManningsLootSystem
             audio = transform.GetComponent<AudioSource>();
 
             DontDestroyOnLoad(gameObject);
+
+
+
+            foreach (Potions pot in potions)
+            {
+                if (pot.potionType == null)
+                {
+                    potions.Remove(pot);
+                    break;
+                }
+
+            }
         }
 
         // Update is called once per frame
         void Update()
         {
+            foreach(Potions pot in potions)
+            {
+                if (Input.GetKeyDown(pot.usePotionButton))
+                {
+                    
+                    if (pot.quantityOwned > 0)
+                    {
+                        Debug.Log("Button pressed");
+                        pot.potionType.Use();
+                        pot.quantityOwned -= 1;
+                    }
+                }
+            }
+
+
+
 
         }
 
@@ -127,6 +173,24 @@ namespace ManningsLootSystem
         {
             arrowCount += arrowChange;
             ArrowCountUI.Instance.UpdateArrowGUI(arrowCount);
+        }
+
+
+        public void AddPotion(Potion pot)
+        {
+            audio.clip = collectLootSound;
+            audio.Play();
+
+            foreach (Potions potion in potions)
+            {
+                Debug.Log(potion.potionType + "    :    " + pot);
+                if (pot.ToString() == potion.potionType.ToString())
+                {
+                    Debug.Log(pot);
+                    potion.quantityOwned++;
+                    break;
+                }
+            }
         }
     }
 }

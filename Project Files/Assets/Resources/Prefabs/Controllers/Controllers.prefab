@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 2300732307028333065}
   - component: {fileID: 2300732307028333062}
   - component: {fileID: 2300732307028333063}
+  - component: {fileID: 5894496856495271060}
+  - component: {fileID: 6228338536597266071}
+  - component: {fileID: 2312269451081714890}
   - component: {fileID: 1754304428}
   m_Layer: 0
   m_Name: Controllers
@@ -157,11 +160,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de982c88eb9e38948b3eac0290cc0f09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  potionTest: {fileID: 0}
   inventorySize: 25
   inventoryItems: []
   playerMoney: 0
   arrowCount: 0
   collectLootSound: {fileID: 8300000, guid: 55650176947db4b4d9de42741757fba9, type: 3}
+  potions: []
+--- !u!114 &5894496856495271060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a0b1477e54d71429be828dc97f5979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6228338536597266071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1693e08a57deb749978d69b37cef9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  name: 
+  value: 0
+  description: 
+  owner: {fileID: 0}
+  useSound: {fileID: 0}
+--- !u!114 &2312269451081714890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886cde6b890ee33418c06bf341b04c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  name: 
+  value: 0
+  description: 
+  owner: {fileID: 0}
+  useSound: {fileID: 0}
+  regenerationSpeed: 3
+  regenerationTime: 10
 --- !u!82 &1754304428
 AudioSource:
   m_ObjectHideFlags: 0

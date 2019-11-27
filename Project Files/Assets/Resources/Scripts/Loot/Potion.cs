@@ -18,9 +18,17 @@ namespace ManningsLootSystem
             base.Start();
         }
 
-        public void Use()
+        public override void Use()
         {
 
+        }
+
+
+        public override void AddToInventory()
+        {
+            InventoryController.Instance.AddPotion(this);
+            Debug.Log(this);
+            Destroy(gameObject);
         }
 
     }

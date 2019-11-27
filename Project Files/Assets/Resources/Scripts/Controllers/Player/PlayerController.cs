@@ -33,7 +33,8 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         }
     }
 
-
+    protected float speedModifier;
+    public float _speedModifier {  get { return speedModifier; } }
 
     [Header("Kingdom Krawlers Player Attributes")]
     [SerializeField]
@@ -366,7 +367,10 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     //From another script that can cause damage to the player use "PlayerController.Instance.TakeDamage(damage)"     or       "col.transform.GetComponent<IHurtable>().TakeDamage(damage)"
     public virtual void TakeDamage(int damage)
     {
-        currentHealth -= damage;
+        if (currentHealth < maxHealth && currentHealth > 0)
+        {
+            currentHealth -= damage;
+        }
 
         if (currentHealth <= 0)
         {

@@ -690,8 +690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80e28cd48b98bb846b0582d18c386a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookMode: 1
-  animateRotation: 0
+  lookMode: 0
+  animateRotation: 1
   movementType: 1
   jumpForce: 300
   direction: 4

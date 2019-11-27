@@ -7,7 +7,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
+
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -52,6 +52,9 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
     [Header("Full Movement Options")]
     protected Direction direction = Direction.Idle;
 
+
+    protected float speedModifier = 1;
+    public float _speedModifier { get { return speedModifier; } }
 
     [Header("Player Attributes")]
     [SerializeField]
@@ -206,12 +209,12 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
         //Chance the players current speed to the runspeed if isRunning is true
         if (isRunning == true)
         {
-            currentMoveSpeed = runSpeed;
+            currentMoveSpeed = runSpeed * speedModifier;
         }
         else
         {
 
-            currentMoveSpeed = walkSpeed;
+            currentMoveSpeed = walkSpeed * speedModifier;
         }
 
 
@@ -662,6 +665,13 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
                 break;
         }
 
+    }
+
+
+
+    public virtual void ChangeSpeedModifier(float modifier)
+    {
+        speedModifier = modifier;
     }
 
 }
