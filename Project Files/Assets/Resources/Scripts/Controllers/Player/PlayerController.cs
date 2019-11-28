@@ -33,8 +33,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         }
     }
 
-    protected float speedModifier;
-    public float _speedModifier {  get { return speedModifier; } }
+   
 
     [Header("Kingdom Krawlers Player Attributes")]
     [SerializeField]

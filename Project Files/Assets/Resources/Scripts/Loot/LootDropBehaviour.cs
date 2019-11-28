@@ -57,6 +57,8 @@ namespace ManningsLootSystem
 
         private void DropLoot(Loot lootToDrop)
         {
+            Debug.Log("Created a " + lootToDrop);
+            Debug.Log(transform.position);
             Instantiate(lootToDrop, transform.position, Quaternion.identity);
         }
     }
