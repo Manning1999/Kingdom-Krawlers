@@ -386,6 +386,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3505338298898365775, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3505338298212480586, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -396,22 +401,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3505338298898365775, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505338298632200613, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3505338297940381254, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8135255704006338264, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3505338298632200613, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -446,6 +446,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2405723887602460097, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: mainMenuUI
+      value: 
+      objectReference: {fileID: 1929890736}
+    - target: {fileID: 2405723887602460097, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: audioUI
+      value: 
+      objectReference: {fileID: 419475068}
     - target: {fileID: 3505338297811737633, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -536,6 +546,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4161897804641091352, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: mainMenuUI
+      value: 
+      objectReference: {fileID: 1929890736}
+    - target: {fileID: 4161897804641091352, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: videoUI
+      value: 
+      objectReference: {fileID: 65068365}
     - target: {fileID: 8459480986170811027, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
