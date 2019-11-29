@@ -99,6 +99,7 @@ namespace ManningsLootSystem
                 {
                     anim.SetBool("isEquipped", false);
                     isEquipped = false;
+                    ManningsLootSystemPlayerController.Instance.EquipSword(null);
                 }
             }
         }

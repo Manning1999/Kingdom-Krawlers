@@ -1,6 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+
+//The inventory assume there will be four boxes per row and I can't be bothered to do the maths to make it dynamic
+
 namespace ManningsLootSystem
 {
     public class InventoryController : MonoBehaviour
@@ -23,8 +28,7 @@ namespace ManningsLootSystem
             }
         }
 
-        [SerializeField]
-        private Potion potionTest = null;
+
 
         [SerializeField]
         protected int inventorySize;
@@ -53,14 +57,36 @@ namespace ManningsLootSystem
             public int quantityOwned = 0;
             public KeyCode usePotionButton;
 
-            
+
         }
 
         [SerializeField]
         protected List<Potions> potions = new List<Potions>();
 
 
+        [Tooltip("Inventory Menu")]
+
+        [SerializeField]
+        protected GameObject inventoryObject = null;
+        [SerializeField]
+        protected GameObject inventoryBox = null;
+
+        [SerializeField]
+        protected GameObject selectedLoot = null;
+
+        [SerializeField]
+        protected GameObject scrollViewContent = null;
+
+
+        protected List<GameObject> boxes = new List<GameObject>();
+
+        [SerializeField]
+        protected TextMeshProUGUI infoBox = null;
+
+
         protected AudioSource audio;
+
+
 
 
 
@@ -72,6 +98,8 @@ namespace ManningsLootSystem
                 Debug.Log("INVENTORY SIZE IS " + inventorySize + " Set to a number greater than or equal to 1");
                 MessageLog.Instance.UpdateLog("Inventory size is 0. Increase it to a number greater than 1 for inventory to work");
             }
+
+            PopulateInventoryTiles();
         }
 
         private void Awake()
@@ -105,11 +133,11 @@ namespace ManningsLootSystem
         // Update is called once per frame
         void Update()
         {
-            foreach(Potions pot in potions)
+            foreach (Potions pot in potions)
             {
                 if (Input.GetKeyDown(pot.usePotionButton))
                 {
-                    
+
                     if (pot.quantityOwned > 0)
                     {
                         Debug.Log("Button pressed");
@@ -117,6 +145,12 @@ namespace ManningsLootSystem
                         pot.quantityOwned -= 1;
                     }
                 }
+            }
+
+
+            if (Input.GetKeyDown("i"))
+            {
+                inventoryObject.SetActive(!inventoryObject.activeSelf);
             }
 
 
@@ -128,7 +162,7 @@ namespace ManningsLootSystem
         public bool AddToInventory(GameObject loot)
         {
 
-            
+
 
             if (inventoryItems.Count < inventorySize)
             {
@@ -139,7 +173,9 @@ namespace ManningsLootSystem
                 }
                 audio.clip = collectLootSound;
                 audio.Play();
+                ShowInventory();
                 return true;
+
 
             }
             else
@@ -148,9 +184,28 @@ namespace ManningsLootSystem
             }
         }
 
-        public void RemoveFromInventory(GameObject loot)
+        public void RemoveFromInventory()
         {
-            inventoryItems.Remove(loot);
+            if (selectedLoot != null)
+            {
+                if (selectedLoot.transform.GetComponent<Bow>() != null)
+                {
+                    if (ManningsLootSystemPlayerController.Instance._equippedBow == selectedLoot)
+                    {
+                        selectedLoot.transform.GetComponent<Bow>().Equip(false);
+                    }
+                }
+                if (selectedLoot.transform.GetComponent<Sword>() != null)
+                {
+                    if (ManningsLootSystemPlayerController.Instance._equippedSword == selectedLoot)
+                    {
+                        selectedLoot.transform.GetComponent<Sword>().Equip(false);
+                    }
+                }
+                Debug.Log("Pressed remove button");
+                inventoryItems.Remove(selectedLoot);
+                ShowInventory();
+            }
         }
 
 
@@ -158,7 +213,7 @@ namespace ManningsLootSystem
         {
             audio.clip = collectLootSound;
             audio.Play();
-            
+
             playerMoney += moneyRecieved;
             GoldCountUI.Instance.UpdateGoldCount(playerMoney);
         }
@@ -190,6 +245,75 @@ namespace ManningsLootSystem
                     potion.quantityOwned++;
                     break;
                 }
+            }
+        }
+
+
+        protected void PopulateInventoryTiles()
+        {
+
+
+            for (int i = 0; i < inventorySize; i++)
+            {
+                GameObject newBox = Instantiate(inventoryBox, scrollViewContent.transform);
+                boxes.Add(newBox);
+                
+            }
+            ShowInventory();
+        }
+
+        [ContextMenu("Show loot collected")]
+        public void ShowInventory()
+        {
+            /*for (int i = 0; i < inventoryItems.Count; i++)
+            {
+                boxes[i].transform.GetComponent<InventoryBox>().SetDetails(inventoryItems[i]);
+            } */
+            for(int i = 0; i<inventorySize; i++)
+            {
+                if(i < inventoryItems.Count) {
+                    
+                        boxes[i].transform.GetComponent<InventoryBox>().SetDetails(inventoryItems[i]);
+                    
+                }
+                else
+                {
+                    boxes[i].transform.GetComponent<InventoryBox>().SetDetails(null);
+                }
+            }
+        }
+
+
+        public void SelectLoot(GameObject loot)
+        {
+            selectedLoot = loot;
+            Debug.Log(loot);
+            infoBox.text = loot.name + "\n\n" + loot.transform.GetComponent<Loot>()._description + "\nValue: " + loot.transform.GetComponent<Loot>()._value;
+        }
+
+        public void Equip()
+        {
+            if (selectedLoot != null)
+            {
+                /* if (selectedLoot.transform.GetComponent<Sword>() != null)
+                 {
+                    // ManningsLootSystemPlayerController.Instance.EquipSword(selectedLoot.transform.GetComponent<Sword>());
+                 }
+                 else if (selectedLoot.transform.GetComponent<Bow>() != null)
+                 {
+                     ManningsLootSystemPlayerController.Instance.EquipBow(selectedLoot.transform.GetComponent<Bow>());
+                 }  */
+                if (selectedLoot.transform.GetComponent<Sword>() != null)
+                {
+                    selectedLoot.transform.GetComponent<Sword>().Equip(true);
+                }
+                else if (selectedLoot.transform.GetComponent<Bow>() != null)
+                {
+                    selectedLoot.transform.GetComponent<Bow>().Equip(true);
+                }
+                
+
+
             }
         }
     }

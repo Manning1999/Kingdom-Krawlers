@@ -105,6 +105,11 @@ public class ManningsLootSystemPlayerController : PlayerController
 
     public void EquipBow(Bow bow)
     {
+        if(equippedBow != null)
+        {
+            equippedBow.Equip(false);
+        }
+
         equippedBow = bow;
         equippedBow.transform.parent = bowSlot.transform;
         equippedBow.transform.position = bowSlot.transform.position;
@@ -112,6 +117,11 @@ public class ManningsLootSystemPlayerController : PlayerController
 
     public void EquipSword(Sword sword)
     {
+
+        if(equippedSword != null)
+        {
+            equippedSword.Equip(false);
+        }
         equippedSword = sword;
         equippedSword.transform.parent = swordSlot.transform;
         equippedSword.transform.position = swordSlot.transform.position;

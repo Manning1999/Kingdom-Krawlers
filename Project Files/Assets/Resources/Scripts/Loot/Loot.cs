@@ -10,6 +10,8 @@ namespace ManningsLootSystem
         [SerializeField]
         protected Sprite icon = null;
 
+        public Sprite _icon { get { return icon; } }
+
         [SerializeField]
         protected new string name;
         public string _name { get { return name; } }
@@ -111,10 +113,7 @@ namespace ManningsLootSystem
 
 
 
-        public virtual void RemoveFromInventory()
-        {
-            InventoryController.Instance.RemoveFromInventory(this.gameObject);
-        }
+       
 
 
 
