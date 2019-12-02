@@ -286,10 +286,25 @@ namespace ManningsLootSystem
 
         public void SelectLoot(GameObject loot)
         {
+            if(selectedLoot != null)
+            {
+                foreach(GameObject box in boxes)
+                {
+                    if(box.transform.GetComponent<InventoryBox>()._linkedLoot == selectedLoot)
+                    {
+                        box.transform.GetComponent<InventoryBox>().Select(false);
+                        break;
+                    }
+                }
+            }
+
+
             selectedLoot = loot;
             Debug.Log(loot);
-            infoBox.text = loot.name + "\n\n" + loot.transform.GetComponent<Loot>()._description + "\nValue: " + loot.transform.GetComponent<Loot>()._value;
+            infoBox.text = loot.name + "\n\n" + loot.transform.GetComponent<Loot>()._description + "\n\nValue: " + loot.transform.GetComponent<Loot>()._value;
         }
+
+
 
         public void Equip()
         {
@@ -305,11 +320,12 @@ namespace ManningsLootSystem
                  }  */
                 if (selectedLoot.transform.GetComponent<Sword>() != null)
                 {
-                    selectedLoot.transform.GetComponent<Sword>().Equip(true);
+                    //  selectedLoot.transform.GetComponent<Sword>().Equip(true);
+                    ManningsLootSystemPlayerController.Instance.EquipSword(selectedLoot.transform.GetComponent<Sword>());
                 }
                 else if (selectedLoot.transform.GetComponent<Bow>() != null)
                 {
-                    selectedLoot.transform.GetComponent<Bow>().Equip(true);
+                    ManningsLootSystemPlayerController.Instance.EquipBow(selectedLoot.transform.GetComponent<Bow>());
                 }
                 
 

@@ -55,7 +55,7 @@ TextureImporter:
     second: Weapon Sprite Sheet_21
   - first:
       213: -7003085622725692751
-    second: Weapon Sprite Sheet_22
+    second: Weapon Sprite Sheet_16
   - first:
       213: -599183092998106742
     second: Weapon Sprite Sheet_24
@@ -64,13 +64,13 @@ TextureImporter:
     second: Weapon Sprite Sheet_25
   - first:
       213: 336283729732301074
-    second: Weapon Sprite Sheet_26
+    second: Weapon Sprite Sheet_14
   - first:
       213: 5693830703642767778
-    second: Weapon Sprite Sheet_27
+    second: Weapon Sprite Sheet_9
   - first:
       213: -1421585791615698538
-    second: Weapon Sprite Sheet_28
+    second: Weapon Sprite Sheet_10
   - first:
       213: 1899642935618872360
     second: Bow 1
@@ -95,6 +95,9 @@ TextureImporter:
   - first:
       213: 1572848790057153458
     second: Weapon Sprite Sheet_16
+  - first:
+      213: -3847403924635128467
+    second: Weapon Sprite Sheet_12
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -371,9 +374,9 @@ TextureImporter:
       name: Weapon Sprite Sheet_17
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 876
-        width: 50
+        width: 40
         height: 57
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -455,7 +458,7 @@ TextureImporter:
       name: Weapon Sprite Sheet_21
       rect:
         serializedVersion: 2
-        x: 1070
+        x: 1072
         y: 881
         width: 61
         height: 60
@@ -473,7 +476,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_22
+      name: Weapon Sprite Sheet_16
       rect:
         serializedVersion: 2
         x: 1289
@@ -494,28 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_24
-      rect:
-        serializedVersion: 2
-        x: 1514
-        y: 875
-        width: 42
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e1935aefa0788547bc11c8c3a35d4a8
-      internalID: -599183092998106742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Weapon Sprite Sheet_26
+      name: Weapon Sprite Sheet_14
       rect:
         serializedVersion: 2
         x: 18
@@ -536,7 +518,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_27
+      name: Weapon Sprite Sheet_9
       rect:
         serializedVersion: 2
         x: 261
@@ -557,7 +539,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Weapon Sprite Sheet_28
+      name: Weapon Sprite Sheet_10
       rect:
         serializedVersion: 2
         x: 438
@@ -691,7 +673,7 @@ TextureImporter:
         width: 43
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -699,6 +681,48 @@ TextureImporter:
       bones: []
       spriteID: 2e98c7af18ce0d2499e42d8d9c2160d1
       internalID: 1080717351382735312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 877
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3354eb2673ce1fa4fb9fa17739fc0537
+      internalID: -3847403924635128467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weapon Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 873
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6343781274564034fbfcb6c7390d527c
+      internalID: 7546991876712855503
       vertices: []
       indices: 
       edges: []

@@ -19,8 +19,13 @@ namespace ManningsLootSystem
         [SerializeField]
         private bool isEquipped;
 
+        protected bool isAttacking = false;
+
         [SerializeField]
         public RuntimeAnimatorController swordAnimator;
+
+
+        protected List<GameObject> hitEnemies = new List<GameObject>();
 
 
         // Start is called before the first frame update
@@ -65,6 +70,8 @@ namespace ManningsLootSystem
         public override void Use()
         {
             anim.SetTrigger("Use");
+            isAttacking = true;
+            StartCoroutine(AttackSpeedTimer());
         }
 
 
@@ -93,13 +100,16 @@ namespace ManningsLootSystem
                 {
                     anim.SetBool("isEquipped", true);
                     isEquipped = true;
+                    transform.GetComponent<Collider2D>().enabled = true;
                     ManningsLootSystemPlayerController.Instance.EquipSword(this);
                 }
                 else
                 {
+                   // Debug.Log(anim.name);
                     anim.SetBool("isEquipped", false);
                     isEquipped = false;
-                    ManningsLootSystemPlayerController.Instance.EquipSword(null);
+                    transform.GetComponent<Collider2D>().enabled = false;
+                    // ManningsLootSystemPlayerController.Instance.EquipSword(null);
                 }
             }
         }
@@ -110,6 +120,48 @@ namespace ManningsLootSystem
         {
             anim.SetBool("isEquipped", set);
 
+        }
+
+
+        protected void OnTriggerStay2D(Collider2D col)
+        {
+           // base.OnTriggerEnter2D(col);
+
+
+
+            if(isEquipped == true)
+            {
+                if(isAttacking == true)
+                {
+
+
+                    if (!hitEnemies.Contains(col.gameObject))
+                    {
+                        if (col.transform.GetComponent<IHurtable>() != null){
+                            Debug.Log("Dealt damage to: " + col.transform.name);
+                            col.transform.GetComponent<IHurtable>().TakeDamage(damage);
+                            hitEnemies.Add(col.gameObject);
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+
+
+        protected IEnumerator AttackSpeedTimer()
+        {
+            yield return new WaitForSeconds(attackSpeed);
+            isAttacking = false;
+
+            hitEnemies.Clear();
+        }
+
+        public void SetDirection(int dir)
+        {
+            Debug.Log("Changed direction");   
+            anim.SetInteger("Direction", dir);
         }
     }
 }

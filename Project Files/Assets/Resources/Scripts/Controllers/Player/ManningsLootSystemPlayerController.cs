@@ -97,6 +97,13 @@ public class ManningsLootSystemPlayerController : PlayerController
             }
 
         }
+
+
+
+        if(equippedSword != null)
+        {
+            equippedSword.SetDirection(moveDirectionNum);
+        }
     }
 
 

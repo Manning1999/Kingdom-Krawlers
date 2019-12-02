@@ -112,6 +112,8 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
 
     protected Vector3 moveDirection;
 
+    protected int moveDirectionNum;
+
 
 
 
@@ -172,7 +174,8 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
     {
 
         moveDirection = (transform.position - oldPosition).normalized;
-        
+
+        moveDirectionNum = anim.GetInteger("Direction");
 
 
         if(oldPosition != transform.position)
@@ -241,6 +244,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
                                 if (Input.GetKey(moveUpButton))
                                 {
                                     anim.SetInteger("Direction", 2);
+
                                 }
                                 else if (Input.GetKey(moveDownButton))
                                 {
