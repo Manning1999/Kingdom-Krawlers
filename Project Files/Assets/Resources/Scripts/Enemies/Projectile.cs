@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    [SerializeField]
+    private float speed;
 
-    public float speed;
+    [SerializeField]
+    private int damage = 7;
 
     private Transform player;
     private Vector2 target;
@@ -25,15 +28,22 @@ public class Projectile : MonoBehaviour
 
         if(transform.position.x == target.x && transform.position.y == target.y)
         {
-            DestroyProjectile();
+     //       DestroyProjectile();
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        /*if (other.CompareTag("Player"))
         {
             DestroyProjectile();
+        } */
+
+        if(other.transform.GetComponent<IHurtable>() != null)
+        {
+            Debug.Log("Dealt damage");
+            other.transform.GetComponent<IHurtable>().TakeDamage(damage);
         }
+        DestroyProjectile();
     }
 
     void DestroyProjectile()

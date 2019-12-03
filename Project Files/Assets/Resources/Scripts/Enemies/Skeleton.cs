@@ -2,23 +2,42 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Skeleton : MonoBehaviour
+public class Skeleton : MonoBehaviour, IHurtable
 {
 
-    public float speed;
-    public float stoppingDistance;
-    public float retreatDistance;
+    [SerializeField]
+    private int health;
 
+    [SerializeField]
+    private float speed;
+
+    [SerializeField]
+    private float stoppingDistance;
+
+    [SerializeField]
+    private float retreatDistance;
+
+    [SerializeField]
     private float timeBtwShots;
-    public float startTimeBtwShots;
 
-    public GameObject projectile;
-    public Transform player;
+    [SerializeField]
+    private float startTimeBtwShots;
+
+
+    [SerializeField]
+    private GameObject projectile;
+
+    [SerializeField]
+    private Transform player;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        if (player == null)
+        {
+            // player = GameObject.FindGameObjectWithTag("Player").transform;
+            player = PlayerController.Instance.transform;
+        }
 
         timeBtwShots = startTimeBtwShots;
     }
@@ -48,5 +67,22 @@ public class Skeleton : MonoBehaviour
         {
             timeBtwShots -= Time.deltaTime;
         }
+    }
+
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if(health <= 0)
+        {
+            Die();
+        }
+    }
+
+
+    private void Die()
+    {
+        Debug.Log("This enemy has died");
     }
 }

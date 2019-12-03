@@ -366,7 +366,8 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     //From another script that can cause damage to the player use "PlayerController.Instance.TakeDamage(damage)"     or       "col.transform.GetComponent<IHurtable>().TakeDamage(damage)"
     public virtual void TakeDamage(int damage)
     {
-        if (currentHealth < maxHealth && currentHealth > 0)
+        Debug.Log("Taken damage");
+        if (currentHealth <= maxHealth && currentHealth > 0)
         {
             currentHealth -= damage;
         }
