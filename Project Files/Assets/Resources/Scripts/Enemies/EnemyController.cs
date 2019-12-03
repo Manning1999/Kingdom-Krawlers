@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class EnemyController : MonoBehaviour, IHurtable
 {
 
     private Rigidbody2D myRigidbody;
@@ -22,6 +22,9 @@ public class EnemyController : MonoBehaviour
     private float speed;
     [SerializeField]
     private float range;
+
+    [SerializeField]
+    private int health;
 
     // Start is called before the first frame update
     void Start()
@@ -73,5 +76,20 @@ public class EnemyController : MonoBehaviour
     public void FollowPlayer()
     {
         transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
     }
 }

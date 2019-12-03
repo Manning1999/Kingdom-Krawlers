@@ -83,6 +83,6 @@ public class Skeleton : MonoBehaviour, IHurtable
 
     private void Die()
     {
-        Debug.Log("This enemy has died");
+        Destroy(gameObject);
     }
 }
