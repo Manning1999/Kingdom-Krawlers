@@ -24,6 +24,9 @@ public class EnemyController : MonoBehaviour, IHurtable
     private float range;
 
     [SerializeField]
+    private int damage = 10;
+
+    [SerializeField]
     private int health;
 
     // Start is called before the first frame update
@@ -92,4 +95,15 @@ public class EnemyController : MonoBehaviour, IHurtable
     {
         Destroy(gameObject);
     }
+
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.GetComponent<IHurtable>() != null)
+        {
+            Debug.Log("Dealt damage");
+            other.transform.GetComponent<IHurtable>().TakeDamage(damage);
+        }
+    }
+
 }

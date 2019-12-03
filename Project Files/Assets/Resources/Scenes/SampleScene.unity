@@ -76879,6 +76879,7 @@ MonoBehaviour:
   timeToMove: 2
   speed: 1
   range: 1
+  damage: 10
   health: 100
 --- !u!61 &2022947236
 BoxCollider2D:
@@ -76890,7 +76891,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
