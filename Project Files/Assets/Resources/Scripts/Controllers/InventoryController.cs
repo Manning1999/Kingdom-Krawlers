@@ -56,7 +56,7 @@ namespace ManningsLootSystem
             public Potion potionType = null;
             public int quantityOwned = 0;
             public KeyCode usePotionButton;
-
+            public TextMeshProUGUI inventoryText;
 
         }
 
@@ -85,6 +85,8 @@ namespace ManningsLootSystem
 
 
         protected AudioSource audio;
+
+        protected bool showingInventory = false;
 
 
 
@@ -150,7 +152,7 @@ namespace ManningsLootSystem
 
             if (Input.GetKeyDown("i"))
             {
-                inventoryObject.SetActive(!inventoryObject.activeSelf);
+                ShowInventory(!showingInventory);
             }
 
 
@@ -169,11 +171,11 @@ namespace ManningsLootSystem
                 if (!inventoryItems.Contains(loot))
                 {
                     inventoryItems.Add(loot);
-                    Debug.Log("Succesfully added");
+            
                 }
                 audio.clip = collectLootSound;
                 audio.Play();
-                ShowInventory();
+                PopulateInventory();
                 return true;
 
 
@@ -190,21 +192,25 @@ namespace ManningsLootSystem
             {
                 if (selectedLoot.transform.GetComponent<Bow>() != null)
                 {
+                    
                     if (ManningsLootSystemPlayerController.Instance._equippedBow == selectedLoot)
                     {
-                        selectedLoot.transform.GetComponent<Bow>().Equip(false);
+                        // selectedLoot.transform.GetComponent<Bow>().Equip(false);
+                        ManningsLootSystemPlayerController.Instance.EquipBow(null);
                     }
                 }
                 if (selectedLoot.transform.GetComponent<Sword>() != null)
                 {
                     if (ManningsLootSystemPlayerController.Instance._equippedSword == selectedLoot)
                     {
-                        selectedLoot.transform.GetComponent<Sword>().Equip(false);
+                        // selectedLoot.transform.GetComponent<Sword>().Equip(false);
+                        ManningsLootSystemPlayerController.Instance.EquipSword(null);
                     }
                 }
                 Debug.Log("Pressed remove button");
                 inventoryItems.Remove(selectedLoot);
-                ShowInventory();
+                PopulateInventory();
+                ShowInventory(false);
             }
         }
 
@@ -259,11 +265,11 @@ namespace ManningsLootSystem
                 boxes.Add(newBox);
                 
             }
-            ShowInventory();
+            PopulateInventory();
         }
 
         [ContextMenu("Show loot collected")]
-        public void ShowInventory()
+        public void PopulateInventory()
         {
             /*for (int i = 0; i < inventoryItems.Count; i++)
             {
@@ -330,6 +336,28 @@ namespace ManningsLootSystem
                 
 
 
+            }
+        }
+
+
+        public void ShowInventory(bool show)
+        {
+            if(show == true)
+            {
+                Time.timeScale = 0;
+            }
+            else
+            {
+                Time.timeScale = 1;
+            }
+
+
+            showingInventory = !showingInventory;
+            inventoryObject.SetActive(show);
+
+            foreach(Potions pot in potions)
+            {
+                pot.inventoryText.text = " X " + pot.quantityOwned;
             }
         }
     }

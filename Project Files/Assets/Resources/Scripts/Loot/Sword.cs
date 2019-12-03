@@ -105,6 +105,7 @@ namespace ManningsLootSystem
                 }
                 else
                 {
+                    Debug.Log("Unequipped" + transform.name);
                    // Debug.Log(anim.name);
                     anim.SetBool("isEquipped", false);
                     isEquipped = false;

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using ManningsLootSystem;
 using UnityEngine;
@@ -17,7 +18,7 @@ public class InventoryBox : MonoBehaviour
     protected Color selectedColor;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         image = iconDisplay.transform.GetComponent<UnityEngine.UI.Image>();
         SetDetails(null);
@@ -29,6 +30,17 @@ public class InventoryBox : MonoBehaviour
             
     }
 
+    private void OnEnable()
+    {
+        if(linkedLoot != null)
+        {
+            
+            image.enabled = true;
+            Debug.Log(image.IsActive());
+            image.sprite = linkedLoot.transform.GetComponent<Loot>()._icon;
+        }    
+    }
+
 
     public void SetDetails(GameObject loot)
     {
@@ -36,16 +48,19 @@ public class InventoryBox : MonoBehaviour
 
         if(loot != null)
         {
-            image.enabled = true;
-            image.sprite = loot.transform.GetComponent<Loot>()._icon;
+           
             linkedLoot = loot;
-            Debug.Log(linkedLoot);
+
         }
         else
         {
             if (image != null)
             {
-                image.enabled = false;
+                try
+                {
+                    image.enabled = false;
+                }
+                catch (Exception e) { }
             }
         }
     }

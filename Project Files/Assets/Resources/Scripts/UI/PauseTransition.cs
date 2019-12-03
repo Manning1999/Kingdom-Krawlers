@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ManningsLootSystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -36,6 +37,7 @@ public class PauseTransition : MonoBehaviour
         {
             hud.SetActive(false);
             pauseMenu.SetActive(true);
+            InventoryController.Instance.ShowInventory(false);
         }
     }
 }

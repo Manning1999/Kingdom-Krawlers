@@ -124,7 +124,7 @@ public class ManningsLootSystemPlayerController : PlayerController
 
     public void EquipSword(Sword sword)
     {
-
+        Debug.Log(sword);
         if(equippedSword != null)
         {
             equippedSword.Equip(false);
