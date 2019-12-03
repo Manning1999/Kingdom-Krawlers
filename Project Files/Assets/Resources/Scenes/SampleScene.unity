@@ -77322,12 +77322,17 @@ PrefabInstance:
     - target: {fileID: 3173958677439734638, guid: 21473f574d120ea41809c32213f154eb,
         type: 3}
       propertyPath: retreatDistance
-      value: 0.5
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 3173958677439734638, guid: 21473f574d120ea41809c32213f154eb,
         type: 3}
       propertyPath: speed
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3173958677439734638, guid: 21473f574d120ea41809c32213f154eb,
+        type: 3}
+      propertyPath: stoppingDistance
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21473f574d120ea41809c32213f154eb, type: 3}

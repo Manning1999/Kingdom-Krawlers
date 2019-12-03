@@ -5,13 +5,16 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField]
-    private float speed;
+    private float speed = 50f;
 
     [SerializeField]
-    private int damage = 7;
+    private int damage = 10;
 
     private Transform player;
     private Vector2 target;
+
+    public float lifeDuration = 2f;
+    private float lifeTimer;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +22,8 @@ public class Projectile : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
         target = new Vector2(player.position.x, player.position.y);
+
+        lifeTimer = lifeDuration;
     }
 
     // Update is called once per frame
@@ -29,6 +34,12 @@ public class Projectile : MonoBehaviour
         if(transform.position.x == target.x && transform.position.y == target.y)
         {
      //       DestroyProjectile();
+        }
+
+        lifeTimer -= Time.deltaTime;
+        if (lifeTimer <= 0f)
+        {
+            DestroyProjectile();
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
