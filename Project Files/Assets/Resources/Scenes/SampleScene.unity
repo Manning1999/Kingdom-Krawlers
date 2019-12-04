@@ -70143,6 +70143,99 @@ PrefabInstance:
       propertyPath: m_Name
       value: Controllers
       objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: swordStats.Array.data[0].possibleSprites.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: swordStats.Array.data[2].possibleSprites.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: swordStats.Array.data[0].possibleSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: -2938255571408682076, guid: cdf7e64f8a593bc488754b135ad3a9e0,
+        type: 3}
+    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: swordStats.Array.data[2].possibleSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: -2938255571408682076, guid: cdf7e64f8a593bc488754b135ad3a9e0,
+        type: 3}
+    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: swordStats.Array.data[2].possibleSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: -1815272878763697944, guid: cdf7e64f8a593bc488754b135ad3a9e0,
+        type: 3}
+    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: swordStats.Array.data[1].baseValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+        type: 3}
+      propertyPath: swordStats.Array.data[2].baseValue
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2300732307028333063, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
         type: 3}
       propertyPath: potions.Array.size
@@ -70258,72 +70351,6 @@ PrefabInstance:
       propertyPath: speedModifier
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 6.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2312269451081714890, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: name
-      value: Regeneration Potion
-      objectReference: {fileID: 0}
-    - target: {fileID: 2312269451081714890, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: icon
-      value: 
-      objectReference: {fileID: 21300000, guid: 7f1608cbc97144c4c86993a03173c0ea,
-        type: 3}
     - target: {fileID: 6228338536597266071, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
         type: 3}
       propertyPath: name
@@ -70335,44 +70362,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 648433b1df7e10b4da2037cc56e5ff54,
         type: 3}
-    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+    - target: {fileID: 2312269451081714890, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
         type: 3}
-      propertyPath: swordStats.Array.data[0].possibleSprites.Array.size
-      value: 7
+      propertyPath: name
+      value: Regeneration Potion
       objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+    - target: {fileID: 2312269451081714890, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
         type: 3}
-      propertyPath: swordStats.Array.data[2].possibleSprites.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: swordStats.Array.data[0].possibleSprites.Array.data[6]
+      propertyPath: icon
       value: 
-      objectReference: {fileID: -2938255571408682076, guid: cdf7e64f8a593bc488754b135ad3a9e0,
+      objectReference: {fileID: 21300000, guid: 7f1608cbc97144c4c86993a03173c0ea,
         type: 3}
-    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: swordStats.Array.data[2].possibleSprites.Array.data[4]
-      value: 
-      objectReference: {fileID: -2938255571408682076, guid: cdf7e64f8a593bc488754b135ad3a9e0,
-        type: 3}
-    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: swordStats.Array.data[2].possibleSprites.Array.data[5]
-      value: 
-      objectReference: {fileID: -1815272878763697944, guid: cdf7e64f8a593bc488754b135ad3a9e0,
-        type: 3}
-    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: swordStats.Array.data[1].baseValue
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2300732307028333062, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
-        type: 3}
-      propertyPath: swordStats.Array.data[2].baseValue
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14c5a3c7334bcaa4e9fefc48c097cd13, type: 3}
 --- !u!1 &1211034639 stripped
@@ -70909,43 +70909,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Example Bow Loot
       objectReference: {fileID: 0}
-    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: arrow
-      value: 
-      objectReference: {fileID: 1736480442732098868, guid: 47473eace684a6a49871b3291613f51e,
-        type: 3}
-    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: description
-      value: Careful not to shoot your foot
-      objectReference: {fileID: 0}
-    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: value
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: name
-      value: Basic Bow
-      objectReference: {fileID: 0}
-    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: icon
-      value: 
-      objectReference: {fileID: 1899642935618872360, guid: cdf7e64f8a593bc488754b135ad3a9e0,
-        type: 3}
-    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: damage
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: attackSpeed
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5284866346633092313, guid: aa9ee5c0483d64b4f8962089396554ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71000,6 +70963,43 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: arrow
+      value: 
+      objectReference: {fileID: 1736480442732098868, guid: 47473eace684a6a49871b3291613f51e,
+        type: 3}
+    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: description
+      value: Careful not to shoot your foot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: value
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: name
+      value: Basic Bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 1899642935618872360, guid: cdf7e64f8a593bc488754b135ad3a9e0,
+        type: 3}
+    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: damage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: attackSpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa9ee5c0483d64b4f8962089396554ac, type: 3}
@@ -76618,19 +76618,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.19212785
       objectReference: {fileID: 0}
-    - target: {fileID: 1770284696, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
-      propertyPath: potentialLootDropList.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1770284696, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
-      propertyPath: potentialLootDropList.Array.data[6].loot
-      value: 
-      objectReference: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921,
-        type: 3}
-    - target: {fileID: 1770284696, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
-      propertyPath: potentialLootDropList.Array.data[6].dropChance
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 9095233964119397061, guid: 18b09e639f06643a4a4b5c15d7edd3c5,
         type: 3}
       propertyPath: damageStates.Array.size
@@ -76647,6 +76634,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 266892473509564763, guid: 3c1ee4d1ea4664e51ae23608a677f0fc,
         type: 3}
+    - target: {fileID: 1770284696, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
+      propertyPath: potentialLootDropList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770284696, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
+      propertyPath: potentialLootDropList.Array.data[6].loot
+      value: 
+      objectReference: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921,
+        type: 3}
+    - target: {fileID: 1770284696, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
+      propertyPath: potentialLootDropList.Array.data[6].dropChance
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1770284696, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 18b09e639f06643a4a4b5c15d7edd3c5, type: 3}
@@ -77311,6 +77311,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d38f042b2a724184e8f9ae0ca51aa13f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2142748681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142748678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefb54230221c8c419d88b52a7f17a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 553836109}
+  hud: {fileID: 553836110}
+  escapePress: 0
 --- !u!1001 &1591679541589061511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77636,17 +77651,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Example Bow Loot - gold
       objectReference: {fileID: 0}
-    - target: {fileID: 1508686281516805701, guid: 899a6c48ac8010e4b8aca041cc34fb5e,
-        type: 3}
-      propertyPath: arrow
-      value: 
-      objectReference: {fileID: 1736480442732098868, guid: 47473eace684a6a49871b3291613f51e,
-        type: 3}
-    - target: {fileID: 1508686281516805701, guid: 899a6c48ac8010e4b8aca041cc34fb5e,
-        type: 3}
-      propertyPath: description
-      value: Use to stab that person way over there
-      objectReference: {fileID: 0}
     - target: {fileID: 1508686281516805689, guid: 899a6c48ac8010e4b8aca041cc34fb5e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77702,6 +77706,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1508686281516805701, guid: 899a6c48ac8010e4b8aca041cc34fb5e,
+        type: 3}
+      propertyPath: arrow
+      value: 
+      objectReference: {fileID: 1736480442732098868, guid: 47473eace684a6a49871b3291613f51e,
+        type: 3}
+    - target: {fileID: 1508686281516805701, guid: 899a6c48ac8010e4b8aca041cc34fb5e,
+        type: 3}
+      propertyPath: description
+      value: Use to stab that person way over there
+      objectReference: {fileID: 0}
     - target: {fileID: 1508686281516805690, guid: 899a6c48ac8010e4b8aca041cc34fb5e,
         type: 3}
       propertyPath: m_SortingOrder
@@ -77720,11 +77735,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Example Sword Loot - gold
-      objectReference: {fileID: 0}
-    - target: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921,
-        type: 3}
-      propertyPath: description
-      value: Stick em with the pointy end
       objectReference: {fileID: 0}
     - target: {fileID: 2859963698811759536, guid: 85ba9be1002336245ab12b9cb5eae921,
         type: 3}
@@ -77780,6 +77790,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921,
+        type: 3}
+      propertyPath: description
+      value: Stick em with the pointy end
       objectReference: {fileID: 0}
     - target: {fileID: 2859963698811759550, guid: 85ba9be1002336245ab12b9cb5eae921,
         type: 3}
