@@ -9,8 +9,11 @@ public class goToMainmenu : MonoBehaviour
 {
     public GameObject pauseMenu;
 
+    public AudioSource buttonSound;
+
     public void ButtonClick()
     {
+        buttonSound.Play(0);
         pauseMenu.SetActive(false);
         SceneManager.LoadScene("Main Menu");
     }

@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class QuitButton : MonoBehaviour
 {
+    public AudioSource buttonSound;
+
     public void ButtonClick()
     {
+        buttonSound.Play(0);
         Application.Quit();
     }
 }

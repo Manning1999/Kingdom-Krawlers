@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class StartButton : MonoBehaviour
 {
-       
+    public AudioSource buttonSound;
+
     public void ButtonClick()
     {
+        buttonSound.Play(0);
         SceneManager.LoadScene("SampleScene");
     }
 }
