@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_i_hurtable" kind="interface" prot="public">
+    <compoundname>IHurtable</compoundname>
+    <derivedcompoundref refid="class_destructable" prot="public" virt="non-virtual">Destructable</derivedcompoundref>
+    <derivedcompoundref refid="class_enemy_controller" prot="public" virt="non-virtual">EnemyController</derivedcompoundref>
+    <derivedcompoundref refid="class_player_controller" prot="public" virt="non-virtual">PlayerController</derivedcompoundref>
+    <derivedcompoundref refid="class_skeleton" prot="public" virt="non-virtual">Skeleton</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_hurtable_1a1534dfb601f49ac6649cb410960ad1a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IHurtable.TakeDamage</definition>
+        <argsstring>(int damage)</argsstring>
+        <name>TakeDamage</name>
+        <reimplementedby refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_skeleton_1aaa9a3e582d48afbc0d0d26d2859b835f">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d">TakeDamage</reimplementedby>
+        <reimplementedby refid="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f">TakeDamage</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/IHurtable.cs" line="7" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>Skeleton</label>
+        <link refid="class_skeleton"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>Destructable</label>
+        <link refid="class_destructable"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="124">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>EnemyController</label>
+        <link refid="class_enemy_controller"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>ManningsLootSystemPlayerController</label>
+        <link refid="class_mannings_loot_system_player_controller"/>
+        <childnode refid="124" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/IHurtable.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/IHurtable.cs" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_i_hurtable_1a1534dfb601f49ac6649cb410960ad1a4" prot="public" virt="non-virtual"><scope>IHurtable</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

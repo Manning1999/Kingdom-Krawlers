@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_loot_controller" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::LootController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats" prot="public">ManningsLootSystem::LootController::ArrowStats</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats" prot="public">ManningsLootSystem::LootController::BowStats</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats" prot="public">ManningsLootSystem::LootController::MoneyStats</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats" prot="public">ManningsLootSystem::LootController::SwordStats</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1a0ad57b94beb759e9e83e43b30dcb2e08" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot_controller" kindref="compound">LootController</ref></type>
+        <definition>LootController ManningsLootSystem.LootController.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1a0ebda35a28454facb19a195ca5241b4a" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot_controller" kindref="compound">LootController</ref></type>
+        <definition>LootController ManningsLootSystem.LootController._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_controller_1a1ca29b86a117f4d8e0e6878c16c7d7e3" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot_controller" kindref="compound">LootController</ref></type>
+        <definition>LootController ManningsLootSystem.LootController.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_money_1ae39d559e2482b795969f72f99c863695" compoundref="_money_8cs" startline="15" endline="27">ManningsLootSystem.Money.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1a1bfac1e5006e360cc03466231566edeb" compoundref="_sword_8cs" startline="37" endline="56">ManningsLootSystem.Sword.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1ab761441e642a5d60f90ce236c390de94" compoundref="_bow_8cs" startline="43" endline="64">ManningsLootSystem.Bow.Generate</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_controller_1aa7494a819a836557fa77a41b5ceaa980" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; Sprite &gt;</type>
+        <definition>List&lt;Sprite&gt; ManningsLootSystem.LootController._swordSprites</definition>
+        <argsstring></argsstring>
+        <name>_swordSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_controller_1adbc2a18efcd0d0ad5a2c8900ed97331c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats" kindref="compound">SwordStats</ref> &gt;</type>
+        <definition>List&lt;SwordStats&gt; ManningsLootSystem.LootController._swordStats</definition>
+        <argsstring></argsstring>
+        <name>_swordStats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="53" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1a1bfac1e5006e360cc03466231566edeb" compoundref="_sword_8cs" startline="37" endline="56">ManningsLootSystem.Sword.Generate</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_controller_1aba22395d8bfc0633a931636d3cf5dd1f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats" kindref="compound">BowStats</ref> &gt;</type>
+        <definition>List&lt;BowStats&gt; ManningsLootSystem.LootController._bowStats</definition>
+        <argsstring></argsstring>
+        <name>_bowStats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="77" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="77" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1ab761441e642a5d60f90ce236c390de94" compoundref="_bow_8cs" startline="43" endline="64">ManningsLootSystem.Bow.Generate</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_controller_1a2c6173ed181c790aa392d62b174eab63" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats" kindref="compound">MoneyStats</ref></type>
+        <definition>MoneyStats ManningsLootSystem.LootController._moneyStat</definition>
+        <argsstring></argsstring>
+        <name>_moneyStat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="95" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="95" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_money_1ae39d559e2482b795969f72f99c863695" compoundref="_money_8cs" startline="15" endline="27">ManningsLootSystem.Money.Generate</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_controller_1a52dc1efd1843fcfba3bcbe6cc089181e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats" kindref="compound">ArrowStats</ref></type>
+        <definition>ArrowStats ManningsLootSystem.LootController._ArrowStat</definition>
+        <argsstring></argsstring>
+        <name>_ArrowStat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="114" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1aef1cefed9777c322d6828bbdcac4b73b" prot="protected" static="no" mutable="no">
+        <type>List&lt; Sprite &gt;</type>
+        <definition>List&lt;Sprite&gt; ManningsLootSystem.LootController.swordSprites</definition>
+        <argsstring></argsstring>
+        <name>swordSprites</name>
+        <initializer>= new List&lt;Sprite&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="30" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1a96ab2dd7af6eae82cf118cd975242bbb" prot="protected" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats" kindref="compound">SwordStats</ref> &gt;</type>
+        <definition>List&lt;SwordStats&gt; ManningsLootSystem.LootController.swordStats</definition>
+        <argsstring></argsstring>
+        <name>swordStats</name>
+        <initializer>= new List&lt;<ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats" kindref="compound">SwordStats</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="52" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1aad992163715f08f43beb834451c7f55f" prot="protected" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats" kindref="compound">BowStats</ref> &gt;</type>
+        <definition>List&lt;BowStats&gt; ManningsLootSystem.LootController.bowStats</definition>
+        <argsstring></argsstring>
+        <name>bowStats</name>
+        <initializer>= new List&lt;<ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats" kindref="compound">BowStats</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="76" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1adf4038bd17cbde3ae3ec1f05aa6042fc" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats" kindref="compound">MoneyStats</ref></type>
+        <definition>MoneyStats ManningsLootSystem.LootController.moneyStat</definition>
+        <argsstring></argsstring>
+        <name>moneyStat</name>
+        <initializer>= new <ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats" kindref="compound">MoneyStats</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="94" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1a4cdc36202cdc70d014b8cd838ee23e57" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats" kindref="compound">ArrowStats</ref></type>
+        <definition>ArrowStats ManningsLootSystem.LootController.ArrowStat</definition>
+        <argsstring></argsstring>
+        <name>ArrowStat</name>
+        <initializer>= new <ref refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats" kindref="compound">ArrowStats</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="113" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_controller_1a01175406b1b669843640693204690ff4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.LootController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="119" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_controller_1a732a1ccbf9de926ceb0fa5c68b013789" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.LootController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="125" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="206">
+        <label>ManningsLootSystem.LootController</label>
+        <link refid="class_mannings_loot_system_1_1_loot_controller"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="208">
+        <label>ManningsLootSystem.LootController</label>
+        <link refid="class_mannings_loot_system_1_1_loot_controller"/>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+        <childnode refid="210" relation="usage">
+          <edgelabel>moneyStat</edgelabel>
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>ArrowStat</edgelabel>
+        </childnode>
+        <childnode refid="208" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="211">
+        <label>ManningsLootSystem.LootController.ArrowStats</label>
+        <link refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats"/>
+      </node>
+      <node id="209">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="210">
+        <label>ManningsLootSystem.LootController.MoneyStats</label>
+        <link refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="8" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a52dc1efd1843fcfba3bcbe6cc089181e" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>_ArrowStat</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1aba22395d8bfc0633a931636d3cf5dd1f" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>_bowStats</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a0ebda35a28454facb19a195ca5241b4a" prot="private" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>_instance</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a2c6173ed181c790aa392d62b174eab63" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>_moneyStat</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1aa7494a819a836557fa77a41b5ceaa980" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>_swordSprites</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1adbc2a18efcd0d0ad5a2c8900ed97331c" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>_swordStats</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a4cdc36202cdc70d014b8cd838ee23e57" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>ArrowStat</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1aad992163715f08f43beb834451c7f55f" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>bowStats</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a0ad57b94beb759e9e83e43b30dcb2e08" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>instance</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a1ca29b86a117f4d8e0e6878c16c7d7e3" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>Instance</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1adf4038bd17cbde3ae3ec1f05aa6042fc" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>moneyStat</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a01175406b1b669843640693204690ff4" prot="private" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>Start</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1aef1cefed9777c322d6828bbdcac4b73b" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>swordSprites</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a96ab2dd7af6eae82cf118cd975242bbb" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>swordStats</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1a732a1ccbf9de926ceb0fa5c68b013789" prot="private" virt="non-virtual"><scope>ManningsLootSystem::LootController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

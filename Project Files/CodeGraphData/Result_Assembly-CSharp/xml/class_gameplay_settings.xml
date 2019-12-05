@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_gameplay_settings" kind="class" prot="public">
+    <compoundname>GameplaySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_gameplay_settings_1af3bcfee423be756bc4d18ffa878eeff9" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_gameplay_settings" kindref="compound">GameplaySettings</ref></type>
+        <definition>GameplaySettings GameplaySettings.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_gameplay_settings_1a2b138edce78870eee9c87e6ca537445f" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_gameplay_settings" kindref="compound">GameplaySettings</ref></type>
+        <definition>GameplaySettings GameplaySettings._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_gameplay_settings_1ad2197491770b16e716bf2f0cb42599a2" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_gameplay_settings" kindref="compound">GameplaySettings</ref></type>
+        <definition>GameplaySettings GameplaySettings.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gameplay_settings_1ac5c7fa5ea1df10da85660ffaf39f69cf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool GameplaySettings._dashTowardsMousePosition</definition>
+        <argsstring></argsstring>
+        <name>_dashTowardsMousePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gameplay_settings_1a68ed5dd7cc04f7fa877d30485560726a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GameplaySettings.dashTowardsMousePosition</definition>
+        <argsstring></argsstring>
+        <name>dashTowardsMousePosition</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_gameplay_settings_1a921c466fa4583249960bf0efce7893e5" compoundref="_gameplay_settings_8cs" startline="36" endline="49">Awake</referencedby>
+        <referencedby refid="class_gameplay_settings_1a6e78d2f93221ec4778df864199941f7d" compoundref="_gameplay_settings_8cs" startline="57" endline="66">ChangeDashType</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="class_gameplay_settings_1a4cd71ad33ac4afb791cef8497ba62a97" prot="protected" static="yes" mutable="no">
+        <type><ref refid="class_gameplay_settings" kindref="compound">GameplaySettings</ref></type>
+        <definition>GameplaySettings GameplaySettings.settingsInstance</definition>
+        <argsstring></argsstring>
+        <name>settingsInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="32" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_gameplay_settings_1a921c466fa4583249960bf0efce7893e5" compoundref="_gameplay_settings_8cs" startline="36" endline="49">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gameplay_settings_1a921c466fa4583249960bf0efce7893e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplaySettings.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="36" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="36" bodyend="49"/>
+        <references refid="class_gameplay_settings_1a6e78d2f93221ec4778df864199941f7d" compoundref="_gameplay_settings_8cs" startline="57" endline="66">ChangeDashType</references>
+        <references refid="class_gameplay_settings_1a68ed5dd7cc04f7fa877d30485560726a" compoundref="_gameplay_settings_8cs" startline="28">dashTowardsMousePosition</references>
+        <references refid="class_gameplay_settings_1a4cd71ad33ac4afb791cef8497ba62a97" compoundref="_gameplay_settings_8cs" startline="32">settingsInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_gameplay_settings_1aba5bc5824dfa3bdfd1f41ecde0bda97e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplaySettings.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="52" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gameplay_settings_1a6e78d2f93221ec4778df864199941f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameplaySettings.ChangeDashType</definition>
+        <argsstring>(bool type)</argsstring>
+        <name>ChangeDashType</name>
+        <param>
+          <type>bool</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="57" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="57" bodyend="66"/>
+        <references refid="class_gameplay_settings_1a68ed5dd7cc04f7fa877d30485560726a" compoundref="_gameplay_settings_8cs" startline="28">dashTowardsMousePosition</references>
+        <referencedby refid="class_gameplay_settings_1a921c466fa4583249960bf0efce7893e5" compoundref="_gameplay_settings_8cs" startline="36" endline="49">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="101">
+        <label>GameplaySettings</label>
+        <link refid="class_gameplay_settings"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="103">
+        <label>GameplaySettings</label>
+        <link refid="class_gameplay_settings"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>settingsInstance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="104">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/GameplaySettings.cs" bodystart="6" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_gameplay_settings_1ac5c7fa5ea1df10da85660ffaf39f69cf" prot="public" virt="non-virtual"><scope>GameplaySettings</scope><name>_dashTowardsMousePosition</name></member>
+      <member refid="class_gameplay_settings_1a2b138edce78870eee9c87e6ca537445f" prot="private" virt="non-virtual"><scope>GameplaySettings</scope><name>_instance</name></member>
+      <member refid="class_gameplay_settings_1a921c466fa4583249960bf0efce7893e5" prot="private" virt="non-virtual"><scope>GameplaySettings</scope><name>Awake</name></member>
+      <member refid="class_gameplay_settings_1a6e78d2f93221ec4778df864199941f7d" prot="public" virt="non-virtual"><scope>GameplaySettings</scope><name>ChangeDashType</name></member>
+      <member refid="class_gameplay_settings_1a68ed5dd7cc04f7fa877d30485560726a" prot="private" virt="non-virtual"><scope>GameplaySettings</scope><name>dashTowardsMousePosition</name></member>
+      <member refid="class_gameplay_settings_1af3bcfee423be756bc4d18ffa878eeff9" prot="public" virt="non-virtual"><scope>GameplaySettings</scope><name>instance</name></member>
+      <member refid="class_gameplay_settings_1ad2197491770b16e716bf2f0cb42599a2" prot="public" virt="non-virtual"><scope>GameplaySettings</scope><name>Instance</name></member>
+      <member refid="class_gameplay_settings_1a4cd71ad33ac4afb791cef8497ba62a97" prot="protected" virt="non-virtual"><scope>GameplaySettings</scope><name>settingsInstance</name></member>
+      <member refid="class_gameplay_settings_1aba5bc5824dfa3bdfd1f41ecde0bda97e" prot="private" virt="non-virtual"><scope>GameplaySettings</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

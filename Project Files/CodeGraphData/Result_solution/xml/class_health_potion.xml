@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_health_potion" kind="class" prot="public">
+    <compoundname>HealthPotion</compoundname>
+    <basecompoundref refid="class_mannings_loot_system_1_1_potion" prot="public" virt="non-virtual">ManningsLootSystem.Potion</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_health_potion_1a31b85ccc4336370bf1f583dc1b826f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void HealthPotion.Use</definition>
+        <argsstring>()</argsstring>
+        <name>Use</name>
+        <reimplements refid="class_mannings_loot_system_1_1_loot_1a404aedb555b696425e551d334aa5a22a">Use</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/HealthPotion.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/HealthPotion.cs" bodystart="10" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="141">
+        <label>HealthPotion</label>
+        <link refid="class_health_potion"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="142">
+        <label>Potion</label>
+        <link refid="class_mannings_loot_system_1_1_potion"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="145">
+        <label>HealthPotion</label>
+        <link refid="class_health_potion"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="146">
+        <label>Potion</label>
+        <link refid="class_mannings_loot_system_1_1_potion"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/HealthPotion.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/HealthPotion.cs" bodystart="6" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_1a96a5e4d8f591890713a15f29d0eb5923" prot="public" virt="non-virtual"><scope>HealthPotion</scope><name>_description</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1ac8c2507f10bb687ff8d7a8b2fb5f69ef" prot="public" virt="non-virtual"><scope>HealthPotion</scope><name>_icon</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a12f3bd0447944b56486da59fdfe5ea24" prot="public" virt="non-virtual"><scope>HealthPotion</scope><name>_name</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a5cd5b2d6a6207bb6be8c0d25c925739c" prot="public" virt="non-virtual"><scope>HealthPotion</scope><name>_value</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1abac0ba182d717bc963897815743e2896" prot="public" virt="virtual"><scope>HealthPotion</scope><name>AddToInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1af6f1e862a8dfd032a1793649fcd11adc" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>anim</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1a0771e2254378c92b43058c55af7689e6" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>audio</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1ac2381dac93f9c7b2d4bd4ff2e7d99fa7" prot="protected" virt="virtual"><scope>HealthPotion</scope><name>Awake</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a51c95d3817ef34f29f5395fe5a7ecc6c" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>description</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a262ea11ba0acd3c3e5d85dff2823b72b" prot="public" virt="virtual"><scope>HealthPotion</scope><name>Generate</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1aa7999db31e8d345a75c9eecb55f1d15c" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>icon</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a1148cd582af36c15f6e885b7f5335cbf" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>inInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a9eef61ec6e8707f828d091bd78f54c29" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>name</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a6cc4a0f3bb7495c8b3d1f96b1a03ce23" prot="protected" virt="virtual"><scope>HealthPotion</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a14d19d6326ee8213d02c93d8dd86340d" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>owner</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1af692b4dcb776c89da7b0b13c619d2854" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>rend</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a6bdfda0ed82d2f4f5e80b9605df7ae98" prot="public" virt="virtual"><scope>HealthPotion</scope><name>Sell</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1ac3789295beed64d5a0a0509cff95ead1" prot="protected" virt="virtual"><scope>HealthPotion</scope><name>Start</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a64b0124f7277365035c354b5a1a8cc0f" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>statsDecided</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a2286d1b9a2bdf47a24e0ddc99717c533" prot="protected" virt="virtual"><scope>HealthPotion</scope><name>Update</name></member>
+      <member refid="class_health_potion_1a31b85ccc4336370bf1f583dc1b826f12" prot="public" virt="virtual"><scope>HealthPotion</scope><name>Use</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1aa25be28c8e70017c5e9e201042cebc9f" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>useSound</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1aa7c80154d044fae60e6641c1d0073393" prot="protected" virt="non-virtual"><scope>HealthPotion</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3438fd1cada576c4fd602d09a4960afb" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor</compoundname>
+    <innerfile refid="_animation_builder_8cs">AnimationBuilder.cs</innerfile>
+    <innerfile refid="_custom_editors_8cs">CustomEditors.cs</innerfile>
+    <innerfile refid="_prefab_builder_8cs">PrefabBuilder.cs</innerfile>
+    <innerfile refid="_s2_u_settings_8cs">S2USettings.cs</innerfile>
+    <innerfile refid="_scml_import_options_8cs">ScmlImportOptions.cs</innerfile>
+    <innerfile refid="_scml_post_processor_8cs">ScmlPostProcessor.cs</innerfile>
+    <innerfile refid="_scml_support_8cs">ScmlSupport.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/"/>
+  </compounddef>
+</doxygen>

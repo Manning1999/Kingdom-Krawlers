@@ -1,0 +1,3247 @@
+fileFormatVersion: 2
+guid: 70ceac25014b2e04b9506b3abd99fc93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1057617964359551271
+    second: Interior Decorations_0
+  - first:
+      213: 5385777677260159880
+    second: Interior Decorations_1
+  - first:
+      213: -1758617854530859818
+    second: Interior Decorations_2
+  - first:
+      213: -8833010701707980631
+    second: Interior Decorations_3
+  - first:
+      213: -1816002508366711071
+    second: Interior Decorations_4
+  - first:
+      213: -6054031312524447634
+    second: Interior Decorations_5
+  - first:
+      213: 4884362025051199410
+    second: Interior Decorations_6
+  - first:
+      213: 5296018926966627007
+    second: Interior Decorations_7
+  - first:
+      213: 7998039928436185203
+    second: Interior Decorations_8
+  - first:
+      213: 5519089888378883972
+    second: Interior Decorations_9
+  - first:
+      213: 3030162315982954172
+    second: Interior Decorations_10
+  - first:
+      213: 1177877837887124600
+    second: Interior Decorations_11
+  - first:
+      213: -8820029136888410535
+    second: Interior Decorations_12
+  - first:
+      213: 3175009131147244124
+    second: Interior Decorations_13
+  - first:
+      213: -5135814038495961546
+    second: Interior Decorations_14
+  - first:
+      213: -914356535455062644
+    second: Interior Decorations_15
+  - first:
+      213: -5901305333880575208
+    second: Interior Decorations_16
+  - first:
+      213: 6483996427783641389
+    second: Interior Decorations_17
+  - first:
+      213: -4235602478723868688
+    second: Interior Decorations_18
+  - first:
+      213: 8714443738676915984
+    second: Interior Decorations_19
+  - first:
+      213: 8188439683195516991
+    second: Interior Decorations_20
+  - first:
+      213: 6014650104191192815
+    second: Interior Decorations_21
+  - first:
+      213: 8553286197365049953
+    second: Interior Decorations_22
+  - first:
+      213: -5297096840103193061
+    second: Interior Decorations_23
+  - first:
+      213: 6222319591602013284
+    second: Interior Decorations_24
+  - first:
+      213: 3545108671525587152
+    second: Interior Decorations_25
+  - first:
+      213: -8783633030516860737
+    second: Interior Decorations_26
+  - first:
+      213: 6677032281248607514
+    second: Interior Decorations_27
+  - first:
+      213: 1083059821662059359
+    second: Interior Decorations_28
+  - first:
+      213: -3944785070301451711
+    second: Interior Decorations_29
+  - first:
+      213: -608041140866719875
+    second: Interior Decorations_30
+  - first:
+      213: 7093181758889820666
+    second: Interior Decorations_31
+  - first:
+      213: -8443092179954839583
+    second: Interior Decorations_32
+  - first:
+      213: -9045138593128799341
+    second: Interior Decorations_33
+  - first:
+      213: -1899347002053323022
+    second: Interior Decorations_34
+  - first:
+      213: 1280071705084025669
+    second: Interior Decorations_35
+  - first:
+      213: 2154474091665652805
+    second: Interior Decorations_36
+  - first:
+      213: 7051228290066774248
+    second: Interior Decorations_37
+  - first:
+      213: 353419044771202661
+    second: Interior Decorations_38
+  - first:
+      213: 4919250711853022956
+    second: Interior Decorations_39
+  - first:
+      213: -1069782255226677306
+    second: Interior Decorations_40
+  - first:
+      213: -1146817856349612847
+    second: Interior Decorations_41
+  - first:
+      213: 499755516200016100
+    second: Interior Decorations_42
+  - first:
+      213: 8921164042222585113
+    second: Interior Decorations_43
+  - first:
+      213: 5983482199614249725
+    second: Interior Decorations_44
+  - first:
+      213: 883934119603178512
+    second: Interior Decorations_45
+  - first:
+      213: 5477133547011009823
+    second: Interior Decorations_46
+  - first:
+      213: -5457267387184974381
+    second: Interior Decorations_47
+  - first:
+      213: 2990273861707358978
+    second: Interior Decorations_48
+  - first:
+      213: 1643456437664788839
+    second: Interior Decorations_49
+  - first:
+      213: -5102949261296683028
+    second: Interior Decorations_50
+  - first:
+      213: 7066682529015560069
+    second: Interior Decorations_51
+  - first:
+      213: 2293256874026897726
+    second: Interior Decorations_52
+  - first:
+      213: 3686489039818869568
+    second: Interior Decorations_53
+  - first:
+      213: 6950748812034602391
+    second: Interior Decorations_54
+  - first:
+      213: -4813967044524867803
+    second: Interior Decorations_55
+  - first:
+      213: 1762026433833625574
+    second: Interior Decorations_56
+  - first:
+      213: 22659173549953713
+    second: Interior Decorations_57
+  - first:
+      213: 8166143278393774874
+    second: Interior Decorations_58
+  - first:
+      213: 5606481756294762108
+    second: Interior Decorations_59
+  - first:
+      213: 2042502145215546713
+    second: Interior Decorations_60
+  - first:
+      213: -3346437046418138938
+    second: Interior Decorations_61
+  - first:
+      213: -4502973747984146758
+    second: Interior Decorations_62
+  - first:
+      213: 1499265516392691489
+    second: Interior Decorations_63
+  - first:
+      213: -3161028704970848605
+    second: Interior Decorations_64
+  - first:
+      213: -5944327722919048809
+    second: Interior Decorations_65
+  - first:
+      213: 1020051855245836428
+    second: Interior Decorations_66
+  - first:
+      213: -5339042027247234818
+    second: Interior Decorations_67
+  - first:
+      213: 759104128479293056
+    second: Interior Decorations_68
+  - first:
+      213: -5098457293241452880
+    second: Interior Decorations_69
+  - first:
+      213: 8247857616731731359
+    second: Interior Decorations_70
+  - first:
+      213: 6671951363204389234
+    second: Interior Decorations_71
+  - first:
+      213: -7199006964400315002
+    second: Interior Decorations_72
+  - first:
+      213: 1424937825538524202
+    second: Interior Decorations_73
+  - first:
+      213: 148697252923679992
+    second: Interior Decorations_74
+  - first:
+      213: -7423778450391196098
+    second: Interior Decorations_75
+  - first:
+      213: -6340154296148544844
+    second: Interior Decorations_76
+  - first:
+      213: -7474787804719827260
+    second: Interior Decorations_77
+  - first:
+      213: -2025054517506946964
+    second: Interior Decorations_78
+  - first:
+      213: 6041472803516450370
+    second: Interior Decorations_79
+  - first:
+      213: -5907380733241841023
+    second: Interior Decorations_80
+  - first:
+      213: -47262082895285614
+    second: Interior Decorations_81
+  - first:
+      213: 4657352885938915254
+    second: Interior Decorations_82
+  - first:
+      213: 4872622632545285259
+    second: Interior Decorations_83
+  - first:
+      213: 2583753177585570998
+    second: Interior Decorations_84
+  - first:
+      213: -7997942293849383523
+    second: Interior Decorations_85
+  - first:
+      213: -5110069389156612023
+    second: Interior Decorations_86
+  - first:
+      213: 8751065842410952697
+    second: Interior Decorations_87
+  - first:
+      213: 8118974528962071114
+    second: Interior Decorations_88
+  - first:
+      213: -9087597054627260113
+    second: Interior Decorations_89
+  - first:
+      213: 7047220034153771245
+    second: Interior Decorations_90
+  - first:
+      213: 488499931525008179
+    second: Interior Decorations_91
+  - first:
+      213: -123617686895601872
+    second: Interior Decorations_92
+  - first:
+      213: -2191987315481109566
+    second: Interior Decorations_93
+  - first:
+      213: -1074698382192505845
+    second: Interior Decorations_94
+  - first:
+      213: 2109239835125750392
+    second: Interior Decorations_95
+  - first:
+      213: -1769265803025596462
+    second: Interior Decorations_96
+  - first:
+      213: -266953108106578275
+    second: Interior Decorations_97
+  - first:
+      213: -2289424614945777817
+    second: Interior Decorations_98
+  - first:
+      213: 3553962434684349650
+    second: Interior Decorations_99
+  - first:
+      213: -7771773558658441671
+    second: Interior Decorations_100
+  - first:
+      213: 8425091221764905687
+    second: Interior Decorations_101
+  - first:
+      213: 5271172633725914594
+    second: Interior Decorations_102
+  - first:
+      213: -2637854370478930454
+    second: Interior Decorations_103
+  - first:
+      213: 3177467897713167267
+    second: Interior Decorations_104
+  - first:
+      213: 1397211352915500478
+    second: Interior Decorations_105
+  - first:
+      213: 959811563286116655
+    second: Interior Decorations_106
+  - first:
+      213: 7496777082824552935
+    second: Interior Decorations_107
+  - first:
+      213: -1891487140675416407
+    second: Interior Decorations_108
+  - first:
+      213: -8749201228168587178
+    second: Interior Decorations_109
+  - first:
+      213: -3881041240363866039
+    second: Interior Decorations_110
+  - first:
+      213: 5141794480752185720
+    second: Interior Decorations_111
+  - first:
+      213: -1471733767133617654
+    second: Interior Decorations_112
+  - first:
+      213: 4975434316692288127
+    second: Interior Decorations_113
+  - first:
+      213: -1758693750783604962
+    second: Interior Decorations_114
+  - first:
+      213: -7212245288071187080
+    second: Interior Decorations_115
+  - first:
+      213: -4175880225864086305
+    second: Interior Decorations_116
+  - first:
+      213: 7836062380923212760
+    second: Interior Decorations_117
+  - first:
+      213: 4674096270409283810
+    second: Interior Decorations_118
+  - first:
+      213: 8292026566990070860
+    second: Interior Decorations_119
+  - first:
+      213: -6023098844975835820
+    second: Interior Decorations_120
+  - first:
+      213: 99575339919383021
+    second: Interior Decorations_121
+  - first:
+      213: 2737675700697771232
+    second: Interior Decorations_122
+  - first:
+      213: -2333691742414540322
+    second: Interior Decorations_123
+  - first:
+      213: -6701148175244469055
+    second: Interior Decorations_124
+  - first:
+      213: -976374018529422954
+    second: Interior Decorations_125
+  - first:
+      213: -4726148636391277119
+    second: Interior Decorations_126
+  - first:
+      213: -481283582297645064
+    second: Interior Decorations_127
+  - first:
+      213: 2855620810246891077
+    second: Interior Decorations_128
+  - first:
+      213: 3120232846378336301
+    second: Interior Decorations_129
+  - first:
+      213: 858913092068147973
+    second: Interior Decorations_130
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Interior Decorations_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 850
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dae47c7741978498cab9a60bcfea8e
+      internalID: -1057617964359551271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 850
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528b7c6d8a714194695e154d94ebad16
+      internalID: 5385777677260159880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 847
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b15e9382aba99c4f9d5149c87a1e74a
+      internalID: -1758617854530859818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 846
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1bc92d23ed74646889b294bd3e2e4c
+      internalID: -8833010701707980631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 850
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f187f95286754443b3d097fe12fe264
+      internalID: -1816002508366711071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 786
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba15f383cdf9394490ab92190aa0191
+      internalID: -6054031312524447634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 802
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa0dbd94b8b246448bea7e10c500494
+      internalID: 4884362025051199410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 802
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5585501fa814fa4f9eb8af6e1b05bb8
+      internalID: 5296018926966627007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_8
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 802
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d754444278a958a4abbce7347863fff3
+      internalID: 7998039928436185203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_9
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 802
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d20d334c18d7246a9030843bc96d43
+      internalID: 5519089888378883972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_10
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 802
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2a37f8ae68b284c8ef6b8abd204178
+      internalID: 3030162315982954172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_11
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 802
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6232cfa36480bf54789ed0bf2a518e34
+      internalID: 1177877837887124600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 767
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5017af88c1e3642a34fe55f46584ad
+      internalID: -8820029136888410535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_13
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 767
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248b2d1d79352c041a33932a9ceb7dab
+      internalID: 3175009131147244124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_14
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 735
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56075126ca77cd2409e8db910b861602
+      internalID: -5135814038495961546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 735
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0559a3af802af40bd1b8673e6a6af7
+      internalID: -914356535455062644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 779
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e02341b2173e0643a002b27792b7b40
+      internalID: -5901305333880575208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 764
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8131c83cb3a81741b1bbe2556c43d4d
+      internalID: 6483996427783641389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 722
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabd4067bb8b26f43a42fcd8e8fa32f0
+      internalID: -4235602478723868688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 739
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75a2c13b63209444a35e11cdc8a0a5d
+      internalID: 8714443738676915984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_20
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 739
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffa8eeb24a31364f80360915db1e232
+      internalID: 8188439683195516991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 739
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210878db1cc4b9041ad91ac981238db6
+      internalID: 6014650104191192815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 749
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9985002e8c6f28b4aaeb0fd0d3959bbf
+      internalID: 8553286197365049953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 719
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774affe6490b51a45a9c822db95d1c1e
+      internalID: -5297096840103193061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_24
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 719
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba45e81b5bdbaa8458491f64ee8475f1
+      internalID: 6222319591602013284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_25
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 719
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3a4ac14939c145993c04f595288d9
+      internalID: 3545108671525587152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_26
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 719
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd8f709faffc074ebbbe57f554496c9
+      internalID: -8783633030516860737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 733
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9df0ec4bae52d479fcedba6e151d7c
+      internalID: 6677032281248607514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_28
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 697
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d920d0b873f77654c8f096a22b6bec0e
+      internalID: 1083059821662059359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_29
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 712
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4803cc413984a6a44bb788ee220dae6e
+      internalID: -3944785070301451711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_30
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 710
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d1881fa1b224f4bbe9c3db4edef522
+      internalID: -608041140866719875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_31
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 711
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1d3de99797e8f46b92bb8355d4dade
+      internalID: 7093181758889820666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_32
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 711
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe390294343f7a34ab7e0fb1c6df4fde
+      internalID: -8443092179954839583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 712
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4d756324087ee44b95419c9b0bc4b5
+      internalID: -9045138593128799341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_34
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 709
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef0c04757c95134c8272f4e1cc176e3
+      internalID: -1899347002053323022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_35
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 693
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca3ad88fe49e924dafc9888115405d7
+      internalID: 1280071705084025669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 672
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4c7d2e6b6828a42ba23e4d83377311
+      internalID: 2154474091665652805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_37
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 679
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbbf8673febbe2489d66182ca7522ee
+      internalID: 7051228290066774248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_38
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 688
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd10352a7d8c57443ad05a932a33daf1
+      internalID: 353419044771202661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_39
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 688
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b46d25bbeba3c48ab4acf4a34c5abe
+      internalID: 4919250711853022956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_40
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 691
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e967a5460cf34186e1116d7701ffa
+      internalID: -1069782255226677306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_41
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 689
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15a3cd8a2b26054ba77a2472090f275
+      internalID: -1146817856349612847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_42
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 689
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfa2929eda463945885f9cd9d1fbcb0
+      internalID: 499755516200016100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 658
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b42f368414d76f40ad4a1b5d023ebf4
+      internalID: 8921164042222585113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 626
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cfc2c1c8796a148b5a5e93d9071510
+      internalID: 5983482199614249725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_45
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 627
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974e5cd0b7c475c4ba65dfa13119365d
+      internalID: 883934119603178512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_46
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 627
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b90ed59cf2d6e44bdf25291fb46840
+      internalID: 5477133547011009823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_47
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 627
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301a249f72c48f44580742a02b40cde1
+      internalID: -5457267387184974381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_48
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 626
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e333367e802543345b8479fc12dc0e52
+      internalID: 2990273861707358978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_49
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 568
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba19f7e8a7da4d4fa3651a6710ebc5d
+      internalID: 1643456437664788839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_50
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 562
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feee5e9233f90c94d8310686853e2ed5
+      internalID: -5102949261296683028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_51
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 563
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eeb0c4668be0e45967eee3def5a667
+      internalID: 7066682529015560069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_52
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 563
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c042da9214e6614aad85656762f2a07
+      internalID: 2293256874026897726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_53
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 563
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a66133edc4ec734ebe6c132a450023e
+      internalID: 3686489039818869568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_54
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 571
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25d633b5f17cbf408161eb48fc934e5
+      internalID: 6950748812034602391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_55
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 571
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c033839d851dfeb44b3512e3284c9acb
+      internalID: -4813967044524867803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_56
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 572
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791d9aac2839ca942b5a519adecf62df
+      internalID: 1762026433833625574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_57
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 509
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f10ea83f9178a74bb6eac177ab3a026
+      internalID: 22659173549953713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_58
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 513
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464607cad3d441f4ca8c0bd0e26dee6d
+      internalID: 8166143278393774874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_59
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 522
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89e48817f7f7d24cadaba16d16b9c55
+      internalID: 5606481756294762108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_60
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 522
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271fa181a253cde4ca849b6bf46f5e39
+      internalID: 2042502145215546713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_61
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 522
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1d4665754f4fe4f90eccfd2cdabe8d
+      internalID: -3346437046418138938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_62
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 523
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c614ecbc8eae34547824f1dd32407851
+      internalID: -4502973747984146758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_63
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 523
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d5ca37111e3c94385ea58b78d22338
+      internalID: 1499265516392691489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_64
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 524
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75566e60f90cd794a9162f27dfee26f7
+      internalID: -3161028704970848605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_65
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 465
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ca629ad884ca84b80d9f7873af8dba
+      internalID: -5944327722919048809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 465
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400d01e7421ff1b418c0713d6d46092f
+      internalID: 1020051855245836428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 471
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f996f16d37197498c03a80cd8a82ea
+      internalID: -5339042027247234818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_68
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 471
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6941eb38698730149950c9f2c14cf7b6
+      internalID: 759104128479293056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_69
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 471
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01350b15d82235f4799a23615e8f2bac
+      internalID: -5098457293241452880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_70
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 471
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fadceb6a1b8554aba290bd1e5c40fb
+      internalID: 8247857616731731359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_71
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 389
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b7637e67f27524d9c532b4a8e854a3
+      internalID: 6671951363204389234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_72
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 389
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb2c44c784dae3428a030627e66dea1
+      internalID: -7199006964400315002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_73
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 389
+        width: 32
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55978a377f76d7b47ba49c001d1dd045
+      internalID: 1424937825538524202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_74
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 389
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2156b6faa9a9a408405f76c5b03365
+      internalID: 148697252923679992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_75
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 389
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea115ee3f34ecb64badbbc5c21d0342b
+      internalID: -7423778450391196098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_76
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 389
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9d9b615b71d7746a670216b510cd81
+      internalID: -6340154296148544844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_77
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 389
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a925fbec4c8642af4e65bc2ace30f
+      internalID: -7474787804719827260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_78
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 427
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f987ccbaf52a854190ea738293d53fd
+      internalID: -2025054517506946964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_79
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 427
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45f368700b02a7418fe1489c8f745b1
+      internalID: 6041472803516450370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_80
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 389
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977524aedece1ee4981c21cb76b117fd
+      internalID: -5907380733241841023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_81
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 389
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fdf7a8aa764354786c46322e6fbb09
+      internalID: -47262082895285614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 212
+        width: 64
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b423b50dfdaa8147b41b24beb6fb78c
+      internalID: 4657352885938915254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_83
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7903f24bb4cc9bc4dbce7240d725e219
+      internalID: 4872622632545285259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_84
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 308
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7baa6ab3ab0d7d488a3c64085f2e94f
+      internalID: 2583753177585570998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_85
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 344
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81b630dd1c176a449972fad7d053a34
+      internalID: -7997942293849383523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_86
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 244
+        width: 48
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1ff665417c1849aa5b6d1d043668f
+      internalID: -5110069389156612023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_87
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 340
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75629c458ed414c41a238e347286ffc8
+      internalID: 8751065842410952697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_88
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 310
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a43a3874913fe2488178201a0ff6853
+      internalID: 8118974528962071114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_89
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 245
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b548f412ee2fe048b31881baf6a12aa
+      internalID: -9087597054627260113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_90
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 245
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4c2c2361612e840befc09002a0800d
+      internalID: 7047220034153771245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_91
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 280
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6237dcda78604c042876e09e6a24c1f9
+      internalID: 488499931525008179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_92
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 292
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103bb41ab9b0c7f40ad667416fe619e5
+      internalID: -123617686895601872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_93
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 292
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5312e8e6d73064b9ce9637ad0ba5e6
+      internalID: -2191987315481109566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_94
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 290
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9f1ea8dc018bc41b2cf6a4dea891d9
+      internalID: -1074698382192505845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_95
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 271
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce4d62203e058d4bb82747333b45650
+      internalID: 2109239835125750392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_96
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 239
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1032777429b694a9bd9895687444f5
+      internalID: -1769265803025596462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_97
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 262
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7692c14475ab148959a20859351a15
+      internalID: -266953108106578275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_98
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 266
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1864114ab6a5b8546a6881aa4db8864a
+      internalID: -2289424614945777817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_99
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 183
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3f9db32937525469f6c005a5ba998f
+      internalID: 3553962434684349650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_100
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 184
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d35fcbb2818a840ad5bf230a624e9b
+      internalID: -7771773558658441671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_101
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 233
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2f837fedd42d0458889438625fd8ef
+      internalID: 8425091221764905687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 98
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba8406f9dffcc04c843477c99f4f3b0
+      internalID: 5271172633725914594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 187
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f880dc30cf46ca74b93719d9b3b19b14
+      internalID: -2637854370478930454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_104
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 185
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d61ea63cd0a2d24daf02cff62ac838f
+      internalID: 3177467897713167267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_105
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 192
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb1326046c0baa4fade07971e4d45a5
+      internalID: 1397211352915500478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_106
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 174
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2fb95b797fc3642aaf723b8437555d
+      internalID: 959811563286116655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_107
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 150
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec51223da7df7b64998552dbbf465e22
+      internalID: 7496777082824552935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_108
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 150
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5db1ea7b59e9f45a920f09e836d624
+      internalID: -1891487140675416407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_109
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 150
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9b0b7fab6acb5428cf7d8c6a69e996
+      internalID: -8749201228168587178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_110
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 154
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52dd5ed4e6466c4382b097c690064f8
+      internalID: -3881041240363866039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_111
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 54
+        width: 48
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f5fc7daa3ca464285ee2e94385c144
+      internalID: 5141794480752185720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_112
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 98
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05be1b86890ba45b4699feef500c59
+      internalID: -1471733767133617654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_113
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 85
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a6a7f26bc41e44580b4cdda846ca8e
+      internalID: 4975434316692288127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_114
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 126
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee082b4006d1e542bfdff9b8a2e9db0
+      internalID: -1758693750783604962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_115
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 84
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c6b7bab2dd4f044a4eb590132c7829
+      internalID: -7212245288071187080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_116
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 84
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9149df741c9ee84ba7195dae3d39e1f
+      internalID: -4175880225864086305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_117
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 84
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac462176c06fb544cba0fabb69bd0984
+      internalID: 7836062380923212760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_118
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 12
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c1e47c34ca4774582e3a24f9d45322
+      internalID: 4674096270409283810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_119
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 12
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e900a1012120319449888e940ed79931
+      internalID: 8292026566990070860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_120
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 12
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185be6e3256453a4da4883371273d8be
+      internalID: -6023098844975835820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_121
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 12
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9788da562862cc4cb58d3d11318698d
+      internalID: 99575339919383021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_122
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 11
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c15ddd0b83e3447991fb5e07e409f4
+      internalID: 2737675700697771232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_123
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 735
+        width: 28
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c14938e7b50597449d9b12198e62f1d
+      internalID: -2333691742414540322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_124
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 804
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24239b1c38abf164e9cc33f91bd49b4a
+      internalID: -6701148175244469055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_125
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 844
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7735be9930af1d14d8332843ff72b200
+      internalID: -976374018529422954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_126
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 695
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c413f08cea92a6428fffdc9839a80ea
+      internalID: -4726148636391277119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_127
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 718
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b2d78c62573cc4ea4d42e9c47f3a23
+      internalID: -481283582297645064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_128
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 713
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ee0dcc771066040bb3ddf17302866d
+      internalID: 2855620810246891077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_129
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 717
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcdef8cf87d14949aeadcc4307e2fac
+      internalID: 3120232846378336301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interior Decorations_130
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 739
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434ae59422c35f64da531030af72b4a9
+      internalID: 858913092068147973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

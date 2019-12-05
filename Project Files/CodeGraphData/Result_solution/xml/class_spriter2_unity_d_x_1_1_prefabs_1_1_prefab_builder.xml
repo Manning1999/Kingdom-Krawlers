@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Prefabs::PrefabBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1af131fcff405fb3a52c879906bc7ebff6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_scml_processing_info" kindref="compound">ScmlProcessingInfo</ref></type>
+        <definition>ScmlProcessingInfo Spriter2UnityDX.Prefabs.PrefabBuilder.ProcessingInfo</definition>
+        <argsstring></argsstring>
+        <name>ProcessingInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a03f120dbb635ac470f72d6135909d783" prot="private" static="no" mutable="no">
+        <type>IList&lt; TextureImporter &gt;</type>
+        <definition>IList&lt;TextureImporter&gt; Spriter2UnityDX.Prefabs.PrefabBuilder.InvalidImporters</definition>
+        <argsstring></argsstring>
+        <name>InvalidImporters</name>
+        <initializer>= new List&lt;TextureImporter&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" line="163" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1adbae169c2f4a162c30c5c9b0ff0fced6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Spriter2UnityDX.Prefabs.PrefabBuilder.PrefabBuilder</definition>
+        <argsstring>(ScmlProcessingInfo info)</argsstring>
+        <name>PrefabBuilder</name>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_scml_processing_info" kindref="compound">ScmlProcessingInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a4ca605063ddd216f625d5edc6992a7b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Spriter2UnityDX.Prefabs.PrefabBuilder.Build</definition>
+        <argsstring>(ScmlObject obj, string scmlPath)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object" kindref="compound">ScmlObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>scmlPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" line="23" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" bodystart="23" bodyend="58"/>
+        <references refid="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8af5e638cc78dd325906c1298a0c21fb6b">Spriter2UnityDX.Importing.entity</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a3e8015d99bd3ad0be1af1f81a4869c53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Prefabs.PrefabBuilder.TryBuild</definition>
+        <argsstring>(Entity entity, GameObject prefab, GameObject instance, string directory, string prefabPath, IDictionary&lt; int, IDictionary&lt; int, Sprite &gt;&gt; folders)</argsstring>
+        <name>TryBuild</name>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_entity" kindref="compound">Entity</ref></type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>prefab</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>instance</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>directory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>prefabPath</declname>
+        </param>
+        <param>
+          <type>IDictionary&lt; int, IDictionary&lt; int, Sprite &gt;&gt;</type>
+          <declname>folders</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" line="60" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" bodystart="60" bodyend="161"/>
+        <references refid="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8aa57fc812a9521b8c0ede9a2724351a55">Spriter2UnityDX.Importing.bone</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a2e6ab2251737b0a691f480a4a6a472de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Sprite</type>
+        <definition>Sprite Spriter2UnityDX.Prefabs.PrefabBuilder.GetSpriteAtPath</definition>
+        <argsstring>(string path, File file, ref bool success)</argsstring>
+        <name>GetSpriteAtPath</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_file" kindref="compound">File</ref></type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>ref bool</type>
+          <declname>success</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" line="164" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" bodystart="164" bodyend="186"/>
+        <references refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_1aa541e80d345769ab76c57cc92176498b" compoundref="_scml_import_options_8cs" startline="37">Spriter2UnityDX.Importing.ScmlImportOptions.options</references>
+        <references refid="class_spriter2_unity_d_x_1_1_importing_1_1_file_1a0ce76adebaf70f5f723a903bfde03d8f" compoundref="_scml_support_8cs" startline="29">Spriter2UnityDX.Importing.File.pivot_x</references>
+        <references refid="class_spriter2_unity_d_x_1_1_importing_1_1_file_1a776afbe4d37d9ccee408400aae49f01b" compoundref="_scml_support_8cs" startline="30">Spriter2UnityDX.Importing.File.pivot_y</references>
+        <references refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_1abb697ad7bfdb3083fd49029629af688c" compoundref="_scml_import_options_8cs" startline="39">Spriter2UnityDX.Importing.ScmlImportOptions.pixelsPerUnit</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="283">
+        <label>UnityEngine::Object</label>
+      </node>
+      <node id="282">
+        <label>Spriter2UnityDX.Prefabs.PrefabBuilder</label>
+        <link refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder"/>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="286">
+        <label>Spriter2UnityDX.ScmlProcessingInfo</label>
+        <link refid="class_spriter2_unity_d_x_1_1_scml_processing_info"/>
+      </node>
+      <node id="285">
+        <label>UnityEngine::Object</label>
+      </node>
+      <node id="284">
+        <label>Spriter2UnityDX.Prefabs.PrefabBuilder</label>
+        <link refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder"/>
+        <childnode refid="285" relation="public-inheritance">
+        </childnode>
+        <childnode refid="286" relation="usage">
+          <edgelabel>ProcessingInfo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/PrefabBuilder.cs" bodystart="17" bodyend="187"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a4ca605063ddd216f625d5edc6992a7b9" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Prefabs::PrefabBuilder</scope><name>Build</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a2e6ab2251737b0a691f480a4a6a472de" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Prefabs::PrefabBuilder</scope><name>GetSpriteAtPath</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a03f120dbb635ac470f72d6135909d783" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Prefabs::PrefabBuilder</scope><name>InvalidImporters</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1adbae169c2f4a162c30c5c9b0ff0fced6" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Prefabs::PrefabBuilder</scope><name>PrefabBuilder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1af131fcff405fb3a52c879906bc7ebff6" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Prefabs::PrefabBuilder</scope><name>ProcessingInfo</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a3e8015d99bd3ad0be1af1f81a4869c53" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Prefabs::PrefabBuilder</scope><name>TryBuild</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

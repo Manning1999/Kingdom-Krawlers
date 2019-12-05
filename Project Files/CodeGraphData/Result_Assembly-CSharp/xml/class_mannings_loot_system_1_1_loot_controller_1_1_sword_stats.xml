@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::LootController::SwordStats</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a1e3122e3cb2b3483b8abd8cda3ced929" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ManningsLootSystem.LootController.SwordStats.tier</definition>
+        <argsstring></argsstring>
+        <name>tier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="37" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a1c7bdc5bb21e79d534f0f0e7569e5df3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootController.SwordStats.minDamage</definition>
+        <argsstring></argsstring>
+        <name>minDamage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="38" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a7044b5583c1cb13a394dbb5a1a4feb41" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootController.SwordStats.maxDamage</definition>
+        <argsstring></argsstring>
+        <name>maxDamage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="39" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a6b360dcea79158102bc76b5d93e8a506" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ManningsLootSystem.LootController.SwordStats.minAttackSpeed</definition>
+        <argsstring></argsstring>
+        <name>minAttackSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="41" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a3b7d42387cc002c4891ff7cba8edaba4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ManningsLootSystem.LootController.SwordStats.maxAttackSpeed</definition>
+        <argsstring></argsstring>
+        <name>maxAttackSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="42" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a9ef4d6cd8d575d6db2b58aef7d06e9e6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootController.SwordStats.baseValue</definition>
+        <argsstring></argsstring>
+        <name>baseValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="44" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a5bdebaa4af20da294a89474dfdaf0992" prot="public" static="no" mutable="no">
+        <type>List&lt; Sprite &gt;</type>
+        <definition>List&lt;Sprite&gt; ManningsLootSystem.LootController.SwordStats.possibleSprites</definition>
+        <argsstring></argsstring>
+        <name>possibleSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="47" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="36" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a9ef4d6cd8d575d6db2b58aef7d06e9e6" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::SwordStats</scope><name>baseValue</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a3b7d42387cc002c4891ff7cba8edaba4" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::SwordStats</scope><name>maxAttackSpeed</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a7044b5583c1cb13a394dbb5a1a4feb41" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::SwordStats</scope><name>maxDamage</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a6b360dcea79158102bc76b5d93e8a506" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::SwordStats</scope><name>minAttackSpeed</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a1c7bdc5bb21e79d534f0f0e7569e5df3" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::SwordStats</scope><name>minDamage</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a5bdebaa4af20da294a89474dfdaf0992" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::SwordStats</scope><name>possibleSprites</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a1e3122e3cb2b3483b8abd8cda3ced929" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::SwordStats</scope><name>tier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

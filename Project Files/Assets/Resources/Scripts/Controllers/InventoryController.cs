@@ -41,6 +41,8 @@ namespace ManningsLootSystem
         [SerializeField]
         protected int playerMoney;
 
+        public int _playerMoney { get { return playerMoney; } }
+
         [SerializeField]
         protected int arrowCount;
         public int _arrowCount { get { return arrowCount; } }
@@ -102,6 +104,7 @@ namespace ManningsLootSystem
             }
 
             PopulateInventoryTiles();
+            GoldCountUI.Instance.UpdateGoldCount(playerMoney);
         }
 
         private void Awake()
@@ -206,11 +209,14 @@ namespace ManningsLootSystem
                         // selectedLoot.transform.GetComponent<Sword>().Equip(false);
                         ManningsLootSystemPlayerController.Instance.EquipSword(null);
                     }
-                }
+                }  
+
+                
                 Debug.Log("Pressed remove button");
                 inventoryItems.Remove(selectedLoot);
                 PopulateInventory();
-                ShowInventory(false);
+                
+                Destroy(selectedLoot.gameObject);
             }
         }
 
@@ -226,7 +232,9 @@ namespace ManningsLootSystem
 
         public void BuyObject(int moneySpent)
         {
+           
             playerMoney -= moneySpent;
+            GoldCountUI.Instance.UpdateGoldCount(playerMoney);
         }
 
 
@@ -280,11 +288,14 @@ namespace ManningsLootSystem
                 if(i < inventoryItems.Count) {
                     
                         boxes[i].transform.GetComponent<InventoryBox>().SetDetails(inventoryItems[i]);
-                    
+                    boxes[i].transform.GetComponent<InventoryBox>().Select(false);
+
+
                 }
                 else
                 {
                     boxes[i].transform.GetComponent<InventoryBox>().SetDetails(null);
+                    break;
                 }
             }
         }
@@ -292,22 +303,25 @@ namespace ManningsLootSystem
 
         public void SelectLoot(GameObject loot)
         {
-            if(selectedLoot != null)
+            if (loot != null)
             {
-                foreach(GameObject box in boxes)
+                if (selectedLoot != null)
                 {
-                    if(box.transform.GetComponent<InventoryBox>()._linkedLoot == selectedLoot)
+                    foreach (GameObject box in boxes)
                     {
-                        box.transform.GetComponent<InventoryBox>().Select(false);
-                        break;
+                        if (box.transform.GetComponent<InventoryBox>()._linkedLoot == selectedLoot)
+                        {
+                            box.transform.GetComponent<InventoryBox>().Select(false);
+                            break;
+                        }
                     }
                 }
+
+
+                selectedLoot = loot;
+                Debug.Log(loot);
+                infoBox.text = loot.name + "\n\n" + loot.transform.GetComponent<Loot>()._description + "\n\nValue: " + loot.transform.GetComponent<Loot>()._value;
             }
-
-
-            selectedLoot = loot;
-            Debug.Log(loot);
-            infoBox.text = loot.name + "\n\n" + loot.transform.GetComponent<Loot>()._description + "\n\nValue: " + loot.transform.GetComponent<Loot>()._value;
         }
 
 
@@ -354,7 +368,7 @@ namespace ManningsLootSystem
 
             showingInventory = !showingInventory;
             inventoryObject.SetActive(show);
-
+            PopulateInventory();
             foreach(Potions pot in potions)
             {
                 pot.inventoryText.text = " X " + pot.quantityOwned;

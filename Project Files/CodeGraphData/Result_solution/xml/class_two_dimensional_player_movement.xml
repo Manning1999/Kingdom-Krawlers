@@ -1,0 +1,748 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_two_dimensional_player_movement" kind="class" prot="public">
+    <compoundname>TwoDimensionalPlayerMovement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_player_controller" prot="public" virt="non-virtual">PlayerController</derivedcompoundref>
+      <sectiondef kind="protected-type">
+      <memberdef kind="enum" id="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5c" prot="protected" static="no">
+        <name>LookMode</name>
+        <enumvalue id="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5caf2a47c6809d88e175dade0ef7b16aa13" prot="public">
+          <name>Mouse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5ca4642e767f9251fa40afadbc963f80b7a" prot="public">
+          <name>Movement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0b" prot="protected" static="no">
+        <name>MovementType</name>
+        <enumvalue id="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0baf385103a296d02d162020942da48a0b4" prot="public">
+          <name>Platformer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0bac2c459170c61c345ec32fae4faee4f87" prot="public">
+          <name>FullMovement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0bac4632c29e86526a3756cbe8f5aaba730" prot="public">
+          <name>FourDirectional</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476c" prot="protected" static="no">
+        <name>Direction</name>
+        <enumvalue id="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca258f49887ef8d14ac268c92b02503aaa" prot="public">
+          <name>Up</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca08a38277b0309070706f6652eeae9a53" prot="public">
+          <name>Down</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca945d5e233cf7d6240f6b783b36a374ff" prot="public">
+          <name>Left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca92b09c7c48c520c3c55e497875da437c" prot="public">
+          <name>Right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476cae599161956d626eda4cb0a5ffb85271c" prot="public">
+          <name>Idle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="38" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a1cbb7e4848f5cb1b95217a2cbf2cd471" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5c" kindref="member">LookMode</ref></type>
+        <definition>LookMode TwoDimensionalPlayerMovement.lookMode</definition>
+        <argsstring></argsstring>
+        <name>lookMode</name>
+        <initializer>= LookMode.Movement</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a6600a733ecc329c4c2fa3b263f119fcc" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TwoDimensionalPlayerMovement.animateRotation</definition>
+        <argsstring></argsstring>
+        <name>animateRotation</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1af39295d576ee833176a42619d47d62ee" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TwoDimensionalPlayerMovement.jumpForce</definition>
+        <argsstring></argsstring>
+        <name>jumpForce</name>
+        <initializer>= 300</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="43" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a6c1b140bd3b49927e8a45ffd65305f78" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TwoDimensionalPlayerMovement.gravityStrength</definition>
+        <argsstring></argsstring>
+        <name>gravityStrength</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="46" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" compoundref="_two_dimensional_player_movement_8cs" startline="121" endline="167">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a64c4ae16e03d8dc4888217f43350c1a3" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TwoDimensionalPlayerMovement.isGrounded</definition>
+        <argsstring></argsstring>
+        <name>isGrounded</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="49" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a555910437e23f178c9f81d81940f61b2" compoundref="_two_dimensional_player_movement_8cs" startline="649" endline="670">OnCollisionEnter2D</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a9acf8f978aa57c81686336e451dd3683" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476c" kindref="member">Direction</ref></type>
+        <definition>Direction TwoDimensionalPlayerMovement.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <initializer>= Direction.Idle</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="53" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">PlayerController.SetDashLocation</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1aa454c81b879dc3bf6ba996f7030a8aff" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TwoDimensionalPlayerMovement.speedModifier</definition>
+        <argsstring></argsstring>
+        <name>speedModifier</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="56" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1aa905b5badaeed93f1b8993961ee0f354" compoundref="_two_dimensional_player_movement_8cs" startline="674" endline="677">ChangeSpeedModifier</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a056a9e5683d2e9175a77a5f5a7e464e2" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TwoDimensionalPlayerMovement.walkSpeed</definition>
+        <argsstring></argsstring>
+        <name>walkSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="62" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="62" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a61ea4f8836d82b189de5c0842e66d9df" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TwoDimensionalPlayerMovement.runSpeed</definition>
+        <argsstring></argsstring>
+        <name>runSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="66" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1ad8ee6701e9172a0839536774edeb386a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TwoDimensionalPlayerMovement.isRunning</definition>
+        <argsstring></argsstring>
+        <name>isRunning</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="68" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="68" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1ac0c270a9e1c4ed140942e39c6d82340e" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TwoDimensionalPlayerMovement.currentMoveSpeed</definition>
+        <argsstring></argsstring>
+        <name>currentMoveSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="70" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a45848c1d10b2b982ed848377dc29bcc4" prot="protected" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode TwoDimensionalPlayerMovement.moveUpButton</definition>
+        <argsstring></argsstring>
+        <name>moveUpButton</name>
+        <initializer>= KeyCode.W</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="76" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a721f76873e964879fca72d009d7d768b" prot="protected" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode TwoDimensionalPlayerMovement.moveDownButton</definition>
+        <argsstring></argsstring>
+        <name>moveDownButton</name>
+        <initializer>= KeyCode.S</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="78" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a13e3feadca3a57cfe2a3d403b3f3e600" prot="protected" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode TwoDimensionalPlayerMovement.moveLeftButton</definition>
+        <argsstring></argsstring>
+        <name>moveLeftButton</name>
+        <initializer>= KeyCode.A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="80" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a9c78e37994e7dad20feef161a226eccf" prot="protected" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode TwoDimensionalPlayerMovement.moveRightButton</definition>
+        <argsstring></argsstring>
+        <name>moveRightButton</name>
+        <initializer>= KeyCode.D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="82" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a379ff082e4742843d12087b4257a0d9c" prot="protected" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode TwoDimensionalPlayerMovement.runButton</definition>
+        <argsstring></argsstring>
+        <name>runButton</name>
+        <initializer>= KeyCode.LeftShift</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="85" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="85" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1afec2cc9c19003a1b4f6f49aa2be76a8e" prot="protected" static="no" mutable="no">
+        <type>List&lt; AudioClip &gt;</type>
+        <definition>List&lt;AudioClip&gt; TwoDimensionalPlayerMovement.walkingSounds</definition>
+        <argsstring></argsstring>
+        <name>walkingSounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="91" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1aae010358d2b3bc10171bbf5f5dcc1673" prot="protected" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D TwoDimensionalPlayerMovement.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="99" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="99" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" compoundref="_two_dimensional_player_movement_8cs" startline="121" endline="167">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a9c1240d457b35456855b0017f2fda48e" prot="protected" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator TwoDimensionalPlayerMovement.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="100" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="100" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" compoundref="_two_dimensional_player_movement_8cs" startline="121" endline="167">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1ad76d40595f691e0fd9de1700f5464b1e" prot="protected" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource TwoDimensionalPlayerMovement.audio</definition>
+        <argsstring></argsstring>
+        <name>audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="101" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="101" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" compoundref="_two_dimensional_player_movement_8cs" startline="121" endline="167">Awake</referencedby>
+        <referencedby refid="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3" compoundref="_player_controller_8cs" startline="208" endline="216">PlayerController.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a04196c1e41ed8e8707a42fbb3ec74717" prot="protected" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 TwoDimensionalPlayerMovement.mousePos</definition>
+        <argsstring></argsstring>
+        <name>mousePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="106" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="106" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a9b783cf6e0e4eb46d9b012a896fbcd80" prot="protected" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 TwoDimensionalPlayerMovement.thisPos</definition>
+        <argsstring></argsstring>
+        <name>thisPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="107" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="107" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a93c60e89e2059c7c6387247d77d257e9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TwoDimensionalPlayerMovement.isMoving</definition>
+        <argsstring></argsstring>
+        <name>isMoving</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="108" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="108" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" prot="protected" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 TwoDimensionalPlayerMovement.oldPosition</definition>
+        <argsstring></argsstring>
+        <name>oldPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="109" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" compoundref="_two_dimensional_player_movement_8cs" startline="121" endline="167">Awake</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" compoundref="_two_dimensional_player_movement_8cs" startline="680" endline="685">SetMoveDirection</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TwoDimensionalPlayerMovement.canMove</definition>
+        <argsstring></argsstring>
+        <name>canMove</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="110" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="110" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" compoundref="_two_dimensional_player_movement_8cs" startline="121" endline="167">Awake</referencedby>
+        <referencedby refid="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" compoundref="_player_controller_8cs" startline="578" endline="592">PlayerController.Die</referencedby>
+        <referencedby refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" compoundref="_player_controller_8cs" startline="401" endline="424">PlayerController.OnCollisionEnter2D</referencedby>
+        <referencedby refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" compoundref="_player_controller_8cs" startline="219" endline="231">PlayerController.OnSceneLoaded</referencedby>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">PlayerController.OnTriggerStay2D</referencedby>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">PlayerController.SetDashLocation</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">PlayerController.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1ad30f05d799e8e45c0e3bfdf403ec1429" prot="protected" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 TwoDimensionalPlayerMovement.moveDirection</definition>
+        <argsstring></argsstring>
+        <name>moveDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="113" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="113" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" compoundref="_two_dimensional_player_movement_8cs" startline="680" endline="685">SetMoveDirection</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">PlayerController.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1a6113e2dcb0490977f70c1f9e38bd3974" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TwoDimensionalPlayerMovement.moveDirectionNum</definition>
+        <argsstring></argsstring>
+        <name>moveDirectionNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="115" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="115" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" compoundref="_two_dimensional_player_movement_8cs" startline="680" endline="685">SetMoveDirection</referencedby>
+        <referencedby refid="class_mannings_loot_system_player_controller_1ac875c9b4b3039ec90e2dd1ac32b6a2f1" compoundref="_mannings_loot_system_player_controller_8cs" startline="55" endline="107">ManningsLootSystemPlayerController.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_two_dimensional_player_movement_1abee659846697b291bad4617cf94555d6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0b" kindref="member">MovementType</ref></type>
+        <definition>MovementType TwoDimensionalPlayerMovement.movementType</definition>
+        <argsstring></argsstring>
+        <name>movementType</name>
+        <initializer>= MovementType.FullMovement</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" compoundref="_two_dimensional_player_movement_8cs" startline="121" endline="167">Awake</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1a555910437e23f178c9f81d81940f61b2" compoundref="_two_dimensional_player_movement_8cs" startline="649" endline="670">OnCollisionEnter2D</referencedby>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_two_dimensional_player_movement_1aebe4db8bc6846a5997ee7563564ae039" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float TwoDimensionalPlayerMovement._speedModifier</definition>
+        <argsstring></argsstring>
+        <name>_speedModifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="57" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TwoDimensionalPlayerMovement.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplementedby refid="class_player_controller_1ab89a69dbd089b54f9701b62c9fa2c221">Awake</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="121" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="121" bodyend="167"/>
+        <references refid="class_two_dimensional_player_movement_1a9c1240d457b35456855b0017f2fda48e" compoundref="_two_dimensional_player_movement_8cs" startline="100">anim</references>
+        <references refid="class_two_dimensional_player_movement_1ad76d40595f691e0fd9de1700f5464b1e" compoundref="_two_dimensional_player_movement_8cs" startline="101">audio</references>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">canMove</references>
+        <references refid="class_two_dimensional_player_movement_1a6c1b140bd3b49927e8a45ffd65305f78" compoundref="_two_dimensional_player_movement_8cs" startline="46">gravityStrength</references>
+        <references refid="class_two_dimensional_player_movement_1abee659846697b291bad4617cf94555d6" compoundref="_two_dimensional_player_movement_8cs" startline="34">movementType</references>
+        <references refid="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" compoundref="_two_dimensional_player_movement_8cs" startline="109">oldPosition</references>
+        <references refid="class_two_dimensional_player_movement_1aae010358d2b3bc10171bbf5f5dcc1673" compoundref="_two_dimensional_player_movement_8cs" startline="99">rb</references>
+      </memberdef>
+      <memberdef kind="function" id="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TwoDimensionalPlayerMovement.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_mannings_loot_system_player_controller_1ac875c9b4b3039ec90e2dd1ac32b6a2f1">Update</reimplementedby>
+        <reimplementedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648">Update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="173" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="173" bodyend="646"/>
+        <references refid="class_two_dimensional_player_movement_1a6600a733ecc329c4c2fa3b263f119fcc" compoundref="_two_dimensional_player_movement_8cs" startline="26">animateRotation</references>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">canMove</references>
+        <references refid="class_two_dimensional_player_movement_1ac0c270a9e1c4ed140942e39c6d82340e" compoundref="_two_dimensional_player_movement_8cs" startline="70">currentMoveSpeed</references>
+        <references refid="class_two_dimensional_player_movement_1a9acf8f978aa57c81686336e451dd3683" compoundref="_two_dimensional_player_movement_8cs" startline="53">direction</references>
+        <references refid="class_two_dimensional_player_movement_1a64c4ae16e03d8dc4888217f43350c1a3" compoundref="_two_dimensional_player_movement_8cs" startline="49">isGrounded</references>
+        <references refid="class_two_dimensional_player_movement_1a93c60e89e2059c7c6387247d77d257e9" compoundref="_two_dimensional_player_movement_8cs" startline="108">isMoving</references>
+        <references refid="class_two_dimensional_player_movement_1ad8ee6701e9172a0839536774edeb386a" compoundref="_two_dimensional_player_movement_8cs" startline="68">isRunning</references>
+        <references refid="class_two_dimensional_player_movement_1af39295d576ee833176a42619d47d62ee" compoundref="_two_dimensional_player_movement_8cs" startline="43">jumpForce</references>
+        <references refid="class_two_dimensional_player_movement_1a1cbb7e4848f5cb1b95217a2cbf2cd471" compoundref="_two_dimensional_player_movement_8cs" startline="22">lookMode</references>
+        <references refid="class_two_dimensional_player_movement_1a04196c1e41ed8e8707a42fbb3ec74717" compoundref="_two_dimensional_player_movement_8cs" startline="106">mousePos</references>
+        <references refid="class_two_dimensional_player_movement_1a721f76873e964879fca72d009d7d768b" compoundref="_two_dimensional_player_movement_8cs" startline="78">moveDownButton</references>
+        <references refid="class_two_dimensional_player_movement_1a13e3feadca3a57cfe2a3d403b3f3e600" compoundref="_two_dimensional_player_movement_8cs" startline="80">moveLeftButton</references>
+        <references refid="class_two_dimensional_player_movement_1abee659846697b291bad4617cf94555d6" compoundref="_two_dimensional_player_movement_8cs" startline="34">movementType</references>
+        <references refid="class_two_dimensional_player_movement_1a9c78e37994e7dad20feef161a226eccf" compoundref="_two_dimensional_player_movement_8cs" startline="82">moveRightButton</references>
+        <references refid="class_two_dimensional_player_movement_1a45848c1d10b2b982ed848377dc29bcc4" compoundref="_two_dimensional_player_movement_8cs" startline="76">moveUpButton</references>
+        <references refid="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" compoundref="_two_dimensional_player_movement_8cs" startline="109">oldPosition</references>
+        <references refid="class_two_dimensional_player_movement_1a379ff082e4742843d12087b4257a0d9c" compoundref="_two_dimensional_player_movement_8cs" startline="85">runButton</references>
+        <references refid="class_two_dimensional_player_movement_1a61ea4f8836d82b189de5c0842e66d9df" compoundref="_two_dimensional_player_movement_8cs" startline="66">runSpeed</references>
+        <references refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" compoundref="_two_dimensional_player_movement_8cs" startline="680" endline="685">SetMoveDirection</references>
+        <references refid="class_two_dimensional_player_movement_1aa454c81b879dc3bf6ba996f7030a8aff" compoundref="_two_dimensional_player_movement_8cs" startline="56">speedModifier</references>
+        <references refid="class_two_dimensional_player_movement_1a9b783cf6e0e4eb46d9b012a896fbcd80" compoundref="_two_dimensional_player_movement_8cs" startline="107">thisPos</references>
+        <references refid="class_two_dimensional_player_movement_1a056a9e5683d2e9175a77a5f5a7e464e2" compoundref="_two_dimensional_player_movement_8cs" startline="62">walkSpeed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_two_dimensional_player_movement_1a555910437e23f178c9f81d81940f61b2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TwoDimensionalPlayerMovement.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D col)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <reimplementedby refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89">OnCollisionEnter2D</reimplementedby>
+        <param>
+          <type>Collision2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="649" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="649" bodyend="670"/>
+        <references refid="class_two_dimensional_player_movement_1a64c4ae16e03d8dc4888217f43350c1a3" compoundref="_two_dimensional_player_movement_8cs" startline="49">isGrounded</references>
+        <references refid="class_two_dimensional_player_movement_1abee659846697b291bad4617cf94555d6" compoundref="_two_dimensional_player_movement_8cs" startline="34">movementType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TwoDimensionalPlayerMovement.SetMoveDirection</definition>
+        <argsstring>()</argsstring>
+        <name>SetMoveDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="680" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="680" bodyend="685"/>
+        <references refid="class_two_dimensional_player_movement_1ad30f05d799e8e45c0e3bfdf403ec1429" compoundref="_two_dimensional_player_movement_8cs" startline="113">moveDirection</references>
+        <references refid="class_two_dimensional_player_movement_1a6113e2dcb0490977f70c1f9e38bd3974" compoundref="_two_dimensional_player_movement_8cs" startline="115">moveDirectionNum</references>
+        <references refid="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" compoundref="_two_dimensional_player_movement_8cs" startline="109">oldPosition</references>
+        <referencedby refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" compoundref="_two_dimensional_player_movement_8cs" startline="173" endline="646">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_two_dimensional_player_movement_1aa905b5badaeed93f1b8993961ee0f354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TwoDimensionalPlayerMovement.ChangeSpeedModifier</definition>
+        <argsstring>(float modifier)</argsstring>
+        <name>ChangeSpeedModifier</name>
+        <param>
+          <type>float</type>
+          <declname>modifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="674" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="674" bodyend="677"/>
+        <references refid="class_two_dimensional_player_movement_1aa454c81b879dc3bf6ba996f7030a8aff" compoundref="_two_dimensional_player_movement_8cs" startline="56">speedModifier</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="434">
+        <label>TwoDimensionalPlayerMovement</label>
+        <link refid="class_two_dimensional_player_movement"/>
+        <childnode refid="435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="437">
+        <label>ManningsLootSystemPlayerController</label>
+        <link refid="class_mannings_loot_system_player_controller"/>
+        <childnode refid="436" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="438">
+        <label>TwoDimensionalPlayerMovement</label>
+        <link refid="class_two_dimensional_player_movement"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/TwoDimensionalPlayerMovement.cs" bodystart="14" bodyend="686"/>
+    <listofallmembers>
+      <member refid="class_two_dimensional_player_movement_1aebe4db8bc6846a5997ee7563564ae039" prot="public" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>_speedModifier</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9c1240d457b35456855b0017f2fda48e" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>anim</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6600a733ecc329c4c2fa3b263f119fcc" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>animateRotation</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad76d40595f691e0fd9de1700f5464b1e" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>audio</name></member>
+      <member refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" prot="protected" virt="virtual"><scope>TwoDimensionalPlayerMovement</scope><name>Awake</name></member>
+      <member refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>canMove</name></member>
+      <member refid="class_two_dimensional_player_movement_1aa905b5badaeed93f1b8993961ee0f354" prot="public" virt="virtual"><scope>TwoDimensionalPlayerMovement</scope><name>ChangeSpeedModifier</name></member>
+      <member refid="class_two_dimensional_player_movement_1ac0c270a9e1c4ed140942e39c6d82340e" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>currentMoveSpeed</name></member>
+      <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476c" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>Direction</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9acf8f978aa57c81686336e451dd3683" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>direction</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6c1b140bd3b49927e8a45ffd65305f78" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>gravityStrength</name></member>
+      <member refid="class_two_dimensional_player_movement_1a64c4ae16e03d8dc4888217f43350c1a3" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>isGrounded</name></member>
+      <member refid="class_two_dimensional_player_movement_1a93c60e89e2059c7c6387247d77d257e9" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>isMoving</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad8ee6701e9172a0839536774edeb386a" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>isRunning</name></member>
+      <member refid="class_two_dimensional_player_movement_1af39295d576ee833176a42619d47d62ee" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>jumpForce</name></member>
+      <member refid="class_two_dimensional_player_movement_1a1cbb7e4848f5cb1b95217a2cbf2cd471" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>lookMode</name></member>
+      <member refid="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5c" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>LookMode</name></member>
+      <member refid="class_two_dimensional_player_movement_1a04196c1e41ed8e8707a42fbb3ec74717" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>mousePos</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad30f05d799e8e45c0e3bfdf403ec1429" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>moveDirection</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6113e2dcb0490977f70c1f9e38bd3974" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>moveDirectionNum</name></member>
+      <member refid="class_two_dimensional_player_movement_1a721f76873e964879fca72d009d7d768b" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>moveDownButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a13e3feadca3a57cfe2a3d403b3f3e600" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>moveLeftButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0b" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>MovementType</name></member>
+      <member refid="class_two_dimensional_player_movement_1abee659846697b291bad4617cf94555d6" prot="private" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>movementType</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9c78e37994e7dad20feef161a226eccf" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>moveRightButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a45848c1d10b2b982ed848377dc29bcc4" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>moveUpButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>oldPosition</name></member>
+      <member refid="class_two_dimensional_player_movement_1a555910437e23f178c9f81d81940f61b2" prot="protected" virt="virtual"><scope>TwoDimensionalPlayerMovement</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_two_dimensional_player_movement_1aae010358d2b3bc10171bbf5f5dcc1673" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>rb</name></member>
+      <member refid="class_two_dimensional_player_movement_1a379ff082e4742843d12087b4257a0d9c" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>runButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a61ea4f8836d82b189de5c0842e66d9df" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>runSpeed</name></member>
+      <member refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" prot="protected" virt="virtual"><scope>TwoDimensionalPlayerMovement</scope><name>SetMoveDirection</name></member>
+      <member refid="class_two_dimensional_player_movement_1aa454c81b879dc3bf6ba996f7030a8aff" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>speedModifier</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9b783cf6e0e4eb46d9b012a896fbcd80" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>thisPos</name></member>
+      <member refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" prot="protected" virt="virtual"><scope>TwoDimensionalPlayerMovement</scope><name>Update</name></member>
+      <member refid="class_two_dimensional_player_movement_1afec2cc9c19003a1b4f6f49aa2be76a8e" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>walkingSounds</name></member>
+      <member refid="class_two_dimensional_player_movement_1a056a9e5683d2e9175a77a5f5a7e464e2" prot="protected" virt="non-virtual"><scope>TwoDimensionalPlayerMovement</scope><name>walkSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

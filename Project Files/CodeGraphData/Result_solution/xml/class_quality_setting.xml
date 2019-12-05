@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_quality_setting" kind="class" prot="public">
+    <compoundname>QualitySetting</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quality_setting_1a8c5c01cc280c75d38ef24f1883a86212" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QualitySetting.settingValue</definition>
+        <argsstring></argsstring>
+        <name>settingValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualitySetting.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualitySetting.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_quality_setting_1a91d79ac1aa36a1eeaf8b757f478b9cc4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int QualitySetting._settingValue</definition>
+        <argsstring></argsstring>
+        <name>_settingValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualitySetting.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualitySetting.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="297">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="296">
+        <label>QualitySetting</label>
+        <link refid="class_quality_setting"/>
+        <childnode refid="297" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="299">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="298">
+        <label>QualitySetting</label>
+        <link refid="class_quality_setting"/>
+        <childnode refid="299" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualitySetting.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualitySetting.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_quality_setting_1a91d79ac1aa36a1eeaf8b757f478b9cc4" prot="public" virt="non-virtual"><scope>QualitySetting</scope><name>_settingValue</name></member>
+      <member refid="class_quality_setting_1a8c5c01cc280c75d38ef24f1883a86212" prot="private" virt="non-virtual"><scope>QualitySetting</scope><name>settingValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

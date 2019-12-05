@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pause_transition" kind="class" prot="public">
+    <compoundname>PauseTransition</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pause_transition_1aaeee23164297b90d2728d069910f589b" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PauseTransition.pauseMenu</definition>
+        <argsstring></argsstring>
+        <name>pauseMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_transition_1a0a8cd9cc134027fcecd628003d9170f2" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PauseTransition.hud</definition>
+        <argsstring></argsstring>
+        <name>hud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pause_transition_1a7a0d507529c9f0155fb68b2a32730025" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PauseTransition.escapePress</definition>
+        <argsstring></argsstring>
+        <name>escapePress</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_pause_transition_1a05ba052c7e67619eb0248c8d3f5dfb6f" compoundref="_pause_transition_8cs" startline="23" endline="42">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pause_transition_1ad4622fa07eeb820c03b6ab5ff99eb263" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseTransition.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pause_transition_1a05ba052c7e67619eb0248c8d3f5dfb6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PauseTransition.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" line="23" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" bodystart="23" bodyend="42"/>
+        <references refid="class_pause_transition_1a7a0d507529c9f0155fb68b2a32730025" compoundref="_pause_transition_8cs" startline="11">escapePress</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="213">
+        <label>PauseTransition</label>
+        <link refid="class_pause_transition"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="215">
+        <label>PauseTransition</label>
+        <link refid="class_pause_transition"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/PauseTransition.cs" bodystart="7" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_pause_transition_1a7a0d507529c9f0155fb68b2a32730025" prot="public" virt="non-virtual"><scope>PauseTransition</scope><name>escapePress</name></member>
+      <member refid="class_pause_transition_1a0a8cd9cc134027fcecd628003d9170f2" prot="public" virt="non-virtual"><scope>PauseTransition</scope><name>hud</name></member>
+      <member refid="class_pause_transition_1aaeee23164297b90d2728d069910f589b" prot="public" virt="non-virtual"><scope>PauseTransition</scope><name>pauseMenu</name></member>
+      <member refid="class_pause_transition_1ad4622fa07eeb820c03b6ab5ff99eb263" prot="private" virt="non-virtual"><scope>PauseTransition</scope><name>Start</name></member>
+      <member refid="class_pause_transition_1a05ba052c7e67619eb0248c8d3f5dfb6f" prot="private" virt="non-virtual"><scope>PauseTransition</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

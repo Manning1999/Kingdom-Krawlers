@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_enemy_controller" kind="class" prot="public">
+    <compoundname>EnemyController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_hurtable" prot="public" virt="non-virtual">IHurtable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_enemy_controller_1a69e61ed2490b9eee97733accb15d5cf9" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D EnemyController.myRigidbody</definition>
+        <argsstring></argsstring>
+        <name>myRigidbody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" compoundref="_enemy_controller_8cs" startline="33" endline="42">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1ae20bb9f07db2bfb3f4b9d4a82cc1f080" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EnemyController.moving</definition>
+        <argsstring></argsstring>
+        <name>moving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1ac387de31c12dee6792fbb76d25547b28" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyController.timeBetweenMoveCounter</definition>
+        <argsstring></argsstring>
+        <name>timeBetweenMoveCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" compoundref="_enemy_controller_8cs" startline="33" endline="42">Start</referencedby>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1a75c5156df31b0e9a03a2557cfa1c740f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyController.timeToMoveCounter</definition>
+        <argsstring></argsstring>
+        <name>timeToMoveCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" compoundref="_enemy_controller_8cs" startline="33" endline="42">Start</referencedby>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1a6a7c8715dfa401647102115f1d143c87" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 EnemyController.moveDirection</definition>
+        <argsstring></argsstring>
+        <name>moveDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1afbbc117acfe3e21a2a82be06fa7314f9" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform EnemyController.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" compoundref="_enemy_controller_8cs" startline="33" endline="42">Start</referencedby>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1a2c5a111549b1d4d9f8141fd4c13bfcd5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyController.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1af72616dea88b18986264988ebdb36711" compoundref="_enemy_controller_8cs" startline="79" endline="82">FollowPlayer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1ac40d16e6b75a6a531877d3fad25e770e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyController.range</definition>
+        <argsstring></argsstring>
+        <name>range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="24" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1a85e7109ec97914b1a3d47bdb5c7bcc78" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemyController.damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="27" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1a03bb033800af2a2be33c61d918c855f0" compoundref="_enemy_controller_8cs" startline="100" endline="107">OnTriggerEnter2D</referencedby>
+        <referencedby refid="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d" compoundref="_enemy_controller_8cs" startline="84" endline="92">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1ab3658780d73798052b099202503b65cc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EnemyController.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="30" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d" compoundref="_enemy_controller_8cs" startline="84" endline="92">TakeDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_enemy_controller_1a09e8d20dc05ae9949c06a9d8d034bd35" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyController.moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>moveSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1a4acf8e2bc10e9d42521fc06f82405112" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyController.timeBetweenMove</definition>
+        <argsstring></argsstring>
+        <name>timeBetweenMove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" compoundref="_enemy_controller_8cs" startline="33" endline="42">Start</referencedby>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_enemy_controller_1aa6232328e806710af8c24711c4dd92d9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnemyController.timeToMove</definition>
+        <argsstring></argsstring>
+        <name>timeToMove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" compoundref="_enemy_controller_8cs" startline="33" endline="42">Start</referencedby>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="33" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="33" bodyend="42"/>
+        <references refid="class_enemy_controller_1a69e61ed2490b9eee97733accb15d5cf9" compoundref="_enemy_controller_8cs" startline="8">myRigidbody</references>
+        <references refid="class_enemy_controller_1afbbc117acfe3e21a2a82be06fa7314f9" compoundref="_enemy_controller_8cs" startline="20">target</references>
+        <references refid="class_enemy_controller_1a4acf8e2bc10e9d42521fc06f82405112" compoundref="_enemy_controller_8cs" startline="13">timeBetweenMove</references>
+        <references refid="class_enemy_controller_1ac387de31c12dee6792fbb76d25547b28" compoundref="_enemy_controller_8cs" startline="14">timeBetweenMoveCounter</references>
+        <references refid="class_enemy_controller_1aa6232328e806710af8c24711c4dd92d9" compoundref="_enemy_controller_8cs" startline="15">timeToMove</references>
+        <references refid="class_enemy_controller_1a75c5156df31b0e9a03a2557cfa1c740f" compoundref="_enemy_controller_8cs" startline="16">timeToMoveCounter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="45" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="45" bodyend="77"/>
+        <references refid="class_enemy_controller_1af72616dea88b18986264988ebdb36711" compoundref="_enemy_controller_8cs" startline="79" endline="82">FollowPlayer</references>
+        <references refid="class_enemy_controller_1a6a7c8715dfa401647102115f1d143c87" compoundref="_enemy_controller_8cs" startline="18">moveDirection</references>
+        <references refid="class_enemy_controller_1a09e8d20dc05ae9949c06a9d8d034bd35" compoundref="_enemy_controller_8cs" startline="11">moveSpeed</references>
+        <references refid="class_enemy_controller_1ae20bb9f07db2bfb3f4b9d4a82cc1f080" compoundref="_enemy_controller_8cs" startline="10">moving</references>
+        <references refid="class_enemy_controller_1ac40d16e6b75a6a531877d3fad25e770e" compoundref="_enemy_controller_8cs" startline="24">range</references>
+        <references refid="class_enemy_controller_1afbbc117acfe3e21a2a82be06fa7314f9" compoundref="_enemy_controller_8cs" startline="20">target</references>
+        <references refid="class_enemy_controller_1a4acf8e2bc10e9d42521fc06f82405112" compoundref="_enemy_controller_8cs" startline="13">timeBetweenMove</references>
+        <references refid="class_enemy_controller_1ac387de31c12dee6792fbb76d25547b28" compoundref="_enemy_controller_8cs" startline="14">timeBetweenMoveCounter</references>
+        <references refid="class_enemy_controller_1aa6232328e806710af8c24711c4dd92d9" compoundref="_enemy_controller_8cs" startline="15">timeToMove</references>
+        <references refid="class_enemy_controller_1a75c5156df31b0e9a03a2557cfa1c740f" compoundref="_enemy_controller_8cs" startline="16">timeToMoveCounter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_controller_1aa2585b33cdd57288a0c5a669f188f6ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyController.Die</definition>
+        <argsstring>()</argsstring>
+        <name>Die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="94" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="94" bodyend="97"/>
+        <referencedby refid="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d" compoundref="_enemy_controller_8cs" startline="84" endline="92">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_controller_1a03bb033800af2a2be33c61d918c855f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyController.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="100" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="100" bodyend="107"/>
+        <references refid="class_enemy_controller_1a85e7109ec97914b1a3d47bdb5c7bcc78" compoundref="_enemy_controller_8cs" startline="27">damage</references>
+        <references refid="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d" compoundref="_enemy_controller_8cs" startline="84" endline="92">TakeDamage</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_enemy_controller_1af72616dea88b18986264988ebdb36711" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyController.FollowPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>FollowPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="79" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="79" bodyend="82"/>
+        <references refid="class_enemy_controller_1a2c5a111549b1d4d9f8141fd4c13bfcd5" compoundref="_enemy_controller_8cs" startline="22">speed</references>
+        <referencedby refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" compoundref="_enemy_controller_8cs" startline="45" endline="77">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EnemyController.TakeDamage</definition>
+        <argsstring>(int damage)</argsstring>
+        <name>TakeDamage</name>
+        <reimplements refid="interface_i_hurtable_1a1534dfb601f49ac6649cb410960ad1a4">TakeDamage</reimplements>
+        <param>
+          <type>int</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="84" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="84" bodyend="92"/>
+        <references refid="class_enemy_controller_1a85e7109ec97914b1a3d47bdb5c7bcc78" compoundref="_enemy_controller_8cs" startline="27">damage</references>
+        <references refid="class_enemy_controller_1aa2585b33cdd57288a0c5a669f188f6ca" compoundref="_enemy_controller_8cs" startline="94" endline="97">Die</references>
+        <references refid="class_enemy_controller_1ab3658780d73798052b099202503b65cc" compoundref="_enemy_controller_8cs" startline="30">health</references>
+        <referencedby refid="class_enemy_controller_1a03bb033800af2a2be33c61d918c855f0" compoundref="_enemy_controller_8cs" startline="100" endline="107">OnTriggerEnter2D</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="74">
+        <label>EnemyController</label>
+        <link refid="class_enemy_controller"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="79">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="77">
+        <label>EnemyController</label>
+        <link refid="class_enemy_controller"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/EnemyController.cs" bodystart="5" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_enemy_controller_1a85e7109ec97914b1a3d47bdb5c7bcc78" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>damage</name></member>
+      <member refid="class_enemy_controller_1aa2585b33cdd57288a0c5a669f188f6ca" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>Die</name></member>
+      <member refid="class_enemy_controller_1af72616dea88b18986264988ebdb36711" prot="public" virt="non-virtual"><scope>EnemyController</scope><name>FollowPlayer</name></member>
+      <member refid="class_enemy_controller_1ab3658780d73798052b099202503b65cc" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>health</name></member>
+      <member refid="class_enemy_controller_1a6a7c8715dfa401647102115f1d143c87" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>moveDirection</name></member>
+      <member refid="class_enemy_controller_1a09e8d20dc05ae9949c06a9d8d034bd35" prot="public" virt="non-virtual"><scope>EnemyController</scope><name>moveSpeed</name></member>
+      <member refid="class_enemy_controller_1ae20bb9f07db2bfb3f4b9d4a82cc1f080" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>moving</name></member>
+      <member refid="class_enemy_controller_1a69e61ed2490b9eee97733accb15d5cf9" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>myRigidbody</name></member>
+      <member refid="class_enemy_controller_1a03bb033800af2a2be33c61d918c855f0" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_enemy_controller_1ac40d16e6b75a6a531877d3fad25e770e" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>range</name></member>
+      <member refid="class_enemy_controller_1a2c5a111549b1d4d9f8141fd4c13bfcd5" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>speed</name></member>
+      <member refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>Start</name></member>
+      <member refid="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d" prot="public" virt="non-virtual"><scope>EnemyController</scope><name>TakeDamage</name></member>
+      <member refid="class_enemy_controller_1afbbc117acfe3e21a2a82be06fa7314f9" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>target</name></member>
+      <member refid="class_enemy_controller_1a4acf8e2bc10e9d42521fc06f82405112" prot="public" virt="non-virtual"><scope>EnemyController</scope><name>timeBetweenMove</name></member>
+      <member refid="class_enemy_controller_1ac387de31c12dee6792fbb76d25547b28" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>timeBetweenMoveCounter</name></member>
+      <member refid="class_enemy_controller_1aa6232328e806710af8c24711c4dd92d9" prot="public" virt="non-virtual"><scope>EnemyController</scope><name>timeToMove</name></member>
+      <member refid="class_enemy_controller_1a75c5156df31b0e9a03a2557cfa1c740f" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>timeToMoveCounter</name></member>
+      <member refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" prot="private" virt="non-virtual"><scope>EnemyController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

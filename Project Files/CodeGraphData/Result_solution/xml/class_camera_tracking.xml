@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_camera_tracking" kind="class" prot="public">
+    <compoundname>CameraTracking</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="protected-type">
+      <memberdef kind="enum" id="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffde" prot="protected" static="no">
+        <name>AxisToTrackOn</name>
+        <enumvalue id="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffdea74c53bcd3dcb2bb79993b2fec37d362a" prot="public">
+          <name>XY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffdeaffa4ba973372c3650fd0881abeca6512" prot="public">
+          <name>YZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffdea27db3b98d01e664c17a6620b222c6469" prot="public">
+          <name>XZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_camera_tracking_1ad73cd19ca225a14be6f097c8e73f7234" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffde" kindref="member">AxisToTrackOn</ref></type>
+        <definition>AxisToTrackOn CameraTracking.axisToTrackOn</definition>
+        <argsstring></argsstring>
+        <name>axisToTrackOn</name>
+        <initializer>= AxisToTrackOn.XZ</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a68ecd0b8dd8993ff3de9d3c55dbeac1e" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CameraTracking.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1af6a7476a3c36f337e7a403055af36756" compoundref="_camera_tracking_8cs" startline="198" endline="202">ChangeTarget</referencedby>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1aea7059779cfa4fba808b7a574f2da0b4" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraTracking.lagCamera</definition>
+        <argsstring></argsstring>
+        <name>lagCamera</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1ab42a25d576ad78e6a3bf14aa5e8ece82" compoundref="_camera_tracking_8cs" startline="47" endline="53">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1ae337cf1f5fb74c588e6152d35fd96f24" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraTracking.isLaggingCamera</definition>
+        <argsstring></argsstring>
+        <name>isLaggingCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1ab42a25d576ad78e6a3bf14aa5e8ece82" compoundref="_camera_tracking_8cs" startline="47" endline="53">Awake</referencedby>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a103eb9dcc4c5a2df32015db900412eec" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraTracking.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="25" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a1c2c9cf24b1bdd1bcf1ebc5afaeafb2a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraTracking.isChangingTarget</definition>
+        <argsstring></argsstring>
+        <name>isChangingTarget</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="27" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1af6a7476a3c36f337e7a403055af36756" compoundref="_camera_tracking_8cs" startline="198" endline="202">ChangeTarget</referencedby>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1abebdd44e02f8d70940697d533718c0ed" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraTracking.zoomIn</definition>
+        <argsstring></argsstring>
+        <name>zoomIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a50d8d3808787ca38f72f009f03446953" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraTracking.zoomOut</definition>
+        <argsstring></argsstring>
+        <name>zoomOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="32" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a3dfd77c852f98e980587af31066d8230" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraTracking.maxZoom</definition>
+        <argsstring></argsstring>
+        <name>maxZoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="35" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a59b84a5bfc39791872c0b4d94ceb4ba1" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraTracking.MinZoom</definition>
+        <argsstring></argsstring>
+        <name>MinZoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="38" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a17ac7740b2fa64b4b4bd9478c4449a8f" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraTracking.zoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>zoomSpeed</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="41" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_tracking_1a3da947efbc4dc171d0f60bb076def17d" prot="protected" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera CameraTracking.cam</definition>
+        <argsstring></argsstring>
+        <name>cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="43" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_camera_tracking_1ab42a25d576ad78e6a3bf14aa5e8ece82" compoundref="_camera_tracking_8cs" startline="47" endline="53">Awake</referencedby>
+        <referencedby refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" compoundref="_camera_tracking_8cs" startline="56" endline="193">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_tracking_1ab42a25d576ad78e6a3bf14aa5e8ece82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraTracking.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="47" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="47" bodyend="53"/>
+        <references refid="class_camera_tracking_1a3da947efbc4dc171d0f60bb076def17d" compoundref="_camera_tracking_8cs" startline="43">cam</references>
+        <references refid="class_camera_tracking_1ae337cf1f5fb74c588e6152d35fd96f24" compoundref="_camera_tracking_8cs" startline="22">isLaggingCamera</references>
+        <references refid="class_camera_tracking_1aea7059779cfa4fba808b7a574f2da0b4" compoundref="_camera_tracking_8cs" startline="20">lagCamera</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_tracking_1a20a593690064e37ca100005d238c1488" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraTracking.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="56" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="56" bodyend="193"/>
+        <references refid="class_camera_tracking_1ad73cd19ca225a14be6f097c8e73f7234" compoundref="_camera_tracking_8cs" startline="12">axisToTrackOn</references>
+        <references refid="class_camera_tracking_1a3da947efbc4dc171d0f60bb076def17d" compoundref="_camera_tracking_8cs" startline="43">cam</references>
+        <references refid="class_camera_tracking_1a1c2c9cf24b1bdd1bcf1ebc5afaeafb2a" compoundref="_camera_tracking_8cs" startline="27">isChangingTarget</references>
+        <references refid="class_camera_tracking_1ae337cf1f5fb74c588e6152d35fd96f24" compoundref="_camera_tracking_8cs" startline="22">isLaggingCamera</references>
+        <references refid="class_camera_tracking_1a3dfd77c852f98e980587af31066d8230" compoundref="_camera_tracking_8cs" startline="35">maxZoom</references>
+        <references refid="class_camera_tracking_1a59b84a5bfc39791872c0b4d94ceb4ba1" compoundref="_camera_tracking_8cs" startline="38">MinZoom</references>
+        <references refid="class_camera_tracking_1a103eb9dcc4c5a2df32015db900412eec" compoundref="_camera_tracking_8cs" startline="25">speed</references>
+        <references refid="class_camera_tracking_1a68ecd0b8dd8993ff3de9d3c55dbeac1e" compoundref="_camera_tracking_8cs" startline="15">target</references>
+        <references refid="class_camera_tracking_1abebdd44e02f8d70940697d533718c0ed" compoundref="_camera_tracking_8cs" startline="31">zoomIn</references>
+        <references refid="class_camera_tracking_1a50d8d3808787ca38f72f009f03446953" compoundref="_camera_tracking_8cs" startline="32">zoomOut</references>
+        <references refid="class_camera_tracking_1a17ac7740b2fa64b4b4bd9478c4449a8f" compoundref="_camera_tracking_8cs" startline="41">zoomSpeed</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_tracking_1af6a7476a3c36f337e7a403055af36756" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraTracking.ChangeTarget</definition>
+        <argsstring>(GameObject newTarget)</argsstring>
+        <name>ChangeTarget</name>
+        <param>
+          <type>GameObject</type>
+          <declname>newTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="198" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="198" bodyend="202"/>
+        <references refid="class_camera_tracking_1a1c2c9cf24b1bdd1bcf1ebc5afaeafb2a" compoundref="_camera_tracking_8cs" startline="27">isChangingTarget</references>
+        <references refid="class_camera_tracking_1a68ecd0b8dd8993ff3de9d3c55dbeac1e" compoundref="_camera_tracking_8cs" startline="15">target</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="41">
+        <label>CameraTracking</label>
+        <link refid="class_camera_tracking"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="44">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="43">
+        <label>CameraTracking</label>
+        <link refid="class_camera_tracking"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/CameraTracking.cs" bodystart="5" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_camera_tracking_1ab42a25d576ad78e6a3bf14aa5e8ece82" prot="private" virt="non-virtual"><scope>CameraTracking</scope><name>Awake</name></member>
+      <member refid="class_camera_tracking_1ad73cd19ca225a14be6f097c8e73f7234" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>axisToTrackOn</name></member>
+      <member refid="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffde" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>AxisToTrackOn</name></member>
+      <member refid="class_camera_tracking_1a3da947efbc4dc171d0f60bb076def17d" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>cam</name></member>
+      <member refid="class_camera_tracking_1af6a7476a3c36f337e7a403055af36756" prot="public" virt="non-virtual"><scope>CameraTracking</scope><name>ChangeTarget</name></member>
+      <member refid="class_camera_tracking_1a1c2c9cf24b1bdd1bcf1ebc5afaeafb2a" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>isChangingTarget</name></member>
+      <member refid="class_camera_tracking_1ae337cf1f5fb74c588e6152d35fd96f24" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>isLaggingCamera</name></member>
+      <member refid="class_camera_tracking_1aea7059779cfa4fba808b7a574f2da0b4" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>lagCamera</name></member>
+      <member refid="class_camera_tracking_1a3dfd77c852f98e980587af31066d8230" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>maxZoom</name></member>
+      <member refid="class_camera_tracking_1a59b84a5bfc39791872c0b4d94ceb4ba1" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>MinZoom</name></member>
+      <member refid="class_camera_tracking_1a103eb9dcc4c5a2df32015db900412eec" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>speed</name></member>
+      <member refid="class_camera_tracking_1a68ecd0b8dd8993ff3de9d3c55dbeac1e" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>target</name></member>
+      <member refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" prot="private" virt="non-virtual"><scope>CameraTracking</scope><name>Update</name></member>
+      <member refid="class_camera_tracking_1abebdd44e02f8d70940697d533718c0ed" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>zoomIn</name></member>
+      <member refid="class_camera_tracking_1a50d8d3808787ca38f72f009f03446953" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>zoomOut</name></member>
+      <member refid="class_camera_tracking_1a17ac7740b2fa64b4b4bd9478c4449a8f" prot="protected" virt="non-virtual"><scope>CameraTracking</scope><name>zoomSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -24,7 +24,7 @@ namespace ManningsLootSystem
         [SerializeField]
         public RuntimeAnimatorController swordAnimator;
 
-
+        //used to make sure no enemies are hit twice during a single attack
         protected List<GameObject> hitEnemies = new List<GameObject>();
 
 
@@ -61,10 +61,7 @@ namespace ManningsLootSystem
             base.Update();
 
 
-            if (owner != null)
-            {
-                //transform.position = owner.transform.position;
-            }
+           
         }
 
         public override void Use()
@@ -161,7 +158,7 @@ namespace ManningsLootSystem
 
         public void SetDirection(int dir)
         {
-            Debug.Log("Changed direction");   
+
             anim.SetInteger("Direction", dir);
         }
     }

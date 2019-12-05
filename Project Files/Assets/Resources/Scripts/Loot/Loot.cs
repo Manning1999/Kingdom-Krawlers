@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace ManningsLootSystem
 {
-    public class Loot : MonoBehaviour
+    public class Loot : MonoBehaviour, IInteractable
     {
 
         [SerializeField]
@@ -29,6 +30,12 @@ namespace ManningsLootSystem
         protected bool inInventory = false;
         protected bool statsDecided = false;
 
+        [SerializeField]
+        protected bool purchasable = false;
+
+        [SerializeField]
+        protected bool replenishable = false;
+
 
         //Components
         protected SpriteRenderer rend;
@@ -47,9 +54,11 @@ namespace ManningsLootSystem
                 Generate();
             }
 
+            try { rend = transform.GetComponent<SpriteRenderer>(); } catch (Exception e) { }
+            try { rend.sprite = icon; } catch (Exception e) { }
+            try { anim = transform.GetComponent<Animator>(); } catch (Exception e) { }
 
-            rend = transform.GetComponent<SpriteRenderer>();
-            rend.sprite = icon;
+            
             anim = transform.GetComponent<Animator>();
         }
 
@@ -84,14 +93,16 @@ namespace ManningsLootSystem
 
         protected virtual void OnTriggerEnter2D(Collider2D col)
         {
-
-            if (inInventory == false)
+            if (purchasable == false)
             {
-                if (col.transform.GetComponent<PlayerController>() != null)
+                if (inInventory == false)
                 {
-                    Debug.Log("Should be adding now");
-                    AddToInventory();
+                    if (col.transform.GetComponent<PlayerController>() != null)
+                    {
+                        Debug.Log("Should be adding now");
+                        AddToInventory();
 
+                    }
                 }
             }
         }
@@ -100,15 +111,16 @@ namespace ManningsLootSystem
 
         public virtual void AddToInventory()
         {
-            Debug.Log(InventoryController.Instance.AddToInventory(gameObject));
-            if (InventoryController.Instance.AddToInventory(gameObject) == true)
-            {
-                anim.SetTrigger("Collect");
-                inInventory = true;
-            }
+           
+                if (InventoryController.Instance.AddToInventory(gameObject) == true)
+                {
+                    anim.SetTrigger("Collect");
+                    inInventory = true;
+                }
 
-            owner = PlayerController.Instance.gameObject;
-            transform.GetComponent<Collider2D>().enabled = false;
+                owner = PlayerController.Instance.gameObject;
+                transform.GetComponent<Collider2D>().enabled = false;
+           
         }
 
 
@@ -131,6 +143,28 @@ namespace ManningsLootSystem
         public virtual void Use()
         {
             Debug.Log("This object has been used");
+        }
+
+        public virtual void InteractWith()
+        {
+            if(purchasable == true)
+            {
+                if (InventoryController.Instance._playerMoney >= value)
+                {
+                    AddToInventory();
+                    Debug.Log("purchased: " + transform.name);
+                    InventoryController.Instance.BuyObject(value);
+                }
+                else
+                {
+                    MessageLog.Instance.UpdateLog("You do not have enough money to buy this");
+                    Debug.Log("Couldn't purchase item");
+                }
+            }
+            else
+            {
+                AddToInventory();
+            }
         }
     }
 

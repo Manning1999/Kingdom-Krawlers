@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e24a5e22ff0aedfde32e05c8c2370d82" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies</compoundname>
+    <innerfile refid="_enemy_controller_8cs">EnemyController.cs</innerfile>
+    <innerfile refid="_projectile_8cs">Projectile.cs</innerfile>
+    <innerfile refid="_skeleton_8cs">Skeleton.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/"/>
+  </compounddef>
+</doxygen>

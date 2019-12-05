@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Importing::ScmlObject</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object_1a6bae5c4775ab29204f84d89a9c2f325f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_folder" kindref="compound">Folder</ref>[]</type>
+        <definition>Folder [] Spriter2UnityDX.Importing.ScmlObject.folders</definition>
+        <argsstring></argsstring>
+        <name>folders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object_1a349e667046c59d82e739fd772ee20424" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_entity" kindref="compound">Entity</ref>[]</type>
+        <definition>Entity [] Spriter2UnityDX.Importing.ScmlObject.entities</definition>
+        <argsstring></argsstring>
+        <name>entities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="16" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object_1a349e667046c59d82e739fd772ee20424" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::ScmlObject</scope><name>entities</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object_1a6bae5c4775ab29204f84d89a9c2f325f" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::ScmlObject</scope><name>folders</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

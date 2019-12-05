@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Importing::ScmlElement</compoundname>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.Animation</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_character_map" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.CharacterMap</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_entity" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.Entity</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_file" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.File</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_folder" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.Folder</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_main_line_key" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.MainLineKey</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_ref" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.Ref</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.TimeLine</derivedcompoundref>
+    <derivedcompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.TimeLineKey</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element_1a3da3be7d801db591f021df32ba7c195e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.ScmlElement.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="215" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="349">
+        <label>Spriter2UnityDX.Importing.Folder</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_folder"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>Spriter2UnityDX.Importing.Ref</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_ref"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="348">
+        <label>Spriter2UnityDX.Importing.File</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_file"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>Spriter2UnityDX.Importing.TimeLine</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="353">
+        <label>Spriter2UnityDX.Importing.TimeLineKey</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>Spriter2UnityDX.Importing.Entity</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_entity"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>Spriter2UnityDX.Importing.Animation</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="346">
+        <label>Spriter2UnityDX.Importing.CharacterMap</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_character_map"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>Spriter2UnityDX.Importing.ScmlElement</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element"/>
+      </node>
+      <node id="350">
+        <label>Spriter2UnityDX.Importing.MainLineKey</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_main_line_key"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="214" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="214" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element_1a3da3be7d801db591f021df32ba7c195e" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::ScmlElement</scope><name>id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

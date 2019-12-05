@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_spriter2_unity_d_x_1_1_importing" kind="namespace">
+    <compoundname>Spriter2UnityDX::Importing</compoundname>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_window" prot="public">Spriter2UnityDX::Importing::ScmlImportOptionsWindow</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options" prot="public">Spriter2UnityDX::Importing::ScmlImportOptions</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object" prot="public">Spriter2UnityDX::Importing::ScmlObject</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_folder" prot="public">Spriter2UnityDX::Importing::Folder</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_file" prot="public">Spriter2UnityDX::Importing::File</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_entity" prot="public">Spriter2UnityDX::Importing::Entity</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_character_map" prot="public">Spriter2UnityDX::Importing::CharacterMap</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction" prot="public">Spriter2UnityDX::Importing::MapInstruction</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation" prot="public">Spriter2UnityDX::Importing::Animation</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_main_line_key" prot="public">Spriter2UnityDX::Importing::MainLineKey</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_ref" prot="public">Spriter2UnityDX::Importing::Ref</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" prot="public">Spriter2UnityDX::Importing::TimeLine</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key" prot="public">Spriter2UnityDX::Importing::TimeLineKey</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" prot="public">Spriter2UnityDX::Importing::SpatialInfo</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info" prot="public">Spriter2UnityDX::Importing::SpriteInfo</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element" prot="public">Spriter2UnityDX::Importing::ScmlElement</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8" prot="public" static="no">
+        <name>ObjectType</name>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8ab8641287bcaf704efaaa6a226ab88131" prot="public">
+          <name>sprite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8aa57fc812a9521b8c0ede9a2724351a55" prot="public">
+          <name>bone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8a34be958a921e43d813a2075297d8e862" prot="public">
+          <name>box</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8a78ee54aa8f813885fe2fe20d232518b9" prot="public">
+          <name>point</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8a0b8263d341de01f741e4deadfb18f9eb" prot="public">
+          <name>sound</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8af5e638cc78dd325906c1298a0c21fb6b" prot="public">
+          <name>entity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8ae04aa5104d082e4a51d241391941ba26" prot="public">
+          <name>variable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="93" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_spriter2_unity_d_x_1_1_importing_1a4e88e0eb55dc560ad34997b6cbfa18dc" prot="public" static="no">
+        <name>CurveType</name>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a4e88e0eb55dc560ad34997b6cbfa18dcabcbf4d67f34365b2658b63de6db82638" prot="public">
+          <name>instant</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a4e88e0eb55dc560ad34997b6cbfa18dca9a932b3cb396238423eb2f33ec17d6aa" prot="public">
+          <name>linear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a4e88e0eb55dc560ad34997b6cbfa18dcad2ac8798d82192d415e5a4d797dda30a" prot="public">
+          <name>quadratic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1_1_importing_1a4e88e0eb55dc560ad34997b6cbfa18dca7ab93feeb36d98e584d10de2e2f68843" prot="public">
+          <name>cubic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="100" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlImportOptions.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dont_destroy_on_load" kind="class" prot="public">
+    <compoundname>DontDestroyOnLoad</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dont_destroy_on_load_1ac61674b41e1f8f34a3bf6702db19c035" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DontDestroyOnLoad.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DontDestroyOnLoad.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DontDestroyOnLoad.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dont_destroy_on_load_1a3a3880cbf5c3d9a58bcf35c708690c0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DontDestroyOnLoad.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DontDestroyOnLoad.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DontDestroyOnLoad.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="83">
+        <label>DontDestroyOnLoad</label>
+        <link refid="class_dont_destroy_on_load"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="85">
+        <label>DontDestroyOnLoad</label>
+        <link refid="class_dont_destroy_on_load"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DontDestroyOnLoad.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DontDestroyOnLoad.cs" bodystart="5" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_dont_destroy_on_load_1ac61674b41e1f8f34a3bf6702db19c035" prot="private" virt="non-virtual"><scope>DontDestroyOnLoad</scope><name>Awake</name></member>
+      <member refid="class_dont_destroy_on_load_1a3a3880cbf5c3d9a58bcf35c708690c0a" prot="private" virt="non-virtual"><scope>DontDestroyOnLoad</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

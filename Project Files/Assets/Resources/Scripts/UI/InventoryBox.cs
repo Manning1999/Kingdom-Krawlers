@@ -20,8 +20,11 @@ public class InventoryBox : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        image = iconDisplay.transform.GetComponent<UnityEngine.UI.Image>();
-        SetDetails(null);
+        if (image == null)
+        {
+            image = iconDisplay.transform.GetComponent<UnityEngine.UI.Image>();
+        }
+       // SetDetails(null);
     }
 
     // Update is called once per frame
@@ -32,13 +35,19 @@ public class InventoryBox : MonoBehaviour
 
     private void OnEnable()
     {
+       
         if(linkedLoot != null)
         {
             
             image.enabled = true;
             Debug.Log(image.IsActive());
             image.sprite = linkedLoot.transform.GetComponent<Loot>()._icon;
-        }    
+            Debug.Log(linkedLoot.transform.GetComponent<Loot>()._icon);
+        }
+        else
+        {
+            image.enabled = false;
+        }
     }
 
 
@@ -50,15 +59,24 @@ public class InventoryBox : MonoBehaviour
         {
            
             linkedLoot = loot;
-
+            try
+            {
+                image.enabled = true;
+                image.sprite = linkedLoot.transform.GetComponent<Loot>()._icon;
+            }
+            catch (Exception e) { }
         }
         else
         {
+            linkedLoot = null;
+
+
             if (image != null)
             {
                 try
                 {
                     image.enabled = false;
+                    
                 }
                 catch (Exception e) { }
             }
@@ -66,15 +84,20 @@ public class InventoryBox : MonoBehaviour
     }
 
 
-
+     
     public void Select(bool selected)
     {
 
         if (selected == true)
         {
-            Debug.Log("Clicked on" + linkedLoot + "   :   " + gameObject.GetInstanceID());
             InventoryController.Instance.SelectLoot(linkedLoot);
-            transform.GetComponent<UnityEngine.UI.Image>().color = selectedColor;
+
+            if (linkedLoot != null)
+            {
+          
+               
+                transform.GetComponent<UnityEngine.UI.Image>().color = selectedColor;
+            }
         }
         else
         {

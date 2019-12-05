@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8327349943009950172}
   - component: {fileID: 6668600611627904910}
   - component: {fileID: 6668600611627904911}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Speed Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -16,11 +16,13 @@ namespace ManningsLootSystem
         protected void Start()
         {
             base.Start();
+            audio = transform.GetComponent<AudioSource>();
         }
 
         public override void Use()
         {
-
+            audio.clip = useSound;
+            audio.Play();
         }
 
 
@@ -28,7 +30,17 @@ namespace ManningsLootSystem
         {
             InventoryController.Instance.AddPotion(this);
             Debug.Log(this);
-            Destroy(gameObject);
+            if (purchasable == true)
+            {
+                if(replenishable == false)
+                {
+                    Destroy(gameObject);
+                }
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
 
     }

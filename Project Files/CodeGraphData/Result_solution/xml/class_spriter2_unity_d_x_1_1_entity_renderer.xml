@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_entity_renderer" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::EntityRenderer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_entity_renderer_1ae7529efe7c7a515b8bb4c4b7081661f8" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer[]</type>
+        <definition>SpriteRenderer [] Spriter2UnityDX.EntityRenderer.renderers</definition>
+        <argsstring></argsstring>
+        <name>renderers</name>
+        <initializer>= new SpriteRenderer [0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a0eaae005f8cba2210c7b2ed724c4e591" compoundref="_entity_renderer_8cs" startline="90" endline="92">Spriter2UnityDX.EntityRenderer.DoForAll</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ad8f1b45bf49872f70202afe86c8b1dd1" compoundref="_entity_renderer_8cs" startline="94" endline="100">Spriter2UnityDX.EntityRenderer.RefreshRenders</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_entity_renderer_1ac24939edca9c0cda90f182ac5672b1c5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_sorting_order_updater" kindref="compound">SortingOrderUpdater</ref>[]</type>
+        <definition>SortingOrderUpdater [] Spriter2UnityDX.EntityRenderer.updaters</definition>
+        <argsstring></argsstring>
+        <name>updaters</name>
+        <initializer>= new <ref refid="class_spriter2_unity_d_x_1_1_sorting_order_updater" kindref="compound">SortingOrderUpdater</ref> [0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ad8f1b45bf49872f70202afe86c8b1dd1" compoundref="_entity_renderer_8cs" startline="94" endline="100">Spriter2UnityDX.EntityRenderer.RefreshRenders</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a1c9665d29755f2217313056a3b465ee3" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer Spriter2UnityDX.EntityRenderer._first</definition>
+        <argsstring></argsstring>
+        <name>_first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ad8f1b45bf49872f70202afe86c8b1dd1" compoundref="_entity_renderer_8cs" startline="94" endline="100">Spriter2UnityDX.EntityRenderer.RefreshRenders</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_entity_renderer_1abe028b140dd2d4c80141c0f45ac34320" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.EntityRenderer.sortingOrder</definition>
+        <argsstring></argsstring>
+        <name>sortingOrder</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="38" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_entity_renderer_1adbf527ad8e1950b46eefb920770f7338" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Spriter2UnityDX.EntityRenderer.applySpriterZOrder</definition>
+        <argsstring></argsstring>
+        <name>applySpriterZOrder</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="50" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a7e78d0ee64aff5662e07680fc840c9ec" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer Spriter2UnityDX.EntityRenderer.first</definition>
+        <argsstring></argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a5394b247f62a299ab32208fc40ba3f12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color Spriter2UnityDX.EntityRenderer.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a3ea2f14f6e84fe2a86a5e22b09259af9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Material</type>
+        <definition>Material Spriter2UnityDX.EntityRenderer.Material</definition>
+        <argsstring></argsstring>
+        <name>Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="23" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a98798fd960d37368f15556bc58822a5a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.EntityRenderer.SortingLayerID</definition>
+        <argsstring></argsstring>
+        <name>SortingLayerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a51f1a6a7db0cf5705aaa3dd9b0d3c1d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Spriter2UnityDX.EntityRenderer.SortingLayerName</definition>
+        <argsstring></argsstring>
+        <name>SortingLayerName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="33" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a1c0cd2fc7272ffcc8269712d658be3aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.EntityRenderer.SortingOrder</definition>
+        <argsstring></argsstring>
+        <name>SortingOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="39" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_entity_renderer_1ae67dcc70bc508f2b500266926caa17ae" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Spriter2UnityDX.EntityRenderer.ApplySpriterZOrder</definition>
+        <argsstring></argsstring>
+        <name>ApplySpriterZOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="51" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a8dfed9e49bfeacdbd2a14c1cdbafd8cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.EntityRenderer.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="78" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="78" bodyend="80"/>
+        <references refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ad8f1b45bf49872f70202afe86c8b1dd1" compoundref="_entity_renderer_8cs" startline="94" endline="100">Spriter2UnityDX.EntityRenderer.RefreshRenders</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a1842c6502d04b5278e3fac8a35e7026a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.EntityRenderer.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="82" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="82" bodyend="84"/>
+        <references refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a0eaae005f8cba2210c7b2ed724c4e591" compoundref="_entity_renderer_8cs" startline="90" endline="92">Spriter2UnityDX.EntityRenderer.DoForAll</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_entity_renderer_1ae97e9f9144d3a70a12edde7ba7e506eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.EntityRenderer.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="86" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="86" bodyend="88"/>
+        <references refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a0eaae005f8cba2210c7b2ed724c4e591" compoundref="_entity_renderer_8cs" startline="90" endline="92">Spriter2UnityDX.EntityRenderer.DoForAll</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_entity_renderer_1a0eaae005f8cba2210c7b2ed724c4e591" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.EntityRenderer.DoForAll</definition>
+        <argsstring>(Action&lt; SpriteRenderer &gt; action)</argsstring>
+        <name>DoForAll</name>
+        <param>
+          <type>Action&lt; SpriteRenderer &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="90" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="90" bodyend="92"/>
+        <references refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae7529efe7c7a515b8bb4c4b7081661f8" compoundref="_entity_renderer_8cs" startline="8">Spriter2UnityDX.EntityRenderer.renderers</references>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae97e9f9144d3a70a12edde7ba7e506eb" compoundref="_entity_renderer_8cs" startline="86" endline="88">Spriter2UnityDX.EntityRenderer.OnDisable</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1842c6502d04b5278e3fac8a35e7026a" compoundref="_entity_renderer_8cs" startline="82" endline="84">Spriter2UnityDX.EntityRenderer.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_entity_renderer_1ad8f1b45bf49872f70202afe86c8b1dd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.EntityRenderer.RefreshRenders</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshRenders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="94" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="94" bodyend="100"/>
+        <references refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1c9665d29755f2217313056a3b465ee3" compoundref="_entity_renderer_8cs" startline="10">Spriter2UnityDX.EntityRenderer._first</references>
+        <references refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae7529efe7c7a515b8bb4c4b7081661f8" compoundref="_entity_renderer_8cs" startline="8">Spriter2UnityDX.EntityRenderer.renderers</references>
+        <references refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ac24939edca9c0cda90f182ac5672b1c5" compoundref="_entity_renderer_8cs" startline="9">Spriter2UnityDX.EntityRenderer.updaters</references>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a8dfed9e49bfeacdbd2a14c1cdbafd8cf" compoundref="_entity_renderer_8cs" startline="78" endline="80">Spriter2UnityDX.EntityRenderer.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>Spriter2UnityDX.EntityRenderer</label>
+        <link refid="class_spriter2_unity_d_x_1_1_entity_renderer"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>Spriter2UnityDX.EntityRenderer</label>
+        <link refid="class_spriter2_unity_d_x_1_1_entity_renderer"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+        <childnode refid="101" relation="usage">
+          <edgelabel>updaters</edgelabel>
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Spriter2UnityDX.SortingOrderUpdater</label>
+        <link refid="class_spriter2_unity_d_x_1_1_sorting_order_updater"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" bodystart="7" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1c9665d29755f2217313056a3b465ee3" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>_first</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1adbf527ad8e1950b46eefb920770f7338" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>applySpriterZOrder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae67dcc70bc508f2b500266926caa17ae" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>ApplySpriterZOrder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a8dfed9e49bfeacdbd2a14c1cdbafd8cf" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>Awake</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a5394b247f62a299ab32208fc40ba3f12" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>Color</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a0eaae005f8cba2210c7b2ed724c4e591" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>DoForAll</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a7e78d0ee64aff5662e07680fc840c9ec" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>first</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a3ea2f14f6e84fe2a86a5e22b09259af9" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>Material</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae97e9f9144d3a70a12edde7ba7e506eb" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>OnDisable</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1842c6502d04b5278e3fac8a35e7026a" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>OnEnable</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ad8f1b45bf49872f70202afe86c8b1dd1" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>RefreshRenders</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae7529efe7c7a515b8bb4c4b7081661f8" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>renderers</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a98798fd960d37368f15556bc58822a5a" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>SortingLayerID</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a51f1a6a7db0cf5705aaa3dd9b0d3c1d5" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>SortingLayerName</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1c0cd2fc7272ffcc8269712d658be3aa" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>SortingOrder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1abe028b140dd2d4c80141c0f45ac34320" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>sortingOrder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ac24939edca9c0cda90f182ac5672b1c5" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::EntityRenderer</scope><name>updaters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

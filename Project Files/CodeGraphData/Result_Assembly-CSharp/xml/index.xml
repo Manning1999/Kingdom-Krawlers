@@ -1,0 +1,947 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_arrow" kind="class"><name>Arrow</name>
+    <member refid="class_arrow_1a39c6914f3f9ddfdd9564fd78aff471e1" kind="variable"><name>arrowSpeed</name></member>
+    <member refid="class_arrow_1a37acc46f8d793cc86cef148645652c73" kind="variable"><name>damage</name></member>
+    <member refid="class_arrow_1a65ce0e1a14405dec237e13ee5631b07d" kind="function"><name>Start</name></member>
+    <member refid="class_arrow_1a98d2142ded67e21edd7f652a9c5f7d89" kind="function"><name>Update</name></member>
+    <member refid="class_arrow_1a19f9c44e6cc6eb1e088638ed97c9beb1" kind="function"><name>OnCollisionEnter2D</name></member>
+  </compound>
+  <compound refid="class_arrow_count_u_i" kind="class"><name>ArrowCountUI</name>
+    <member refid="class_arrow_count_u_i_1a64d30135b81797713ef6b1533aff0809" kind="variable"><name>instance</name></member>
+    <member refid="class_arrow_count_u_i_1a56ebdaf5cc65572902c031c67ad77175" kind="variable"><name>_instance</name></member>
+    <member refid="class_arrow_count_u_i_1a7f8ef1abd925711806bdf286f7d39591" kind="property"><name>Instance</name></member>
+    <member refid="class_arrow_count_u_i_1a68e11e4067d4d2bab3a88072493b9df4" kind="function"><name>UpdateArrowGUI</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_arrow_loot" kind="class"><name>ManningsLootSystem::ArrowLoot</name>
+    <member refid="class_mannings_loot_system_1_1_arrow_loot_1a60b978eaac936174c6d5bd51b7ad3677" kind="variable"><name>arrows</name></member>
+    <member refid="class_mannings_loot_system_1_1_arrow_loot_1acc3ce89f773837af552396de6b4b35bf" kind="function"><name>Generate</name></member>
+    <member refid="class_mannings_loot_system_1_1_arrow_loot_1a130140f95143fb8a6d9a3786efe55821" kind="function"><name>AddToInventory</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats" kind="class"><name>ManningsLootSystem::LootController::ArrowStats</name>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a0280cc16e29a15cba2dcc33db0a9253a" kind="variable"><name>createMultipleArrows</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a2437b1901b609be71c2314c29e839b06" kind="variable"><name>minArrowsInDrop</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a845ab5d4da1ee934269cf113b7f005f0" kind="variable"><name>maxArrowsInDrop</name></member>
+  </compound>
+  <compound refid="class_audio_button" kind="class"><name>AudioButton</name>
+    <member refid="class_audio_button_1aeae731dac5e2fbfb4569759c447fde4d" kind="variable"><name>mainMenuUI</name></member>
+    <member refid="class_audio_button_1a8b7264589d820bb419c9135b03909d25" kind="variable"><name>audioUI</name></member>
+    <member refid="class_audio_button_1a1d3390d4f237e2079bd99e36d28cf8a5" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_back_to_menu_button" kind="class"><name>BackToMenuButton</name>
+    <member refid="class_back_to_menu_button_1a521364278d04e66a52d311429f9ab09d" kind="variable"><name>mainMenuUI</name></member>
+    <member refid="class_back_to_menu_button_1a1202a41ce89ea90cfdca562d3565d116" kind="variable"><name>videoUI</name></member>
+    <member refid="class_back_to_menu_button_1aab029f9bad8c6388f2157f7f3dc44cbe" kind="variable"><name>audioUI</name></member>
+    <member refid="class_back_to_menu_button_1ab749bdc87cc0f55ed0dd3a9c6e33e29e" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_bow" kind="class"><name>ManningsLootSystem::Bow</name>
+    <member refid="class_mannings_loot_system_1_1_bow_1ab56164de5ed2f2e8d239b5e8a434093c" kind="variable"><name>tier</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a301688c6d7519a7c654689104df35fbb" kind="variable"><name>damage</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a97adc1f0e2f076199dc5c0d9f6aaa99f" kind="variable"><name>attackSpeed</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a1416cc7991b5e80ccf8cc4a71d5e516c" kind="variable"><name>arrow</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a2a59ca6037240baca5d6864aff7e3ff6" kind="variable"><name>aimingDirection</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1af90164a5a0b5144c92cbdaf801f02cb8" kind="variable"><name>isEquipped</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a33cef3e8dc5e7ad87e8be6865d939c80" kind="variable"><name>canAttack</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a5dda819efa310bdebb2b12f7f5e7ef9e" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a30dfbfdcfa5684af027c1492afbd1252" kind="function"><name>Update</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1a4d5916ef0047c88cf69399446362489e" kind="function"><name>AttackSpeedTimer</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1ab761441e642a5d60f90ce236c390de94" kind="function"><name>Generate</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1ac090a6a2ffb1d72b5fcf0d1489336dc7" kind="function"><name>AddToInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1aff25e16af3662df37896cbf3eb53bf9a" kind="function"><name>Use</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1ada07c57045fd762155f8c14a4b27cac9" kind="function"><name>Equip</name></member>
+    <member refid="class_mannings_loot_system_1_1_bow_1af26c52811d29c318e17e29ec5f5ad46c" kind="function"><name>Show</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats" kind="class"><name>ManningsLootSystem::LootController::BowStats</name>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats_1a792aadd25c8de65031fcf2571745d8d3" kind="variable"><name>tier</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats_1a10de2ac449ec889fcefc55ee1da04f70" kind="variable"><name>minDamage</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats_1ab11053ae02635106c5551c7ac0175570" kind="variable"><name>maxDamage</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats_1a0fb0e58c912ce60d5eff8c8455d5c0ac" kind="variable"><name>minAttackSpeed</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats_1ad7e2fa6b142baae7f0a26080b7671bed" kind="variable"><name>maxAttackSpeed</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats_1af5dceaffc1abaaa8689ec0da7355f098" kind="variable"><name>baseValue</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_bow_stats_1aec820ca84763282cea3629757126f298" kind="variable"><name>possibleSprites</name></member>
+  </compound>
+  <compound refid="class_camera_tracking" kind="class"><name>CameraTracking</name>
+    <member refid="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffde" kind="enum"><name>AxisToTrackOn</name></member>
+    <member refid="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffdea74c53bcd3dcb2bb79993b2fec37d362a" kind="enumvalue"><name>XY</name></member>
+    <member refid="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffdeaffa4ba973372c3650fd0881abeca6512" kind="enumvalue"><name>YZ</name></member>
+    <member refid="class_camera_tracking_1a7b761d98bd04f8e8b2b48df419e6ffdea27db3b98d01e664c17a6620b222c6469" kind="enumvalue"><name>XZ</name></member>
+    <member refid="class_camera_tracking_1ad73cd19ca225a14be6f097c8e73f7234" kind="variable"><name>axisToTrackOn</name></member>
+    <member refid="class_camera_tracking_1a68ecd0b8dd8993ff3de9d3c55dbeac1e" kind="variable"><name>target</name></member>
+    <member refid="class_camera_tracking_1aea7059779cfa4fba808b7a574f2da0b4" kind="variable"><name>lagCamera</name></member>
+    <member refid="class_camera_tracking_1ae337cf1f5fb74c588e6152d35fd96f24" kind="variable"><name>isLaggingCamera</name></member>
+    <member refid="class_camera_tracking_1a103eb9dcc4c5a2df32015db900412eec" kind="variable"><name>speed</name></member>
+    <member refid="class_camera_tracking_1a1c2c9cf24b1bdd1bcf1ebc5afaeafb2a" kind="variable"><name>isChangingTarget</name></member>
+    <member refid="class_camera_tracking_1abebdd44e02f8d70940697d533718c0ed" kind="variable"><name>zoomIn</name></member>
+    <member refid="class_camera_tracking_1a50d8d3808787ca38f72f009f03446953" kind="variable"><name>zoomOut</name></member>
+    <member refid="class_camera_tracking_1a3dfd77c852f98e980587af31066d8230" kind="variable"><name>maxZoom</name></member>
+    <member refid="class_camera_tracking_1a59b84a5bfc39791872c0b4d94ceb4ba1" kind="variable"><name>MinZoom</name></member>
+    <member refid="class_camera_tracking_1a17ac7740b2fa64b4b4bd9478c4449a8f" kind="variable"><name>zoomSpeed</name></member>
+    <member refid="class_camera_tracking_1a3da947efbc4dc171d0f60bb076def17d" kind="variable"><name>cam</name></member>
+    <member refid="class_camera_tracking_1ab42a25d576ad78e6a3bf14aa5e8ece82" kind="function"><name>Awake</name></member>
+    <member refid="class_camera_tracking_1a20a593690064e37ca100005d238c1488" kind="function"><name>Update</name></member>
+    <member refid="class_camera_tracking_1af6a7476a3c36f337e7a403055af36756" kind="function"><name>ChangeTarget</name></member>
+  </compound>
+  <compound refid="class_can_dash_icon" kind="class"><name>CanDashIcon</name>
+    <member refid="class_can_dash_icon_1afabf0f8788008e64fc5452318566a7e8" kind="variable"><name>statusMaterial</name></member>
+    <member refid="class_can_dash_icon_1a8b6f8ac4e6aec353a50ea317e299cbbb" kind="variable"><name>canDash</name></member>
+    <member refid="class_can_dash_icon_1ab2e51278b4fe19465941bc11df653b5a" kind="function"><name>Start</name></member>
+    <member refid="class_can_dash_icon_1adad05d3861f24137ee9c16990bee3052" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_chasm" kind="class"><name>Chasm</name>
+    <member refid="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aea" kind="enum"><name>FallDirection</name></member>
+    <member refid="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aeaa8833f67c0f8e2339c154ffc91e15eb8c" kind="enumvalue"><name>UpDown</name></member>
+    <member refid="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aeaa955322c98b1fc571e8b6b688ae7d9ee4" kind="enumvalue"><name>LeftRight</name></member>
+    <member refid="class_chasm_1a559f9e6ffb8cf8141b62aff8e7b808c1" kind="variable"><name>fallDirection</name></member>
+    <member refid="class_chasm_1ae339855a53a22bd28f3c6e1b514221b6" kind="property"><name>_fallDirection</name></member>
+  </compound>
+  <compound refid="class_coin_script" kind="class"><name>CoinScript</name>
+    <member refid="class_coin_script_1ac5ba0ac6bf1e07eaa5ba125c3b3fad46" kind="variable"><name>amountOfCoin</name></member>
+    <member refid="class_coin_script_1a25910cc81520392ee9f339e52d416f48" kind="variable"><name>coinsMin</name></member>
+    <member refid="class_coin_script_1af26a34eb2cf1da98d564a6dafa4f92f3" kind="variable"><name>coinsMax</name></member>
+    <member refid="class_coin_script_1ad9cdff800db09d06178e34430977421d" kind="function"><name>Start</name></member>
+    <member refid="class_coin_script_1a1288ee0f5b05f7e039cc681d91231fcc" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_dead_body" kind="class"><name>DeadBody</name>
+    <member refid="class_dead_body_1abea2bce042ea66313932e39a03669972" kind="variable"><name>levelDiedOn</name></member>
+    <member refid="class_dead_body_1a1c6982160878dad01833fda52e6c18ab" kind="variable"><name>soulObject</name></member>
+    <member refid="class_dead_body_1a1d90748709f12ce3812e75388a6ddaee" kind="function"><name>Awake</name></member>
+    <member refid="class_dead_body_1ab1b30b722977cbb9457e443e3edf38ed" kind="function"><name>OnSceneLoaded</name></member>
+    <member refid="class_dead_body_1a223f8f9daae4aeb82f2006d5342483fb" kind="function"><name>Hide</name></member>
+  </compound>
+  <compound refid="class_decoration" kind="class"><name>Decoration</name>
+    <member refid="class_decoration_1a4ef1f643bcbe81b8e8833f747f58188d" kind="function"><name>Start</name></member>
+    <member refid="class_decoration_1afbcb417bce0b04c887cc31c7c97fb30c" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_destroy_after_time" kind="class"><name>DestroyAfterTime</name>
+    <member refid="class_destroy_after_time_1aa998d938a36a5a97051a4df5571ba4db" kind="variable"><name>timeTilDestroy</name></member>
+    <member refid="class_destroy_after_time_1ab7565e5e31ca15ad65ecfa7e3ae8da07" kind="function"><name>Start</name></member>
+    <member refid="class_destroy_after_time_1a5db8ea5b64a441fe868522fe51da0482" kind="function"><name>DestroyTimer</name></member>
+  </compound>
+  <compound refid="class_destroy_button" kind="class"><name>DestroyButton</name>
+    <member refid="class_destroy_button_1a96763be86963128452ea34b1699cd72f" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_destructable" kind="class"><name>Destructable</name>
+    <member refid="class_destructable_1a6012a43db8c1a99ab27094cdb64381f9" kind="variable"><name>useHealth</name></member>
+    <member refid="class_destructable_1af9925abd85a1beae8a153958c7648069" kind="variable"><name>health</name></member>
+    <member refid="class_destructable_1a2d14b60712856014492b721e0f28720e" kind="variable"><name>baseHealth</name></member>
+    <member refid="class_destructable_1aa7f9482eba4fc2377af0cfb2c7b4fca6" kind="variable"><name>damageStates</name></member>
+    <member refid="class_destructable_1a3b2bcfd70c511d37a0de90548c31bd7f" kind="variable"><name>reachedState</name></member>
+    <member refid="class_destructable_1a2b6ae8d8ca8881185793a5d17f1c3e2f" kind="variable"><name>damageStateRanges</name></member>
+    <member refid="class_destructable_1ab0ffbd656f4181d334704e70c7536b25" kind="variable"><name>anim</name></member>
+    <member refid="class_destructable_1afe488a6f242cc34df2ae4d46f5ab3bc0" kind="variable"><name>rend</name></member>
+    <member refid="class_destructable_1af0ce07faaa7afae0dd0feb49b64401eb" kind="variable"><name>OnDestroy</name></member>
+    <member refid="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" kind="function"><name>Start</name></member>
+    <member refid="class_destructable_1ab8ab14c22f31f4da6f2b5c8f0ac89f82" kind="function"><name>Update</name></member>
+    <member refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" kind="function"><name>TakeDamage</name></member>
+    <member refid="class_destructable_1ab0f2cf7eec9b853ae68a5f82c8944ba7" kind="function"><name>Destruction</name></member>
+    <member refid="class_destructable_1a13a53dcceca1d410d1a61c104254bda0" kind="function"><name>DestroyTimer</name></member>
+  </compound>
+  <compound refid="class_dont_destroy_on_load" kind="class"><name>DontDestroyOnLoad</name>
+    <member refid="class_dont_destroy_on_load_1ac61674b41e1f8f34a3bf6702db19c035" kind="function"><name>Awake</name></member>
+    <member refid="class_dont_destroy_on_load_1a3a3880cbf5c3d9a58bcf35c708690c0a" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_enemy_controller" kind="class"><name>EnemyController</name>
+    <member refid="class_enemy_controller_1a69e61ed2490b9eee97733accb15d5cf9" kind="variable"><name>myRigidbody</name></member>
+    <member refid="class_enemy_controller_1ae20bb9f07db2bfb3f4b9d4a82cc1f080" kind="variable"><name>moving</name></member>
+    <member refid="class_enemy_controller_1ac387de31c12dee6792fbb76d25547b28" kind="variable"><name>timeBetweenMoveCounter</name></member>
+    <member refid="class_enemy_controller_1a75c5156df31b0e9a03a2557cfa1c740f" kind="variable"><name>timeToMoveCounter</name></member>
+    <member refid="class_enemy_controller_1a6a7c8715dfa401647102115f1d143c87" kind="variable"><name>moveDirection</name></member>
+    <member refid="class_enemy_controller_1afbbc117acfe3e21a2a82be06fa7314f9" kind="variable"><name>target</name></member>
+    <member refid="class_enemy_controller_1a2c5a111549b1d4d9f8141fd4c13bfcd5" kind="variable"><name>speed</name></member>
+    <member refid="class_enemy_controller_1ac40d16e6b75a6a531877d3fad25e770e" kind="variable"><name>range</name></member>
+    <member refid="class_enemy_controller_1a85e7109ec97914b1a3d47bdb5c7bcc78" kind="variable"><name>damage</name></member>
+    <member refid="class_enemy_controller_1ab3658780d73798052b099202503b65cc" kind="variable"><name>health</name></member>
+    <member refid="class_enemy_controller_1a09e8d20dc05ae9949c06a9d8d034bd35" kind="variable"><name>moveSpeed</name></member>
+    <member refid="class_enemy_controller_1a4acf8e2bc10e9d42521fc06f82405112" kind="variable"><name>timeBetweenMove</name></member>
+    <member refid="class_enemy_controller_1aa6232328e806710af8c24711c4dd92d9" kind="variable"><name>timeToMove</name></member>
+    <member refid="class_enemy_controller_1aef5af22782327b22749e5632ad7467fb" kind="function"><name>Start</name></member>
+    <member refid="class_enemy_controller_1a41090510cff98622fe675d1f6e3ecd82" kind="function"><name>Update</name></member>
+    <member refid="class_enemy_controller_1aa2585b33cdd57288a0c5a669f188f6ca" kind="function"><name>Die</name></member>
+    <member refid="class_enemy_controller_1a03bb033800af2a2be33c61d918c855f0" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_enemy_controller_1af72616dea88b18986264988ebdb36711" kind="function"><name>FollowPlayer</name></member>
+    <member refid="class_enemy_controller_1ad3024d2007baeec532abaa4a6f0f477d" kind="function"><name>TakeDamage</name></member>
+  </compound>
+  <compound refid="class_spriter2_unity_d_x_1_1_entity_renderer" kind="class"><name>Spriter2UnityDX::EntityRenderer</name>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae7529efe7c7a515b8bb4c4b7081661f8" kind="variable"><name>renderers</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ac24939edca9c0cda90f182ac5672b1c5" kind="variable"><name>updaters</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1c9665d29755f2217313056a3b465ee3" kind="variable"><name>_first</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1abe028b140dd2d4c80141c0f45ac34320" kind="variable"><name>sortingOrder</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1adbf527ad8e1950b46eefb920770f7338" kind="variable"><name>applySpriterZOrder</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a7e78d0ee64aff5662e07680fc840c9ec" kind="property"><name>first</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a5394b247f62a299ab32208fc40ba3f12" kind="property"><name>Color</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a3ea2f14f6e84fe2a86a5e22b09259af9" kind="property"><name>Material</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a98798fd960d37368f15556bc58822a5a" kind="property"><name>SortingLayerID</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a51f1a6a7db0cf5705aaa3dd9b0d3c1d5" kind="property"><name>SortingLayerName</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1c0cd2fc7272ffcc8269712d658be3aa" kind="property"><name>SortingOrder</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae67dcc70bc508f2b500266926caa17ae" kind="property"><name>ApplySpriterZOrder</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a8dfed9e49bfeacdbd2a14c1cdbafd8cf" kind="function"><name>Awake</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a1842c6502d04b5278e3fac8a35e7026a" kind="function"><name>OnEnable</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ae97e9f9144d3a70a12edde7ba7e506eb" kind="function"><name>OnDisable</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1a0eaae005f8cba2210c7b2ed724c4e591" kind="function"><name>DoForAll</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_entity_renderer_1ad8f1b45bf49872f70202afe86c8b1dd1" kind="function"><name>RefreshRenders</name></member>
+  </compound>
+  <compound refid="class_entry_point" kind="class"><name>EntryPoint</name>
+    <member refid="class_entry_point_1a806bace7cc75bd965911760800276bb4" kind="enum"><name>SpawnDirection</name></member>
+    <member refid="class_entry_point_1a806bace7cc75bd965911760800276bb4a5b469fd01889ec12f1e84c6e66829fc1" kind="enumvalue"><name>Above</name></member>
+    <member refid="class_entry_point_1a806bace7cc75bd965911760800276bb4ae59dd8d25c0b6bb6697eac0617ccd412" kind="enumvalue"><name>Below</name></member>
+    <member refid="class_entry_point_1a806bace7cc75bd965911760800276bb4a945d5e233cf7d6240f6b783b36a374ff" kind="enumvalue"><name>Left</name></member>
+    <member refid="class_entry_point_1a806bace7cc75bd965911760800276bb4a92b09c7c48c520c3c55e497875da437c" kind="enumvalue"><name>Right</name></member>
+    <member refid="class_entry_point_1aef2b409df71b763126c0eda2bc08167a" kind="variable"><name>spawnDirection</name></member>
+    <member refid="class_entry_point_1a99fba038e9d300b1cc28d17b2f4b2618" kind="variable"><name>spawnDistance</name></member>
+    <member refid="class_entry_point_1a36e1582fd93667b587456f2b39b86244" kind="variable"><name>linkedScene</name></member>
+    <member refid="class_entry_point_1ad4b378523e52aac51942ed51db829ba5" kind="variable"><name>linkedEntrance</name></member>
+    <member refid="class_entry_point_1a32689e53de601f215b99f4344b6746b3" kind="property"><name>_linkedEntrance</name></member>
+    <member refid="class_entry_point_1ab1dcfc5218ee7f0a24bd99bfc2ddd13b" kind="property"><name>_linkedScene</name></member>
+    <member refid="class_entry_point_1a96c5b70b168663fd721ba45e20e03e77" kind="property"><name>_spawnDistance</name></member>
+  </compound>
+  <compound refid="class_equip_button" kind="class"><name>EquipButton</name>
+    <member refid="class_equip_button_1a7758cdea1226516268c8be452f0987d5" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_fireball" kind="class"><name>Fireball</name>
+    <member refid="class_fireball_1a3cadcd8b4a322993c57eb499bb3fa994" kind="variable"><name>speed</name></member>
+    <member refid="class_fireball_1acbd251a54117d2fc092f4cd6fed3d7ac" kind="variable"><name>lifeDuration</name></member>
+    <member refid="class_fireball_1a93189c4e2b6113adea73bb7ff7894888" kind="variable"><name>damage</name></member>
+    <member refid="class_fireball_1a7018cd40db258216c9a38ffe39da8abb" kind="variable"><name>lifeTimer</name></member>
+    <member refid="class_fireball_1a1c651f9a18a80fa7b646ae9f715d8c5c" kind="function"><name>OnEnable</name></member>
+    <member refid="class_fireball_1af2d2c9558b22ed0122343fa3874d3fd1" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_game_manager" kind="class"><name>GameManager</name>
+    <member refid="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914c" kind="enum"><name>GameState</name></member>
+    <member refid="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914cab78a3223503896721cca1303f776159b" kind="enumvalue"><name>Title</name></member>
+    <member refid="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914cade3c731be5633838089a07179d301d7b" kind="enumvalue"><name>Play</name></member>
+    <member refid="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914ca119eac47719cc9be7b99124712e229da" kind="enumvalue"><name>Win</name></member>
+    <member refid="class_game_manager_1aed7d51bc1f6920bae56f938f9c90cec3" kind="variable"><name>playerLevel</name></member>
+    <member refid="class_game_manager_1a3e4031dc1d2a9738bad8b65b31616375" kind="variable"><name>playerHealthPenalty</name></member>
+    <member refid="class_game_manager_1a581a92a674d5c482a815b7d95d6126d3" kind="variable"><name>playerCoins</name></member>
+    <member refid="class_game_manager_1a4c54beeede9cbc03601377a0fea0d58c" kind="variable"><name>m_GameState</name></member>
+    <member refid="class_game_manager_1ab81528de75ceeb2b5deccdcb711283d9" kind="property"><name>State</name></member>
+    <member refid="class_game_manager_1a2959177ee51ac31badbf8b1bc8f7f637" kind="function"><name>Awake</name></member>
+    <member refid="class_game_manager_1a5ccfacd027ad08eeb4ff1f25a7f59c98" kind="function"><name>Start</name></member>
+    <member refid="class_game_manager_1a44c79b205dec16bfe650e21259860c5b" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_gameplay_settings" kind="class"><name>GameplaySettings</name>
+    <member refid="class_gameplay_settings_1af3bcfee423be756bc4d18ffa878eeff9" kind="variable"><name>instance</name></member>
+    <member refid="class_gameplay_settings_1a2b138edce78870eee9c87e6ca537445f" kind="variable"><name>_instance</name></member>
+    <member refid="class_gameplay_settings_1ad2197491770b16e716bf2f0cb42599a2" kind="property"><name>Instance</name></member>
+    <member refid="class_gameplay_settings_1ac5c7fa5ea1df10da85660ffaf39f69cf" kind="property"><name>_dashTowardsMousePosition</name></member>
+    <member refid="class_gameplay_settings_1a68ed5dd7cc04f7fa877d30485560726a" kind="variable"><name>dashTowardsMousePosition</name></member>
+    <member refid="class_gameplay_settings_1a4cd71ad33ac4afb791cef8497ba62a97" kind="variable"><name>settingsInstance</name></member>
+    <member refid="class_gameplay_settings_1a921c466fa4583249960bf0efce7893e5" kind="function"><name>Awake</name></member>
+    <member refid="class_gameplay_settings_1aba5bc5824dfa3bdfd1f41ecde0bda97e" kind="function"><name>Update</name></member>
+    <member refid="class_gameplay_settings_1a6e78d2f93221ec4778df864199941f7d" kind="function"><name>ChangeDashType</name></member>
+  </compound>
+  <compound refid="class_gold_count_u_i" kind="class"><name>GoldCountUI</name>
+    <member refid="class_gold_count_u_i_1a9a04f42363db085b175925df79816876" kind="variable"><name>instance</name></member>
+    <member refid="class_gold_count_u_i_1a83af180c2822b3f1f1189c3e4ab6fa59" kind="variable"><name>_instance</name></member>
+    <member refid="class_gold_count_u_i_1af77cd4686d25e6487f7c9cf8d57015a5" kind="property"><name>Instance</name></member>
+    <member refid="class_gold_count_u_i_1a1d3e5ee45bbdbc49605e4699eed161ea" kind="function"><name>Start</name></member>
+    <member refid="class_gold_count_u_i_1a09e3affacae1bb7e9cdf1d0b33fd8322" kind="function"><name>Update</name></member>
+    <member refid="class_gold_count_u_i_1a5f969153c40f408d17482189b70976c9" kind="function"><name>UpdateGoldCount</name></member>
+  </compound>
+  <compound refid="class_health_potion" kind="class"><name>HealthPotion</name>
+    <member refid="class_health_potion_1a31b85ccc4336370bf1f583dc1b826f12" kind="function"><name>Use</name></member>
+  </compound>
+  <compound refid="class_health_u_i" kind="class"><name>HealthUI</name>
+    <member refid="class_health_u_i_1a66996156c3329c4ee03a59291de8282e" kind="variable"><name>health</name></member>
+    <member refid="class_health_u_i_1aa9b0b8a22beb2ff744e8f6f22fe609da" kind="function"><name>Start</name></member>
+    <member refid="class_health_u_i_1aa5c3a7493aa74cbc6bf81fd0e0b40129" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="interface_i_hurtable" kind="interface"><name>IHurtable</name>
+    <member refid="interface_i_hurtable_1a1534dfb601f49ac6649cb410960ad1a4" kind="function"><name>TakeDamage</name></member>
+  </compound>
+  <compound refid="interface_i_interactable" kind="interface"><name>IInteractable</name>
+    <member refid="interface_i_interactable_1a5c9af76f0cd78f4553169f8e23399b3c" kind="function"><name>InteractWith</name></member>
+  </compound>
+  <compound refid="class_information_scripts" kind="class"><name>InformationScripts</name>
+    <member refid="class_information_scripts_1ae65456fbbb20f5ec11488749f278ca4e" kind="variable"><name>itemNameText</name></member>
+    <member refid="class_information_scripts_1ad7a34a56425252cb5a056b85fa490e3c" kind="variable"><name>descriptionText</name></member>
+    <member refid="class_information_scripts_1a73e9b450b0f839980e313333d4fa5f38" kind="variable"><name>damageText</name></member>
+    <member refid="class_information_scripts_1aa1ab55eec6d4f50e7db146c31d20fd9a" kind="variable"><name>speedText</name></member>
+    <member refid="class_information_scripts_1ab606470f5f6589ac747de20b596613d6" kind="variable"><name>valueText</name></member>
+    <member refid="class_information_scripts_1a548bca978e59877e98a11342ce773221" kind="variable"><name>informationText</name></member>
+    <member refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_interactable_coin_example" kind="class"><name>InteractableCoinExample</name>
+    <member refid="class_interactable_coin_example_1a01b0b14a0701af149da21447efd5c1cc" kind="variable"><name>interactedWith</name></member>
+    <member refid="class_interactable_coin_example_1ab3853684e02563496d305d62bda620a3" kind="function"><name>InteractWith</name></member>
+  </compound>
+  <compound refid="class_interactor" kind="class"><name>Interactor</name>
+    <member refid="class_interactor_1a353f9a27b0738a4be797bd48d716775e" kind="variable"><name>listOfInteractables</name></member>
+    <member refid="class_interactor_1ab685e1736203c2805950b4bdfd49e4fd" kind="variable"><name>objectToInteractWith</name></member>
+    <member refid="class_interactor_1a6882ee1337bcef4e0872d8af4484bb9b" kind="variable"><name>interactionIcon</name></member>
+    <member refid="class_interactor_1a9b4030e3603444dcd4a7947052008f1c" kind="variable"><name>interactionIconText</name></member>
+    <member refid="class_interactor_1ad95a622d7b4e3adcad86ed04e93bb0fa" kind="variable"><name>showIconAtObject</name></member>
+    <member refid="class_interactor_1a77b73e07c558fe9a0829b3e04ff2ebe3" kind="variable"><name>showNameOfInteractable</name></member>
+    <member refid="class_interactor_1a2f3ffea7c3f4f97bc583f60798ba7c0f" kind="function"><name>Start</name></member>
+    <member refid="class_interactor_1ae9b105e18ddcc72dd693c94f1f451fde" kind="function"><name>Update</name></member>
+    <member refid="class_interactor_1a32ca78cfc6b3478cf756afddd66658ff" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_interactor_1a50a9b6d6ed925c0f3935762ce1c9650f" kind="function"><name>OnTriggerExit2D</name></member>
+    <member refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" kind="function"><name>CheckList</name></member>
+  </compound>
+  <compound refid="class_inventory_box" kind="class"><name>InventoryBox</name>
+    <member refid="class_inventory_box_1a25b8e0d41d04071ea6a73e58dcb9031f" kind="variable"><name>linkedLoot</name></member>
+    <member refid="class_inventory_box_1a6089b2e98561d673d6c48931037ba8b9" kind="variable"><name>iconDisplay</name></member>
+    <member refid="class_inventory_box_1aa2a51bd9b2940af1fe9aedac69f288cf" kind="variable"><name>image</name></member>
+    <member refid="class_inventory_box_1ae0a0c84d21b133918dea119672bfbfda" kind="variable"><name>selectedColor</name></member>
+    <member refid="class_inventory_box_1a531fc1a7180e60bd4df787e4c610f927" kind="property"><name>_linkedLoot</name></member>
+    <member refid="class_inventory_box_1a53b2e667fa81f7b9c47ea79ebc5d7e2c" kind="function"><name>Awake</name></member>
+    <member refid="class_inventory_box_1a97e234bf193f0e3451d55f4b338c295a" kind="function"><name>Update</name></member>
+    <member refid="class_inventory_box_1ac471512beed3da792baa1bd0b5250485" kind="function"><name>OnEnable</name></member>
+    <member refid="class_inventory_box_1a49eeac3d559c88a0e6af5eb6c3cb0398" kind="function"><name>SetDetails</name></member>
+    <member refid="class_inventory_box_1acc126c474f74bc7dd80dc79383d2f93f" kind="function"><name>Select</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_inventory_controller" kind="class"><name>ManningsLootSystem::InventoryController</name>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a5e572820667e80af6f0dbd67e7c89057" kind="variable"><name>instance</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a99c1aca3c5269b7b23e818b46e6f7f5d" kind="variable"><name>_instance</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a87f4302625649ad06c4d0d82769c44df" kind="property"><name>Instance</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a62e18dff92f76ce2f3ecd370802148d9" kind="property"><name>_arrowCount</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad2e1cfc08d2ed05ba2d48e6eab54de23" kind="variable"><name>inventorySize</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc7f853d75797ab174e567c7406305" kind="variable"><name>inventoryItems</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1ab183ca5b50a221becc4e1ad3a5eacbaa" kind="variable"><name>playerMoney</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a03e5b52bbbfbf89f16d61e864f5bea74" kind="variable"><name>arrowCount</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1ac7a50739fef203b577f00a4a5e29b96a" kind="variable"><name>collectLootSound</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a857e0139a90e267da10b0ec71a1c1753" kind="variable"><name>potions</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a52043931e98e88c546fde70a3317b493" kind="variable"><name>inventoryObject</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a24a23409305446d23484a604d230e918" kind="variable"><name>inventoryBox</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc8efd2d498df15b331d4b06ab0eb9" kind="variable"><name>selectedLoot</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1adac4406008432b8dd65bd9eb9201cf73" kind="variable"><name>scrollViewContent</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a7523e817c7907fc47323aa5f3e5dc422" kind="variable"><name>boxes</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a96535426ba775733c4b9d44ba118dbc5" kind="variable"><name>infoBox</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1afcd2f25160a766689f198f9ab9040134" kind="variable"><name>audio</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a598ef6bd054b24ca988864beec7ac908" kind="variable"><name>showingInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1ae00aac342a9a3f4376fb83163ff11987" kind="variable"><name>inventoryInstance</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1aaf7c47f05ba5a72ee51f783cb06c947e" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1acc1c1235820830fe4fddbc942b10fe8e" kind="function"><name>Awake</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" kind="function"><name>Update</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" kind="function"><name>AddToInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad8d094bc1dfb99d8ac38ade17c8a5727" kind="function"><name>RemoveFromInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a89e29a90654fdc8ed5a0473f3e169821" kind="function"><name>SellObject</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a2ff388c1f966abccb01cef3fbbba4a0b" kind="function"><name>BuyObject</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1abbbadb15900609d1273edf7f62362a3c" kind="function"><name>UpdateArrows</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a70ba26d5aaf93aa4a2f69f7dd0db80dd" kind="function"><name>AddPotion</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" kind="function"><name>PopulateInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a96477a98cb103f3adcd7c0a99a35cf5b" kind="function"><name>SelectLoot</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1abbd63f6d81ef72e5d6ddb38046e57c2d" kind="function"><name>Equip</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a0636d7d9a18fa8ba3afdfc3b8eed3843" kind="function"><name>ShowInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" kind="function"><name>PopulateInventoryTiles</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot" kind="class"><name>ManningsLootSystem::Loot</name>
+    <member refid="class_mannings_loot_system_1_1_loot_1aa7999db31e8d345a75c9eecb55f1d15c" kind="variable"><name>icon</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a9eef61ec6e8707f828d091bd78f54c29" kind="variable"><name>name</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1aa7c80154d044fae60e6641c1d0073393" kind="variable"><name>value</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a51c95d3817ef34f29f5395fe5a7ecc6c" kind="variable"><name>description</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a1148cd582af36c15f6e885b7f5335cbf" kind="variable"><name>inInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a64b0124f7277365035c354b5a1a8cc0f" kind="variable"><name>statsDecided</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1af692b4dcb776c89da7b0b13c619d2854" kind="variable"><name>rend</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1af6f1e862a8dfd032a1793649fcd11adc" kind="variable"><name>anim</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a14d19d6326ee8213d02c93d8dd86340d" kind="variable"><name>owner</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1ac8c2507f10bb687ff8d7a8b2fb5f69ef" kind="property"><name>_icon</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a12f3bd0447944b56486da59fdfe5ea24" kind="property"><name>_name</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a5cd5b2d6a6207bb6be8c0d25c925739c" kind="property"><name>_value</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a96a5e4d8f591890713a15f29d0eb5923" kind="property"><name>_description</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1ac2381dac93f9c7b2d4bd4ff2e7d99fa7" kind="function"><name>Awake</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a2286d1b9a2bdf47a24e0ddc99717c533" kind="function"><name>Update</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a6cc4a0f3bb7495c8b3d1f96b1a03ce23" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a262ea11ba0acd3c3e5d85dff2823b72b" kind="function"><name>Generate</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" kind="function"><name>AddToInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a6bdfda0ed82d2f4f5e80b9605df7ae98" kind="function"><name>Sell</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_1a404aedb555b696425e551d334aa5a22a" kind="function"><name>Use</name></member>
+  </compound>
+  <compound refid="class_loot_boss" kind="class"><name>LootBoss</name>
+    <member refid="class_loot_boss_1a4dd264ae4f19d59061aa97940d2431ef" kind="variable"><name>loot</name></member>
+    <member refid="class_loot_boss_1afb7a77ff386160aa66bd4c3cf3100e5c" kind="variable"><name>table</name></member>
+    <member refid="class_loot_boss_1a4ae81c8261f87be72c840ba788b7e62a" kind="variable"><name>total</name></member>
+    <member refid="class_loot_boss_1ace29dec16acd7e53810e8fc1aaa0e2b1" kind="variable"><name>randomNumber</name></member>
+    <member refid="class_loot_boss_1aee43a62925324968a324c9192a65c39a" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot_controller" kind="class"><name>ManningsLootSystem::LootController</name>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a0ad57b94beb759e9e83e43b30dcb2e08" kind="variable"><name>instance</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a0ebda35a28454facb19a195ca5241b4a" kind="variable"><name>_instance</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a1ca29b86a117f4d8e0e6878c16c7d7e3" kind="property"><name>Instance</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1aa7494a819a836557fa77a41b5ceaa980" kind="property"><name>_swordSprites</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1adbc2a18efcd0d0ad5a2c8900ed97331c" kind="property"><name>_swordStats</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1aba22395d8bfc0633a931636d3cf5dd1f" kind="property"><name>_bowStats</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a2c6173ed181c790aa392d62b174eab63" kind="property"><name>_moneyStat</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a52dc1efd1843fcfba3bcbe6cc089181e" kind="property"><name>_ArrowStat</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1aef1cefed9777c322d6828bbdcac4b73b" kind="variable"><name>swordSprites</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a96ab2dd7af6eae82cf118cd975242bbb" kind="variable"><name>swordStats</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1aad992163715f08f43beb834451c7f55f" kind="variable"><name>bowStats</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1adf4038bd17cbde3ae3ec1f05aa6042fc" kind="variable"><name>moneyStat</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a4cdc36202cdc70d014b8cd838ee23e57" kind="variable"><name>ArrowStat</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a01175406b1b669843640693204690ff4" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1a732a1ccbf9de926ceb0fa5c68b013789" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot_drop_behaviour" kind="class"><name>ManningsLootSystem::LootDropBehaviour</name>
+    <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a8ccb6868f21f72e879916383a9d3e7ef" kind="variable"><name>potentialLootDropList</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a8d89b5cb801b1f558b6df3adc342d8cd" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a23da68f69956aff4fe44b0092a94129e" kind="function"><name>Update</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1abc9a6459861c4b48d974a119a5061463" kind="function"><name>DropLoot</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a04d73a7bbd829680a8b5057f79d65ce3" kind="function"><name>DecideLootToDrop</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_player_controller" kind="class"><name>ManningsLootSystemPlayerController</name>
+    <member refid="class_mannings_loot_system_player_controller_1a57b3dcf873a82e3b86a981705587c9fb" kind="variable"><name>instance</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a841c4a489549e64738546d92f52e5f92" kind="variable"><name>_instance</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a9c40819f1dc28a71f9a93e84ac0001ce" kind="property"><name>Instance</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1ac85e7524270c73912c557773b838fcea" kind="property"><name>_equippedSword</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a241bff1dd3f31c82e57c850d56ed9750" kind="property"><name>_equippedBow</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a277ebed8307b69f47d37501fc6ce0aa6" kind="property"><name>_bowSlot</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a9b0ebd5ab09da2c366cbe27e41fed9d1" kind="property"><name>_swordSlot</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1aec284fe6d1f02f7a5ebb6ef51e5b77cc" kind="variable"><name>equippedSword</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1aeca5f54564bf7b0bc855ac4c78210b3d" kind="variable"><name>equippedBow</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a90f5944603689799f23eb9e94d75eda8" kind="variable"><name>bowSlot</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a4c3ce1df77de65cd061f29ce324a49c5" kind="variable"><name>swordSlot</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1af466a732e2846d17b4e316f14c03f512" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1ac875c9b4b3039ec90e2dd1ac32b6a2f1" kind="function"><name>Update</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a14cd7e4f3fdf7bfce18c6f4f16875446" kind="function"><name>EquipBow</name></member>
+    <member refid="class_mannings_loot_system_player_controller_1a62a250d396770d4fc78fc12ba9b2efd1" kind="function"><name>EquipSword</name></member>
+  </compound>
+  <compound refid="class_message_log" kind="class"><name>MessageLog</name>
+    <member refid="class_message_log_1aa579902e3b1d007669543178693c7fe4" kind="variable"><name>instance</name></member>
+    <member refid="class_message_log_1a4d5a817e2e5927556e5c2a96fd566565" kind="variable"><name>_instance</name></member>
+    <member refid="class_message_log_1aca141c5a3e0d8c5c7966289ef695204e" kind="property"><name>Instance</name></member>
+    <member refid="class_message_log_1a8b24bd6ec4afd4fdedb461710b72f8a6" kind="variable"><name>textComponent</name></member>
+    <member refid="class_message_log_1a8c6a37f5ecc8b7cf438d6bc3bd1ecace" kind="variable"><name>anim</name></member>
+    <member refid="class_message_log_1a26eee75ba073552dc13e2f6daf07efab" kind="function"><name>Awake</name></member>
+    <member refid="class_message_log_1aad455a7e6f719d7fb7345afae9c6f5ff" kind="function"><name>Update</name></member>
+    <member refid="class_message_log_1a37438c2f2e8a0322eaf7e01119b6d7b9" kind="function"><name>UpdateLog</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_money" kind="class"><name>ManningsLootSystem::Money</name>
+    <member refid="class_mannings_loot_system_1_1_money_1ae39d559e2482b795969f72f99c863695" kind="function"><name>Generate</name></member>
+    <member refid="class_mannings_loot_system_1_1_money_1a6d46a4d9ae4c2b2ecb3f1d77439f8f5c" kind="function"><name>AddToInventory</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats" kind="class"><name>ManningsLootSystem::LootController::MoneyStats</name>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1ab184a83bf3c177b9d1a5be993c4a6227" kind="variable"><name>createMultipleCoins</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1ab1348455f2b94d21254b7d30f78f5a21" kind="variable"><name>minValue</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1a75c3cf0b398546bbd623b5d6b20ecde8" kind="variable"><name>maxValue</name></member>
+  </compound>
+  <compound refid="class_new_behaviour_script" kind="class"><name>NewBehaviourScript</name>
+    <member refid="class_new_behaviour_script_1a00758b2d025a65a93a604d0b01beafe1" kind="function"><name>Start</name></member>
+    <member refid="class_new_behaviour_script_1ae278a9cde8cbe53d8095f38f0d787463" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_pause_transition" kind="class"><name>PauseTransition</name>
+    <member refid="class_pause_transition_1aaeee23164297b90d2728d069910f589b" kind="variable"><name>pauseMenu</name></member>
+    <member refid="class_pause_transition_1a0a8cd9cc134027fcecd628003d9170f2" kind="variable"><name>hud</name></member>
+    <member refid="class_pause_transition_1a7a0d507529c9f0155fb68b2a32730025" kind="variable"><name>escapePress</name></member>
+    <member refid="class_pause_transition_1ad4622fa07eeb820c03b6ab5ff99eb263" kind="function"><name>Start</name></member>
+    <member refid="class_pause_transition_1a05ba052c7e67619eb0248c8d3f5dfb6f" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_player_controller" kind="class"><name>PlayerController</name>
+    <member refid="class_player_controller_1a7c7537f54160d265fd8bfea33e43631c" kind="variable"><name>instance</name></member>
+    <member refid="class_player_controller_1a77c5957ac8aa6aca5b872d1a132da3da" kind="variable"><name>_instance</name></member>
+    <member refid="class_player_controller_1a083d20d96a312f509039fb72d04210a8" kind="variable"><name>playerInstance</name></member>
+    <member refid="class_player_controller_1a9bec1b62de6e46a4cd2bcb332da2b7b5" kind="property"><name>Instance</name></member>
+    <member refid="class_player_controller_1aa6be111e1b45ec8f92d2f80d7bbc6606" kind="property"><name>_maxHealth</name></member>
+    <member refid="class_player_controller_1a37e7e273bd66ee5caaebc98cc5946514" kind="property"><name>_currentHealth</name></member>
+    <member refid="class_player_controller_1a8c84ce358549ea3ff7865db7df15ae1c" kind="property"><name>_canDash</name></member>
+    <member refid="class_player_controller_1af9482d789d35d36df9a7d6095979d494" kind="property"><name>_playerLevel</name></member>
+    <member refid="class_player_controller_1af67d52dc34cc78baa7fea9576d1a03e3" kind="property"><name>_experienceGained</name></member>
+    <member refid="class_player_controller_1a593016b97c48b6fb27b7e3d52da8f2ef" kind="property"><name>_experienceToLevelUp</name></member>
+    <member refid="class_player_controller_1a09eec8cb50478312150772a17664de13" kind="variable"><name>maxHealth</name></member>
+    <member refid="class_player_controller_1a1449d34b1ec73e0f73f370c31521e3e0" kind="variable"><name>baseHealth</name></member>
+    <member refid="class_player_controller_1ae3b30f35c2d5814c7e42b4cb32a888a3" kind="variable"><name>currentHealth</name></member>
+    <member refid="class_player_controller_1a12f420333a3cd14b1d3bbcd56af20837" kind="variable"><name>healthLostOnDeath</name></member>
+    <member refid="class_player_controller_1ab419e1403c603cf37b84d51d6fddba75" kind="variable"><name>isRespawning</name></member>
+    <member refid="class_player_controller_1ada8c0fc99479083a288d69d92ddf130f" kind="variable"><name>beenPlaced</name></member>
+    <member refid="class_player_controller_1a185c5f22bc79974dcd03635b90090e03" kind="variable"><name>dashCoolDownTime</name></member>
+    <member refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" kind="variable"><name>canDash</name></member>
+    <member refid="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" kind="variable"><name>isDashing</name></member>
+    <member refid="class_player_controller_1a2e02b617c6cff333e547079ff235104d" kind="variable"><name>dashSpeed</name></member>
+    <member refid="class_player_controller_1ac9c0b9d6121b9965f1b7b1e5c81a3716" kind="variable"><name>dashDamage</name></member>
+    <member refid="class_player_controller_1ad6a3b13c95b7de2c6ef5fb3ddb42ccb7" kind="variable"><name>dashObstacles</name></member>
+    <member refid="class_player_controller_1a86636262610b8315c83dcded7bae2555" kind="variable"><name>dashHitParticles</name></member>
+    <member refid="class_player_controller_1a648409f8edb264a61c7d1d1e2a2091ef" kind="variable"><name>dashLocation</name></member>
+    <member refid="class_player_controller_1a68f2c81bc94f07d74e6412ed18aa0e82" kind="variable"><name>levelToRespawnIn</name></member>
+    <member refid="class_player_controller_1a61f633c01737840d2b9809c6894c71bd" kind="variable"><name>travelLocation</name></member>
+    <member refid="class_player_controller_1af5779e32a3bffe0961ed4b9aa2f6251f" kind="variable"><name>fallSpeed</name></member>
+    <member refid="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" kind="variable"><name>isFalling</name></member>
+    <member refid="class_player_controller_1acc8ca3c748bf9f834796aefe8848c313" kind="variable"><name>fallPos</name></member>
+    <member refid="class_player_controller_1a6fa444654addfaacb99c3f08d92b7377" kind="variable"><name>deadBody</name></member>
+    <member refid="class_player_controller_1a73dc7d7771c2112158f16c7a681c3373" kind="variable"><name>playerLevel</name></member>
+    <member refid="class_player_controller_1a5cddfc01cc02a606899eb1da1f1d35a2" kind="variable"><name>experienceGained</name></member>
+    <member refid="class_player_controller_1a4a6634125e2c01a360d1175e6fb5b9fe" kind="variable"><name>experienceToLevelUp</name></member>
+    <member refid="class_player_controller_1aca9f7488a5b8b8d2ad781e4d6294e6b4" kind="variable"><name>healthGainOnLevelUp</name></member>
+    <member refid="class_player_controller_1a0364275ce053c332b631131218171241" kind="variable"><name>dashTimerDecreaseOnLevel</name></member>
+    <member refid="class_player_controller_1a66ed4909c172286ed23ff1e15e1cd46c" kind="variable"><name>dashDamageIncreaseOnLevel</name></member>
+    <member refid="class_player_controller_1a5d935814e6bb12a3b495fcdbbc050bfb" kind="variable"><name>dashDistance</name></member>
+    <member refid="class_player_controller_1a14436d45b14262e4766debc4072f0346" kind="variable"><name>experienceRequiredPercentageIncrease</name></member>
+    <member refid="class_player_controller_1a1480cad6c6acaf2e9c16747f4d043068" kind="variable"><name>levelUpEffects</name></member>
+    <member refid="class_player_controller_1ab1c0be3d38179fba037a9de30c875ae1" kind="variable"><name>canDashparticles</name></member>
+    <member refid="class_player_controller_1a15a5a7dde3f4e9785e6b13a42ce76c49" kind="variable"><name>levelUpSound</name></member>
+    <member refid="class_player_controller_1a8c80baa1756be3ba0d35cec66197ffdd" kind="variable"><name>hitSounds</name></member>
+    <member refid="class_player_controller_1a74f139f409853d84d1e06ca483d1e050" kind="variable"><name>lootCollectedSound</name></member>
+    <member refid="class_player_controller_1ad17c7f995506873432b1ab92d0933cbf" kind="variable"><name>dashSound</name></member>
+    <member refid="class_player_controller_1a06aeaa9181db773f16cacd77cd8f6700" kind="variable"><name>canDashSound</name></member>
+    <member refid="class_player_controller_1a4c968f29e030d721c544c768df4d56db" kind="variable"><name>dashInMouseDirection</name></member>
+    <member refid="class_player_controller_1a40fc8627eccd7a7fa2d81a7f4cd3ece9" kind="variable"><name>test</name></member>
+    <member refid="class_player_controller_1ab89a69dbd089b54f9701b62c9fa2c221" kind="function"><name>Awake</name></member>
+    <member refid="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3" kind="function"><name>Start</name></member>
+    <member refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" kind="function"><name>OnSceneLoaded</name></member>
+    <member refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" kind="function"><name>Update</name></member>
+    <member refid="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" kind="function"><name>DashTimer</name></member>
+    <member refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" kind="function"><name>OnCollisionEnter2D</name></member>
+    <member refid="class_player_controller_1a7abc3c8e6b0502773a5c4795ceddb29d" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" kind="function"><name>OnTriggerStay2D</name></member>
+    <member refid="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" kind="function"><name>Travel</name></member>
+    <member refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" kind="function"><name>LevelUp</name></member>
+    <member refid="class_player_controller_1a0df85d99ad851aeed951c7541086a13c" kind="function"><name>LoseDeathPenalty</name></member>
+    <member refid="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" kind="function"><name>Die</name></member>
+    <member refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" kind="function"><name>SetDashLocation</name></member>
+    <member refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" kind="function"><name>DeathTimer</name></member>
+    <member refid="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f" kind="function"><name>TakeDamage</name></member>
+    <member refid="class_player_controller_1a022a9ca74a9acea745914b6bf1db23d0" kind="function"><name>GainExperience</name></member>
+    <member refid="class_player_controller_1a4f336250e0cc55e9fa2e1cec516be83a" kind="function"><name>ChangeDashType</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop" kind="class"><name>ManningsLootSystem::LootDropBehaviour::PotentialLootDrop</name>
+    <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop_1a07974940beb95072c6149a042b3a100c" kind="variable"><name>loot</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop_1a1d34f480605b26aa2089b04323d23d78" kind="variable"><name>dropChance</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_potion" kind="class"><name>ManningsLootSystem::Potion</name>
+    <member refid="class_mannings_loot_system_1_1_potion_1aa25be28c8e70017c5e9e201042cebc9f" kind="variable"><name>useSound</name></member>
+    <member refid="class_mannings_loot_system_1_1_potion_1a0771e2254378c92b43058c55af7689e6" kind="variable"><name>audio</name></member>
+    <member refid="class_mannings_loot_system_1_1_potion_1ac3789295beed64d5a0a0509cff95ead1" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_1_1_potion_1add09da14878cd8a7c25250b7e33dbc01" kind="function"><name>Use</name></member>
+    <member refid="class_mannings_loot_system_1_1_potion_1abac0ba182d717bc963897815743e2896" kind="function"><name>AddToInventory</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions" kind="class"><name>ManningsLootSystem::InventoryController::Potions</name>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a952bde9cacf30165c927750ca0fe251e" kind="variable"><name>potionType</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a8d72a4fcb6358bdf29520df8400764b0" kind="variable"><name>quantityOwned</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a360a6e583077addb613fbd24a268f354" kind="variable"><name>usePotionButton</name></member>
+    <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a151cfc9e98630d813debac7478f3d383" kind="variable"><name>inventoryText</name></member>
+  </compound>
+  <compound refid="class_projectile" kind="class"><name>Projectile</name>
+    <member refid="class_projectile_1a08b05673dcd2da844c04ad812f04b3aa" kind="variable"><name>speed</name></member>
+    <member refid="class_projectile_1a4274f7b3ad22794f7cc4be95da235bf4" kind="variable"><name>damage</name></member>
+    <member refid="class_projectile_1a08c871de76b1ab89774d22eaad22ff85" kind="variable"><name>player</name></member>
+    <member refid="class_projectile_1ab4df76e2dc294fa2c033b29d0d6557f4" kind="variable"><name>target</name></member>
+    <member refid="class_projectile_1a6b7589441d9b125af99978a7b154d202" kind="variable"><name>lifeTimer</name></member>
+    <member refid="class_projectile_1a087945e2a8cd3563693028b21d88fb1e" kind="variable"><name>bloodParticles</name></member>
+    <member refid="class_projectile_1a0e74456dd1cf469233b947b880bcec6b" kind="variable"><name>lifeDuration</name></member>
+    <member refid="class_projectile_1ac7e861ae0d04774ce1ce5832dcd2281f" kind="function"><name>Start</name></member>
+    <member refid="class_projectile_1a003e4365f5c68afdebfbefa39a3fd7bc" kind="function"><name>Update</name></member>
+    <member refid="class_projectile_1a3d433e65ed8b13ae287567ee636e66a0" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_projectile_1a03acc8cdf70ec006ca80bbe7322b3688" kind="function"><name>DestroyProjectile</name></member>
+  </compound>
+  <compound refid="class_quality_controller" kind="class"><name>QualityController</name>
+    <member refid="class_quality_controller_1aeec87e170670936a8cfef47386997ef3" kind="variable"><name>resolutionDropDown</name></member>
+    <member refid="class_quality_controller_1a4ae6ae3e0184ac6b7c033293146f6556" kind="variable"><name>isFullScreen</name></member>
+    <member refid="class_quality_controller_1a1068fccd198b2a3d589d7b770246d86d" kind="variable"><name>overallQualityButtons</name></member>
+    <member refid="class_quality_controller_1aeb0c2f666abc85be82c456a69c8d70b9" kind="variable"><name>antiAliasingButtons</name></member>
+    <member refid="class_quality_controller_1a3a30802bbff28fbd0f6247e23cb0434d" kind="variable"><name>vSyncButtons</name></member>
+    <member refid="class_quality_controller_1a5fa720857464e6acf324dfbcc20c009f" kind="variable"><name>textureQualityButtons</name></member>
+    <member refid="class_quality_controller_1a3ea8ffd7d7468d4bc1904240cfcd9bba" kind="function"><name>Start</name></member>
+    <member refid="class_quality_controller_1a139c04e3731d73cee544035a56ad438c" kind="function"><name>Update</name></member>
+    <member refid="class_quality_controller_1a8bf896835412dc4c518aa6ac958e48d6" kind="function"><name>SetOverallQuality</name></member>
+    <member refid="class_quality_controller_1a30459899ca4f38d441e7586f76248983" kind="function"><name>SetAntiAliasing</name></member>
+    <member refid="class_quality_controller_1aaae4dd2210931590267e0772d089f231" kind="function"><name>SetVsync</name></member>
+    <member refid="class_quality_controller_1a6304a5f12cc43fcb1c1b87ebe8879e3c" kind="function"><name>SetResolution</name></member>
+    <member refid="class_quality_controller_1a4f410f107b53f4f3e9ba0be0e0421147" kind="function"><name>SetFullScreen</name></member>
+    <member refid="class_quality_controller_1af9577e34bc3c08632e944d00f151c410" kind="function"><name>SetTextureQuality</name></member>
+  </compound>
+  <compound refid="class_quality_setting" kind="class"><name>QualitySetting</name>
+    <member refid="class_quality_setting_1a8c5c01cc280c75d38ef24f1883a86212" kind="variable"><name>settingValue</name></member>
+    <member refid="class_quality_setting_1a91d79ac1aa36a1eeaf8b757f478b9cc4" kind="property"><name>_settingValue</name></member>
+  </compound>
+  <compound refid="class_quit_button" kind="class"><name>QuitButton</name>
+    <member refid="class_quit_button_1a01e9524d6e3d90400c998e83745b43eb" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_random_loot_chest" kind="class"><name>RandomLootChest</name>
+    <member refid="class_random_loot_chest_1abae3c3e740abc8d7cd049cfbb69dd900" kind="variable"><name>loot</name></member>
+    <member refid="class_random_loot_chest_1a05e0b0ea555521fcc4965169d9c20c69" kind="variable"><name>table</name></member>
+    <member refid="class_random_loot_chest_1ac915da4cf191f2346614ae77d7b2625d" kind="variable"><name>total</name></member>
+    <member refid="class_random_loot_chest_1a324f678074987ec3a9255460b30210a4" kind="variable"><name>randomNumber</name></member>
+    <member refid="class_random_loot_chest_1a5d15665ab613f9306f4ca2a7af19d131" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_random_loot_creep" kind="class"><name>RandomLootCreep</name>
+    <member refid="class_random_loot_creep_1a8342e7af64695f211d60072baf8e7e6e" kind="variable"><name>loot</name></member>
+    <member refid="class_random_loot_creep_1ab5e80408008d39a66de33c06aba6ab37" kind="variable"><name>table</name></member>
+    <member refid="class_random_loot_creep_1a06406f5fb5aa05bd9131b25883656858" kind="variable"><name>total</name></member>
+    <member refid="class_random_loot_creep_1a798a3428450a1e183ac202e44d6a7810" kind="variable"><name>randomNumber</name></member>
+    <member refid="class_random_loot_creep_1aed769e8999040f5501f03b52f3bac4f3" kind="function"><name>SpawnLoot</name></member>
+  </compound>
+  <compound refid="class_random_loot_golem" kind="class"><name>RandomLootGolem</name>
+    <member refid="class_random_loot_golem_1a77763fc7043df9f8603a96f2ade5f704" kind="variable"><name>loot</name></member>
+    <member refid="class_random_loot_golem_1a2f3f4be39c6c2de95c306c547c6c74b8" kind="variable"><name>table</name></member>
+    <member refid="class_random_loot_golem_1acb7b063ee3561ca4b8ad68e91669e826" kind="variable"><name>total</name></member>
+    <member refid="class_random_loot_golem_1a8ea953ac950b3644c7a7cdea0522bd33" kind="variable"><name>randomNumber</name></member>
+    <member refid="class_random_loot_golem_1a5152754f5cb231177d11c497b67452e8" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_random_loot_skeleton" kind="class"><name>RandomLootSkeleton</name>
+    <member refid="class_random_loot_skeleton_1a187cdad3242010b9b743d905426c977c" kind="variable"><name>loot</name></member>
+    <member refid="class_random_loot_skeleton_1a7de1d4e374d0498a92eb862282ae2c89" kind="variable"><name>table</name></member>
+    <member refid="class_random_loot_skeleton_1adf9f1e1a09e266e976d4feb9bdf80efa" kind="variable"><name>total</name></member>
+    <member refid="class_random_loot_skeleton_1a742b6f0db505e7b120c79c13fde28b47" kind="variable"><name>randomNumber</name></member>
+    <member refid="class_random_loot_skeleton_1a6026faef211472e31b1dff4bdac4fe95" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_regeneration_potion" kind="class"><name>RegenerationPotion</name>
+    <member refid="class_regeneration_potion_1a82050622552ddadb11f443da7acde639" kind="variable"><name>regenerationSpeed</name></member>
+    <member refid="class_regeneration_potion_1a78adee442c161cf8f9797bba32cb8e44" kind="variable"><name>regenerationTime</name></member>
+    <member refid="class_regeneration_potion_1a460cf81db96080dfaedcbbaf824d4abe" kind="function"><name>Use</name></member>
+    <member refid="class_regeneration_potion_1a007eb57cb1220dea11e373d4450a2a21" kind="function"><name>RegenerationTimer</name></member>
+  </compound>
+  <compound refid="class_respawn_point" kind="class"><name>RespawnPoint</name>
+    <member refid="class_respawn_point_1ac0fcf5d06ebc76f86693e6b0c9e303ae" kind="variable"><name>instance</name></member>
+    <member refid="class_respawn_point_1a4e018fe63d7acfc661ee80d9665da0d4" kind="variable"><name>_instance</name></member>
+    <member refid="class_respawn_point_1aacd92af64af74a3bf621a0f27a84b489" kind="property"><name>Instance</name></member>
+  </compound>
+  <compound refid="class_resume_button" kind="class"><name>ResumeButton</name>
+    <member refid="class_resume_button_1a9f9dddf2697922abb70b6ff8e8945f8d" kind="variable"><name>mainMenuUI</name></member>
+    <member refid="class_resume_button_1a652397b7e9bc33c1760c0a8e25c9ad8b" kind="variable"><name>videoUI</name></member>
+    <member refid="class_resume_button_1a013bd59405d165ff17d8535b370b4a05" kind="variable"><name>audioUI</name></member>
+    <member refid="class_resume_button_1ac7190d14b8695f9bb15ae876f16f6db0" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_sell_button" kind="class"><name>SellButton</name>
+    <member refid="class_sell_button_1ab6c7850c2418d4ace3388a75c1bc26c0" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_skeleton" kind="class"><name>Skeleton</name>
+    <member refid="class_skeleton_1abdaff5cf546a2dc0fecdd6a571da1830" kind="variable"><name>health</name></member>
+    <member refid="class_skeleton_1ac5ab967c5d1b7a29152b6f4ec8363040" kind="variable"><name>speed</name></member>
+    <member refid="class_skeleton_1a63ab670c80fc22cefa0e8acac58aa61e" kind="variable"><name>stoppingDistance</name></member>
+    <member refid="class_skeleton_1a6ee8082271babf7c257b2ae5bbedf266" kind="variable"><name>retreatDistance</name></member>
+    <member refid="class_skeleton_1ad3ab067587652b884b6427e30beef17a" kind="variable"><name>timeBtwShots</name></member>
+    <member refid="class_skeleton_1a1e6cefe4de01503192c5251c609cc3a0" kind="variable"><name>startTimeBtwShots</name></member>
+    <member refid="class_skeleton_1ad2d84a857e4d4d9e05c0bb3494ff0733" kind="variable"><name>projectile</name></member>
+    <member refid="class_skeleton_1a1407061c9ec06ef4cd9d17f6acdc89fe" kind="variable"><name>player</name></member>
+    <member refid="class_skeleton_1a9167951def66665b9c00e5667ba855b1" kind="function"><name>Start</name></member>
+    <member refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" kind="function"><name>Update</name></member>
+    <member refid="class_skeleton_1a0085fefeb96b5325a12a643844225618" kind="function"><name>Die</name></member>
+    <member refid="class_skeleton_1aaa9a3e582d48afbc0d0d26d2859b835f" kind="function"><name>TakeDamage</name></member>
+  </compound>
+  <compound refid="class_spriter2_unity_d_x_1_1_sorting_order_updater" kind="class"><name>Spriter2UnityDX::SortingOrderUpdater</name>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a19f91070dff8651e0a3001d9a9b84066" kind="variable"><name>trans</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a5a53dbd03013c72aef55a3ef0f572414" kind="variable"><name>srenderer</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a36f362ddd02c46d3956145dc583dab27" kind="variable"><name>sor</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a73f765e42e3969426121f4481ee149b8" kind="variable"><name>z_index</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a033cacdc9baf60aa80114275620a0c55" kind="property"><name>SpriteCount</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6c5d685f3a6a9906039dcb23d2a039f7" kind="property"><name>SortingOrder</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" kind="function"><name>UpdateSortingOrder</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a06bb9da02ea1736bdbfeb2699e6698bc" kind="function"><name>Awake</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1ae25a17529064abb3f798cea561bfead7" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_speed_potion" kind="class"><name>ManningsLootSystem::SpeedPotion</name>
+    <member refid="class_mannings_loot_system_1_1_speed_potion_1a07433c0032cdc19642c1397f5d1e6f5d" kind="variable"><name>duration</name></member>
+    <member refid="class_mannings_loot_system_1_1_speed_potion_1aaad909d0b18f36f1828f98815717d537" kind="variable"><name>speedModifier</name></member>
+    <member refid="class_mannings_loot_system_1_1_speed_potion_1a4c60dbac794ec34fbe254fc2a9536cf0" kind="function"><name>Use</name></member>
+    <member refid="class_mannings_loot_system_1_1_speed_potion_1ae17f774b9ba046343dff4891b9ed0b59" kind="function"><name>Timer</name></member>
+  </compound>
+  <compound refid="class_standard_interactable" kind="class"><name>StandardInteractable</name>
+    <member refid="class_standard_interactable_1a0b70aadc648539e509b372d4abcaae23" kind="variable"><name>OnInteract</name></member>
+    <member refid="class_standard_interactable_1af9cc4b32e87d7519b293ee02dc6be3d6" kind="function"><name>Start</name></member>
+    <member refid="class_standard_interactable_1a8e530b02fca50ecd5f20f7e94275a0f1" kind="function"><name>Update</name></member>
+    <member refid="class_standard_interactable_1a2c8e5314f2e4c26ac141f5cda11109e5" kind="function"><name>InteractWith</name></member>
+  </compound>
+  <compound refid="class_start_button" kind="class"><name>StartButton</name>
+    <member refid="class_start_button_1a7a3ccf4543081e9d6be528f6a1197d7d" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_sword" kind="class"><name>ManningsLootSystem::Sword</name>
+    <member refid="class_mannings_loot_system_1_1_sword_1aeacb8d014ea8745f36e75ac1f7536e4c" kind="variable"><name>tier</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1a8b2b5658c0644261517953d179266173" kind="variable"><name>damage</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1add5e5f1f8220880026ac06edc6ad10e1" kind="variable"><name>attackSpeed</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1aeb651c58a3cb9703f5886d946bc71636" kind="variable"><name>isAttacking</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1aac739b7e7f16a1026d5154cb982435b3" kind="variable"><name>hitEnemies</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1a5ba92e603f73c7f9e46e112cf2b77474" kind="variable"><name>isEquipped</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1a519407164ed7cca0dd68c721d8da911d" kind="variable"><name>swordAnimator</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1aa652f753942967d36e606e2f664987a3" kind="function"><name>Start</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1acc5f765a1757254f0e4a379778128141" kind="function"><name>Update</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1a1983e247a4ea5efbc45958366f85ebf3" kind="function"><name>OnTriggerStay2D</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1a42712d8e893e58dd66a4861a8bcfa6cc" kind="function"><name>AttackSpeedTimer</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1a1bfac1e5006e360cc03466231566edeb" kind="function"><name>Generate</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1aa6f7018ec22de6c8f29909a99ae23661" kind="function"><name>Use</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1aa6891b5c73cff9b593dcd54b0643a00e" kind="function"><name>AddToInventory</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1ad15389c8bd92974717e0ec960ecc24b0" kind="function"><name>Equip</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1ab247421f328acbe82971317cb307e83b" kind="function"><name>Show</name></member>
+    <member refid="class_mannings_loot_system_1_1_sword_1a5672929f04f40762c985969440888ca9" kind="function"><name>SetDirection</name></member>
+  </compound>
+  <compound refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats" kind="class"><name>ManningsLootSystem::LootController::SwordStats</name>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a1e3122e3cb2b3483b8abd8cda3ced929" kind="variable"><name>tier</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a1c7bdc5bb21e79d534f0f0e7569e5df3" kind="variable"><name>minDamage</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a7044b5583c1cb13a394dbb5a1a4feb41" kind="variable"><name>maxDamage</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a6b360dcea79158102bc76b5d93e8a506" kind="variable"><name>minAttackSpeed</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a3b7d42387cc002c4891ff7cba8edaba4" kind="variable"><name>maxAttackSpeed</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a9ef4d6cd8d575d6db2b58aef7d06e9e6" kind="variable"><name>baseValue</name></member>
+    <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_sword_stats_1a5bdebaa4af20da294a89474dfdaf0992" kind="variable"><name>possibleSprites</name></member>
+  </compound>
+  <compound refid="class_spriter2_unity_d_x_1_1_texture_controller" kind="class"><name>Spriter2UnityDX::TextureController</name>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1aece9421406e002cdc562ca67ad11d56b" kind="variable"><name>DisplayedSprite</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1a48fa5a7458889e1d8b376392b174fd49" kind="variable"><name>Sprites</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1aebc070c51bdeff38acd69775dd2af433" kind="variable"><name>srenderer</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1acd7446772c261c929f66c31ff4cddf98" kind="variable"><name>animator</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1a6a20df7188b9b5a6bdcb95c8b876c338" kind="variable"><name>lastDisplayed</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1a2657a73d477129f05888f3d39a2d1825" kind="function"><name>Awake</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1af900734f35f92ac3fcc4868676699f24" kind="function"><name>Start</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1a6ca8717e879a4b640de691647d1e3c98" kind="function"><name>Update</name></member>
+    <member refid="class_spriter2_unity_d_x_1_1_texture_controller_1a080fa7500c6a14903fbdab5c4ad78108" kind="function"><name>IsTransitioning</name></member>
+  </compound>
+  <compound refid="class_two_dimensional_player_movement" kind="class"><name>TwoDimensionalPlayerMovement</name>
+    <member refid="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5c" kind="enum"><name>LookMode</name></member>
+    <member refid="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5caf2a47c6809d88e175dade0ef7b16aa13" kind="enumvalue"><name>Mouse</name></member>
+    <member refid="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5ca4642e767f9251fa40afadbc963f80b7a" kind="enumvalue"><name>Movement</name></member>
+    <member refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0b" kind="enum"><name>MovementType</name></member>
+    <member refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0baf385103a296d02d162020942da48a0b4" kind="enumvalue"><name>Platformer</name></member>
+    <member refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0bac2c459170c61c345ec32fae4faee4f87" kind="enumvalue"><name>FullMovement</name></member>
+    <member refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0bac4632c29e86526a3756cbe8f5aaba730" kind="enumvalue"><name>FourDirectional</name></member>
+    <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476c" kind="enum"><name>Direction</name></member>
+    <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca258f49887ef8d14ac268c92b02503aaa" kind="enumvalue"><name>Up</name></member>
+    <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca08a38277b0309070706f6652eeae9a53" kind="enumvalue"><name>Down</name></member>
+    <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca945d5e233cf7d6240f6b783b36a374ff" kind="enumvalue"><name>Left</name></member>
+    <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476ca92b09c7c48c520c3c55e497875da437c" kind="enumvalue"><name>Right</name></member>
+    <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476cae599161956d626eda4cb0a5ffb85271c" kind="enumvalue"><name>Idle</name></member>
+    <member refid="class_two_dimensional_player_movement_1a1cbb7e4848f5cb1b95217a2cbf2cd471" kind="variable"><name>lookMode</name></member>
+    <member refid="class_two_dimensional_player_movement_1a6600a733ecc329c4c2fa3b263f119fcc" kind="variable"><name>animateRotation</name></member>
+    <member refid="class_two_dimensional_player_movement_1af39295d576ee833176a42619d47d62ee" kind="variable"><name>jumpForce</name></member>
+    <member refid="class_two_dimensional_player_movement_1a6c1b140bd3b49927e8a45ffd65305f78" kind="variable"><name>gravityStrength</name></member>
+    <member refid="class_two_dimensional_player_movement_1a64c4ae16e03d8dc4888217f43350c1a3" kind="variable"><name>isGrounded</name></member>
+    <member refid="class_two_dimensional_player_movement_1a9acf8f978aa57c81686336e451dd3683" kind="variable"><name>direction</name></member>
+    <member refid="class_two_dimensional_player_movement_1aa454c81b879dc3bf6ba996f7030a8aff" kind="variable"><name>speedModifier</name></member>
+    <member refid="class_two_dimensional_player_movement_1a056a9e5683d2e9175a77a5f5a7e464e2" kind="variable"><name>walkSpeed</name></member>
+    <member refid="class_two_dimensional_player_movement_1a61ea4f8836d82b189de5c0842e66d9df" kind="variable"><name>runSpeed</name></member>
+    <member refid="class_two_dimensional_player_movement_1ad8ee6701e9172a0839536774edeb386a" kind="variable"><name>isRunning</name></member>
+    <member refid="class_two_dimensional_player_movement_1ac0c270a9e1c4ed140942e39c6d82340e" kind="variable"><name>currentMoveSpeed</name></member>
+    <member refid="class_two_dimensional_player_movement_1a45848c1d10b2b982ed848377dc29bcc4" kind="variable"><name>moveUpButton</name></member>
+    <member refid="class_two_dimensional_player_movement_1a721f76873e964879fca72d009d7d768b" kind="variable"><name>moveDownButton</name></member>
+    <member refid="class_two_dimensional_player_movement_1a13e3feadca3a57cfe2a3d403b3f3e600" kind="variable"><name>moveLeftButton</name></member>
+    <member refid="class_two_dimensional_player_movement_1a9c78e37994e7dad20feef161a226eccf" kind="variable"><name>moveRightButton</name></member>
+    <member refid="class_two_dimensional_player_movement_1a379ff082e4742843d12087b4257a0d9c" kind="variable"><name>runButton</name></member>
+    <member refid="class_two_dimensional_player_movement_1afec2cc9c19003a1b4f6f49aa2be76a8e" kind="variable"><name>walkingSounds</name></member>
+    <member refid="class_two_dimensional_player_movement_1aae010358d2b3bc10171bbf5f5dcc1673" kind="variable"><name>rb</name></member>
+    <member refid="class_two_dimensional_player_movement_1a9c1240d457b35456855b0017f2fda48e" kind="variable"><name>anim</name></member>
+    <member refid="class_two_dimensional_player_movement_1ad76d40595f691e0fd9de1700f5464b1e" kind="variable"><name>audio</name></member>
+    <member refid="class_two_dimensional_player_movement_1a04196c1e41ed8e8707a42fbb3ec74717" kind="variable"><name>mousePos</name></member>
+    <member refid="class_two_dimensional_player_movement_1a9b783cf6e0e4eb46d9b012a896fbcd80" kind="variable"><name>thisPos</name></member>
+    <member refid="class_two_dimensional_player_movement_1a93c60e89e2059c7c6387247d77d257e9" kind="variable"><name>isMoving</name></member>
+    <member refid="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" kind="variable"><name>oldPosition</name></member>
+    <member refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" kind="variable"><name>canMove</name></member>
+    <member refid="class_two_dimensional_player_movement_1ad30f05d799e8e45c0e3bfdf403ec1429" kind="variable"><name>moveDirection</name></member>
+    <member refid="class_two_dimensional_player_movement_1a6113e2dcb0490977f70c1f9e38bd3974" kind="variable"><name>moveDirectionNum</name></member>
+    <member refid="class_two_dimensional_player_movement_1abee659846697b291bad4617cf94555d6" kind="variable"><name>movementType</name></member>
+    <member refid="class_two_dimensional_player_movement_1aebe4db8bc6846a5997ee7563564ae039" kind="property"><name>_speedModifier</name></member>
+    <member refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45" kind="function"><name>Awake</name></member>
+    <member refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6" kind="function"><name>Update</name></member>
+    <member refid="class_two_dimensional_player_movement_1a555910437e23f178c9f81d81940f61b2" kind="function"><name>OnCollisionEnter2D</name></member>
+    <member refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" kind="function"><name>SetMoveDirection</name></member>
+    <member refid="class_two_dimensional_player_movement_1aa905b5badaeed93f1b8993961ee0f354" kind="function"><name>ChangeSpeedModifier</name></member>
+  </compound>
+  <compound refid="class_ui_follow_mouse" kind="class"><name>UiFollowMouse</name>
+    <member refid="class_ui_follow_mouse_1a62e2f1a4b3bed990ccaf636107d90521" kind="variable"><name>movingObject</name></member>
+    <member refid="class_ui_follow_mouse_1a89d0ff90bcf5e46cbf3d8d8c5898e3d8" kind="variable"><name>offset</name></member>
+    <member refid="class_ui_follow_mouse_1a932c19effddc94c64c83a16008206e07" kind="variable"><name>basisObject</name></member>
+    <member refid="class_ui_follow_mouse_1aae17b86f6c99fd0c59ab87c4d1ba0c78" kind="variable"><name>cam</name></member>
+    <member refid="class_ui_follow_mouse_1af65827b836f8c6ff3d3d3a821837e907" kind="function"><name>Update</name></member>
+    <member refid="class_ui_follow_mouse_1a232bf8af22d15a39fb082f687a08d73b" kind="function"><name>MoveObject</name></member>
+  </compound>
+  <compound refid="class_video_button" kind="class"><name>VideoButton</name>
+    <member refid="class_video_button_1a2cfc4ee61264f21d8d51d6ee26227a5f" kind="variable"><name>mainMenuUI</name></member>
+    <member refid="class_video_button_1ad42e8c021ffbee80fd597b78aa333ae0" kind="variable"><name>videoUI</name></member>
+    <member refid="class_video_button_1a7175164f34bf494aacaad99e1ba420c7" kind="function"><name>ButtonClick</name></member>
+  </compound>
+  <compound refid="class_weapon_slot" kind="class"><name>WeaponSlot</name>
+    <member refid="class_weapon_slot_1a1dc813891374159d97105845e077f29b" kind="function"><name>Start</name></member>
+    <member refid="class_weapon_slot_1a6eacf47f666987e9e82622a4fb23c17e" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="namespace_mannings_loot_system" kind="namespace"><name>ManningsLootSystem</name>
+  </compound>
+  <compound refid="namespace_spriter2_unity_d_x" kind="namespace"><name>Spriter2UnityDX</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i_elements" kind="namespace"><name>UnityEngine::UIElements</name>
+  </compound>
+  <compound refid="_game_01_manager_8cs" kind="file"><name>Game Manager.cs</name>
+  </compound>
+  <compound refid="_coin_script_8cs" kind="file"><name>CoinScript.cs</name>
+  </compound>
+  <compound refid="_loot_boss_8cs" kind="file"><name>LootBoss.cs</name>
+  </compound>
+  <compound refid="_random_loot_chest_8cs" kind="file"><name>RandomLootChest.cs</name>
+  </compound>
+  <compound refid="_random_loot_creep_8cs" kind="file"><name>RandomLootCreep.cs</name>
+  </compound>
+  <compound refid="_random_loot_golem_8cs" kind="file"><name>RandomLootGolem.cs</name>
+  </compound>
+  <compound refid="_random_loot_skeleton_8cs" kind="file"><name>RandomLootSkeleton.cs</name>
+  </compound>
+  <compound refid="_new_behaviour_script_8cs" kind="file"><name>NewBehaviourScript.cs</name>
+  </compound>
+  <compound refid="_camera_tracking_8cs" kind="file"><name>CameraTracking.cs</name>
+  </compound>
+  <compound refid="_i_hurtable_8cs" kind="file"><name>IHurtable.cs</name>
+  </compound>
+  <compound refid="_i_interactable_8cs" kind="file"><name>IInteractable.cs</name>
+  </compound>
+  <compound refid="_interactable_coin_example_8cs" kind="file"><name>InteractableCoinExample.cs</name>
+  </compound>
+  <compound refid="_interactor_8cs" kind="file"><name>Interactor.cs</name>
+  </compound>
+  <compound refid="_standard_interactable_8cs" kind="file"><name>StandardInteractable.cs</name>
+  </compound>
+  <compound refid="_two_dimensional_player_movement_8cs" kind="file"><name>TwoDimensionalPlayerMovement.cs</name>
+  </compound>
+  <compound refid="_gameplay_settings_8cs" kind="file"><name>GameplaySettings.cs</name>
+  </compound>
+  <compound refid="_inventory_controller_8cs" kind="file"><name>InventoryController.cs</name>
+  </compound>
+  <compound refid="_loot_controller_8cs" kind="file"><name>LootController.cs</name>
+  </compound>
+  <compound refid="_dead_body_8cs" kind="file"><name>DeadBody.cs</name>
+  </compound>
+  <compound refid="_mannings_loot_system_player_controller_8cs" kind="file"><name>ManningsLootSystemPlayerController.cs</name>
+  </compound>
+  <compound refid="_player_controller_8cs" kind="file"><name>PlayerController.cs</name>
+  </compound>
+  <compound refid="_weapon_slot_8cs" kind="file"><name>WeaponSlot.cs</name>
+  </compound>
+  <compound refid="_quality_controller_8cs" kind="file"><name>QualityController.cs</name>
+  </compound>
+  <compound refid="_quality_setting_8cs" kind="file"><name>QualitySetting.cs</name>
+  </compound>
+  <compound refid="_enemy_controller_8cs" kind="file"><name>EnemyController.cs</name>
+  </compound>
+  <compound refid="_projectile_8cs" kind="file"><name>Projectile.cs</name>
+  </compound>
+  <compound refid="_skeleton_8cs" kind="file"><name>Skeleton.cs</name>
+  </compound>
+  <compound refid="_arrow_loot_8cs" kind="file"><name>ArrowLoot.cs</name>
+  </compound>
+  <compound refid="_bow_8cs" kind="file"><name>Bow.cs</name>
+  </compound>
+  <compound refid="_health_potion_8cs" kind="file"><name>HealthPotion.cs</name>
+  </compound>
+  <compound refid="_loot_8cs" kind="file"><name>Loot.cs</name>
+  </compound>
+  <compound refid="_loot_drop_behaviour_8cs" kind="file"><name>LootDropBehaviour.cs</name>
+  </compound>
+  <compound refid="_money_8cs" kind="file"><name>Money.cs</name>
+  </compound>
+  <compound refid="_potion_8cs" kind="file"><name>Potion.cs</name>
+  </compound>
+  <compound refid="_regeneration_potion_8cs" kind="file"><name>RegenerationPotion.cs</name>
+  </compound>
+  <compound refid="_speed_potion_8cs" kind="file"><name>SpeedPotion.cs</name>
+  </compound>
+  <compound refid="_sword_8cs" kind="file"><name>Sword.cs</name>
+  </compound>
+  <compound refid="_chasm_8cs" kind="file"><name>Chasm.cs</name>
+  </compound>
+  <compound refid="_decoration_8cs" kind="file"><name>Decoration.cs</name>
+  </compound>
+  <compound refid="_destructable_8cs" kind="file"><name>Destructable.cs</name>
+  </compound>
+  <compound refid="_entry_point_8cs" kind="file"><name>EntryPoint.cs</name>
+  </compound>
+  <compound refid="_fireball_8cs" kind="file"><name>Fireball.cs</name>
+  </compound>
+  <compound refid="_respawn_point_8cs" kind="file"><name>RespawnPoint.cs</name>
+  </compound>
+  <compound refid="_arrow_count_u_i_8cs" kind="file"><name>ArrowCountUI.cs</name>
+  </compound>
+  <compound refid="_audio_button_8cs" kind="file"><name>AudioButton.cs</name>
+  </compound>
+  <compound refid="_back_to_menu_button_8cs" kind="file"><name>BackToMenuButton.cs</name>
+  </compound>
+  <compound refid="_can_dash_icon_8cs" kind="file"><name>CanDashIcon.cs</name>
+  </compound>
+  <compound refid="_destroy_button_8cs" kind="file"><name>DestroyButton.cs</name>
+  </compound>
+  <compound refid="_equip_button_8cs" kind="file"><name>EquipButton.cs</name>
+  </compound>
+  <compound refid="_gold_count_u_i_8cs" kind="file"><name>GoldCountUI.cs</name>
+  </compound>
+  <compound refid="_health_u_i_8cs" kind="file"><name>HealthUI.cs</name>
+  </compound>
+  <compound refid="_information_scripts_8cs" kind="file"><name>InformationScripts.cs</name>
+  </compound>
+  <compound refid="_inventory_box_8cs" kind="file"><name>InventoryBox.cs</name>
+  </compound>
+  <compound refid="_message_log_8cs" kind="file"><name>MessageLog.cs</name>
+  </compound>
+  <compound refid="_pause_transition_8cs" kind="file"><name>PauseTransition.cs</name>
+  </compound>
+  <compound refid="_quit_button_8cs" kind="file"><name>QuitButton.cs</name>
+  </compound>
+  <compound refid="_resume_button_8cs" kind="file"><name>ResumeButton.cs</name>
+  </compound>
+  <compound refid="_sell_button_8cs" kind="file"><name>SellButton.cs</name>
+  </compound>
+  <compound refid="_start_button_8cs" kind="file"><name>StartButton.cs</name>
+  </compound>
+  <compound refid="_ui_follow_mouse_8cs" kind="file"><name>UiFollowMouse.cs</name>
+  </compound>
+  <compound refid="_video_button_8cs" kind="file"><name>VideoButton.cs</name>
+  </compound>
+  <compound refid="_destroy_after_time_8cs" kind="file"><name>DestroyAfterTime.cs</name>
+  </compound>
+  <compound refid="_dont_destroy_on_load_8cs" kind="file"><name>DontDestroyOnLoad.cs</name>
+  </compound>
+  <compound refid="_arrow_8cs" kind="file"><name>Arrow.cs</name>
+  </compound>
+  <compound refid="_entity_renderer_8cs" kind="file"><name>EntityRenderer.cs</name>
+  </compound>
+  <compound refid="_sorting_order_updater_8cs" kind="file"><name>SortingOrderUpdater.cs</name>
+  </compound>
+  <compound refid="_texture_controller_8cs" kind="file"><name>TextureController.cs</name>
+  </compound>
+  <compound refid="dir_35b63bf1cf697dd71b5e83a5ec60777f" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning&apos;s 2D Games stuff/2D Movement + Interaction + Weapons</name>
+  </compound>
+  <compound refid="dir_990ac0b99e98a04414fd2286c4726250" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets</name>
+  </compound>
+  <compound refid="dir_f55ea31c938f11396419ffef19520e07" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers</name>
+  </compound>
+  <compound refid="dir_5a97e9edeacabd2a732275156ee96e84" kind="dir"><name>C:/Users/manni/OneDrive/Documents</name>
+  </compound>
+  <compound refid="dir_e24a5e22ff0aedfde32e05c8c2370d82" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies</name>
+  </compound>
+  <compound refid="dir_51e1935f03134a2770df5e84a249264a" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff</name>
+  </compound>
+  <compound refid="dir_defc1d495e934a48d8c423b81d5ba618" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers</name>
+  </compound>
+  <compound refid="dir_91d7f75ce4e58f00058a012718f88bb7" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot</name>
+  </compound>
+  <compound refid="dir_ba56571bc522daf080223929fddcb6ce" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts</name>
+  </compound>
+  <compound refid="dir_7e4709312c939ed758c2fb1e564cc771" kind="dir"><name>C:/Users/manni</name>
+  </compound>
+  <compound refid="dir_5e6e996ba32f3d5d180895ecbe32346f" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning&apos;s 2D Games stuff</name>
+  </compound>
+  <compound refid="dir_f737bfc0166f75b36ec33eff9fcc46da" kind="dir"><name>C:/Users/manni/OneDrive</name>
+  </compound>
+  <compound refid="dir_1501fbaaf5f9f673fe22e5ac82fe055a" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other</name>
+  </compound>
+  <compound refid="dir_67f4d8b086397785ebf42e5d39d1f1b4" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player</name>
+  </compound>
+  <compound refid="dir_0baa911493de12106c02154c78d24400" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files</name>
+  </compound>
+  <compound refid="dir_888935f2c56c358927d65b2db7a00e4c" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources</name>
+  </compound>
+  <compound refid="dir_ac5addf794a4cd67b4940d31731b0bfe" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime</name>
+  </compound>
+  <compound refid="dir_96159840f59f46548668ad19e68b692a" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts</name>
+  </compound>
+  <compound refid="dir_38dee84b03fed48fb0f3cf8bb0ec6021" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning&apos;s 2D Games stuff/2D Movement + Interaction + Weapons/Scripts</name>
+  </compound>
+  <compound refid="dir_ce2c5487fc5d5ef24ae0c82b8a2b0bac" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts</name>
+  </compound>
+  <compound refid="dir_536e6999d051ef717ee99d026f7f5980" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX</name>
+  </compound>
+  <compound refid="dir_4a9dfb7e414b43f867e2a6b5d69c212e" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_08d2cc7d0a8c21c257135f3cfb3923ec" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility</name>
+  </compound>
+  <compound refid="dir_36a0599f4f1385306747ab56310fac3a" kind="dir"><name>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons</name>
+  </compound>
+</doxygenindex>

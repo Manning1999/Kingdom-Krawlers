@@ -173,9 +173,7 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
     protected virtual void Update()
     {
 
-        moveDirection = (transform.position - oldPosition).normalized;
-
-        moveDirectionNum = anim.GetInteger("Direction");
+        SetMoveDirection();
 
 
         if(oldPosition != transform.position)
@@ -678,4 +676,11 @@ public class TwoDimensionalPlayerMovement : MonoBehaviour
         speedModifier = modifier;
     }
 
+
+    protected virtual void SetMoveDirection()
+    {
+        moveDirection = (transform.position - oldPosition).normalized;
+
+        moveDirectionNum = anim.GetInteger("Direction");
+    }
 }

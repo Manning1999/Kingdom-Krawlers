@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_game_manager" kind="class" prot="public">
+    <compoundname>GameManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914c" prot="public" static="no">
+        <name>GameState</name>
+        <enumvalue id="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914cab78a3223503896721cca1303f776159b" prot="public">
+          <name>Title</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914cade3c731be5633838089a07179d301d7b" prot="public">
+          <name>Play</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914ca119eac47719cc9be7b99124712e229da" prot="public">
+          <name>Win</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="8" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_manager_1aed7d51bc1f6920bae56f938f9c90cec3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameManager.playerLevel</definition>
+        <argsstring></argsstring>
+        <name>playerLevel</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a3e4031dc1d2a9738bad8b65b31616375" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameManager.playerHealthPenalty</definition>
+        <argsstring></argsstring>
+        <name>playerHealthPenalty</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_manager_1a581a92a674d5c482a815b7d95d6126d3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameManager.playerCoins</definition>
+        <argsstring></argsstring>
+        <name>playerCoins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_manager_1a4c54beeede9cbc03601377a0fea0d58c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914c" kindref="member">GameState</ref></type>
+        <definition>GameState GameManager.m_GameState</definition>
+        <argsstring></argsstring>
+        <name>m_GameState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_game_manager_1a2959177ee51ac31badbf8b1bc8f7f637" compoundref="_game_01_manager_8cs" startline="23" endline="26">Awake</referencedby>
+        <referencedby refid="class_game_manager_1a44c79b205dec16bfe650e21259860c5b" compoundref="_game_01_manager_8cs" startline="34" endline="52">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_game_manager_1ab81528de75ceeb2b5deccdcb711283d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914c" kindref="member">GameState</ref></type>
+        <definition>GameState GameManager.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_manager_1a2959177ee51ac31badbf8b1bc8f7f637" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="23" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="23" bodyend="26"/>
+        <references refid="class_game_manager_1a4c54beeede9cbc03601377a0fea0d58c" compoundref="_game_01_manager_8cs" startline="20">m_GameState</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_manager_1a5ccfacd027ad08eeb4ff1f25a7f59c98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_manager_1a44c79b205dec16bfe650e21259860c5b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="34" bodyend="52"/>
+        <references refid="class_game_manager_1a4c54beeede9cbc03601377a0fea0d58c" compoundref="_game_01_manager_8cs" startline="20">m_GameState</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="129">
+        <label>GameManager</label>
+        <link refid="class_game_manager"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="131">
+        <label>GameManager</label>
+        <link refid="class_game_manager"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Game Manager.cs" bodystart="6" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_game_manager_1a2959177ee51ac31badbf8b1bc8f7f637" prot="private" virt="non-virtual"><scope>GameManager</scope><name>Awake</name></member>
+      <member refid="class_game_manager_1a809dec58b5681fc1ebcc22eb428a914c" prot="public" virt="non-virtual"><scope>GameManager</scope><name>GameState</name></member>
+      <member refid="class_game_manager_1a4c54beeede9cbc03601377a0fea0d58c" prot="private" virt="non-virtual"><scope>GameManager</scope><name>m_GameState</name></member>
+      <member refid="class_game_manager_1a581a92a674d5c482a815b7d95d6126d3" prot="public" virt="non-virtual"><scope>GameManager</scope><name>playerCoins</name></member>
+      <member refid="class_game_manager_1a3e4031dc1d2a9738bad8b65b31616375" prot="public" virt="non-virtual"><scope>GameManager</scope><name>playerHealthPenalty</name></member>
+      <member refid="class_game_manager_1aed7d51bc1f6920bae56f938f9c90cec3" prot="public" virt="non-virtual"><scope>GameManager</scope><name>playerLevel</name></member>
+      <member refid="class_game_manager_1a5ccfacd027ad08eeb4ff1f25a7f59c98" prot="private" virt="non-virtual"><scope>GameManager</scope><name>Start</name></member>
+      <member refid="class_game_manager_1ab81528de75ceeb2b5deccdcb711283d9" prot="public" virt="non-virtual"><scope>GameManager</scope><name>State</name></member>
+      <member refid="class_game_manager_1a44c79b205dec16bfe650e21259860c5b" prot="private" virt="non-virtual"><scope>GameManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

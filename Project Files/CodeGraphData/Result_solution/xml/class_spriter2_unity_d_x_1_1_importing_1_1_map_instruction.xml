@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Importing::MapInstruction</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1ae93dced6a25ae54039fb875f8223fd1c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.MapInstruction.folder</definition>
+        <argsstring></argsstring>
+        <name>folder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="50" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1a0b8b091479e96cd0d49db2bc6749e954" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.MapInstruction.file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="51" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1ab7eb1dc2617924715bf2247933abc7b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.MapInstruction.target_folder</definition>
+        <argsstring></argsstring>
+        <name>target_folder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="52" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1a005f04d3118b45942c8532bc41621fd6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.MapInstruction.target_file</definition>
+        <argsstring></argsstring>
+        <name>target_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="53" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1a567f60fe72d88495573da0f972dfa6f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Spriter2UnityDX.Importing.MapInstruction.MapInstruction</definition>
+        <argsstring>()</argsstring>
+        <name>MapInstruction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="49" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="48" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="48" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1a0b8b091479e96cd0d49db2bc6749e954" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::MapInstruction</scope><name>file</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1ae93dced6a25ae54039fb875f8223fd1c" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::MapInstruction</scope><name>folder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1a567f60fe72d88495573da0f972dfa6f6" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::MapInstruction</scope><name>MapInstruction</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1a005f04d3118b45942c8532bc41621fd6" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::MapInstruction</scope><name>target_file</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_map_instruction_1ab7eb1dc2617924715bf2247933abc7b5" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::MapInstruction</scope><name>target_folder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

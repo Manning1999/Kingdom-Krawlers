@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_health_u_i" kind="class" prot="public">
+    <compoundname>HealthUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_health_u_i_1a66996156c3329c4ee03a59291de8282e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HealthUI.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_health_u_i_1aa5c3a7493aa74cbc6bf81fd0e0b40129" compoundref="_health_u_i_8cs" startline="18" endline="22">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_health_u_i_1aa9b0b8a22beb2ff744e8f6f22fe609da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HealthUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_health_u_i_1aa5c3a7493aa74cbc6bf81fd0e0b40129" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HealthUI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" bodystart="18" bodyend="22"/>
+        <references refid="class_health_u_i_1a66996156c3329c4ee03a59291de8282e" compoundref="_health_u_i_8cs" startline="8">health</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="118">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="117">
+        <label>HealthUI</label>
+        <link refid="class_health_u_i"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="120">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="119">
+        <label>HealthUI</label>
+        <link refid="class_health_u_i"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/HealthUI.cs" bodystart="6" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_health_u_i_1a66996156c3329c4ee03a59291de8282e" prot="public" virt="non-virtual"><scope>HealthUI</scope><name>health</name></member>
+      <member refid="class_health_u_i_1aa9b0b8a22beb2ff744e8f6f22fe609da" prot="private" virt="non-virtual"><scope>HealthUI</scope><name>Start</name></member>
+      <member refid="class_health_u_i_1aa5c3a7493aa74cbc6bf81fd0e0b40129" prot="private" virt="non-virtual"><scope>HealthUI</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

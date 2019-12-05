@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::LootController::MoneyStats</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1ab184a83bf3c177b9d1a5be993c4a6227" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManningsLootSystem.LootController.MoneyStats.createMultipleCoins</definition>
+        <argsstring></argsstring>
+        <name>createMultipleCoins</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="84" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_money_1ae39d559e2482b795969f72f99c863695" compoundref="_money_8cs" startline="15" endline="27">ManningsLootSystem.Money.Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1ab1348455f2b94d21254b7d30f78f5a21" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootController.MoneyStats.minValue</definition>
+        <argsstring></argsstring>
+        <name>minValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="87" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1a75c3cf0b398546bbd623b5d6b20ecde8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootController.MoneyStats.maxValue</definition>
+        <argsstring></argsstring>
+        <name>maxValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="90" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="83" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="82" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1ab184a83bf3c177b9d1a5be993c4a6227" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::MoneyStats</scope><name>createMultipleCoins</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1a75c3cf0b398546bbd623b5d6b20ecde8" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::MoneyStats</scope><name>maxValue</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_money_stats_1ab1348455f2b94d21254b7d30f78f5a21" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::MoneyStats</scope><name>minValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

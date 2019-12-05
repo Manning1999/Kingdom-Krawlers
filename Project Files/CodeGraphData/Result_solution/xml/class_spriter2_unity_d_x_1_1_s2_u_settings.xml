@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_s2_u_settings" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::S2USettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_s2_u_settings_1a731abc763c7cf5fbfaee0599750e3167" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Spriter2UnityDX.S2USettings.IMPORT</definition>
+        <argsstring></argsstring>
+        <name>IMPORT</name>
+        <initializer>= &quot;import&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_s2_u_settings_1a6ba9494d072158388d8340fda3d621a4" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_spriter2_unity_d_x_1a89827f563ba4efb91f843c2337c70180" kindref="member">AnimationImportOption</ref></type>
+        <definition>AnimationImportOption Spriter2UnityDX.S2USettings.ImportStyle</definition>
+        <argsstring></argsstring>
+        <name>ImportStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1acd37353456dd6a5c509971df29f3a505" compoundref="_animation_builder_8cs" startline="58" endline="141">Spriter2UnityDX.Animations.AnimationBuilder.Build</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a7b8917cd3420f3508281c2a72abd38e2" compoundref="_animation_builder_8cs" startline="48" endline="56">Spriter2UnityDX.Animations.AnimationBuilder.GetOrigClips</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_settings_editor_1acc20ce6f3865454e76fb13d3fbc49f27" compoundref="_s2_u_settings_8cs" startline="27" endline="29">Spriter2UnityDX.SettingsEditor.OnEnable</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_settings_editor_1ac1edd9f9126ff96382d5417cbe67fbce" compoundref="_s2_u_settings_8cs" startline="35" endline="41">Spriter2UnityDX.SettingsEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_s2_u_settings_1a9b77a81ed61f3a255debbf772f71daa5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Spriter2UnityDX.S2USettings.Select</definition>
+        <argsstring>()</argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="341">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="340">
+        <label>Spriter2UnityDX.S2USettings</label>
+        <link refid="class_spriter2_unity_d_x_1_1_s2_u_settings"/>
+        <childnode refid="341" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="343">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="342">
+        <label>Spriter2UnityDX.S2USettings</label>
+        <link refid="class_spriter2_unity_d_x_1_1_s2_u_settings"/>
+        <childnode refid="343" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_s2_u_settings_1a731abc763c7cf5fbfaee0599750e3167" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::S2USettings</scope><name>IMPORT</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_s2_u_settings_1a6ba9494d072158388d8340fda3d621a4" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::S2USettings</scope><name>ImportStyle</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_s2_u_settings_1a9b77a81ed61f3a255debbf772f71daa5" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::S2USettings</scope><name>Select</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_91d7f75ce4e58f00058a012718f88bb7" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot</compoundname>
+    <innerfile refid="_arrow_loot_8cs">ArrowLoot.cs</innerfile>
+    <innerfile refid="_bow_8cs">Bow.cs</innerfile>
+    <innerfile refid="_health_potion_8cs">HealthPotion.cs</innerfile>
+    <innerfile refid="_loot_8cs">Loot.cs</innerfile>
+    <innerfile refid="_loot_drop_behaviour_8cs">LootDropBehaviour.cs</innerfile>
+    <innerfile refid="_money_8cs">Money.cs</innerfile>
+    <innerfile refid="_potion_8cs">Potion.cs</innerfile>
+    <innerfile refid="_regeneration_potion_8cs">RegenerationPotion.cs</innerfile>
+    <innerfile refid="_speed_potion_8cs">SpeedPotion.cs</innerfile>
+    <innerfile refid="_sword_8cs">Sword.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_67f4d8b086397785ebf42e5d39d1f1b4" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player</compoundname>
+    <innerfile refid="_dead_body_8cs">DeadBody.cs</innerfile>
+    <innerfile refid="_mannings_loot_system_player_controller_8cs">ManningsLootSystemPlayerController.cs</innerfile>
+    <innerfile refid="_player_controller_8cs">PlayerController.cs</innerfile>
+    <innerfile refid="_weapon_slot_8cs">WeaponSlot.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/"/>
+  </compounddef>
+</doxygen>

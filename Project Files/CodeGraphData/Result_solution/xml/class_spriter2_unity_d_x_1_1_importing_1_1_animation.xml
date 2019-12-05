@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_importing_1_1_animation" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Importing::Animation</compoundname>
+    <basecompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.ScmlElement</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1aef8dcbf5564a962ce026225152e21937" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Spriter2UnityDX.Importing.Animation.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="58" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ada18967ca76134ea631940c9ff73049d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.Animation.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="60" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1a1706a0b7bfec7ef088c43ad7e9a0b2ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Spriter2UnityDX.Importing.Animation.looping</definition>
+        <argsstring></argsstring>
+        <name>looping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="64" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ad75a16a86772cb72fd52bb5007510829" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_main_line_key" kindref="compound">MainLineKey</ref>[]</type>
+        <definition>MainLineKey [] Spriter2UnityDX.Importing.Animation.mainlineKeys</definition>
+        <argsstring></argsstring>
+        <name>mainlineKeys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="66" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1a38552dedcc90c0cea5f68fde4ad7af4b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref>[]</type>
+        <definition>TimeLine [] Spriter2UnityDX.Importing.Animation.timelines</definition>
+        <argsstring></argsstring>
+        <name>timelines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="67" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ac14317e25e72cb3fd218dd5f2301c270" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.Animation._length</definition>
+        <argsstring></argsstring>
+        <name>_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="59" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ae7d1c08d9543e76d3022d92ed539b79e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Spriter2UnityDX.Importing.Animation.Animation</definition>
+        <argsstring>()</argsstring>
+        <name>Animation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="57" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Spriter2UnityDX.Importing.Animation</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ScmlElement</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Spriter2UnityDX.Importing.Animation</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScmlElement</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="56" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="56" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ac14317e25e72cb3fd218dd5f2301c270" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>_length</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ae7d1c08d9543e76d3022d92ed539b79e" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>Animation</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element_1a3da3be7d801db591f021df32ba7c195e" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>id</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ada18967ca76134ea631940c9ff73049d" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>length</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1a1706a0b7bfec7ef088c43ad7e9a0b2ee" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>looping</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1ad75a16a86772cb72fd52bb5007510829" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>mainlineKeys</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1aef8dcbf5564a962ce026225152e21937" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>name</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation_1a38552dedcc90c0cea5f68fde4ad7af4b" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::Animation</scope><name>timelines</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

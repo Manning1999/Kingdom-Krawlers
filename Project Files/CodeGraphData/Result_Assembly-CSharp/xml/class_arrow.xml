@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_arrow" kind="class" prot="public">
+    <compoundname>Arrow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_arrow_1a39c6914f3f9ddfdd9564fd78aff471e1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Arrow.arrowSpeed</definition>
+        <argsstring></argsstring>
+        <name>arrowSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_arrow_1a98d2142ded67e21edd7f652a9c5f7d89" compoundref="_arrow_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_arrow_1a37acc46f8d793cc86cef148645652c73" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Arrow.damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_arrow_1a19f9c44e6cc6eb1e088638ed97c9beb1" compoundref="_arrow_8cs" startline="26" endline="34">OnCollisionEnter2D</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_arrow_1a65ce0e1a14405dec237e13ee5631b07d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Arrow.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arrow_1a98d2142ded67e21edd7f652a9c5f7d89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Arrow.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" bodystart="21" bodyend="24"/>
+        <references refid="class_arrow_1a39c6914f3f9ddfdd9564fd78aff471e1" compoundref="_arrow_8cs" startline="9">arrowSpeed</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_arrow_1a19f9c44e6cc6eb1e088638ed97c9beb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Arrow.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D col)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" bodystart="26" bodyend="34"/>
+        <references refid="class_arrow_1a37acc46f8d793cc86cef148645652c73" compoundref="_arrow_8cs" startline="12">damage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Arrow</label>
+        <link refid="class_arrow"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Arrow</label>
+        <link refid="class_arrow"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons/Arrow.cs" bodystart="5" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_arrow_1a39c6914f3f9ddfdd9564fd78aff471e1" prot="private" virt="non-virtual"><scope>Arrow</scope><name>arrowSpeed</name></member>
+      <member refid="class_arrow_1a37acc46f8d793cc86cef148645652c73" prot="private" virt="non-virtual"><scope>Arrow</scope><name>damage</name></member>
+      <member refid="class_arrow_1a19f9c44e6cc6eb1e088638ed97c9beb1" prot="public" virt="non-virtual"><scope>Arrow</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_arrow_1a65ce0e1a14405dec237e13ee5631b07d" prot="private" virt="non-virtual"><scope>Arrow</scope><name>Start</name></member>
+      <member refid="class_arrow_1a98d2142ded67e21edd7f652a9c5f7d89" prot="private" virt="non-virtual"><scope>Arrow</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_loot" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::Loot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_mannings_loot_system_1_1_arrow_loot" prot="public" virt="non-virtual">ManningsLootSystem.ArrowLoot</derivedcompoundref>
+    <derivedcompoundref refid="class_mannings_loot_system_1_1_bow" prot="public" virt="non-virtual">ManningsLootSystem.Bow</derivedcompoundref>
+    <derivedcompoundref refid="class_mannings_loot_system_1_1_money" prot="public" virt="non-virtual">ManningsLootSystem.Money</derivedcompoundref>
+    <derivedcompoundref refid="class_mannings_loot_system_1_1_potion" prot="public" virt="non-virtual">ManningsLootSystem.Potion</derivedcompoundref>
+    <derivedcompoundref refid="class_mannings_loot_system_1_1_sword" prot="public" virt="non-virtual">ManningsLootSystem.Sword</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1aa7999db31e8d345a75c9eecb55f1d15c" prot="protected" static="no" mutable="no">
+        <type>Sprite</type>
+        <definition>Sprite ManningsLootSystem.Loot.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1a1bfac1e5006e360cc03466231566edeb" compoundref="_sword_8cs" startline="37" endline="56">ManningsLootSystem.Sword.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1ab761441e642a5d60f90ce236c390de94" compoundref="_bow_8cs" startline="43" endline="64">ManningsLootSystem.Bow.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" compoundref="_loot_8cs" startline="43" endline="54">ManningsLootSystem.Loot.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1a9eef61ec6e8707f828d091bd78f54c29" prot="protected" static="no" mutable="no">
+        <type>new string</type>
+        <definition>new string ManningsLootSystem.Loot.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1aa7c80154d044fae60e6641c1d0073393" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.Loot.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_money_1a6d46a4d9ae4c2b2ecb3f1d77439f8f5c" compoundref="_money_8cs" startline="29" endline="35">ManningsLootSystem.Money.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_money_1ae39d559e2482b795969f72f99c863695" compoundref="_money_8cs" startline="15" endline="27">ManningsLootSystem.Money.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1a1bfac1e5006e360cc03466231566edeb" compoundref="_sword_8cs" startline="37" endline="56">ManningsLootSystem.Sword.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1ab761441e642a5d60f90ce236c390de94" compoundref="_bow_8cs" startline="43" endline="64">ManningsLootSystem.Bow.Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1a51c95d3817ef34f29f5395fe5a7ecc6c" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ManningsLootSystem.Loot.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="25" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1a1148cd582af36c15f6e885b7f5335cbf" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManningsLootSystem.Loot.inInventory</definition>
+        <argsstring></argsstring>
+        <name>inInventory</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" compoundref="_loot_8cs" startline="101" endline="112">ManningsLootSystem.Loot.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1a6cc4a0f3bb7495c8b3d1f96b1a03ce23" compoundref="_loot_8cs" startline="85" endline="97">ManningsLootSystem.Loot.OnTriggerEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1a64b0124f7277365035c354b5a1a8cc0f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManningsLootSystem.Loot.statsDecided</definition>
+        <argsstring></argsstring>
+        <name>statsDecided</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="30" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1a1bfac1e5006e360cc03466231566edeb" compoundref="_sword_8cs" startline="37" endline="56">ManningsLootSystem.Sword.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1ab761441e642a5d60f90ce236c390de94" compoundref="_bow_8cs" startline="43" endline="64">ManningsLootSystem.Bow.Generate</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" compoundref="_loot_8cs" startline="43" endline="54">ManningsLootSystem.Loot.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1af692b4dcb776c89da7b0b13c619d2854" prot="protected" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer ManningsLootSystem.Loot.rend</definition>
+        <argsstring></argsstring>
+        <name>rend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" compoundref="_loot_8cs" startline="43" endline="54">ManningsLootSystem.Loot.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1af6f1e862a8dfd032a1793649fcd11adc" prot="protected" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator ManningsLootSystem.Loot.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="35" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" compoundref="_loot_8cs" startline="43" endline="54">ManningsLootSystem.Loot.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_1a14d19d6326ee8213d02c93d8dd86340d" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystem.Loot.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="39" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" compoundref="_loot_8cs" startline="101" endline="112">ManningsLootSystem.Loot.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1a30dfbfdcfa5684af027c1492afbd1252" compoundref="_bow_8cs" startline="78" endline="88">ManningsLootSystem.Bow.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_1ac8c2507f10bb687ff8d7a8b2fb5f69ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Sprite</type>
+        <definition>Sprite ManningsLootSystem.Loot._icon</definition>
+        <argsstring></argsstring>
+        <name>_icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_1a12f3bd0447944b56486da59fdfe5ea24" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string ManningsLootSystem.Loot._name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_1a5cd5b2d6a6207bb6be8c0d25c925739c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string ManningsLootSystem.Loot._value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_loot_1a96a5e4d8f591890713a15f29d0eb5923" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string ManningsLootSystem.Loot._description</definition>
+        <argsstring></argsstring>
+        <name>_description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplementedby refid="class_mannings_loot_system_1_1_potion_1ac3789295beed64d5a0a0509cff95ead1">Start</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_sword_1aa652f753942967d36e606e2f664987a3">Start</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_bow_1a5dda819efa310bdebb2b12f7f5e7ef9e">Start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="43" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="43" bodyend="54"/>
+        <references refid="class_mannings_loot_system_1_1_loot_1af6f1e862a8dfd032a1793649fcd11adc" compoundref="_loot_8cs" startline="35">ManningsLootSystem.Loot.anim</references>
+        <references refid="class_mannings_loot_system_1_1_loot_1a262ea11ba0acd3c3e5d85dff2823b72b" compoundref="_loot_8cs" startline="79" endline="82">ManningsLootSystem.Loot.Generate</references>
+        <references refid="class_mannings_loot_system_1_1_loot_1aa7999db31e8d345a75c9eecb55f1d15c" compoundref="_loot_8cs" startline="11">ManningsLootSystem.Loot.icon</references>
+        <references refid="class_mannings_loot_system_1_1_loot_1af692b4dcb776c89da7b0b13c619d2854" compoundref="_loot_8cs" startline="34">ManningsLootSystem.Loot.rend</references>
+        <references refid="class_mannings_loot_system_1_1_loot_1a64b0124f7277365035c354b5a1a8cc0f" compoundref="_loot_8cs" startline="30">ManningsLootSystem.Loot.statsDecided</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1ac2381dac93f9c7b2d4bd4ff2e7d99fa7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="56" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1a2286d1b9a2bdf47a24e0ddc99717c533" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_mannings_loot_system_1_1_sword_1acc5f765a1757254f0e4a379778128141">Update</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_bow_1a30dfbfdcfa5684af027c1492afbd1252">Update</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="65" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="65" bodyend="77"/>
+        <references refid="class_mannings_loot_system_player_controller_1a9c40819f1dc28a71f9a93e84ac0001ce" compoundref="_mannings_loot_system_player_controller_8cs" startline="15">ManningsLootSystemPlayerController.Instance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1a6cc4a0f3bb7495c8b3d1f96b1a03ce23" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D col)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="85" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="85" bodyend="97"/>
+        <references refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" compoundref="_loot_8cs" startline="101" endline="112">ManningsLootSystem.Loot.AddToInventory</references>
+        <references refid="class_mannings_loot_system_1_1_loot_1a1148cd582af36c15f6e885b7f5335cbf" compoundref="_loot_8cs" startline="29">ManningsLootSystem.Loot.inInventory</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1a262ea11ba0acd3c3e5d85dff2823b72b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.Generate</definition>
+        <argsstring>()</argsstring>
+        <name>Generate</name>
+        <reimplementedby refid="class_mannings_loot_system_1_1_arrow_loot_1acc3ce89f773837af552396de6b4b35bf">Generate</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_money_1ae39d559e2482b795969f72f99c863695">Generate</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_sword_1a1bfac1e5006e360cc03466231566edeb">Generate</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_bow_1ab761441e642a5d60f90ce236c390de94">Generate</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="79" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="79" bodyend="82"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" compoundref="_loot_8cs" startline="43" endline="54">ManningsLootSystem.Loot.Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.AddToInventory</definition>
+        <argsstring>()</argsstring>
+        <name>AddToInventory</name>
+        <reimplementedby refid="class_mannings_loot_system_1_1_arrow_loot_1a130140f95143fb8a6d9a3786efe55821">AddToInventory</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_potion_1abac0ba182d717bc963897815743e2896">AddToInventory</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_money_1a6d46a4d9ae4c2b2ecb3f1d77439f8f5c">AddToInventory</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_bow_1ac090a6a2ffb1d72b5fcf0d1489336dc7">AddToInventory</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_sword_1aa6891b5c73cff9b593dcd54b0643a00e">AddToInventory</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="101" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="101" bodyend="112"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" compoundref="_inventory_controller_8cs" startline="164" endline="187">ManningsLootSystem.InventoryController.AddToInventory</references>
+        <references refid="class_mannings_loot_system_1_1_loot_1a1148cd582af36c15f6e885b7f5335cbf" compoundref="_loot_8cs" startline="29">ManningsLootSystem.Loot.inInventory</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a87f4302625649ad06c4d0d82769c44df" compoundref="_inventory_controller_8cs" startline="19">ManningsLootSystem.InventoryController.Instance</references>
+        <references refid="class_mannings_loot_system_1_1_loot_1a14d19d6326ee8213d02c93d8dd86340d" compoundref="_loot_8cs" startline="39">ManningsLootSystem.Loot.owner</references>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1a6cc4a0f3bb7495c8b3d1f96b1a03ce23" compoundref="_loot_8cs" startline="85" endline="97">ManningsLootSystem.Loot.OnTriggerEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1a6bdfda0ed82d2f4f5e80b9605df7ae98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.Sell</definition>
+        <argsstring>()</argsstring>
+        <name>Sell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="120" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_1a404aedb555b696425e551d334aa5a22a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ManningsLootSystem.Loot.Use</definition>
+        <argsstring>()</argsstring>
+        <name>Use</name>
+        <reimplementedby refid="class_health_potion_1a31b85ccc4336370bf1f583dc1b826f12">Use</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_speed_potion_1a4c60dbac794ec34fbe254fc2a9536cf0">Use</reimplementedby>
+        <reimplementedby refid="class_regeneration_potion_1a460cf81db96080dfaedcbbaf824d4abe">Use</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_potion_1add09da14878cd8a7c25250b7e33dbc01">Use</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_sword_1aa6f7018ec22de6c8f29909a99ae23661">Use</reimplementedby>
+        <reimplementedby refid="class_mannings_loot_system_1_1_bow_1aff25e16af3662df37896cbf3eb53bf9a">Use</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="131" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="131" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="196">
+        <label>HealthPotion</label>
+        <link refid="class_health_potion"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>ManningsLootSystem.SpeedPotion</label>
+        <link refid="class_mannings_loot_system_1_1_speed_potion"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>ManningsLootSystem.Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="194">
+        <label>ManningsLootSystem.Money</label>
+        <link refid="class_mannings_loot_system_1_1_money"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>ManningsLootSystem.Bow</label>
+        <link refid="class_mannings_loot_system_1_1_bow"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>ManningsLootSystem.ArrowLoot</label>
+        <link refid="class_mannings_loot_system_1_1_arrow_loot"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="199">
+        <label>ManningsLootSystem.Sword</label>
+        <link refid="class_mannings_loot_system_1_1_sword"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="195">
+        <label>ManningsLootSystem.Potion</label>
+        <link refid="class_mannings_loot_system_1_1_potion"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>RegenerationPotion</label>
+        <link refid="class_regeneration_potion"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="200">
+        <label>ManningsLootSystem.Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Loot.cs" bodystart="7" bodyend="135"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_1a96a5e4d8f591890713a15f29d0eb5923" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>_description</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1ac8c2507f10bb687ff8d7a8b2fb5f69ef" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>_icon</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a12f3bd0447944b56486da59fdfe5ea24" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>_name</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a5cd5b2d6a6207bb6be8c0d25c925739c" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>_value</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" prot="public" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>AddToInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1af6f1e862a8dfd032a1793649fcd11adc" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>anim</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1ac2381dac93f9c7b2d4bd4ff2e7d99fa7" prot="protected" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>Awake</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a51c95d3817ef34f29f5395fe5a7ecc6c" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>description</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a262ea11ba0acd3c3e5d85dff2823b72b" prot="public" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>Generate</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1aa7999db31e8d345a75c9eecb55f1d15c" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>icon</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a1148cd582af36c15f6e885b7f5335cbf" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>inInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a9eef61ec6e8707f828d091bd78f54c29" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>name</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a6cc4a0f3bb7495c8b3d1f96b1a03ce23" prot="protected" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a14d19d6326ee8213d02c93d8dd86340d" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>owner</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1af692b4dcb776c89da7b0b13c619d2854" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>rend</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a6bdfda0ed82d2f4f5e80b9605df7ae98" prot="public" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>Sell</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785" prot="protected" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>Start</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a64b0124f7277365035c354b5a1a8cc0f" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>statsDecided</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a2286d1b9a2bdf47a24e0ddc99717c533" prot="protected" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>Update</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a404aedb555b696425e551d334aa5a22a" prot="public" virt="virtual"><scope>ManningsLootSystem::Loot</scope><name>Use</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1aa7c80154d044fae60e6641c1d0073393" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Loot</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

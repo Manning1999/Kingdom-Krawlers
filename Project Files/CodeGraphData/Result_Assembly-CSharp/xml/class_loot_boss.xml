@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_loot_boss" kind="class" prot="public">
+    <compoundname>LootBoss</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_loot_boss_1a4dd264ae4f19d59061aa97940d2431ef" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; LootBoss.loot</definition>
+        <argsstring></argsstring>
+        <name>loot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_loot_boss_1aee43a62925324968a324c9192a65c39a" compoundref="_loot_boss_8cs" startline="18" endline="66">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_loot_boss_1afb7a77ff386160aa66bd4c3cf3100e5c" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] LootBoss.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <initializer>=
+    {
+     100, 
+     
+
+
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_loot_boss_1aee43a62925324968a324c9192a65c39a" compoundref="_loot_boss_8cs" startline="18" endline="66">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_loot_boss_1a4ae81c8261f87be72c840ba788b7e62a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LootBoss.total</definition>
+        <argsstring></argsstring>
+        <name>total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_loot_boss_1aee43a62925324968a324c9192a65c39a" compoundref="_loot_boss_8cs" startline="18" endline="66">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_loot_boss_1ace29dec16acd7e53810e8fc1aaa0e2b1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LootBoss.randomNumber</definition>
+        <argsstring></argsstring>
+        <name>randomNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_loot_boss_1aee43a62925324968a324c9192a65c39a" compoundref="_loot_boss_8cs" startline="18" endline="66">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_loot_boss_1aee43a62925324968a324c9192a65c39a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LootBoss.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" bodystart="18" bodyend="66"/>
+        <references refid="class_loot_boss_1a4dd264ae4f19d59061aa97940d2431ef" compoundref="_loot_boss_8cs" startline="7">loot</references>
+        <references refid="class_loot_boss_1ace29dec16acd7e53810e8fc1aaa0e2b1" compoundref="_loot_boss_8cs" startline="17">randomNumber</references>
+        <references refid="class_loot_boss_1afb7a77ff386160aa66bd4c3cf3100e5c" compoundref="_loot_boss_8cs" startline="8">table</references>
+        <references refid="class_loot_boss_1a4ae81c8261f87be72c840ba788b7e62a" compoundref="_loot_boss_8cs" startline="16">total</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="171">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="170">
+        <label>LootBoss</label>
+        <link refid="class_loot_boss"/>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="173">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="172">
+        <label>LootBoss</label>
+        <link refid="class_loot_boss"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/LootBoss.cs" bodystart="5" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_loot_boss_1a4dd264ae4f19d59061aa97940d2431ef" prot="public" virt="non-virtual"><scope>LootBoss</scope><name>loot</name></member>
+      <member refid="class_loot_boss_1ace29dec16acd7e53810e8fc1aaa0e2b1" prot="public" virt="non-virtual"><scope>LootBoss</scope><name>randomNumber</name></member>
+      <member refid="class_loot_boss_1aee43a62925324968a324c9192a65c39a" prot="private" virt="non-virtual"><scope>LootBoss</scope><name>Start</name></member>
+      <member refid="class_loot_boss_1afb7a77ff386160aa66bd4c3cf3100e5c" prot="public" virt="non-virtual"><scope>LootBoss</scope><name>table</name></member>
+      <member refid="class_loot_boss_1a4ae81c8261f87be72c840ba788b7e62a" prot="public" virt="non-virtual"><scope>LootBoss</scope><name>total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

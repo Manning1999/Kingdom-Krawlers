@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_resume_button" kind="class" prot="public">
+    <compoundname>ResumeButton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_resume_button_1a9f9dddf2697922abb70b6ff8e8945f8d" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ResumeButton.mainMenuUI</definition>
+        <argsstring></argsstring>
+        <name>mainMenuUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_resume_button_1a652397b7e9bc33c1760c0a8e25c9ad8b" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ResumeButton.videoUI</definition>
+        <argsstring></argsstring>
+        <name>videoUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_resume_button_1a013bd59405d165ff17d8535b370b4a05" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ResumeButton.audioUI</definition>
+        <argsstring></argsstring>
+        <name>audioUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_resume_button_1ac7190d14b8695f9bb15ae876f16f6db0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResumeButton.ButtonClick</definition>
+        <argsstring>()</argsstring>
+        <name>ButtonClick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" bodystart="11" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="337">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="336">
+        <label>ResumeButton</label>
+        <link refid="class_resume_button"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="339">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="338">
+        <label>ResumeButton</label>
+        <link refid="class_resume_button"/>
+        <childnode refid="339" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ResumeButton.cs" bodystart="5" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_resume_button_1a013bd59405d165ff17d8535b370b4a05" prot="public" virt="non-virtual"><scope>ResumeButton</scope><name>audioUI</name></member>
+      <member refid="class_resume_button_1ac7190d14b8695f9bb15ae876f16f6db0" prot="public" virt="non-virtual"><scope>ResumeButton</scope><name>ButtonClick</name></member>
+      <member refid="class_resume_button_1a9f9dddf2697922abb70b6ff8e8945f8d" prot="public" virt="non-virtual"><scope>ResumeButton</scope><name>mainMenuUI</name></member>
+      <member refid="class_resume_button_1a652397b7e9bc33c1760c0a8e25c9ad8b" prot="public" virt="non-virtual"><scope>ResumeButton</scope><name>videoUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

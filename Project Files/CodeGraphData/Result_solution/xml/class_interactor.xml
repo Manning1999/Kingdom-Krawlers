@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_interactor" kind="class" prot="public">
+    <compoundname>Interactor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_interactor_1a353f9a27b0738a4be797bd48d716775e" prot="protected" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; Interactor.listOfInteractables</definition>
+        <argsstring></argsstring>
+        <name>listOfInteractables</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" compoundref="_interactor_8cs" startline="97" endline="137">CheckList</referencedby>
+        <referencedby refid="class_interactor_1a32ca78cfc6b3478cf756afddd66658ff" compoundref="_interactor_8cs" startline="62" endline="74">OnTriggerEnter2D</referencedby>
+        <referencedby refid="class_interactor_1a50a9b6d6ed925c0f3935762ce1c9650f" compoundref="_interactor_8cs" startline="78" endline="91">OnTriggerExit2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_interactor_1ab685e1736203c2805950b4bdfd49e4fd" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Interactor.objectToInteractWith</definition>
+        <argsstring></argsstring>
+        <name>objectToInteractWith</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" compoundref="_interactor_8cs" startline="97" endline="137">CheckList</referencedby>
+        <referencedby refid="class_interactor_1ae9b105e18ddcc72dd693c94f1f451fde" compoundref="_interactor_8cs" startline="35" endline="59">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_interactor_1a6882ee1337bcef4e0872d8af4484bb9b" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Interactor.interactionIcon</definition>
+        <argsstring></argsstring>
+        <name>interactionIcon</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" compoundref="_interactor_8cs" startline="97" endline="137">CheckList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_interactor_1a9b4030e3603444dcd4a7947052008f1c" prot="protected" static="no" mutable="no">
+        <type>TMPro.TextMeshProUGUI</type>
+        <definition>TMPro.TextMeshProUGUI Interactor.interactionIconText</definition>
+        <argsstring></argsstring>
+        <name>interactionIconText</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_interactor_1ad95a622d7b4e3adcad86ed04e93bb0fa" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Interactor.showIconAtObject</definition>
+        <argsstring></argsstring>
+        <name>showIconAtObject</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_interactor_1ae9b105e18ddcc72dd693c94f1f451fde" compoundref="_interactor_8cs" startline="35" endline="59">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_interactor_1a77b73e07c558fe9a0829b3e04ff2ebe3" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Interactor.showNameOfInteractable</definition>
+        <argsstring></argsstring>
+        <name>showNameOfInteractable</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="25" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" compoundref="_interactor_8cs" startline="97" endline="137">CheckList</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_interactor_1a2f3ffea7c3f4f97bc583f60798ba7c0f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interactor.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interactor_1ae9b105e18ddcc72dd693c94f1f451fde" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interactor.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="35" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="35" bodyend="59"/>
+        <references refid="class_interactor_1ab685e1736203c2805950b4bdfd49e4fd" compoundref="_interactor_8cs" startline="13">objectToInteractWith</references>
+        <references refid="class_interactor_1ad95a622d7b4e3adcad86ed04e93bb0fa" compoundref="_interactor_8cs" startline="22">showIconAtObject</references>
+      </memberdef>
+      <memberdef kind="function" id="class_interactor_1a32ca78cfc6b3478cf756afddd66658ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interactor.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D col)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="62" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="62" bodyend="74"/>
+        <references refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" compoundref="_interactor_8cs" startline="97" endline="137">CheckList</references>
+        <references refid="class_interactor_1a353f9a27b0738a4be797bd48d716775e" compoundref="_interactor_8cs" startline="10">listOfInteractables</references>
+      </memberdef>
+      <memberdef kind="function" id="class_interactor_1a50a9b6d6ed925c0f3935762ce1c9650f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interactor.OnTriggerExit2D</definition>
+        <argsstring>(Collider2D col)</argsstring>
+        <name>OnTriggerExit2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="78" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="78" bodyend="91"/>
+        <references refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" compoundref="_interactor_8cs" startline="97" endline="137">CheckList</references>
+        <references refid="class_interactor_1a353f9a27b0738a4be797bd48d716775e" compoundref="_interactor_8cs" startline="10">listOfInteractables</references>
+      </memberdef>
+      <memberdef kind="function" id="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Interactor.CheckList</definition>
+        <argsstring>()</argsstring>
+        <name>CheckList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="97" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="97" bodyend="137"/>
+        <references refid="class_interactor_1a6882ee1337bcef4e0872d8af4484bb9b" compoundref="_interactor_8cs" startline="16">interactionIcon</references>
+        <references refid="class_interactor_1a353f9a27b0738a4be797bd48d716775e" compoundref="_interactor_8cs" startline="10">listOfInteractables</references>
+        <references refid="class_interactor_1ab685e1736203c2805950b4bdfd49e4fd" compoundref="_interactor_8cs" startline="13">objectToInteractWith</references>
+        <references refid="class_interactor_1a77b73e07c558fe9a0829b3e04ff2ebe3" compoundref="_interactor_8cs" startline="25">showNameOfInteractable</references>
+        <referencedby refid="class_interactor_1a32ca78cfc6b3478cf756afddd66658ff" compoundref="_interactor_8cs" startline="62" endline="74">OnTriggerEnter2D</referencedby>
+        <referencedby refid="class_interactor_1a50a9b6d6ed925c0f3935762ce1c9650f" compoundref="_interactor_8cs" startline="78" endline="91">OnTriggerExit2D</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="176">
+        <label>Interactor</label>
+        <link refid="class_interactor"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="178">
+        <label>Interactor</label>
+        <link refid="class_interactor"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+        <childnode refid="180" relation="usage">
+          <edgelabel>interactionIconText</edgelabel>
+        </childnode>
+      </node>
+      <node id="180">
+        <label>TMPro</label>
+      </node>
+      <node id="179">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/Interactor.cs" bodystart="5" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_interactor_1a5e041c6bdf8cc819da649bb4989e97d8" prot="private" virt="non-virtual"><scope>Interactor</scope><name>CheckList</name></member>
+      <member refid="class_interactor_1a6882ee1337bcef4e0872d8af4484bb9b" prot="protected" virt="non-virtual"><scope>Interactor</scope><name>interactionIcon</name></member>
+      <member refid="class_interactor_1a9b4030e3603444dcd4a7947052008f1c" prot="protected" virt="non-virtual"><scope>Interactor</scope><name>interactionIconText</name></member>
+      <member refid="class_interactor_1a353f9a27b0738a4be797bd48d716775e" prot="protected" virt="non-virtual"><scope>Interactor</scope><name>listOfInteractables</name></member>
+      <member refid="class_interactor_1ab685e1736203c2805950b4bdfd49e4fd" prot="protected" virt="non-virtual"><scope>Interactor</scope><name>objectToInteractWith</name></member>
+      <member refid="class_interactor_1a32ca78cfc6b3478cf756afddd66658ff" prot="private" virt="non-virtual"><scope>Interactor</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_interactor_1a50a9b6d6ed925c0f3935762ce1c9650f" prot="private" virt="non-virtual"><scope>Interactor</scope><name>OnTriggerExit2D</name></member>
+      <member refid="class_interactor_1ad95a622d7b4e3adcad86ed04e93bb0fa" prot="protected" virt="non-virtual"><scope>Interactor</scope><name>showIconAtObject</name></member>
+      <member refid="class_interactor_1a77b73e07c558fe9a0829b3e04ff2ebe3" prot="protected" virt="non-virtual"><scope>Interactor</scope><name>showNameOfInteractable</name></member>
+      <member refid="class_interactor_1a2f3ffea7c3f4f97bc583f60798ba7c0f" prot="private" virt="non-virtual"><scope>Interactor</scope><name>Start</name></member>
+      <member refid="class_interactor_1ae9b105e18ddcc72dd693c94f1f451fde" prot="private" virt="non-virtual"><scope>Interactor</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

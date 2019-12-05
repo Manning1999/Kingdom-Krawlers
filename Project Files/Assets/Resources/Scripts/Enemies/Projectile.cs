@@ -16,6 +16,10 @@ public class Projectile : MonoBehaviour
     public float lifeDuration = 2f;
     private float lifeTimer;
 
+    [SerializeField]
+    private GameObject bloodParticles = null;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,11 +58,14 @@ public class Projectile : MonoBehaviour
             Debug.Log("Dealt damage");
             other.transform.GetComponent<IHurtable>().TakeDamage(damage);
         }
+        Debug.Log(other.name);
         DestroyProjectile();
     }
 
     void DestroyProjectile()
     {
+        GameObject blood = Instantiate(bloodParticles, transform.position, Quaternion.identity) as GameObject;
+        blood.transform.position = transform.position;
         Destroy(gameObject);
     }
 }

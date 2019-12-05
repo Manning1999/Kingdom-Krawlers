@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1501fbaaf5f9f673fe22e5ac82fe055a" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other</compoundname>
+    <innerfile refid="_chasm_8cs">Chasm.cs</innerfile>
+    <innerfile refid="_decoration_8cs">Decoration.cs</innerfile>
+    <innerfile refid="_destructable_8cs">Destructable.cs</innerfile>
+    <innerfile refid="_entry_point_8cs">EntryPoint.cs</innerfile>
+    <innerfile refid="_fireball_8cs">Fireball.cs</innerfile>
+    <innerfile refid="_respawn_point_8cs">RespawnPoint.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/"/>
+  </compounddef>
+</doxygen>

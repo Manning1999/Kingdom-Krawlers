@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_i_interactable" kind="interface" prot="public">
+    <compoundname>IInteractable</compoundname>
+    <derivedcompoundref refid="class_standard_interactable" prot="public" virt="non-virtual">StandardInteractable</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_interactable_1a5c9af76f0cd78f4553169f8e23399b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IInteractable.InteractWith</definition>
+        <argsstring>()</argsstring>
+        <name>InteractWith</name>
+        <reimplementedby refid="class_interactable_coin_example_1ab3853684e02563496d305d62bda620a3">InteractWith</reimplementedby>
+        <reimplementedby refid="class_standard_interactable_1a2c8e5314f2e4c26ac141f5cda11109e5">InteractWith</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/IInteractable.cs" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>InteractableCoinExample</label>
+        <link refid="class_interactable_coin_example"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>StandardInteractable</label>
+        <link refid="class_standard_interactable"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>IInteractable</label>
+        <link refid="interface_i_interactable"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/IInteractable.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/IInteractable.cs" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_i_interactable_1a5c9af76f0cd78f4553169f8e23399b3c" prot="public" virt="non-virtual"><scope>IInteractable</scope><name>InteractWith</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::PostProcessing::ScmlPostProcessor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AssetPostprocessor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1a4c770eaa55e4c1b1a3197bfc1f6ec0bf" prot="private" static="yes" mutable="no">
+        <type>IList&lt; string &gt;</type>
+        <definition>IList&lt;string&gt; Spriter2UnityDX.PostProcessing.ScmlPostProcessor.cachedPaths</definition>
+        <argsstring></argsstring>
+        <name>cachedPaths</name>
+        <initializer>= new List&lt;string&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1ac52c1fe12f9aa630ed4cd4ea93a1c252" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Spriter2UnityDX.PostProcessing.ScmlPostProcessor.OnPostprocessAllAssets</definition>
+        <argsstring>(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)</argsstring>
+        <name>OnPostprocessAllAssets</name>
+        <param>
+          <type>string[]</type>
+          <declname>importedAssets</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>deletedAssets</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>movedAssets</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>movedFromAssetPaths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="21" bodyend="54"/>
+        <references refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_1aa541e80d345769ab76c57cc92176498b" compoundref="_scml_import_options_8cs" startline="37">Spriter2UnityDX.Importing.ScmlImportOptions.options</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1a419c8f37b1251b00a66b9d4f457d8e56" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Spriter2UnityDX.PostProcessing.ScmlPostProcessor.ProcessFiles</definition>
+        <argsstring>(IList&lt; string &gt; paths)</argsstring>
+        <name>ProcessFiles</name>
+        <param>
+          <type>IList&lt; string &gt;</type>
+          <declname>paths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="56" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="56" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1a9db347d2f4cd710544af3a9cbf188c06" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_object" kindref="compound">ScmlObject</ref></type>
+        <definition>static ScmlObject Spriter2UnityDX.PostProcessing.ScmlPostProcessor.Deserialize</definition>
+        <argsstring>(string path)</argsstring>
+        <name>Deserialize</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="67" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1aa0c1c5ec8343b1bc75610a898b97259e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Spriter2UnityDX.PostProcessing.ScmlPostProcessor.PostProcess</definition>
+        <argsstring>(ScmlProcessingInfo info)</argsstring>
+        <name>PostProcess</name>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_scml_processing_info" kindref="compound">ScmlProcessingInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="73" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="364">
+        <label>Spriter2UnityDX.PostProcessing.ScmlPostProcessor</label>
+        <link refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor"/>
+        <childnode refid="365" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>AssetPostprocessor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="366">
+        <label>Spriter2UnityDX.PostProcessing.ScmlPostProcessor</label>
+        <link refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="367">
+        <label>AssetPostprocessor</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="17" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1a4c770eaa55e4c1b1a3197bfc1f6ec0bf" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::PostProcessing::ScmlPostProcessor</scope><name>cachedPaths</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1a9db347d2f4cd710544af3a9cbf188c06" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::PostProcessing::ScmlPostProcessor</scope><name>Deserialize</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1ac52c1fe12f9aa630ed4cd4ea93a1c252" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::PostProcessing::ScmlPostProcessor</scope><name>OnPostprocessAllAssets</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1aa0c1c5ec8343b1bc75610a898b97259e" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::PostProcessing::ScmlPostProcessor</scope><name>PostProcess</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1a419c8f37b1251b00a66b9d4f457d8e56" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::PostProcessing::ScmlPostProcessor</scope><name>ProcessFiles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

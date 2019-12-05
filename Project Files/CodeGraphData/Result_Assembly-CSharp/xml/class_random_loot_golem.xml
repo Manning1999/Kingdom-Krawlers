@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_random_loot_golem" kind="class" prot="public">
+    <compoundname>RandomLootGolem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_random_loot_golem_1a77763fc7043df9f8603a96f2ade5f704" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; RandomLootGolem.loot</definition>
+        <argsstring></argsstring>
+        <name>loot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_random_loot_golem_1a5152754f5cb231177d11c497b67452e8" compoundref="_random_loot_golem_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_golem_1a2f3f4be39c6c2de95c306c547c6c74b8" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] RandomLootGolem.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <initializer>=
+    {
+     5, 
+     10, 
+     15, 
+     20, 
+     50, 
+
+
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_random_loot_golem_1a5152754f5cb231177d11c497b67452e8" compoundref="_random_loot_golem_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_golem_1acb7b063ee3561ca4b8ad68e91669e826" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootGolem.total</definition>
+        <argsstring></argsstring>
+        <name>total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_random_loot_golem_1a5152754f5cb231177d11c497b67452e8" compoundref="_random_loot_golem_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_golem_1a8ea953ac950b3644c7a7cdea0522bd33" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootGolem.randomNumber</definition>
+        <argsstring></argsstring>
+        <name>randomNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_random_loot_golem_1a5152754f5cb231177d11c497b67452e8" compoundref="_random_loot_golem_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_random_loot_golem_1a5152754f5cb231177d11c497b67452e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomLootGolem.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" bodystart="21" bodyend="69"/>
+        <references refid="class_random_loot_golem_1a77763fc7043df9f8603a96f2ade5f704" compoundref="_random_loot_golem_8cs" startline="7">loot</references>
+        <references refid="class_random_loot_golem_1a8ea953ac950b3644c7a7cdea0522bd33" compoundref="_random_loot_golem_8cs" startline="20">randomNumber</references>
+        <references refid="class_random_loot_golem_1a2f3f4be39c6c2de95c306c547c6c74b8" compoundref="_random_loot_golem_8cs" startline="8">table</references>
+        <references refid="class_random_loot_golem_1acb7b063ee3561ca4b8ad68e91669e826" compoundref="_random_loot_golem_8cs" startline="19">total</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="269">
+        <label>RandomLootGolem</label>
+        <link refid="class_random_loot_golem"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="270">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="271">
+        <label>RandomLootGolem</label>
+        <link refid="class_random_loot_golem"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="272">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootGolem.cs" bodystart="5" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_random_loot_golem_1a77763fc7043df9f8603a96f2ade5f704" prot="public" virt="non-virtual"><scope>RandomLootGolem</scope><name>loot</name></member>
+      <member refid="class_random_loot_golem_1a8ea953ac950b3644c7a7cdea0522bd33" prot="public" virt="non-virtual"><scope>RandomLootGolem</scope><name>randomNumber</name></member>
+      <member refid="class_random_loot_golem_1a5152754f5cb231177d11c497b67452e8" prot="private" virt="non-virtual"><scope>RandomLootGolem</scope><name>Start</name></member>
+      <member refid="class_random_loot_golem_1a2f3f4be39c6c2de95c306c547c6c74b8" prot="public" virt="non-virtual"><scope>RandomLootGolem</scope><name>table</name></member>
+      <member refid="class_random_loot_golem_1acb7b063ee3561ca4b8ad68e91669e826" prot="public" virt="non-virtual"><scope>RandomLootGolem</scope><name>total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

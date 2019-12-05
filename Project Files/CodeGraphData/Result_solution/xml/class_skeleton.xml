@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_skeleton" kind="class" prot="public">
+    <compoundname>Skeleton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_hurtable" prot="public" virt="non-virtual">IHurtable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_skeleton_1abdaff5cf546a2dc0fecdd6a571da1830" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Skeleton.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1aaa9a3e582d48afbc0d0d26d2859b835f" compoundref="_skeleton_8cs" startline="73" endline="81">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_skeleton_1ac5ab967c5d1b7a29152b6f4ec8363040" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Skeleton.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" compoundref="_skeleton_8cs" startline="46" endline="70">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_skeleton_1a63ab670c80fc22cefa0e8acac58aa61e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Skeleton.stoppingDistance</definition>
+        <argsstring></argsstring>
+        <name>stoppingDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" compoundref="_skeleton_8cs" startline="46" endline="70">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_skeleton_1a6ee8082271babf7c257b2ae5bbedf266" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Skeleton.retreatDistance</definition>
+        <argsstring></argsstring>
+        <name>retreatDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" compoundref="_skeleton_8cs" startline="46" endline="70">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_skeleton_1ad3ab067587652b884b6427e30beef17a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Skeleton.timeBtwShots</definition>
+        <argsstring></argsstring>
+        <name>timeBtwShots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1a9167951def66665b9c00e5667ba855b1" compoundref="_skeleton_8cs" startline="34" endline="43">Start</referencedby>
+        <referencedby refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" compoundref="_skeleton_8cs" startline="46" endline="70">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_skeleton_1a1e6cefe4de01503192c5251c609cc3a0" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Skeleton.startTimeBtwShots</definition>
+        <argsstring></argsstring>
+        <name>startTimeBtwShots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="24" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1a9167951def66665b9c00e5667ba855b1" compoundref="_skeleton_8cs" startline="34" endline="43">Start</referencedby>
+        <referencedby refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" compoundref="_skeleton_8cs" startline="46" endline="70">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_skeleton_1ad2d84a857e4d4d9e05c0bb3494ff0733" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Skeleton.projectile</definition>
+        <argsstring></argsstring>
+        <name>projectile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" compoundref="_skeleton_8cs" startline="46" endline="70">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_skeleton_1a1407061c9ec06ef4cd9d17f6acdc89fe" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Skeleton.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_skeleton_1a9167951def66665b9c00e5667ba855b1" compoundref="_skeleton_8cs" startline="34" endline="43">Start</referencedby>
+        <referencedby refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" compoundref="_skeleton_8cs" startline="46" endline="70">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_skeleton_1a9167951def66665b9c00e5667ba855b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Skeleton.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="34" bodyend="43"/>
+        <references refid="class_skeleton_1a1407061c9ec06ef4cd9d17f6acdc89fe" compoundref="_skeleton_8cs" startline="31">player</references>
+        <references refid="class_skeleton_1a1e6cefe4de01503192c5251c609cc3a0" compoundref="_skeleton_8cs" startline="24">startTimeBtwShots</references>
+        <references refid="class_skeleton_1ad3ab067587652b884b6427e30beef17a" compoundref="_skeleton_8cs" startline="21">timeBtwShots</references>
+      </memberdef>
+      <memberdef kind="function" id="class_skeleton_1a0732c56a44df1d347a97139290211ece" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Skeleton.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="46" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="46" bodyend="70"/>
+        <references refid="class_skeleton_1a1407061c9ec06ef4cd9d17f6acdc89fe" compoundref="_skeleton_8cs" startline="31">player</references>
+        <references refid="class_skeleton_1ad2d84a857e4d4d9e05c0bb3494ff0733" compoundref="_skeleton_8cs" startline="28">projectile</references>
+        <references refid="class_skeleton_1a6ee8082271babf7c257b2ae5bbedf266" compoundref="_skeleton_8cs" startline="18">retreatDistance</references>
+        <references refid="class_skeleton_1ac5ab967c5d1b7a29152b6f4ec8363040" compoundref="_skeleton_8cs" startline="12">speed</references>
+        <references refid="class_skeleton_1a1e6cefe4de01503192c5251c609cc3a0" compoundref="_skeleton_8cs" startline="24">startTimeBtwShots</references>
+        <references refid="class_skeleton_1a63ab670c80fc22cefa0e8acac58aa61e" compoundref="_skeleton_8cs" startline="15">stoppingDistance</references>
+        <references refid="class_skeleton_1ad3ab067587652b884b6427e30beef17a" compoundref="_skeleton_8cs" startline="21">timeBtwShots</references>
+      </memberdef>
+      <memberdef kind="function" id="class_skeleton_1a0085fefeb96b5325a12a643844225618" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Skeleton.Die</definition>
+        <argsstring>()</argsstring>
+        <name>Die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="84" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="84" bodyend="87"/>
+        <referencedby refid="class_skeleton_1aaa9a3e582d48afbc0d0d26d2859b835f" compoundref="_skeleton_8cs" startline="73" endline="81">TakeDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_skeleton_1aaa9a3e582d48afbc0d0d26d2859b835f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Skeleton.TakeDamage</definition>
+        <argsstring>(int damage)</argsstring>
+        <name>TakeDamage</name>
+        <reimplements refid="interface_i_hurtable_1a1534dfb601f49ac6649cb410960ad1a4">TakeDamage</reimplements>
+        <param>
+          <type>int</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="73" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="73" bodyend="81"/>
+        <references refid="class_skeleton_1a0085fefeb96b5325a12a643844225618" compoundref="_skeleton_8cs" startline="84" endline="87">Die</references>
+        <references refid="class_skeleton_1abdaff5cf546a2dc0fecdd6a571da1830" compoundref="_skeleton_8cs" startline="9">health</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="378">
+        <label>Skeleton</label>
+        <link refid="class_skeleton"/>
+        <childnode refid="379" relation="public-inheritance">
+        </childnode>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="380">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="379">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="381">
+        <label>Skeleton</label>
+        <link refid="class_skeleton"/>
+        <childnode refid="382" relation="public-inheritance">
+        </childnode>
+        <childnode refid="383" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="382">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Skeleton.cs" bodystart="5" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_skeleton_1a0085fefeb96b5325a12a643844225618" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>Die</name></member>
+      <member refid="class_skeleton_1abdaff5cf546a2dc0fecdd6a571da1830" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>health</name></member>
+      <member refid="class_skeleton_1a1407061c9ec06ef4cd9d17f6acdc89fe" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>player</name></member>
+      <member refid="class_skeleton_1ad2d84a857e4d4d9e05c0bb3494ff0733" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>projectile</name></member>
+      <member refid="class_skeleton_1a6ee8082271babf7c257b2ae5bbedf266" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>retreatDistance</name></member>
+      <member refid="class_skeleton_1ac5ab967c5d1b7a29152b6f4ec8363040" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>speed</name></member>
+      <member refid="class_skeleton_1a9167951def66665b9c00e5667ba855b1" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>Start</name></member>
+      <member refid="class_skeleton_1a1e6cefe4de01503192c5251c609cc3a0" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>startTimeBtwShots</name></member>
+      <member refid="class_skeleton_1a63ab670c80fc22cefa0e8acac58aa61e" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>stoppingDistance</name></member>
+      <member refid="class_skeleton_1aaa9a3e582d48afbc0d0d26d2859b835f" prot="public" virt="non-virtual"><scope>Skeleton</scope><name>TakeDamage</name></member>
+      <member refid="class_skeleton_1ad3ab067587652b884b6427e30beef17a" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>timeBtwShots</name></member>
+      <member refid="class_skeleton_1a0732c56a44df1d347a97139290211ece" prot="private" virt="non-virtual"><scope>Skeleton</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

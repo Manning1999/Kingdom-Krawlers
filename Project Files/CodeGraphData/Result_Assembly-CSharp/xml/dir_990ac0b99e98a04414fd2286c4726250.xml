@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_990ac0b99e98a04414fd2286c4726250" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets</compoundname>
+    <innerdir refid="dir_51e1935f03134a2770df5e84a249264a">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff</innerdir>
+    <innerdir refid="dir_888935f2c56c358927d65b2db7a00e4c">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources</innerdir>
+    <innerdir refid="dir_536e6999d051ef717ee99d026f7f5980">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/"/>
+  </compounddef>
+</doxygen>

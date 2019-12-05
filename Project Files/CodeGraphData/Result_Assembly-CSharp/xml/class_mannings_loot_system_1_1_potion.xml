@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_potion" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::Potion</compoundname>
+    <basecompoundref refid="class_mannings_loot_system_1_1_loot" prot="public" virt="non-virtual">ManningsLootSystem.Loot</basecompoundref>
+    <derivedcompoundref refid="class_health_potion" prot="public" virt="non-virtual">HealthPotion</derivedcompoundref>
+    <derivedcompoundref refid="class_mannings_loot_system_1_1_speed_potion" prot="public" virt="non-virtual">ManningsLootSystem.SpeedPotion</derivedcompoundref>
+    <derivedcompoundref refid="class_regeneration_potion" prot="public" virt="non-virtual">RegenerationPotion</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_potion_1aa25be28c8e70017c5e9e201042cebc9f" prot="protected" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip ManningsLootSystem.Potion.useSound</definition>
+        <argsstring></argsstring>
+        <name>useSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_potion_1add09da14878cd8a7c25250b7e33dbc01" compoundref="_potion_8cs" startline="22" endline="26">ManningsLootSystem.Potion.Use</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_potion_1a0771e2254378c92b43058c55af7689e6" prot="protected" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource ManningsLootSystem.Potion.audio</definition>
+        <argsstring></argsstring>
+        <name>audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_potion_1ac3789295beed64d5a0a0509cff95ead1" compoundref="_potion_8cs" startline="16" endline="20">ManningsLootSystem.Potion.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_potion_1ac3789295beed64d5a0a0509cff95ead1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.Potion.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_mannings_loot_system_1_1_loot_1aa7a0ae7e4e2dd6b411ad653a05e59785">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" bodystart="16" bodyend="20"/>
+        <references refid="class_mannings_loot_system_1_1_potion_1a0771e2254378c92b43058c55af7689e6" compoundref="_potion_8cs" startline="14">ManningsLootSystem.Potion.audio</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_potion_1add09da14878cd8a7c25250b7e33dbc01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ManningsLootSystem.Potion.Use</definition>
+        <argsstring>()</argsstring>
+        <name>Use</name>
+        <reimplements refid="class_mannings_loot_system_1_1_loot_1a404aedb555b696425e551d334aa5a22a">Use</reimplements>
+        <reimplementedby refid="class_mannings_loot_system_1_1_speed_potion_1a4c60dbac794ec34fbe254fc2a9536cf0">Use</reimplementedby>
+        <reimplementedby refid="class_regeneration_potion_1a460cf81db96080dfaedcbbaf824d4abe">Use</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" bodystart="22" bodyend="26"/>
+        <references refid="class_mannings_loot_system_1_1_potion_1aa25be28c8e70017c5e9e201042cebc9f" compoundref="_potion_8cs" startline="12">ManningsLootSystem.Potion.useSound</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_potion_1abac0ba182d717bc963897815743e2896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ManningsLootSystem.Potion.AddToInventory</definition>
+        <argsstring>()</argsstring>
+        <name>AddToInventory</name>
+        <reimplements refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed">AddToInventory</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="233">
+        <label>HealthPotion</label>
+        <link refid="class_health_potion"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>ManningsLootSystem.SpeedPotion</label>
+        <link refid="class_mannings_loot_system_1_1_speed_potion"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="231">
+        <label>Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="230">
+        <label>ManningsLootSystem.Potion</label>
+        <link refid="class_mannings_loot_system_1_1_potion"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>RegenerationPotion</label>
+        <link refid="class_regeneration_potion"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="237">
+        <label>Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="236">
+        <label>ManningsLootSystem.Potion</label>
+        <link refid="class_mannings_loot_system_1_1_potion"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/Potion.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_1a96a5e4d8f591890713a15f29d0eb5923" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>_description</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1ac8c2507f10bb687ff8d7a8b2fb5f69ef" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>_icon</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a12f3bd0447944b56486da59fdfe5ea24" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>_name</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a5cd5b2d6a6207bb6be8c0d25c925739c" prot="public" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>_value</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1abac0ba182d717bc963897815743e2896" prot="public" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>AddToInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1af6f1e862a8dfd032a1793649fcd11adc" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>anim</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1a0771e2254378c92b43058c55af7689e6" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>audio</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1ac2381dac93f9c7b2d4bd4ff2e7d99fa7" prot="protected" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>Awake</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a51c95d3817ef34f29f5395fe5a7ecc6c" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>description</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a262ea11ba0acd3c3e5d85dff2823b72b" prot="public" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>Generate</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1aa7999db31e8d345a75c9eecb55f1d15c" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>icon</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a1148cd582af36c15f6e885b7f5335cbf" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>inInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a9eef61ec6e8707f828d091bd78f54c29" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>name</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a6cc4a0f3bb7495c8b3d1f96b1a03ce23" prot="protected" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a14d19d6326ee8213d02c93d8dd86340d" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>owner</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1af692b4dcb776c89da7b0b13c619d2854" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>rend</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a6bdfda0ed82d2f4f5e80b9605df7ae98" prot="public" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>Sell</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1ac3789295beed64d5a0a0509cff95ead1" prot="protected" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>Start</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a64b0124f7277365035c354b5a1a8cc0f" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>statsDecided</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1a2286d1b9a2bdf47a24e0ddc99717c533" prot="protected" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>Update</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1add09da14878cd8a7c25250b7e33dbc01" prot="public" virt="virtual"><scope>ManningsLootSystem::Potion</scope><name>Use</name></member>
+      <member refid="class_mannings_loot_system_1_1_potion_1aa25be28c8e70017c5e9e201042cebc9f" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>useSound</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_1aa7c80154d044fae60e6641c1d0073393" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::Potion</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

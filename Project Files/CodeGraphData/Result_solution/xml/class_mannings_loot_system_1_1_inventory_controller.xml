@@ -1,0 +1,631 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_inventory_controller" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::InventoryController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions" prot="public">ManningsLootSystem::InventoryController::Potions</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a5e572820667e80af6f0dbd67e7c89057" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_inventory_controller" kindref="compound">InventoryController</ref></type>
+        <definition>InventoryController ManningsLootSystem.InventoryController.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="15" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a99c1aca3c5269b7b23e818b46e6f7f5d" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_inventory_controller" kindref="compound">InventoryController</ref></type>
+        <definition>InventoryController ManningsLootSystem.InventoryController._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_inventory_controller_1a87f4302625649ad06c4d0d82769c44df" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_inventory_controller" kindref="compound">InventoryController</ref></type>
+        <definition>InventoryController ManningsLootSystem.InventoryController.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="18" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" compoundref="_loot_8cs" startline="101" endline="112">ManningsLootSystem.Loot.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1aff25e16af3662df37896cbf3eb53bf9a" compoundref="_bow_8cs" startline="93" endline="111">ManningsLootSystem.Bow.Use</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_1_1_inventory_controller_1a62e18dff92f76ce2f3ecd370802148d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.InventoryController._arrowCount</definition>
+        <argsstring></argsstring>
+        <name>_arrowCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="46" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1aff25e16af3662df37896cbf3eb53bf9a" compoundref="_bow_8cs" startline="93" endline="111">ManningsLootSystem.Bow.Use</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1ad2e1cfc08d2ed05ba2d48e6eab54de23" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.InventoryController.inventorySize</definition>
+        <argsstring></argsstring>
+        <name>inventorySize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" compoundref="_inventory_controller_8cs" startline="164" endline="187">ManningsLootSystem.InventoryController.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" compoundref="_inventory_controller_8cs" startline="275" endline="293">ManningsLootSystem.InventoryController.PopulateInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" compoundref="_inventory_controller_8cs" startline="261" endline="272">ManningsLootSystem.InventoryController.PopulateInventoryTiles</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1aaf7c47f05ba5a72ee51f783cb06c947e" compoundref="_inventory_controller_8cs" startline="96" endline="105">ManningsLootSystem.InventoryController.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1ad6bc7f853d75797ab174e567c7406305" prot="protected" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; ManningsLootSystem.InventoryController.inventoryItems</definition>
+        <argsstring></argsstring>
+        <name>inventoryItems</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="37" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" compoundref="_inventory_controller_8cs" startline="164" endline="187">ManningsLootSystem.InventoryController.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" compoundref="_inventory_controller_8cs" startline="275" endline="293">ManningsLootSystem.InventoryController.PopulateInventory</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1ab183ca5b50a221becc4e1ad3a5eacbaa" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.InventoryController.playerMoney</definition>
+        <argsstring></argsstring>
+        <name>playerMoney</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="42" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a2ff388c1f966abccb01cef3fbbba4a0b" compoundref="_inventory_controller_8cs" startline="230" endline="233">ManningsLootSystem.InventoryController.BuyObject</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a89e29a90654fdc8ed5a0473f3e169821" compoundref="_inventory_controller_8cs" startline="221" endline="228">ManningsLootSystem.InventoryController.SellObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a03e5b52bbbfbf89f16d61e864f5bea74" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.InventoryController.arrowCount</definition>
+        <argsstring></argsstring>
+        <name>arrowCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="45" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1abbbadb15900609d1273edf7f62362a3c" compoundref="_inventory_controller_8cs" startline="236" endline="240">ManningsLootSystem.InventoryController.UpdateArrows</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1ac7a50739fef203b577f00a4a5e29b96a" prot="protected" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip ManningsLootSystem.InventoryController.collectLootSound</definition>
+        <argsstring></argsstring>
+        <name>collectLootSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="49" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a70ba26d5aaf93aa4a2f69f7dd0db80dd" compoundref="_inventory_controller_8cs" startline="243" endline="258">ManningsLootSystem.InventoryController.AddPotion</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" compoundref="_inventory_controller_8cs" startline="164" endline="187">ManningsLootSystem.InventoryController.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a89e29a90654fdc8ed5a0473f3e169821" compoundref="_inventory_controller_8cs" startline="221" endline="228">ManningsLootSystem.InventoryController.SellObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a857e0139a90e267da10b0ec71a1c1753" prot="protected" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions" kindref="compound">Potions</ref> &gt;</type>
+        <definition>List&lt;Potions&gt; ManningsLootSystem.InventoryController.potions</definition>
+        <argsstring></argsstring>
+        <name>potions</name>
+        <initializer>= new List&lt;<ref refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions" kindref="compound">Potions</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="64" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="64" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a70ba26d5aaf93aa4a2f69f7dd0db80dd" compoundref="_inventory_controller_8cs" startline="243" endline="258">ManningsLootSystem.InventoryController.AddPotion</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1acc1c1235820830fe4fddbc942b10fe8e" compoundref="_inventory_controller_8cs" startline="107" endline="133">ManningsLootSystem.InventoryController.Awake</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a0636d7d9a18fa8ba3afdfc3b8eed3843" compoundref="_inventory_controller_8cs" startline="346" endline="365">ManningsLootSystem.InventoryController.ShowInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" compoundref="_inventory_controller_8cs" startline="136" endline="161">ManningsLootSystem.InventoryController.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a52043931e98e88c546fde70a3317b493" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystem.InventoryController.inventoryObject</definition>
+        <argsstring></argsstring>
+        <name>inventoryObject</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="70" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a24a23409305446d23484a604d230e918" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystem.InventoryController.inventoryBox</definition>
+        <argsstring></argsstring>
+        <name>inventoryBox</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="72" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="72" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" compoundref="_inventory_controller_8cs" startline="261" endline="272">ManningsLootSystem.InventoryController.PopulateInventoryTiles</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1ad6bc8efd2d498df15b331d4b06ab0eb9" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystem.InventoryController.selectedLoot</definition>
+        <argsstring></argsstring>
+        <name>selectedLoot</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="75" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="75" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1abbd63f6d81ef72e5d6ddb38046e57c2d" compoundref="_inventory_controller_8cs" startline="318" endline="343">ManningsLootSystem.InventoryController.Equip</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1ad8d094bc1dfb99d8ac38ade17c8a5727" compoundref="_inventory_controller_8cs" startline="189" endline="218">ManningsLootSystem.InventoryController.RemoveFromInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a96477a98cb103f3adcd7c0a99a35cf5b" compoundref="_inventory_controller_8cs" startline="296" endline="314">ManningsLootSystem.InventoryController.SelectLoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1adac4406008432b8dd65bd9eb9201cf73" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystem.InventoryController.scrollViewContent</definition>
+        <argsstring></argsstring>
+        <name>scrollViewContent</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="78" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" compoundref="_inventory_controller_8cs" startline="261" endline="272">ManningsLootSystem.InventoryController.PopulateInventoryTiles</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a7523e817c7907fc47323aa5f3e5dc422" prot="protected" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; ManningsLootSystem.InventoryController.boxes</definition>
+        <argsstring></argsstring>
+        <name>boxes</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="81" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" compoundref="_inventory_controller_8cs" startline="275" endline="293">ManningsLootSystem.InventoryController.PopulateInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a96477a98cb103f3adcd7c0a99a35cf5b" compoundref="_inventory_controller_8cs" startline="296" endline="314">ManningsLootSystem.InventoryController.SelectLoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a96535426ba775733c4b9d44ba118dbc5" prot="protected" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI ManningsLootSystem.InventoryController.infoBox</definition>
+        <argsstring></argsstring>
+        <name>infoBox</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="84" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1afcd2f25160a766689f198f9ab9040134" prot="protected" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource ManningsLootSystem.InventoryController.audio</definition>
+        <argsstring></argsstring>
+        <name>audio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="87" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1acc1c1235820830fe4fddbc942b10fe8e" compoundref="_inventory_controller_8cs" startline="107" endline="133">ManningsLootSystem.InventoryController.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1a598ef6bd054b24ca988864beec7ac908" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManningsLootSystem.InventoryController.showingInventory</definition>
+        <argsstring></argsstring>
+        <name>showingInventory</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="89" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="89" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a0636d7d9a18fa8ba3afdfc3b8eed3843" compoundref="_inventory_controller_8cs" startline="346" endline="365">ManningsLootSystem.InventoryController.ShowInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" compoundref="_inventory_controller_8cs" startline="136" endline="161">ManningsLootSystem.InventoryController.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1ae00aac342a9a3f4376fb83163ff11987" prot="private" static="no" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_inventory_controller" kindref="compound">InventoryController</ref></type>
+        <definition>InventoryController ManningsLootSystem.InventoryController.inventoryInstance</definition>
+        <argsstring></argsstring>
+        <name>inventoryInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="39" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1acc1c1235820830fe4fddbc942b10fe8e" compoundref="_inventory_controller_8cs" startline="107" endline="133">ManningsLootSystem.InventoryController.Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1aaf7c47f05ba5a72ee51f783cb06c947e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="96" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="96" bodyend="105"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad2e1cfc08d2ed05ba2d48e6eab54de23" compoundref="_inventory_controller_8cs" startline="34">ManningsLootSystem.InventoryController.inventorySize</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" compoundref="_inventory_controller_8cs" startline="261" endline="272">ManningsLootSystem.InventoryController.PopulateInventoryTiles</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1acc1c1235820830fe4fddbc942b10fe8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="107" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="107" bodyend="133"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1afcd2f25160a766689f198f9ab9040134" compoundref="_inventory_controller_8cs" startline="87">ManningsLootSystem.InventoryController.audio</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ae00aac342a9a3f4376fb83163ff11987" compoundref="_inventory_controller_8cs" startline="39">ManningsLootSystem.InventoryController.inventoryInstance</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a857e0139a90e267da10b0ec71a1c1753" compoundref="_inventory_controller_8cs" startline="64">ManningsLootSystem.InventoryController.potions</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a952bde9cacf30165c927750ca0fe251e" compoundref="_inventory_controller_8cs" startline="56">ManningsLootSystem.InventoryController.Potions.potionType</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="136" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="136" bodyend="161"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a857e0139a90e267da10b0ec71a1c1753" compoundref="_inventory_controller_8cs" startline="64">ManningsLootSystem.InventoryController.potions</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a8d72a4fcb6358bdf29520df8400764b0" compoundref="_inventory_controller_8cs" startline="57">ManningsLootSystem.InventoryController.Potions.quantityOwned</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a598ef6bd054b24ca988864beec7ac908" compoundref="_inventory_controller_8cs" startline="89">ManningsLootSystem.InventoryController.showingInventory</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a0636d7d9a18fa8ba3afdfc3b8eed3843" compoundref="_inventory_controller_8cs" startline="346" endline="365">ManningsLootSystem.InventoryController.ShowInventory</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a360a6e583077addb613fbd24a268f354" compoundref="_inventory_controller_8cs" startline="58">ManningsLootSystem.InventoryController.Potions.usePotionButton</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ManningsLootSystem.InventoryController.AddToInventory</definition>
+        <argsstring>(GameObject loot)</argsstring>
+        <name>AddToInventory</name>
+        <param>
+          <type>GameObject</type>
+          <declname>loot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="164" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="164" bodyend="187"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ac7a50739fef203b577f00a4a5e29b96a" compoundref="_inventory_controller_8cs" startline="49">ManningsLootSystem.InventoryController.collectLootSound</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc7f853d75797ab174e567c7406305" compoundref="_inventory_controller_8cs" startline="37">ManningsLootSystem.InventoryController.inventoryItems</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad2e1cfc08d2ed05ba2d48e6eab54de23" compoundref="_inventory_controller_8cs" startline="34">ManningsLootSystem.InventoryController.inventorySize</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" compoundref="_inventory_controller_8cs" startline="275" endline="293">ManningsLootSystem.InventoryController.PopulateInventory</references>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1a297f473d5de130417a0ef029153d86ed" compoundref="_loot_8cs" startline="101" endline="112">ManningsLootSystem.Loot.AddToInventory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1ad8d094bc1dfb99d8ac38ade17c8a5727" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.RemoveFromInventory</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveFromInventory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="189" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="189" bodyend="218"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" compoundref="_inventory_controller_8cs" startline="275" endline="293">ManningsLootSystem.InventoryController.PopulateInventory</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc8efd2d498df15b331d4b06ab0eb9" compoundref="_inventory_controller_8cs" startline="75">ManningsLootSystem.InventoryController.selectedLoot</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a89e29a90654fdc8ed5a0473f3e169821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.SellObject</definition>
+        <argsstring>(int moneyRecieved)</argsstring>
+        <name>SellObject</name>
+        <param>
+          <type>int</type>
+          <declname>moneyRecieved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="221" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="221" bodyend="228"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ac7a50739fef203b577f00a4a5e29b96a" compoundref="_inventory_controller_8cs" startline="49">ManningsLootSystem.InventoryController.collectLootSound</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ab183ca5b50a221becc4e1ad3a5eacbaa" compoundref="_inventory_controller_8cs" startline="42">ManningsLootSystem.InventoryController.playerMoney</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a2ff388c1f966abccb01cef3fbbba4a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.BuyObject</definition>
+        <argsstring>(int moneySpent)</argsstring>
+        <name>BuyObject</name>
+        <param>
+          <type>int</type>
+          <declname>moneySpent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="230" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="230" bodyend="233"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ab183ca5b50a221becc4e1ad3a5eacbaa" compoundref="_inventory_controller_8cs" startline="42">ManningsLootSystem.InventoryController.playerMoney</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1abbbadb15900609d1273edf7f62362a3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.UpdateArrows</definition>
+        <argsstring>(int arrowChange)</argsstring>
+        <name>UpdateArrows</name>
+        <param>
+          <type>int</type>
+          <declname>arrowChange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="236" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="236" bodyend="240"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a03e5b52bbbfbf89f16d61e864f5bea74" compoundref="_inventory_controller_8cs" startline="45">ManningsLootSystem.InventoryController.arrowCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a70ba26d5aaf93aa4a2f69f7dd0db80dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.AddPotion</definition>
+        <argsstring>(Potion pot)</argsstring>
+        <name>AddPotion</name>
+        <param>
+          <type><ref refid="class_mannings_loot_system_1_1_potion" kindref="compound">Potion</ref></type>
+          <declname>pot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="243" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="243" bodyend="258"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ac7a50739fef203b577f00a4a5e29b96a" compoundref="_inventory_controller_8cs" startline="49">ManningsLootSystem.InventoryController.collectLootSound</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a857e0139a90e267da10b0ec71a1c1753" compoundref="_inventory_controller_8cs" startline="64">ManningsLootSystem.InventoryController.potions</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.PopulateInventory</definition>
+        <argsstring>()</argsstring>
+        <name>PopulateInventory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="275" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="275" bodyend="293"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a7523e817c7907fc47323aa5f3e5dc422" compoundref="_inventory_controller_8cs" startline="81">ManningsLootSystem.InventoryController.boxes</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc7f853d75797ab174e567c7406305" compoundref="_inventory_controller_8cs" startline="37">ManningsLootSystem.InventoryController.inventoryItems</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad2e1cfc08d2ed05ba2d48e6eab54de23" compoundref="_inventory_controller_8cs" startline="34">ManningsLootSystem.InventoryController.inventorySize</references>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" compoundref="_inventory_controller_8cs" startline="164" endline="187">ManningsLootSystem.InventoryController.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" compoundref="_inventory_controller_8cs" startline="261" endline="272">ManningsLootSystem.InventoryController.PopulateInventoryTiles</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1ad8d094bc1dfb99d8ac38ade17c8a5727" compoundref="_inventory_controller_8cs" startline="189" endline="218">ManningsLootSystem.InventoryController.RemoveFromInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a0636d7d9a18fa8ba3afdfc3b8eed3843" compoundref="_inventory_controller_8cs" startline="346" endline="365">ManningsLootSystem.InventoryController.ShowInventory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a96477a98cb103f3adcd7c0a99a35cf5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.SelectLoot</definition>
+        <argsstring>(GameObject loot)</argsstring>
+        <name>SelectLoot</name>
+        <param>
+          <type>GameObject</type>
+          <declname>loot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="296" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="296" bodyend="314"/>
+        <references refid="class_inventory_box_1a531fc1a7180e60bd4df787e4c610f927" compoundref="_inventory_box_8cs" startline="11">InventoryBox._linkedLoot</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a7523e817c7907fc47323aa5f3e5dc422" compoundref="_inventory_controller_8cs" startline="81">ManningsLootSystem.InventoryController.boxes</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc8efd2d498df15b331d4b06ab0eb9" compoundref="_inventory_controller_8cs" startline="75">ManningsLootSystem.InventoryController.selectedLoot</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1abbd63f6d81ef72e5d6ddb38046e57c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.Equip</definition>
+        <argsstring>()</argsstring>
+        <name>Equip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="318" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="318" bodyend="343"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc8efd2d498df15b331d4b06ab0eb9" compoundref="_inventory_controller_8cs" startline="75">ManningsLootSystem.InventoryController.selectedLoot</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a0636d7d9a18fa8ba3afdfc3b8eed3843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.ShowInventory</definition>
+        <argsstring>(bool show)</argsstring>
+        <name>ShowInventory</name>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="346" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="346" bodyend="365"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" compoundref="_inventory_controller_8cs" startline="275" endline="293">ManningsLootSystem.InventoryController.PopulateInventory</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a857e0139a90e267da10b0ec71a1c1753" compoundref="_inventory_controller_8cs" startline="64">ManningsLootSystem.InventoryController.potions</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a598ef6bd054b24ca988864beec7ac908" compoundref="_inventory_controller_8cs" startline="89">ManningsLootSystem.InventoryController.showingInventory</references>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" compoundref="_inventory_controller_8cs" startline="136" endline="161">ManningsLootSystem.InventoryController.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.InventoryController.PopulateInventoryTiles</definition>
+        <argsstring>()</argsstring>
+        <name>PopulateInventoryTiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="261" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="261" bodyend="272"/>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1a24a23409305446d23484a604d230e918" compoundref="_inventory_controller_8cs" startline="72">ManningsLootSystem.InventoryController.inventoryBox</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1ad2e1cfc08d2ed05ba2d48e6eab54de23" compoundref="_inventory_controller_8cs" startline="34">ManningsLootSystem.InventoryController.inventorySize</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" compoundref="_inventory_controller_8cs" startline="275" endline="293">ManningsLootSystem.InventoryController.PopulateInventory</references>
+        <references refid="class_mannings_loot_system_1_1_inventory_controller_1adac4406008432b8dd65bd9eb9201cf73" compoundref="_inventory_controller_8cs" startline="78">ManningsLootSystem.InventoryController.scrollViewContent</references>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1aaf7c47f05ba5a72ee51f783cb06c947e" compoundref="_inventory_controller_8cs" startline="96" endline="105">ManningsLootSystem.InventoryController.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="187">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="186">
+        <label>ManningsLootSystem.InventoryController</label>
+        <link refid="class_mannings_loot_system_1_1_inventory_controller"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="189">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="188">
+        <label>ManningsLootSystem.InventoryController</label>
+        <link refid="class_mannings_loot_system_1_1_inventory_controller"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+        <childnode refid="188" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>inventoryInstance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="11" bodyend="366"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a62e18dff92f76ce2f3ecd370802148d9" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>_arrowCount</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a99c1aca3c5269b7b23e818b46e6f7f5d" prot="private" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>_instance</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a70ba26d5aaf93aa4a2f69f7dd0db80dd" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>AddPotion</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a8df8d2380b7367078811f17c45d82f26" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>AddToInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a03e5b52bbbfbf89f16d61e864f5bea74" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>arrowCount</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1afcd2f25160a766689f198f9ab9040134" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>audio</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1acc1c1235820830fe4fddbc942b10fe8e" prot="private" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>Awake</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a7523e817c7907fc47323aa5f3e5dc422" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>boxes</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a2ff388c1f966abccb01cef3fbbba4a0b" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>BuyObject</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1ac7a50739fef203b577f00a4a5e29b96a" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>collectLootSound</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1abbd63f6d81ef72e5d6ddb38046e57c2d" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>Equip</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a96535426ba775733c4b9d44ba118dbc5" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>infoBox</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a5e572820667e80af6f0dbd67e7c89057" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>instance</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a87f4302625649ad06c4d0d82769c44df" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>Instance</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a24a23409305446d23484a604d230e918" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>inventoryBox</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1ae00aac342a9a3f4376fb83163ff11987" prot="private" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>inventoryInstance</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc7f853d75797ab174e567c7406305" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>inventoryItems</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a52043931e98e88c546fde70a3317b493" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>inventoryObject</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad2e1cfc08d2ed05ba2d48e6eab54de23" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>inventorySize</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1ab183ca5b50a221becc4e1ad3a5eacbaa" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>playerMoney</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1aeb53e7a53ebc4aea32efdafec35d3d15" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>PopulateInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a22f2437dd6f23a12a91ca51f03f09042" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>PopulateInventoryTiles</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a857e0139a90e267da10b0ec71a1c1753" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>potions</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad8d094bc1dfb99d8ac38ade17c8a5727" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>RemoveFromInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1adac4406008432b8dd65bd9eb9201cf73" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>scrollViewContent</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1ad6bc8efd2d498df15b331d4b06ab0eb9" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>selectedLoot</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a96477a98cb103f3adcd7c0a99a35cf5b" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>SelectLoot</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a89e29a90654fdc8ed5a0473f3e169821" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>SellObject</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a598ef6bd054b24ca988864beec7ac908" prot="protected" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>showingInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a0636d7d9a18fa8ba3afdfc3b8eed3843" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>ShowInventory</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1aaf7c47f05ba5a72ee51f783cb06c947e" prot="private" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>Start</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" prot="private" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>Update</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1abbbadb15900609d1273edf7f62362a3c" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController</scope><name>UpdateArrows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Animations::AnimationBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dd" prot="private" static="no">
+        <name>ChangedValues</name>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda51f2b7b14433aa22c67d1f4fc18943cd" prot="public">
+          <name>Sprite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda03cf6e1d32a9fcfa922a3008d3cd3571" prot="public">
+          <name>PositionX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda2d23f44b7dcf04a2f6aa724532350e48" prot="public">
+          <name>PositionY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda8b0e4369558d10325622cad511bfa721" prot="public">
+          <name>PositionZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6ddae967cae1a9d601b4335123e013328d34" prot="public">
+          <name>RotationZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda4135748f62439b3affe327f7dc591fff" prot="public">
+          <name>RotationW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6ddab5e0c179725e7f282ffb8e6a96797b49" prot="public">
+          <name>ScaleX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda3475b72c6483a5c871d245e2567c96c7" prot="public">
+          <name>ScaleY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda663d4649fab1771d486c47ba85158fe4" prot="public">
+          <name>ScaleZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda6132295fcf5570fb8b0a944ef322a598" prot="public">
+          <name>Alpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="301" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="301" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9edc167c48820b1889c6b2efcda7c15f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_scml_processing_info" kindref="compound">ScmlProcessingInfo</ref></type>
+        <definition>ScmlProcessingInfo Spriter2UnityDX.Animations.AnimationBuilder.ProcessingInfo</definition>
+        <argsstring></argsstring>
+        <name>ProcessingInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ab6d96f1d08b406a492ddfdcd4bfde38e" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float Spriter2UnityDX.Animations.AnimationBuilder.inf</definition>
+        <argsstring></argsstring>
+        <name>inf</name>
+        <initializer>= float.PositiveInfinity</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a801c9bba463950d8ef72bccd48258049" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; int, IDictionary&lt; int, <ref refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda51f2b7b14433aa22c67d1f4fc18943cd" kindref="member">Sprite</ref> &gt; &gt;</type>
+        <definition>IDictionary&lt;int, IDictionary&lt;int, Sprite&gt; &gt; Spriter2UnityDX.Animations.AnimationBuilder.Folders</definition>
+        <argsstring></argsstring>
+        <name>Folders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a2e37f586f4e8ff539be0b89377bebc25" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; string, Transform &gt;</type>
+        <definition>IDictionary&lt;string, Transform&gt; Spriter2UnityDX.Animations.AnimationBuilder.Transforms</definition>
+        <argsstring></argsstring>
+        <name>Transforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="23" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9b7a19fff8ba57aa30ce5bffe3339414" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Spriter2UnityDX.Animations.AnimationBuilder.PrefabPath</definition>
+        <argsstring></argsstring>
+        <name>PrefabPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="24" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a0d7558f46d0378c5d14f7ccad776d8e2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Spriter2UnityDX.Animations.AnimationBuilder.AnimationsPath</definition>
+        <argsstring></argsstring>
+        <name>AnimationsPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="25" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a40d4e59017c9a9cd1a01cd6573979e37" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Spriter2UnityDX.Animations.AnimationBuilder.Root</definition>
+        <argsstring></argsstring>
+        <name>Root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1af47c9df675c50cabd4697a550f0f916d" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; string, AnimationClip &gt;</type>
+        <definition>IDictionary&lt;string, AnimationClip&gt; Spriter2UnityDX.Animations.AnimationBuilder.OriginalClips</definition>
+        <argsstring></argsstring>
+        <name>OriginalClips</name>
+        <initializer>= new Dictionary &lt;string, AnimationClip&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="27" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a2b742b3543d6f709bb1e6f51131d9bac" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; string, <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" kindref="compound">SpatialInfo</ref> &gt;</type>
+        <definition>IDictionary&lt;string, SpatialInfo&gt; Spriter2UnityDX.Animations.AnimationBuilder.DefaultBones</definition>
+        <argsstring></argsstring>
+        <name>DefaultBones</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a24b85ec9763038468c44f01d5662fc94" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; string, <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info" kindref="compound">SpriteInfo</ref> &gt;</type>
+        <definition>IDictionary&lt;string, SpriteInfo&gt; Spriter2UnityDX.Animations.AnimationBuilder.DefaultSprites</definition>
+        <argsstring></argsstring>
+        <name>DefaultSprites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ad98561d58263bfed7dfe9cd9a5f1e249" prot="private" static="no" mutable="no">
+        <type>AnimatorController</type>
+        <definition>AnimatorController Spriter2UnityDX.Animations.AnimationBuilder.Controller</definition>
+        <argsstring></argsstring>
+        <name>Controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="30" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9aa9fea142fc9b3aa6ae3b4c84fe9d4f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Spriter2UnityDX.Animations.AnimationBuilder.ModdedController</definition>
+        <argsstring></argsstring>
+        <name>ModdedController</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1acfb2f366ee2baf214ef846c6f90e4ba7" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; Transform, string &gt;</type>
+        <definition>IDictionary&lt;Transform, string&gt; Spriter2UnityDX.Animations.AnimationBuilder.ChildPaths</definition>
+        <argsstring></argsstring>
+        <name>ChildPaths</name>
+        <initializer>= new Dictionary&lt;Transform, string&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="294" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a4a17fc111ed3d5557c603dfaaa3ac4f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Spriter2UnityDX.Animations.AnimationBuilder.AnimationBuilder</definition>
+        <argsstring>(ScmlProcessingInfo info, IDictionary&lt; int, IDictionary&lt; int, Sprite &gt;&gt; folders, IDictionary&lt; string, Transform &gt; transforms, IDictionary&lt; string, SpatialInfo &gt; defaultBones, IDictionary&lt; string, SpriteInfo &gt; defaultSprites, string prefabPath, AnimatorController controller)</argsstring>
+        <name>AnimationBuilder</name>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_scml_processing_info" kindref="compound">ScmlProcessingInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>IDictionary&lt; int, IDictionary&lt; int, <ref refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda51f2b7b14433aa22c67d1f4fc18943cd" kindref="member">Sprite</ref> &gt;&gt;</type>
+          <declname>folders</declname>
+        </param>
+        <param>
+          <type>IDictionary&lt; string, Transform &gt;</type>
+          <declname>transforms</declname>
+        </param>
+        <param>
+          <type>IDictionary&lt; string, <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" kindref="compound">SpatialInfo</ref> &gt;</type>
+          <declname>defaultBones</declname>
+        </param>
+        <param>
+          <type>IDictionary&lt; string, <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info" kindref="compound">SpriteInfo</ref> &gt;</type>
+          <declname>defaultSprites</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>prefabPath</declname>
+        </param>
+        <param>
+          <type>AnimatorController</type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="33" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="33" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a7b8917cd3420f3508281c2a72abd38e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_animation_builder_8cs_1aef19bab18b9814edeef255c43e4f6bbc" kindref="member">Object</ref>[]</type>
+        <definition>Object [] Spriter2UnityDX.Animations.AnimationBuilder.GetOrigClips</definition>
+        <argsstring>()</argsstring>
+        <name>GetOrigClips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="48" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="48" bodyend="56"/>
+        <references refid="class_spriter2_unity_d_x_1_1_s2_u_settings_1a6ba9494d072158388d8340fda3d621a4" compoundref="_s2_u_settings_8cs" startline="10">Spriter2UnityDX.S2USettings.ImportStyle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1acd37353456dd6a5c509971df29f3a505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Animations.AnimationBuilder.Build</definition>
+        <argsstring>(Animation animation, IDictionary&lt; int, TimeLine &gt; timeLines)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation" kindref="compound">Animation</ref></type>
+          <declname>animation</declname>
+        </param>
+        <param>
+          <type>IDictionary&lt; int, <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref> &gt;</type>
+          <declname>timeLines</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="58" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="58" bodyend="141"/>
+        <references refid="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8aa57fc812a9521b8c0ede9a2724351a55">Spriter2UnityDX.Importing.bone</references>
+        <references refid="class_spriter2_unity_d_x_1_1_s2_u_settings_1a6ba9494d072158388d8340fda3d621a4" compoundref="_s2_u_settings_8cs" startline="10">Spriter2UnityDX.S2USettings.ImportStyle</references>
+        <references refid="namespace_spriter2_unity_d_x_1_1_importing_1a96c61e67d1274522095a71f81a3729c8ab8641287bcaf704efaaa6a226ab88131">Spriter2UnityDX.Importing.sprite</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ab72c03deb1751a50269a2e06dd4e8eba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Animations.AnimationBuilder.SetCurves</definition>
+        <argsstring>(Transform child, SpatialInfo defaultInfo, List&lt; TimeLineKey &gt; parentTimeline, TimeLine timeLine, AnimationClip clip, Animation animation)</argsstring>
+        <name>SetCurves</name>
+        <param>
+          <type>Transform</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" kindref="compound">SpatialInfo</ref></type>
+          <declname>defaultInfo</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key" kindref="compound">TimeLineKey</ref> &gt;</type>
+          <declname>parentTimeline</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref></type>
+          <declname>timeLine</declname>
+        </param>
+        <param>
+          <type>AnimationClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation" kindref="compound">Animation</ref></type>
+          <declname>animation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="143" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a467fb5efa54c30cc714d71f67589940f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Animations.AnimationBuilder.SetCurves</definition>
+        <argsstring>(Transform child, SpatialInfo defaultInfo, List&lt; TimeLineKey &gt; parentTimeline, TimeLine timeLine, AnimationClip clip, Animation animation, ref float defaultZ)</argsstring>
+        <name>SetCurves</name>
+        <param>
+          <type>Transform</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" kindref="compound">SpatialInfo</ref></type>
+          <declname>defaultInfo</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key" kindref="compound">TimeLineKey</ref> &gt;</type>
+          <declname>parentTimeline</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref></type>
+          <declname>timeLine</declname>
+        </param>
+        <param>
+          <type>AnimationClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation" kindref="compound">Animation</ref></type>
+          <declname>animation</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>defaultZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="148" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="148" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1acabc6c933746fa8066a7f4d6fddd49e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Animations.AnimationBuilder.SetAdditionalCurves</definition>
+        <argsstring>(Transform child, MainLineKey[] keys, TimeLine timeLine, AnimationClip clip, float defaultZ)</argsstring>
+        <name>SetAdditionalCurves</name>
+        <param>
+          <type>Transform</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_main_line_key" kindref="compound">MainLineKey</ref>[]</type>
+          <declname>keys</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref></type>
+          <declname>timeLine</declname>
+        </param>
+        <param>
+          <type>AnimationClip</type>
+          <declname>clip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>defaultZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="205" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="205" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9ad7a4612cdc79cd2730cab0f00754da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Animations.AnimationBuilder.SetKeys</definition>
+        <argsstring>(AnimationCurve curve, TimeLine timeLine, Func&lt; SpatialInfo, float &gt; infoValue, Animation animation)</argsstring>
+        <name>SetKeys</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref></type>
+          <declname>timeLine</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" kindref="compound">SpatialInfo</ref>, float &gt;</type>
+          <declname>infoValue</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation" kindref="compound">Animation</ref></type>
+          <declname>animation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="248" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="248" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a462aacfc1eb8fe485fc6ce84ee242b58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Animations.AnimationBuilder.SetKeys</definition>
+        <argsstring>(AnimationCurve curve, TimeLine timeLine, ref Sprite[] sprites, Animation animation)</argsstring>
+        <name>SetKeys</name>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref></type>
+          <declname>timeLine</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda51f2b7b14433aa22c67d1f4fc18943cd" kindref="member">Sprite</ref>[]</type>
+          <declname>sprites</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_animation" kindref="compound">Animation</ref></type>
+          <declname>animation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="256" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="256" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a758149d7b3a2861987ecb719e52f33dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Animations.AnimationBuilder.GetIndexOrAdd</definition>
+        <argsstring>(ref Sprite[] sprites, Sprite sprite)</argsstring>
+        <name>GetIndexOrAdd</name>
+        <param>
+          <type>ref <ref refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda51f2b7b14433aa22c67d1f4fc18943cd" kindref="member">Sprite</ref>[]</type>
+          <declname>sprites</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dda51f2b7b14433aa22c67d1f4fc18943cd" kindref="member">Sprite</ref></type>
+          <declname>sprite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="266" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="266" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ae23305785776d036f4b9de963ee9f43b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AnimatorState</type>
+        <definition>AnimatorState Spriter2UnityDX.Animations.AnimationBuilder.GetStateFromController</definition>
+        <argsstring>(string clipName)</argsstring>
+        <name>GetStateFromController</name>
+        <param>
+          <type>string</type>
+          <declname>clipName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="275" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="275" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a605fdb79426d89ee7f3a87bf477a0a00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AnimatorState</type>
+        <definition>AnimatorState Spriter2UnityDX.Animations.AnimationBuilder.GetStateFromMachine</definition>
+        <argsstring>(AnimatorStateMachine machine, string clipName)</argsstring>
+        <name>GetStateFromMachine</name>
+        <param>
+          <type>AnimatorStateMachine</type>
+          <declname>machine</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>clipName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="283" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="283" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a710db7abc867d474816fa78ce8103981" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Spriter2UnityDX.Animations.AnimationBuilder.GetPathToChild</definition>
+        <argsstring>(Transform child)</argsstring>
+        <name>GetPathToChild</name>
+        <param>
+          <type>Transform</type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="295" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="295" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a4a9342b9b49d50c5273a8d615b9eff6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDictionary&lt; <ref refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dd" kindref="member">ChangedValues</ref>, AnimationCurve &gt;</type>
+        <definition>IDictionary&lt;ChangedValues, AnimationCurve&gt; Spriter2UnityDX.Animations.AnimationBuilder.GetCurves</definition>
+        <argsstring>(TimeLine timeLine, SpatialInfo defaultInfo, List&lt; TimeLineKey &gt; parentTimeline)</argsstring>
+        <name>GetCurves</name>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line" kindref="compound">TimeLine</ref></type>
+          <declname>timeLine</declname>
+        </param>
+        <param>
+          <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" kindref="compound">SpatialInfo</ref></type>
+          <declname>defaultInfo</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key" kindref="compound">TimeLineKey</ref> &gt;</type>
+          <declname>parentTimeline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="302" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="302" bodyend="348"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Spriter2UnityDX.Animations.AnimationBuilder</label>
+        <link refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>UnityEngine::Object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>Spriter2UnityDX.ScmlProcessingInfo</label>
+        <link refid="class_spriter2_unity_d_x_1_1_scml_processing_info"/>
+      </node>
+      <node id="6">
+        <label>Spriter2UnityDX.Animations.AnimationBuilder</label>
+        <link refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>ProcessingInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>UnityEngine::Object</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" bodystart="17" bodyend="349"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a4a17fc111ed3d5557c603dfaaa3ac4f6" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>AnimationBuilder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a0d7558f46d0378c5d14f7ccad776d8e2" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>AnimationsPath</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1acd37353456dd6a5c509971df29f3a505" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>Build</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a917fecec35cad4ba2fe3733968f5d6dd" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>ChangedValues</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1acfb2f366ee2baf214ef846c6f90e4ba7" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>ChildPaths</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ad98561d58263bfed7dfe9cd9a5f1e249" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>Controller</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a2b742b3543d6f709bb1e6f51131d9bac" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>DefaultBones</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a24b85ec9763038468c44f01d5662fc94" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>DefaultSprites</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a801c9bba463950d8ef72bccd48258049" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>Folders</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a4a9342b9b49d50c5273a8d615b9eff6a" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>GetCurves</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a758149d7b3a2861987ecb719e52f33dc" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>GetIndexOrAdd</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a7b8917cd3420f3508281c2a72abd38e2" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>GetOrigClips</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a710db7abc867d474816fa78ce8103981" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>GetPathToChild</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ae23305785776d036f4b9de963ee9f43b" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>GetStateFromController</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a605fdb79426d89ee7f3a87bf477a0a00" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>GetStateFromMachine</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ab6d96f1d08b406a492ddfdcd4bfde38e" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>inf</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9aa9fea142fc9b3aa6ae3b4c84fe9d4f" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>ModdedController</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1af47c9df675c50cabd4697a550f0f916d" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>OriginalClips</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9b7a19fff8ba57aa30ce5bffe3339414" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>PrefabPath</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9edc167c48820b1889c6b2efcda7c15f" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>ProcessingInfo</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a40d4e59017c9a9cd1a01cd6573979e37" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>Root</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1acabc6c933746fa8066a7f4d6fddd49e7" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>SetAdditionalCurves</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1ab72c03deb1751a50269a2e06dd4e8eba" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>SetCurves</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a467fb5efa54c30cc714d71f67589940f" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>SetCurves</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a9ad7a4612cdc79cd2730cab0f00754da" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>SetKeys</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a462aacfc1eb8fe485fc6ce84ee242b58" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>SetKeys</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder_1a2e37f586f4e8ff539be0b89377bebc25" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Animations::AnimationBuilder</scope><name>Transforms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
