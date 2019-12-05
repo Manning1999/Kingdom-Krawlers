@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ui_follow_mouse" kind="class" prot="public">
+    <compoundname>UiFollowMouse</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui_follow_mouse_1a62e2f1a4b3bed990ccaf636107d90521" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform UiFollowMouse.movingObject</definition>
+        <argsstring></argsstring>
+        <name>movingObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_follow_mouse_1a89d0ff90bcf5e46cbf3d8d8c5898e3d8" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UiFollowMouse.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_ui_follow_mouse_1a232bf8af22d15a39fb082f687a08d73b" compoundref="_ui_follow_mouse_8cs" startline="19" endline="24">MoveObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_follow_mouse_1a932c19effddc94c64c83a16008206e07" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform UiFollowMouse.basisObject</definition>
+        <argsstring></argsstring>
+        <name>basisObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_follow_mouse_1aae17b86f6c99fd0c59ab87c4d1ba0c78" prot="public" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera UiFollowMouse.cam</definition>
+        <argsstring></argsstring>
+        <name>cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ui_follow_mouse_1af65827b836f8c6ff3d3d3a821837e907" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiFollowMouse.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_ui_follow_mouse_1a232bf8af22d15a39fb082f687a08d73b" compoundref="_ui_follow_mouse_8cs" startline="19" endline="24">MoveObject</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui_follow_mouse_1a232bf8af22d15a39fb082f687a08d73b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiFollowMouse.MoveObject</definition>
+        <argsstring>()</argsstring>
+        <name>MoveObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" bodystart="19" bodyend="24"/>
+        <references refid="class_ui_follow_mouse_1a89d0ff90bcf5e46cbf3d8d8c5898e3d8" compoundref="_ui_follow_mouse_8cs" startline="9">offset</references>
+        <referencedby refid="class_ui_follow_mouse_1af65827b836f8c6ff3d3d3a821837e907" compoundref="_ui_follow_mouse_8cs" startline="14" endline="17">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="344">
+        <label>UiFollowMouse</label>
+        <link refid="class_ui_follow_mouse"/>
+        <childnode refid="345" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="346">
+        <label>UiFollowMouse</label>
+        <link refid="class_ui_follow_mouse"/>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/UiFollowMouse.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_ui_follow_mouse_1a932c19effddc94c64c83a16008206e07" prot="public" virt="non-virtual"><scope>UiFollowMouse</scope><name>basisObject</name></member>
+      <member refid="class_ui_follow_mouse_1aae17b86f6c99fd0c59ab87c4d1ba0c78" prot="public" virt="non-virtual"><scope>UiFollowMouse</scope><name>cam</name></member>
+      <member refid="class_ui_follow_mouse_1a232bf8af22d15a39fb082f687a08d73b" prot="public" virt="non-virtual"><scope>UiFollowMouse</scope><name>MoveObject</name></member>
+      <member refid="class_ui_follow_mouse_1a62e2f1a4b3bed990ccaf636107d90521" prot="public" virt="non-virtual"><scope>UiFollowMouse</scope><name>movingObject</name></member>
+      <member refid="class_ui_follow_mouse_1a89d0ff90bcf5e46cbf3d8d8c5898e3d8" prot="public" virt="non-virtual"><scope>UiFollowMouse</scope><name>offset</name></member>
+      <member refid="class_ui_follow_mouse_1af65827b836f8c6ff3d3d3a821837e907" prot="private" virt="non-virtual"><scope>UiFollowMouse</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

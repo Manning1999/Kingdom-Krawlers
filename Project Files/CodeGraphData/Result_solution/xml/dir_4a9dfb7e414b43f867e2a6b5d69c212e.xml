@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4a9dfb7e414b43f867e2a6b5d69c212e" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI</compoundname>
+    <innerfile refid="_arrow_count_u_i_8cs">ArrowCountUI.cs</innerfile>
+    <innerfile refid="_audio_button_8cs">AudioButton.cs</innerfile>
+    <innerfile refid="_back_to_menu_button_8cs">BackToMenuButton.cs</innerfile>
+    <innerfile refid="_can_dash_icon_8cs">CanDashIcon.cs</innerfile>
+    <innerfile refid="_destroy_button_8cs">DestroyButton.cs</innerfile>
+    <innerfile refid="_equip_button_8cs">EquipButton.cs</innerfile>
+    <innerfile refid="_gold_count_u_i_8cs">GoldCountUI.cs</innerfile>
+    <innerfile refid="_health_u_i_8cs">HealthUI.cs</innerfile>
+    <innerfile refid="_information_scripts_8cs">InformationScripts.cs</innerfile>
+    <innerfile refid="_inventory_box_8cs">InventoryBox.cs</innerfile>
+    <innerfile refid="_message_log_8cs">MessageLog.cs</innerfile>
+    <innerfile refid="_pause_transition_8cs">PauseTransition.cs</innerfile>
+    <innerfile refid="_quit_button_8cs">QuitButton.cs</innerfile>
+    <innerfile refid="_resume_button_8cs">ResumeButton.cs</innerfile>
+    <innerfile refid="_sell_button_8cs">SellButton.cs</innerfile>
+    <innerfile refid="_start_button_8cs">StartButton.cs</innerfile>
+    <innerfile refid="_ui_follow_mouse_8cs">UiFollowMouse.cs</innerfile>
+    <innerfile refid="_video_button_8cs">VideoButton.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/"/>
+  </compounddef>
+</doxygen>

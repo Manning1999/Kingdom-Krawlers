@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_message_log" kind="class" prot="public">
+    <compoundname>MessageLog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_message_log_1aa579902e3b1d007669543178693c7fe4" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_message_log" kindref="compound">MessageLog</ref></type>
+        <definition>MessageLog MessageLog.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_message_log_1a4d5a817e2e5927556e5c2a96fd566565" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_message_log" kindref="compound">MessageLog</ref></type>
+        <definition>MessageLog MessageLog._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_message_log_1aca141c5a3e0d8c5c7966289ef695204e" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_message_log" kindref="compound">MessageLog</ref></type>
+        <definition>MessageLog MessageLog.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_message_log_1a8b24bd6ec4afd4fdedb461710b72f8a6" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI MessageLog.textComponent</definition>
+        <argsstring></argsstring>
+        <name>textComponent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_message_log_1a26eee75ba073552dc13e2f6daf07efab" compoundref="_message_log_8cs" startline="34" endline="38">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_message_log_1a8c6a37f5ecc8b7cf438d6bc3bd1ecace" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator MessageLog.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_message_log_1a26eee75ba073552dc13e2f6daf07efab" compoundref="_message_log_8cs" startline="34" endline="38">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_message_log_1a26eee75ba073552dc13e2f6daf07efab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MessageLog.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="34" bodyend="38"/>
+        <references refid="class_message_log_1a8c6a37f5ecc8b7cf438d6bc3bd1ecace" compoundref="_message_log_8cs" startline="29">anim</references>
+        <references refid="class_message_log_1a8b24bd6ec4afd4fdedb461710b72f8a6" compoundref="_message_log_8cs" startline="28">textComponent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_message_log_1aad455a7e6f719d7fb7345afae9c6f5ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MessageLog.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="41" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_message_log_1a37438c2f2e8a0322eaf7e01119b6d7b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MessageLog.UpdateLog</definition>
+        <argsstring>(string text)</argsstring>
+        <name>UpdateLog</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="47" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="236">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="235">
+        <label>MessageLog</label>
+        <link refid="class_message_log"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="238">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="237">
+        <label>MessageLog</label>
+        <link refid="class_message_log"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+        <childnode refid="237" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/MessageLog.cs" bodystart="6" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_message_log_1a4d5a817e2e5927556e5c2a96fd566565" prot="private" virt="non-virtual"><scope>MessageLog</scope><name>_instance</name></member>
+      <member refid="class_message_log_1a8c6a37f5ecc8b7cf438d6bc3bd1ecace" prot="private" virt="non-virtual"><scope>MessageLog</scope><name>anim</name></member>
+      <member refid="class_message_log_1a26eee75ba073552dc13e2f6daf07efab" prot="private" virt="non-virtual"><scope>MessageLog</scope><name>Awake</name></member>
+      <member refid="class_message_log_1aa579902e3b1d007669543178693c7fe4" prot="public" virt="non-virtual"><scope>MessageLog</scope><name>instance</name></member>
+      <member refid="class_message_log_1aca141c5a3e0d8c5c7966289ef695204e" prot="public" virt="non-virtual"><scope>MessageLog</scope><name>Instance</name></member>
+      <member refid="class_message_log_1a8b24bd6ec4afd4fdedb461710b72f8a6" prot="private" virt="non-virtual"><scope>MessageLog</scope><name>textComponent</name></member>
+      <member refid="class_message_log_1aad455a7e6f719d7fb7345afae9c6f5ff" prot="private" virt="non-virtual"><scope>MessageLog</scope><name>Update</name></member>
+      <member refid="class_message_log_1a37438c2f2e8a0322eaf7e01119b6d7b9" prot="public" virt="non-virtual"><scope>MessageLog</scope><name>UpdateLog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

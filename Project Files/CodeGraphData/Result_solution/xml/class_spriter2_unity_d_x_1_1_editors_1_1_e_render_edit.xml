@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Editors::ERenderEdit</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1afdc7ff689f50dcbbb096e61f32ad2341" prot="private" static="no" mutable="no">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_entity_renderer" kindref="compound">EntityRenderer</ref></type>
+        <definition>EntityRenderer Spriter2UnityDX.Editors.ERenderEdit.renderer</definition>
+        <argsstring></argsstring>
+        <name>renderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a829f156f971fd190f0c1afeae4dd7474" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] Spriter2UnityDX.Editors.ERenderEdit.layerNames</definition>
+        <argsstring></argsstring>
+        <name>layerNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a1ed5397336de8845f21210c4d689f475" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.Editors.ERenderEdit.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a55607051db5f8d4945708fc07d53f41a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] Spriter2UnityDX.Editors.ERenderEdit.GetSortingLayerNames</definition>
+        <argsstring>()</argsstring>
+        <name>GetSortingLayerNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a2e5a0b7504de921d7e8499dd7c73827e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Editors.ERenderEdit.GetIndex</definition>
+        <argsstring>(string layerName)</argsstring>
+        <name>GetIndex</name>
+        <param>
+          <type>string</type>
+          <declname>layerName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" line="40" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a95ba075fab3b14058c6d4102e84c5f8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Spriter2UnityDX.Editors.ERenderEdit.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" line="24" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" bodystart="24" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="111">
+        <label>Editor</label>
+      </node>
+      <node id="110">
+        <label>Spriter2UnityDX.Editors.ERenderEdit</label>
+        <link refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="113">
+        <label>Editor</label>
+      </node>
+      <node id="114">
+        <label>Spriter2UnityDX.EntityRenderer</label>
+        <link refid="class_spriter2_unity_d_x_1_1_entity_renderer"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>updaters</edgelabel>
+        </childnode>
+      </node>
+      <node id="116">
+        <label>Spriter2UnityDX.SortingOrderUpdater</label>
+        <link refid="class_spriter2_unity_d_x_1_1_sorting_order_updater"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="112">
+        <label>Spriter2UnityDX.Editors.ERenderEdit</label>
+        <link refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit"/>
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+        <childnode refid="114" relation="usage">
+          <edgelabel>renderer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/CustomEditors.cs" bodystart="9" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a2e5a0b7504de921d7e8499dd7c73827e" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Editors::ERenderEdit</scope><name>GetIndex</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a55607051db5f8d4945708fc07d53f41a" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Editors::ERenderEdit</scope><name>GetSortingLayerNames</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a829f156f971fd190f0c1afeae4dd7474" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Editors::ERenderEdit</scope><name>layerNames</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a1ed5397336de8845f21210c4d689f475" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Editors::ERenderEdit</scope><name>OnEnable</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1a95ba075fab3b14058c6d4102e84c5f8a" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Editors::ERenderEdit</scope><name>OnInspectorGUI</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_editors_1_1_e_render_edit_1afdc7ff689f50dcbbb096e61f32ad2341" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Editors::ERenderEdit</scope><name>renderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

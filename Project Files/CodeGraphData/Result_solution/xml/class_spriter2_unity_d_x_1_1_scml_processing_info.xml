@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_scml_processing_info" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::ScmlProcessingInfo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_scml_processing_info_1a6df9884a71348a06041819e39014e7c1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; Spriter2UnityDX.ScmlProcessingInfo.NewPrefabs</definition>
+        <argsstring></argsstring>
+        <name>NewPrefabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="82" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" compoundref="_scml_post_processor_8cs" startline="88" endline="92">Spriter2UnityDX.ScmlProcessingInfo.ScmlProcessingInfo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_scml_processing_info_1a447b6a49afd7b6800862e4d3110c766d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; Spriter2UnityDX.ScmlProcessingInfo.ModifiedPrefabs</definition>
+        <argsstring></argsstring>
+        <name>ModifiedPrefabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="83" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" compoundref="_scml_post_processor_8cs" startline="88" endline="92">Spriter2UnityDX.ScmlProcessingInfo.ScmlProcessingInfo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_scml_processing_info_1abf341781ce426488cf61002b5fc28491" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; AnimationClip &gt;</type>
+        <definition>List&lt;AnimationClip&gt; Spriter2UnityDX.ScmlProcessingInfo.NewAnims</definition>
+        <argsstring></argsstring>
+        <name>NewAnims</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="84" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" compoundref="_scml_post_processor_8cs" startline="88" endline="92">Spriter2UnityDX.ScmlProcessingInfo.ScmlProcessingInfo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_scml_processing_info_1ad907d350048be3f9e77b3aff73070475" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; AnimationClip &gt;</type>
+        <definition>List&lt;AnimationClip&gt; Spriter2UnityDX.ScmlProcessingInfo.ModifiedAnims</definition>
+        <argsstring></argsstring>
+        <name>ModifiedAnims</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="85" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="85" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" compoundref="_scml_post_processor_8cs" startline="88" endline="92">Spriter2UnityDX.ScmlProcessingInfo.ScmlProcessingInfo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_scml_processing_info_1afd5c52f3da5306a8e100d9aad6f0a28f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; AnimatorController &gt;</type>
+        <definition>List&lt;AnimatorController&gt; Spriter2UnityDX.ScmlProcessingInfo.NewControllers</definition>
+        <argsstring></argsstring>
+        <name>NewControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="86" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="86" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" compoundref="_scml_post_processor_8cs" startline="88" endline="92">Spriter2UnityDX.ScmlProcessingInfo.ScmlProcessingInfo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_scml_processing_info_1aae8c4798b6e4a6247922f68dc89a6b51" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; AnimatorController &gt;</type>
+        <definition>List&lt;AnimatorController&gt; Spriter2UnityDX.ScmlProcessingInfo.ModifiedControllers</definition>
+        <argsstring></argsstring>
+        <name>ModifiedControllers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="87" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" compoundref="_scml_post_processor_8cs" startline="88" endline="92">Spriter2UnityDX.ScmlProcessingInfo.ScmlProcessingInfo</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Spriter2UnityDX.ScmlProcessingInfo.ScmlProcessingInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ScmlProcessingInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="88" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="88" bodyend="92"/>
+        <references refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ad907d350048be3f9e77b3aff73070475" compoundref="_scml_post_processor_8cs" startline="85">Spriter2UnityDX.ScmlProcessingInfo.ModifiedAnims</references>
+        <references refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1aae8c4798b6e4a6247922f68dc89a6b51" compoundref="_scml_post_processor_8cs" startline="87">Spriter2UnityDX.ScmlProcessingInfo.ModifiedControllers</references>
+        <references refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1a447b6a49afd7b6800862e4d3110c766d" compoundref="_scml_post_processor_8cs" startline="83">Spriter2UnityDX.ScmlProcessingInfo.ModifiedPrefabs</references>
+        <references refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1abf341781ce426488cf61002b5fc28491" compoundref="_scml_post_processor_8cs" startline="84">Spriter2UnityDX.ScmlProcessingInfo.NewAnims</references>
+        <references refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1afd5c52f3da5306a8e100d9aad6f0a28f" compoundref="_scml_post_processor_8cs" startline="86">Spriter2UnityDX.ScmlProcessingInfo.NewControllers</references>
+        <references refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1a6df9884a71348a06041819e39014e7c1" compoundref="_scml_post_processor_8cs" startline="82">Spriter2UnityDX.ScmlProcessingInfo.NewPrefabs</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" line="81" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlPostProcessor.cs" bodystart="81" bodyend="93"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ad907d350048be3f9e77b3aff73070475" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::ScmlProcessingInfo</scope><name>ModifiedAnims</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1aae8c4798b6e4a6247922f68dc89a6b51" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::ScmlProcessingInfo</scope><name>ModifiedControllers</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1a447b6a49afd7b6800862e4d3110c766d" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::ScmlProcessingInfo</scope><name>ModifiedPrefabs</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1abf341781ce426488cf61002b5fc28491" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::ScmlProcessingInfo</scope><name>NewAnims</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1afd5c52f3da5306a8e100d9aad6f0a28f" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::ScmlProcessingInfo</scope><name>NewControllers</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1a6df9884a71348a06041819e39014e7c1" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::ScmlProcessingInfo</scope><name>NewPrefabs</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_scml_processing_info_1ac9d0de5e722f962c485cfc333a3d1777" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::ScmlProcessingInfo</scope><name>ScmlProcessingInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

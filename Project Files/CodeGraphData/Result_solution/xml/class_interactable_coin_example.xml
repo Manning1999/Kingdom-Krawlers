@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_interactable_coin_example" kind="class" prot="public">
+    <compoundname>InteractableCoinExample</compoundname>
+    <basecompoundref refid="class_standard_interactable" prot="public" virt="non-virtual">StandardInteractable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_interactable_coin_example_1a01b0b14a0701af149da21447efd5c1cc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool InteractableCoinExample.interactedWith</definition>
+        <argsstring></argsstring>
+        <name>interactedWith</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/InteractableCoinExample.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/InteractableCoinExample.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_interactable_coin_example_1ab3853684e02563496d305d62bda620a3" compoundref="_interactable_coin_example_8cs" startline="14" endline="26">InteractWith</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_interactable_coin_example_1ab3853684e02563496d305d62bda620a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void InteractableCoinExample.InteractWith</definition>
+        <argsstring>()</argsstring>
+        <name>InteractWith</name>
+        <reimplements refid="class_standard_interactable_1a2c8e5314f2e4c26ac141f5cda11109e5">InteractWith</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/InteractableCoinExample.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/InteractableCoinExample.cs" bodystart="14" bodyend="26"/>
+        <references refid="class_interactable_coin_example_1a01b0b14a0701af149da21447efd5c1cc" compoundref="_interactable_coin_example_8cs" startline="9">interactedWith</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="170">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="168">
+        <label>InteractableCoinExample</label>
+        <link refid="class_interactable_coin_example"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>StandardInteractable</label>
+        <link refid="class_standard_interactable"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="171" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>IInteractable</label>
+        <link refid="interface_i_interactable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="174">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="172">
+        <label>InteractableCoinExample</label>
+        <link refid="class_interactable_coin_example"/>
+        <childnode refid="173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>StandardInteractable</label>
+        <link refid="class_standard_interactable"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>IInteractable</label>
+        <link refid="interface_i_interactable"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/InteractableCoinExample.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/InteractableCoinExample.cs" bodystart="5" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_interactable_coin_example_1a01b0b14a0701af149da21447efd5c1cc" prot="private" virt="non-virtual"><scope>InteractableCoinExample</scope><name>interactedWith</name></member>
+      <member refid="class_interactable_coin_example_1ab3853684e02563496d305d62bda620a3" prot="public" virt="virtual"><scope>InteractableCoinExample</scope><name>InteractWith</name></member>
+      <member refid="class_standard_interactable_1a0b70aadc648539e509b372d4abcaae23" prot="public" virt="non-virtual"><scope>InteractableCoinExample</scope><name>OnInteract</name></member>
+      <member refid="class_standard_interactable_1af9cc4b32e87d7519b293ee02dc6be3d6" prot="protected" virt="virtual"><scope>InteractableCoinExample</scope><name>Start</name></member>
+      <member refid="class_standard_interactable_1a8e530b02fca50ecd5f20f7e94275a0f1" prot="protected" virt="virtual"><scope>InteractableCoinExample</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

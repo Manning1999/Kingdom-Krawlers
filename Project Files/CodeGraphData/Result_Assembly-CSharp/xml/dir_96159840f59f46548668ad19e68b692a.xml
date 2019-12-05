@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_96159840f59f46548668ad19e68b692a" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts</compoundname>
+    <innerdir refid="dir_f55ea31c938f11396419ffef19520e07">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers</innerdir>
+    <innerdir refid="dir_e24a5e22ff0aedfde32e05c8c2370d82">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies</innerdir>
+    <innerdir refid="dir_91d7f75ce4e58f00058a012718f88bb7">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot</innerdir>
+    <innerdir refid="dir_1501fbaaf5f9f673fe22e5ac82fe055a">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other</innerdir>
+    <innerdir refid="dir_4a9dfb7e414b43f867e2a6b5d69c212e">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI</innerdir>
+    <innerdir refid="dir_08d2cc7d0a8c21c257135f3cfb3923ec">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility</innerdir>
+    <innerdir refid="dir_36a0599f4f1385306747ab56310fac3a">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Weapons</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/"/>
+  </compounddef>
+</doxygen>

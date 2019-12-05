@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -52,7 +53,14 @@ public class Interactor : MonoBehaviour
             }
             if (showIconAtObject == true)
             {
-                interactionIcon.transform.position = Camera.main.WorldToScreenPoint(objectToInteractWith.transform.position);
+                try
+                {
+                    interactionIcon.transform.position = Camera.main.WorldToScreenPoint(objectToInteractWith.transform.position);
+                }
+                catch(Exception e)
+                {
+                    interactionIcon.SetActive(false);
+                }
             }
         }
 

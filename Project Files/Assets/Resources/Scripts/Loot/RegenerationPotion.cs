@@ -12,22 +12,15 @@ public class RegenerationPotion : Potion
     [SerializeField]
     [Tooltip("How many seconds the potions should heal the player for")]
     private int regenerationTime = 10;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-            
-    }
+
 
    
 
     public override void Use()
     {
+        base.Use();
+
         StartCoroutine(RegenerationTimer());
     }
 

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_random_loot_chest" kind="class" prot="public">
+    <compoundname>RandomLootChest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_random_loot_chest_1abae3c3e740abc8d7cd049cfbb69dd900" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; RandomLootChest.loot</definition>
+        <argsstring></argsstring>
+        <name>loot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_random_loot_chest_1a5d15665ab613f9306f4ca2a7af19d131" compoundref="_random_loot_chest_8cs" startline="28" endline="77">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_chest_1a05e0b0ea555521fcc4965169d9c20c69" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] RandomLootChest.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <initializer>=
+    {
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+     9, 
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_random_loot_chest_1a5d15665ab613f9306f4ca2a7af19d131" compoundref="_random_loot_chest_8cs" startline="28" endline="77">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_chest_1ac915da4cf191f2346614ae77d7b2625d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootChest.total</definition>
+        <argsstring></argsstring>
+        <name>total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_random_loot_chest_1a5d15665ab613f9306f4ca2a7af19d131" compoundref="_random_loot_chest_8cs" startline="28" endline="77">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_chest_1a324f678074987ec3a9255460b30210a4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootChest.randomNumber</definition>
+        <argsstring></argsstring>
+        <name>randomNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" line="27" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_random_loot_chest_1a5d15665ab613f9306f4ca2a7af19d131" compoundref="_random_loot_chest_8cs" startline="28" endline="77">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_random_loot_chest_1a5d15665ab613f9306f4ca2a7af19d131" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomLootChest.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" bodystart="28" bodyend="77"/>
+        <references refid="class_random_loot_chest_1abae3c3e740abc8d7cd049cfbb69dd900" compoundref="_random_loot_chest_8cs" startline="9">loot</references>
+        <references refid="class_random_loot_chest_1a324f678074987ec3a9255460b30210a4" compoundref="_random_loot_chest_8cs" startline="27">randomNumber</references>
+        <references refid="class_random_loot_chest_1a05e0b0ea555521fcc4965169d9c20c69" compoundref="_random_loot_chest_8cs" startline="10">table</references>
+        <references refid="class_random_loot_chest_1ac915da4cf191f2346614ae77d7b2625d" compoundref="_random_loot_chest_8cs" startline="26">total</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="304">
+        <label>RandomLootChest</label>
+        <link refid="class_random_loot_chest"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="306">
+        <label>RandomLootChest</label>
+        <link refid="class_random_loot_chest"/>
+        <childnode refid="307" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="307">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootChest.cs" bodystart="5" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_random_loot_chest_1abae3c3e740abc8d7cd049cfbb69dd900" prot="public" virt="non-virtual"><scope>RandomLootChest</scope><name>loot</name></member>
+      <member refid="class_random_loot_chest_1a324f678074987ec3a9255460b30210a4" prot="public" virt="non-virtual"><scope>RandomLootChest</scope><name>randomNumber</name></member>
+      <member refid="class_random_loot_chest_1a5d15665ab613f9306f4ca2a7af19d131" prot="private" virt="non-virtual"><scope>RandomLootChest</scope><name>Start</name></member>
+      <member refid="class_random_loot_chest_1a05e0b0ea555521fcc4965169d9c20c69" prot="public" virt="non-virtual"><scope>RandomLootChest</scope><name>table</name></member>
+      <member refid="class_random_loot_chest_1ac915da4cf191f2346614ae77d7b2625d" prot="public" virt="non-virtual"><scope>RandomLootChest</scope><name>total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

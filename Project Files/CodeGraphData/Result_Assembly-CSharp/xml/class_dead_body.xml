@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dead_body" kind="class" prot="public">
+    <compoundname>DeadBody</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_dead_body_1abea2bce042ea66313932e39a03669972" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DeadBody.levelDiedOn</definition>
+        <argsstring></argsstring>
+        <name>levelDiedOn</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_dead_body_1a1d90748709f12ce3812e75388a6ddaee" compoundref="_dead_body_8cs" startline="16" endline="27">Awake</referencedby>
+        <referencedby refid="class_dead_body_1ab1b30b722977cbb9457e443e3edf38ed" compoundref="_dead_body_8cs" startline="29" endline="48">OnSceneLoaded</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_dead_body_1a1c6982160878dad01833fda52e6c18ab" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject DeadBody.soulObject</definition>
+        <argsstring></argsstring>
+        <name>soulObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_dead_body_1a1d90748709f12ce3812e75388a6ddaee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DeadBody.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" bodystart="16" bodyend="27"/>
+        <references refid="class_dead_body_1abea2bce042ea66313932e39a03669972" compoundref="_dead_body_8cs" startline="10">levelDiedOn</references>
+        <references refid="class_dead_body_1ab1b30b722977cbb9457e443e3edf38ed" compoundref="_dead_body_8cs" startline="29" endline="48">OnSceneLoaded</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_dead_body_1ab1b30b722977cbb9457e443e3edf38ed" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DeadBody.OnSceneLoaded</definition>
+        <argsstring>(Scene scene, LoadSceneMode mode)</argsstring>
+        <name>OnSceneLoaded</name>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>LoadSceneMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" bodystart="29" bodyend="48"/>
+        <references refid="class_dead_body_1abea2bce042ea66313932e39a03669972" compoundref="_dead_body_8cs" startline="10">levelDiedOn</references>
+        <referencedby refid="class_dead_body_1a1d90748709f12ce3812e75388a6ddaee" compoundref="_dead_body_8cs" startline="16" endline="27">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dead_body_1a223f8f9daae4aeb82f2006d5342483fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DeadBody.Hide</definition>
+        <argsstring>()</argsstring>
+        <name>Hide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" line="50" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" bodystart="50" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="48">
+        <label>DeadBody</label>
+        <link refid="class_dead_body"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="50">
+        <label>DeadBody</label>
+        <link refid="class_dead_body"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/DeadBody.cs" bodystart="6" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_dead_body_1a1d90748709f12ce3812e75388a6ddaee" prot="private" virt="non-virtual"><scope>DeadBody</scope><name>Awake</name></member>
+      <member refid="class_dead_body_1a223f8f9daae4aeb82f2006d5342483fb" prot="public" virt="non-virtual"><scope>DeadBody</scope><name>Hide</name></member>
+      <member refid="class_dead_body_1abea2bce042ea66313932e39a03669972" prot="protected" virt="non-virtual"><scope>DeadBody</scope><name>levelDiedOn</name></member>
+      <member refid="class_dead_body_1ab1b30b722977cbb9457e443e3edf38ed" prot="protected" virt="non-virtual"><scope>DeadBody</scope><name>OnSceneLoaded</name></member>
+      <member refid="class_dead_body_1a1c6982160878dad01833fda52e6c18ab" prot="protected" virt="non-virtual"><scope>DeadBody</scope><name>soulObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

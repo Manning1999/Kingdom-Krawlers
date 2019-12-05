@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_destroy_after_time" kind="class" prot="public">
+    <compoundname>DestroyAfterTime</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_destroy_after_time_1aa998d938a36a5a97051a4df5571ba4db" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DestroyAfterTime.timeTilDestroy</definition>
+        <argsstring></argsstring>
+        <name>timeTilDestroy</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_destroy_after_time_1a5db8ea5b64a441fe868522fe51da0482" compoundref="_destroy_after_time_8cs" startline="17" endline="21">DestroyTimer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_destroy_after_time_1ab7565e5e31ca15ad65ecfa7e3ae8da07" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DestroyAfterTime.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_destroy_after_time_1a5db8ea5b64a441fe868522fe51da0482" compoundref="_destroy_after_time_8cs" startline="17" endline="21">DestroyTimer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_destroy_after_time_1a5db8ea5b64a441fe868522fe51da0482" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator DestroyAfterTime.DestroyTimer</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" bodystart="17" bodyend="21"/>
+        <references refid="class_destroy_after_time_1aa998d938a36a5a97051a4df5571ba4db" compoundref="_destroy_after_time_8cs" startline="8">timeTilDestroy</references>
+        <referencedby refid="class_destroy_after_time_1ab7565e5e31ca15ad65ecfa7e3ae8da07" compoundref="_destroy_after_time_8cs" startline="12" endline="15">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>DestroyAfterTime</label>
+        <link refid="class_destroy_after_time"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>DestroyAfterTime</label>
+        <link refid="class_destroy_after_time"/>
+        <childnode refid="59" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/DestroyAfterTime.cs" bodystart="5" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_destroy_after_time_1a5db8ea5b64a441fe868522fe51da0482" prot="private" virt="non-virtual"><scope>DestroyAfterTime</scope><name>DestroyTimer</name></member>
+      <member refid="class_destroy_after_time_1ab7565e5e31ca15ad65ecfa7e3ae8da07" prot="private" virt="non-virtual"><scope>DestroyAfterTime</scope><name>Start</name></member>
+      <member refid="class_destroy_after_time_1aa998d938a36a5a97051a4df5571ba4db" prot="private" virt="non-virtual"><scope>DestroyAfterTime</scope><name>timeTilDestroy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

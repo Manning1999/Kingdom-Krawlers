@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_sorting_order_updater" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::SortingOrderUpdater</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a19f91070dff8651e0a3001d9a9b84066" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Spriter2UnityDX.SortingOrderUpdater.trans</definition>
+        <argsstring></argsstring>
+        <name>trans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a06bb9da02ea1736bdbfeb2699e6698bc" compoundref="_sorting_order_updater_8cs" startline="26" endline="29">Spriter2UnityDX.SortingOrderUpdater.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a5a53dbd03013c72aef55a3ef0f572414" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer Spriter2UnityDX.SortingOrderUpdater.srenderer</definition>
+        <argsstring></argsstring>
+        <name>srenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a06bb9da02ea1736bdbfeb2699e6698bc" compoundref="_sorting_order_updater_8cs" startline="26" endline="29">Spriter2UnityDX.SortingOrderUpdater.Awake</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" compoundref="_sorting_order_updater_8cs" startline="22" endline="24">Spriter2UnityDX.SortingOrderUpdater.UpdateSortingOrder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a36f362ddd02c46d3956145dc583dab27" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.SortingOrderUpdater.sor</definition>
+        <argsstring></argsstring>
+        <name>sor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" compoundref="_sorting_order_updater_8cs" startline="22" endline="24">Spriter2UnityDX.SortingOrderUpdater.UpdateSortingOrder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a73f765e42e3969426121f4481ee149b8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.SortingOrderUpdater.z_index</definition>
+        <argsstring></argsstring>
+        <name>z_index</name>
+        <initializer>= float.NaN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1ae25a17529064abb3f798cea561bfead7" compoundref="_sorting_order_updater_8cs" startline="31" endline="37">Spriter2UnityDX.SortingOrderUpdater.Update</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" compoundref="_sorting_order_updater_8cs" startline="22" endline="24">Spriter2UnityDX.SortingOrderUpdater.UpdateSortingOrder</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a033cacdc9baf60aa80114275620a0c55" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.SortingOrderUpdater.SpriteCount</definition>
+        <argsstring></argsstring>
+        <name>SpriteCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" compoundref="_sorting_order_updater_8cs" startline="22" endline="24">Spriter2UnityDX.SortingOrderUpdater.UpdateSortingOrder</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6c5d685f3a6a9906039dcb23d2a039f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.SortingOrderUpdater.SortingOrder</definition>
+        <argsstring></argsstring>
+        <name>SortingOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.SortingOrderUpdater.UpdateSortingOrder</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateSortingOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="22" bodyend="24"/>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a36f362ddd02c46d3956145dc583dab27" compoundref="_sorting_order_updater_8cs" startline="12">Spriter2UnityDX.SortingOrderUpdater.sor</references>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a033cacdc9baf60aa80114275620a0c55" compoundref="_sorting_order_updater_8cs" startline="11">Spriter2UnityDX.SortingOrderUpdater.SpriteCount</references>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a5a53dbd03013c72aef55a3ef0f572414" compoundref="_sorting_order_updater_8cs" startline="9">Spriter2UnityDX.SortingOrderUpdater.srenderer</references>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a73f765e42e3969426121f4481ee149b8" compoundref="_sorting_order_updater_8cs" startline="20">Spriter2UnityDX.SortingOrderUpdater.z_index</references>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1ae25a17529064abb3f798cea561bfead7" compoundref="_sorting_order_updater_8cs" startline="31" endline="37">Spriter2UnityDX.SortingOrderUpdater.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a06bb9da02ea1736bdbfeb2699e6698bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.SortingOrderUpdater.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="26" bodyend="29"/>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a5a53dbd03013c72aef55a3ef0f572414" compoundref="_sorting_order_updater_8cs" startline="9">Spriter2UnityDX.SortingOrderUpdater.srenderer</references>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a19f91070dff8651e0a3001d9a9b84066" compoundref="_sorting_order_updater_8cs" startline="8">Spriter2UnityDX.SortingOrderUpdater.trans</references>
+      </memberdef>
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_sorting_order_updater_1ae25a17529064abb3f798cea561bfead7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Spriter2UnityDX.SortingOrderUpdater.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="31" bodyend="37"/>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" compoundref="_sorting_order_updater_8cs" startline="22" endline="24">Spriter2UnityDX.SortingOrderUpdater.UpdateSortingOrder</references>
+        <references refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a73f765e42e3969426121f4481ee149b8" compoundref="_sorting_order_updater_8cs" startline="20">Spriter2UnityDX.SortingOrderUpdater.z_index</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="303">
+        <label>Spriter2UnityDX.SortingOrderUpdater</label>
+        <link refid="class_spriter2_unity_d_x_1_1_sorting_order_updater"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="305">
+        <label>Spriter2UnityDX.SortingOrderUpdater</label>
+        <link refid="class_spriter2_unity_d_x_1_1_sorting_order_updater"/>
+        <childnode refid="306" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/SortingOrderUpdater.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a06bb9da02ea1736bdbfeb2699e6698bc" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>Awake</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a36f362ddd02c46d3956145dc583dab27" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>sor</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6c5d685f3a6a9906039dcb23d2a039f7" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>SortingOrder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a033cacdc9baf60aa80114275620a0c55" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>SpriteCount</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a5a53dbd03013c72aef55a3ef0f572414" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>srenderer</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a19f91070dff8651e0a3001d9a9b84066" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>trans</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1ae25a17529064abb3f798cea561bfead7" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>Update</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a6b4e7be53b2feb57b18d327dd582296a" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>UpdateSortingOrder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_sorting_order_updater_1a73f765e42e3969426121f4481ee149b8" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::SortingOrderUpdater</scope><name>z_index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

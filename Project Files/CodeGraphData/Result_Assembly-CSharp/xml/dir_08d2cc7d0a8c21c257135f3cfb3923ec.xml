@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_08d2cc7d0a8c21c257135f3cfb3923ec" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility</compoundname>
+    <innerfile refid="_destroy_after_time_8cs">DestroyAfterTime.cs</innerfile>
+    <innerfile refid="_dont_destroy_on_load_8cs">DontDestroyOnLoad.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Utility/"/>
+  </compounddef>
+</doxygen>

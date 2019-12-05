@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_respawn_point" kind="class" prot="public">
+    <compoundname>RespawnPoint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_respawn_point_1ac0fcf5d06ebc76f86693e6b0c9e303ae" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_respawn_point" kindref="compound">RespawnPoint</ref></type>
+        <definition>RespawnPoint RespawnPoint.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_respawn_point_1a4e018fe63d7acfc661ee80d9665da0d4" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_respawn_point" kindref="compound">RespawnPoint</ref></type>
+        <definition>RespawnPoint RespawnPoint._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_respawn_point_1aacd92af64af74a3bf621a0f27a84b489" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_respawn_point" kindref="compound">RespawnPoint</ref></type>
+        <definition>RespawnPoint RespawnPoint.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="285">
+        <label>RespawnPoint</label>
+        <link refid="class_respawn_point"/>
+        <childnode refid="286" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="286">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="287">
+        <label>RespawnPoint</label>
+        <link refid="class_respawn_point"/>
+        <childnode refid="288" relation="public-inheritance">
+        </childnode>
+        <childnode refid="287" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="288">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/RespawnPoint.cs" bodystart="5" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_respawn_point_1a4e018fe63d7acfc661ee80d9665da0d4" prot="private" virt="non-virtual"><scope>RespawnPoint</scope><name>_instance</name></member>
+      <member refid="class_respawn_point_1aacd92af64af74a3bf621a0f27a84b489" prot="public" virt="non-virtual"><scope>RespawnPoint</scope><name>Instance</name></member>
+      <member refid="class_respawn_point_1ac0fcf5d06ebc76f86693e6b0c9e303ae" prot="public" virt="non-virtual"><scope>RespawnPoint</scope><name>instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

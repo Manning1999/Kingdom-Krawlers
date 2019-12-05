@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_information_scripts" kind="class" prot="public">
+    <compoundname>InformationScripts</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_information_scripts_1ae65456fbbb20f5ec11488749f278ca4e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InformationScripts.itemNameText</definition>
+        <argsstring></argsstring>
+        <name>itemNameText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" compoundref="_information_scripts_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_information_scripts_1ad7a34a56425252cb5a056b85fa490e3c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InformationScripts.descriptionText</definition>
+        <argsstring></argsstring>
+        <name>descriptionText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" compoundref="_information_scripts_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_information_scripts_1a73e9b450b0f839980e313333d4fa5f38" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InformationScripts.damageText</definition>
+        <argsstring></argsstring>
+        <name>damageText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" compoundref="_information_scripts_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_information_scripts_1aa1ab55eec6d4f50e7db146c31d20fd9a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InformationScripts.speedText</definition>
+        <argsstring></argsstring>
+        <name>speedText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" compoundref="_information_scripts_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_information_scripts_1ab606470f5f6589ac747de20b596613d6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InformationScripts.valueText</definition>
+        <argsstring></argsstring>
+        <name>valueText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" compoundref="_information_scripts_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_information_scripts_1a548bca978e59877e98a11342ce773221" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text InformationScripts.informationText</definition>
+        <argsstring></argsstring>
+        <name>informationText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InformationScripts.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_information_scripts_1a73e9b450b0f839980e313333d4fa5f38" compoundref="_information_scripts_8cs" startline="10">damageText</references>
+        <references refid="class_information_scripts_1ad7a34a56425252cb5a056b85fa490e3c" compoundref="_information_scripts_8cs" startline="9">descriptionText</references>
+        <references refid="class_information_scripts_1ae65456fbbb20f5ec11488749f278ca4e" compoundref="_information_scripts_8cs" startline="8">itemNameText</references>
+        <references refid="class_information_scripts_1aa1ab55eec6d4f50e7db146c31d20fd9a" compoundref="_information_scripts_8cs" startline="11">speedText</references>
+        <references refid="class_information_scripts_1ab606470f5f6589ac747de20b596613d6" compoundref="_information_scripts_8cs" startline="12">valueText</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="132">
+        <label>InformationScripts</label>
+        <link refid="class_information_scripts"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="134">
+        <label>InformationScripts</label>
+        <link refid="class_information_scripts"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_information_scripts_1a73e9b450b0f839980e313333d4fa5f38" prot="public" virt="non-virtual"><scope>InformationScripts</scope><name>damageText</name></member>
+      <member refid="class_information_scripts_1ad7a34a56425252cb5a056b85fa490e3c" prot="public" virt="non-virtual"><scope>InformationScripts</scope><name>descriptionText</name></member>
+      <member refid="class_information_scripts_1a548bca978e59877e98a11342ce773221" prot="public" virt="non-virtual"><scope>InformationScripts</scope><name>informationText</name></member>
+      <member refid="class_information_scripts_1ae65456fbbb20f5ec11488749f278ca4e" prot="public" virt="non-virtual"><scope>InformationScripts</scope><name>itemNameText</name></member>
+      <member refid="class_information_scripts_1aa1ab55eec6d4f50e7db146c31d20fd9a" prot="public" virt="non-virtual"><scope>InformationScripts</scope><name>speedText</name></member>
+      <member refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" prot="private" virt="non-virtual"><scope>InformationScripts</scope><name>Update</name></member>
+      <member refid="class_information_scripts_1ab606470f5f6589ac747de20b596613d6" prot="public" virt="non-virtual"><scope>InformationScripts</scope><name>valueText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

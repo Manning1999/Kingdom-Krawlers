@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_mannings_loot_system" kind="namespace">
+    <compoundname>ManningsLootSystem</compoundname>
+    <innerclass refid="class_mannings_loot_system_1_1_inventory_controller" prot="public">ManningsLootSystem::InventoryController</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_loot_controller" prot="public">ManningsLootSystem::LootController</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_arrow_loot" prot="public">ManningsLootSystem::ArrowLoot</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_bow" prot="public">ManningsLootSystem::Bow</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_loot" prot="public">ManningsLootSystem::Loot</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_loot_drop_behaviour" prot="public">ManningsLootSystem::LootDropBehaviour</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_money" prot="public">ManningsLootSystem::Money</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_potion" prot="public">ManningsLootSystem::Potion</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_speed_potion" prot="public">ManningsLootSystem::SpeedPotion</innerclass>
+    <innerclass refid="class_mannings_loot_system_1_1_sword" prot="public">ManningsLootSystem::Sword</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

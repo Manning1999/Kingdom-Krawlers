@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_arrow_count_u_i" kind="class" prot="public">
+    <compoundname>ArrowCountUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_arrow_count_u_i_1a64d30135b81797713ef6b1533aff0809" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_arrow_count_u_i" kindref="compound">ArrowCountUI</ref></type>
+        <definition>ArrowCountUI ArrowCountUI.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_arrow_count_u_i_1a56ebdaf5cc65572902c031c67ad77175" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_arrow_count_u_i" kindref="compound">ArrowCountUI</ref></type>
+        <definition>ArrowCountUI ArrowCountUI._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_arrow_count_u_i_1a7f8ef1abd925711806bdf286f7d39591" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_arrow_count_u_i" kindref="compound">ArrowCountUI</ref></type>
+        <definition>ArrowCountUI ArrowCountUI.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_arrow_count_u_i_1a68e11e4067d4d2bab3a88072493b9df4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArrowCountUI.UpdateArrowGUI</definition>
+        <argsstring>(int arrows)</argsstring>
+        <name>UpdateArrowGUI</name>
+        <param>
+          <type>int</type>
+          <declname>arrows</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" line="27" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>ArrowCountUI</label>
+        <link refid="class_arrow_count_u_i"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>ArrowCountUI</label>
+        <link refid="class_arrow_count_u_i"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/ArrowCountUI.cs" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_arrow_count_u_i_1a56ebdaf5cc65572902c031c67ad77175" prot="private" virt="non-virtual"><scope>ArrowCountUI</scope><name>_instance</name></member>
+      <member refid="class_arrow_count_u_i_1a64d30135b81797713ef6b1533aff0809" prot="public" virt="non-virtual"><scope>ArrowCountUI</scope><name>instance</name></member>
+      <member refid="class_arrow_count_u_i_1a7f8ef1abd925711806bdf286f7d39591" prot="public" virt="non-virtual"><scope>ArrowCountUI</scope><name>Instance</name></member>
+      <member refid="class_arrow_count_u_i_1a68e11e4067d4d2bab3a88072493b9df4" prot="public" virt="non-virtual"><scope>ArrowCountUI</scope><name>UpdateArrowGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

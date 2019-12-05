@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_38dee84b03fed48fb0f3cf8bb0ec6021" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning&apos;s 2D Games stuff/2D Movement + Interaction + Weapons/Scripts</compoundname>
+    <innerfile refid="_camera_tracking_8cs">CameraTracking.cs</innerfile>
+    <innerfile refid="_i_hurtable_8cs">IHurtable.cs</innerfile>
+    <innerfile refid="_i_interactable_8cs">IInteractable.cs</innerfile>
+    <innerfile refid="_interactable_coin_example_8cs">InteractableCoinExample.cs</innerfile>
+    <innerfile refid="_interactor_8cs">Interactor.cs</innerfile>
+    <innerfile refid="_standard_interactable_8cs">StandardInteractable.cs</innerfile>
+    <innerfile refid="_two_dimensional_player_movement_8cs">TwoDimensionalPlayerMovement.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/"/>
+  </compounddef>
+</doxygen>

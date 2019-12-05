@@ -1,0 +1,1238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_controller" kind="class" prot="public">
+    <compoundname>PlayerController</compoundname>
+    <basecompoundref refid="class_two_dimensional_player_movement" prot="public" virt="non-virtual">TwoDimensionalPlayerMovement</basecompoundref>
+    <basecompoundref refid="interface_i_hurtable" prot="public" virt="non-virtual">IHurtable</basecompoundref>
+    <derivedcompoundref refid="class_mannings_loot_system_player_controller" prot="public" virt="non-virtual">ManningsLootSystemPlayerController</derivedcompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_player_controller_1a7c7537f54160d265fd8bfea33e43631c" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_player_controller" kindref="compound">PlayerController</ref></type>
+        <definition>PlayerController PlayerController.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_player_controller_1a77c5957ac8aa6aca5b872d1a132da3da" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_player_controller" kindref="compound">PlayerController</ref></type>
+        <definition>PlayerController PlayerController._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a083d20d96a312f509039fb72d04210a8" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_player_controller" kindref="compound">PlayerController</ref></type>
+        <definition>PlayerController PlayerController.playerInstance</definition>
+        <argsstring></argsstring>
+        <name>playerInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="184" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="184" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ab89a69dbd089b54f9701b62c9fa2c221" compoundref="_player_controller_8cs" startline="187" endline="206">Awake</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_player_controller_1a9bec1b62de6e46a4cd2bcb332da2b7b5" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_player_controller" kindref="compound">PlayerController</ref></type>
+        <definition>PlayerController PlayerController.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="23" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_decoration_1afbcb417bce0b04c887cc31c7c97fb30c" compoundref="_decoration_8cs" startline="14" endline="27">Decoration.Update</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_player_controller_1aa6be111e1b45ec8f92d2f80d7bbc6606" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PlayerController._maxHealth</definition>
+        <argsstring></argsstring>
+        <name>_maxHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="41" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_controller_1a37e7e273bd66ee5caaebc98cc5946514" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PlayerController._currentHealth</definition>
+        <argsstring></argsstring>
+        <name>_currentHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="51" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_controller_1a8c84ce358549ea3ff7865db7df15ae1c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool PlayerController._canDash</definition>
+        <argsstring></argsstring>
+        <name>_canDash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="69" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_controller_1af9482d789d35d36df9a7d6095979d494" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PlayerController._playerLevel</definition>
+        <argsstring></argsstring>
+        <name>_playerLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="115" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_controller_1af67d52dc34cc78baa7fea9576d1a03e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PlayerController._experienceGained</definition>
+        <argsstring></argsstring>
+        <name>_experienceGained</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="118" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_player_controller_1a593016b97c48b6fb27b7e3d52da8f2ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PlayerController._experienceToLevelUp</definition>
+        <argsstring></argsstring>
+        <name>_experienceToLevelUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="123" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_player_controller_1a09eec8cb50478312150772a17664de13" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.maxHealth</definition>
+        <argsstring></argsstring>
+        <name>maxHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="40" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</referencedby>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+        <referencedby refid="class_player_controller_1a0df85d99ad851aeed951c7541086a13c" compoundref="_player_controller_8cs" startline="563" endline="568">LoseDeathPenalty</referencedby>
+        <referencedby refid="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3" compoundref="_player_controller_8cs" startline="208" endline="216">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a1449d34b1ec73e0f73f370c31521e3e0" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.baseHealth</definition>
+        <argsstring></argsstring>
+        <name>baseHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="44" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3" compoundref="_player_controller_8cs" startline="208" endline="216">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ae3b30f35c2d5814c7e42b4cb32a888a3" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.currentHealth</definition>
+        <argsstring></argsstring>
+        <name>currentHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="50" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</referencedby>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+        <referencedby refid="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f" compoundref="_player_controller_8cs" startline="367" endline="379">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a12f420333a3cd14b1d3bbcd56af20837" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.healthLostOnDeath</definition>
+        <argsstring></argsstring>
+        <name>healthLostOnDeath</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="55" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</referencedby>
+        <referencedby refid="class_player_controller_1a0df85d99ad851aeed951c7541086a13c" compoundref="_player_controller_8cs" startline="563" endline="568">LoseDeathPenalty</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ab419e1403c603cf37b84d51d6fddba75" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController.isRespawning</definition>
+        <argsstring></argsstring>
+        <name>isRespawning</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="57" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</referencedby>
+        <referencedby refid="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" compoundref="_player_controller_8cs" startline="492" endline="508">Travel</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ada8c0fc99479083a288d69d92ddf130f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController.beenPlaced</definition>
+        <argsstring></argsstring>
+        <name>beenPlaced</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="58" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" compoundref="_player_controller_8cs" startline="219" endline="231">OnSceneLoaded</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a185c5f22bc79974dcd03635b90090e03" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.dashCoolDownTime</definition>
+        <argsstring></argsstring>
+        <name>dashCoolDownTime</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="65" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" compoundref="_player_controller_8cs" startline="387" endline="395">DashTimer</referencedby>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController.canDash</definition>
+        <argsstring></argsstring>
+        <name>canDash</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="67" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" compoundref="_player_controller_8cs" startline="387" endline="395">DashTimer</referencedby>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+        <referencedby refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" compoundref="_player_controller_8cs" startline="219" endline="231">OnSceneLoaded</referencedby>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">SetDashLocation</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController.isDashing</definition>
+        <argsstring></argsstring>
+        <name>isDashing</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="71" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" compoundref="_player_controller_8cs" startline="401" endline="424">OnCollisionEnter2D</referencedby>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">OnTriggerStay2D</referencedby>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">SetDashLocation</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a2e02b617c6cff333e547079ff235104d" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.dashSpeed</definition>
+        <argsstring></argsstring>
+        <name>dashSpeed</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="74" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ac9c0b9d6121b9965f1b7b1e5c81a3716" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.dashDamage</definition>
+        <argsstring></argsstring>
+        <name>dashDamage</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="78" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+        <referencedby refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" compoundref="_player_controller_8cs" startline="401" endline="424">OnCollisionEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ad6a3b13c95b7de2c6ef5fb3ddb42ccb7" prot="protected" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask PlayerController.dashObstacles</definition>
+        <argsstring></argsstring>
+        <name>dashObstacles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="82" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">SetDashLocation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a86636262610b8315c83dcded7bae2555" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerController.dashHitParticles</definition>
+        <argsstring></argsstring>
+        <name>dashHitParticles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="85" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a648409f8edb264a61c7d1d1e2a2091ef" prot="protected" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 PlayerController.dashLocation</definition>
+        <argsstring></argsstring>
+        <name>dashLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="87" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">SetDashLocation</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a68f2c81bc94f07d74e6412ed18aa0e82" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlayerController.levelToRespawnIn</definition>
+        <argsstring></argsstring>
+        <name>levelToRespawnIn</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="93" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="93" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a61f633c01737840d2b9809c6894c71bd" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlayerController.travelLocation</definition>
+        <argsstring></argsstring>
+        <name>travelLocation</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="96" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="96" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" compoundref="_player_controller_8cs" startline="492" endline="508">Travel</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1af5779e32a3bffe0961ed4b9aa2f6251f" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.fallSpeed</definition>
+        <argsstring></argsstring>
+        <name>fallSpeed</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="101" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="101" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController.isFalling</definition>
+        <argsstring></argsstring>
+        <name>isFalling</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="103" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="103" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</referencedby>
+        <referencedby refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" compoundref="_player_controller_8cs" startline="219" endline="231">OnSceneLoaded</referencedby>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">OnTriggerStay2D</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1acc8ca3c748bf9f834796aefe8848c313" prot="protected" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 PlayerController.fallPos</definition>
+        <argsstring></argsstring>
+        <name>fallPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="105" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="105" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">OnTriggerStay2D</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a6fa444654addfaacb99c3f08d92b7377" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerController.deadBody</definition>
+        <argsstring></argsstring>
+        <name>deadBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="110" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="110" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" compoundref="_player_controller_8cs" startline="578" endline="592">Die</referencedby>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">OnTriggerStay2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a73dc7d7771c2112158f16c7a681c3373" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.playerLevel</definition>
+        <argsstring></argsstring>
+        <name>playerLevel</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="114" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="114" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a5cddfc01cc02a606899eb1da1f1d35a2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.experienceGained</definition>
+        <argsstring></argsstring>
+        <name>experienceGained</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="117" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="117" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a022a9ca74a9acea745914b6bf1db23d0" compoundref="_player_controller_8cs" startline="517" endline="528">GainExperience</referencedby>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a4a6634125e2c01a360d1175e6fb5b9fe" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.experienceToLevelUp</definition>
+        <argsstring></argsstring>
+        <name>experienceToLevelUp</name>
+        <initializer>= 150</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="122" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="122" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a022a9ca74a9acea745914b6bf1db23d0" compoundref="_player_controller_8cs" startline="517" endline="528">GainExperience</referencedby>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1aca9f7488a5b8b8d2ad781e4d6294e6b4" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.healthGainOnLevelUp</definition>
+        <argsstring></argsstring>
+        <name>healthGainOnLevelUp</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="127" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="127" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a0364275ce053c332b631131218171241" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.dashTimerDecreaseOnLevel</definition>
+        <argsstring></argsstring>
+        <name>dashTimerDecreaseOnLevel</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="131" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a66ed4909c172286ed23ff1e15e1cd46c" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.dashDamageIncreaseOnLevel</definition>
+        <argsstring></argsstring>
+        <name>dashDamageIncreaseOnLevel</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="135" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="135" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a5d935814e6bb12a3b495fcdbbc050bfb" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerController.dashDistance</definition>
+        <argsstring></argsstring>
+        <name>dashDistance</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="139" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="139" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a14436d45b14262e4766debc4072f0346" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlayerController.experienceRequiredPercentageIncrease</definition>
+        <argsstring></argsstring>
+        <name>experienceRequiredPercentageIncrease</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="143" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="143" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a1480cad6c6acaf2e9c16747f4d043068" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerController.levelUpEffects</definition>
+        <argsstring></argsstring>
+        <name>levelUpEffects</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="148" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ab1c0be3d38179fba037a9de30c875ae1" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerController.canDashparticles</definition>
+        <argsstring></argsstring>
+        <name>canDashparticles</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="152" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a15a5a7dde3f4e9785e6b13a42ce76c49" prot="protected" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PlayerController.levelUpSound</definition>
+        <argsstring></argsstring>
+        <name>levelUpSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="157" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</referencedby>
+        <referencedby refid="class_player_controller_1a7abc3c8e6b0502773a5c4795ceddb29d" compoundref="_player_controller_8cs" startline="428" endline="440">OnTriggerEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a8c80baa1756be3ba0d35cec66197ffdd" prot="protected" static="no" mutable="no">
+        <type>List&lt; AudioClip &gt;</type>
+        <definition>List&lt;AudioClip&gt; PlayerController.hitSounds</definition>
+        <argsstring></argsstring>
+        <name>hitSounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="161" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a74f139f409853d84d1e06ca483d1e050" prot="protected" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PlayerController.lootCollectedSound</definition>
+        <argsstring></argsstring>
+        <name>lootCollectedSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="165" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1ad17c7f995506873432b1ab92d0933cbf" prot="protected" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PlayerController.dashSound</definition>
+        <argsstring></argsstring>
+        <name>dashSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="169" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="169" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">SetDashLocation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a06aeaa9181db773f16cacd77cd8f6700" prot="protected" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip PlayerController.canDashSound</definition>
+        <argsstring></argsstring>
+        <name>canDashSound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="173" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="173" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" compoundref="_player_controller_8cs" startline="387" endline="395">DashTimer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_controller_1a4c968f29e030d721c544c768df4d56db" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerController.dashInMouseDirection</definition>
+        <argsstring></argsstring>
+        <name>dashInMouseDirection</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="176" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="176" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1ab89a69dbd089b54f9701b62c9fa2c221" compoundref="_player_controller_8cs" startline="187" endline="206">Awake</referencedby>
+        <referencedby refid="class_player_controller_1a4f336250e0cc55e9fa2e1cec516be83a" compoundref="_player_controller_8cs" startline="594" endline="597">ChangeDashType</referencedby>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_controller_1a40fc8627eccd7a7fa2d81a7f4cd3ece9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PlayerController.test</definition>
+        <argsstring></argsstring>
+        <name>test</name>
+        <initializer>= 0.05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="46" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_player_controller_1ab89a69dbd089b54f9701b62c9fa2c221" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PlayerController.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <reimplements refid="class_two_dimensional_player_movement_1a757746d40dc063982cc5a59600030d45">Awake</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="187" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="187" bodyend="206"/>
+        <references refid="class_player_controller_1a4c968f29e030d721c544c768df4d56db" compoundref="_player_controller_8cs" startline="176">dashInMouseDirection</references>
+        <references refid="class_player_controller_1a083d20d96a312f509039fb72d04210a8" compoundref="_player_controller_8cs" startline="184">playerInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void PlayerController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplementedby refid="class_mannings_loot_system_player_controller_1af466a732e2846d17b4e316f14c03f512">Start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="208" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="208" bodyend="216"/>
+        <references refid="class_two_dimensional_player_movement_1ad76d40595f691e0fd9de1700f5464b1e" compoundref="_two_dimensional_player_movement_8cs" startline="101">TwoDimensionalPlayerMovement.audio</references>
+        <references refid="class_player_controller_1a1449d34b1ec73e0f73f370c31521e3e0" compoundref="_player_controller_8cs" startline="44">baseHealth</references>
+        <references refid="class_player_controller_1a09eec8cb50478312150772a17664de13" compoundref="_player_controller_8cs" startline="40">maxHealth</references>
+        <references refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" compoundref="_player_controller_8cs" startline="219" endline="231">OnSceneLoaded</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a4243c36c24affb7e111a42240984607d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.OnSceneLoaded</definition>
+        <argsstring>(Scene scene, LoadSceneMode mode)</argsstring>
+        <name>OnSceneLoaded</name>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <param>
+          <type>LoadSceneMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="219" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="219" bodyend="231"/>
+        <references refid="class_player_controller_1ada8c0fc99479083a288d69d92ddf130f" compoundref="_player_controller_8cs" startline="58">beenPlaced</references>
+        <references refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" compoundref="_player_controller_8cs" startline="67">canDash</references>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">TwoDimensionalPlayerMovement.canMove</references>
+        <references refid="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" compoundref="_player_controller_8cs" startline="103">isFalling</references>
+        <referencedby refid="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3" compoundref="_player_controller_8cs" startline="208" endline="216">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PlayerController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="236" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="236" bodyend="361"/>
+        <references refid="class_player_controller_1ada8c0fc99479083a288d69d92ddf130f" compoundref="_player_controller_8cs" startline="58">beenPlaced</references>
+        <references refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" compoundref="_player_controller_8cs" startline="67">canDash</references>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">TwoDimensionalPlayerMovement.canMove</references>
+        <references refid="class_player_controller_1a5d935814e6bb12a3b495fcdbbc050bfb" compoundref="_player_controller_8cs" startline="139">dashDistance</references>
+        <references refid="class_player_controller_1a4c968f29e030d721c544c768df4d56db" compoundref="_player_controller_8cs" startline="176">dashInMouseDirection</references>
+        <references refid="class_player_controller_1a648409f8edb264a61c7d1d1e2a2091ef" compoundref="_player_controller_8cs" startline="87">dashLocation</references>
+        <references refid="class_player_controller_1a2e02b617c6cff333e547079ff235104d" compoundref="_player_controller_8cs" startline="74">dashSpeed</references>
+        <references refid="class_player_controller_1acc8ca3c748bf9f834796aefe8848c313" compoundref="_player_controller_8cs" startline="105">fallPos</references>
+        <references refid="class_player_controller_1af5779e32a3bffe0961ed4b9aa2f6251f" compoundref="_player_controller_8cs" startline="101">fallSpeed</references>
+        <references refid="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" compoundref="_player_controller_8cs" startline="71">isDashing</references>
+        <references refid="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" compoundref="_player_controller_8cs" startline="103">isFalling</references>
+        <references refid="class_player_controller_1ab419e1403c603cf37b84d51d6fddba75" compoundref="_player_controller_8cs" startline="57">isRespawning</references>
+        <references refid="class_two_dimensional_player_movement_1ad30f05d799e8e45c0e3bfdf403ec1429" compoundref="_two_dimensional_player_movement_8cs" startline="113">TwoDimensionalPlayerMovement.moveDirection</references>
+        <references refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">SetDashLocation</references>
+        <references refid="class_entry_point_1aef2b409df71b763126c0eda2bc08167a" compoundref="_entry_point_8cs" startline="12">EntryPoint.spawnDirection</references>
+        <references refid="class_player_controller_1a61f633c01737840d2b9809c6894c71bd" compoundref="_player_controller_8cs" startline="96">travelLocation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PlayerController.DashTimer</definition>
+        <argsstring>()</argsstring>
+        <name>DashTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="387" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="387" bodyend="395"/>
+        <references refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" compoundref="_player_controller_8cs" startline="67">canDash</references>
+        <references refid="class_player_controller_1a06aeaa9181db773f16cacd77cd8f6700" compoundref="_player_controller_8cs" startline="173">canDashSound</references>
+        <references refid="class_player_controller_1a185c5f22bc79974dcd03635b90090e03" compoundref="_player_controller_8cs" startline="65">dashCoolDownTime</references>
+        <referencedby refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" compoundref="_player_controller_8cs" startline="599" endline="627">SetDashLocation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void PlayerController.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D col)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <reimplements refid="class_two_dimensional_player_movement_1a555910437e23f178c9f81d81940f61b2">OnCollisionEnter2D</reimplements>
+        <param>
+          <type>Collision2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="401" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="401" bodyend="424"/>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">TwoDimensionalPlayerMovement.canMove</references>
+        <references refid="class_player_controller_1ac9c0b9d6121b9965f1b7b1e5c81a3716" compoundref="_player_controller_8cs" startline="78">dashDamage</references>
+        <references refid="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" compoundref="_player_controller_8cs" startline="71">isDashing</references>
+        <references refid="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f" compoundref="_player_controller_8cs" startline="367" endline="379">TakeDamage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a7abc3c8e6b0502773a5c4795ceddb29d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D col)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="428" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="428" bodyend="440"/>
+        <references refid="class_player_controller_1a15a5a7dde3f4e9785e6b13a42ce76c49" compoundref="_player_controller_8cs" startline="157">levelUpSound</references>
+        <references refid="class_player_controller_1a0df85d99ad851aeed951c7541086a13c" compoundref="_player_controller_8cs" startline="563" endline="568">LoseDeathPenalty</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.OnTriggerStay2D</definition>
+        <argsstring>(Collider2D col)</argsstring>
+        <name>OnTriggerStay2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="447" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="447" bodyend="486"/>
+        <references refid="class_chasm_1ae339855a53a22bd28f3c6e1b514221b6" compoundref="_chasm_8cs" startline="13">Chasm._fallDirection</references>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">TwoDimensionalPlayerMovement.canMove</references>
+        <references refid="class_player_controller_1a6fa444654addfaacb99c3f08d92b7377" compoundref="_player_controller_8cs" startline="110">deadBody</references>
+        <references refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</references>
+        <references refid="class_player_controller_1acc8ca3c748bf9f834796aefe8848c313" compoundref="_player_controller_8cs" startline="105">fallPos</references>
+        <references refid="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" compoundref="_player_controller_8cs" startline="71">isDashing</references>
+        <references refid="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" compoundref="_player_controller_8cs" startline="103">isFalling</references>
+        <references refid="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" compoundref="_player_controller_8cs" startline="492" endline="508">Travel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.Travel</definition>
+        <argsstring>(Collider2D col)</argsstring>
+        <name>Travel</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="492" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="492" bodyend="508"/>
+        <references refid="class_entry_point_1ab1dcfc5218ee7f0a24bd99bfc2ddd13b" compoundref="_entry_point_8cs" startline="30">EntryPoint._linkedScene</references>
+        <references refid="class_player_controller_1ab419e1403c603cf37b84d51d6fddba75" compoundref="_player_controller_8cs" startline="57">isRespawning</references>
+        <references refid="class_player_controller_1a61f633c01737840d2b9809c6894c71bd" compoundref="_player_controller_8cs" startline="96">travelLocation</references>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">OnTriggerStay2D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.LevelUp</definition>
+        <argsstring>()</argsstring>
+        <name>LevelUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="533" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="533" bodyend="558"/>
+        <references refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" compoundref="_player_controller_8cs" startline="67">canDash</references>
+        <references refid="class_player_controller_1ae3b30f35c2d5814c7e42b4cb32a888a3" compoundref="_player_controller_8cs" startline="50">currentHealth</references>
+        <references refid="class_player_controller_1a185c5f22bc79974dcd03635b90090e03" compoundref="_player_controller_8cs" startline="65">dashCoolDownTime</references>
+        <references refid="class_player_controller_1ac9c0b9d6121b9965f1b7b1e5c81a3716" compoundref="_player_controller_8cs" startline="78">dashDamage</references>
+        <references refid="class_player_controller_1a66ed4909c172286ed23ff1e15e1cd46c" compoundref="_player_controller_8cs" startline="135">dashDamageIncreaseOnLevel</references>
+        <references refid="class_player_controller_1a0364275ce053c332b631131218171241" compoundref="_player_controller_8cs" startline="131">dashTimerDecreaseOnLevel</references>
+        <references refid="class_player_controller_1a5cddfc01cc02a606899eb1da1f1d35a2" compoundref="_player_controller_8cs" startline="117">experienceGained</references>
+        <references refid="class_player_controller_1a14436d45b14262e4766debc4072f0346" compoundref="_player_controller_8cs" startline="143">experienceRequiredPercentageIncrease</references>
+        <references refid="class_player_controller_1a4a6634125e2c01a360d1175e6fb5b9fe" compoundref="_player_controller_8cs" startline="122">experienceToLevelUp</references>
+        <references refid="class_player_controller_1aca9f7488a5b8b8d2ad781e4d6294e6b4" compoundref="_player_controller_8cs" startline="127">healthGainOnLevelUp</references>
+        <references refid="class_player_controller_1a15a5a7dde3f4e9785e6b13a42ce76c49" compoundref="_player_controller_8cs" startline="157">levelUpSound</references>
+        <references refid="class_player_controller_1a09eec8cb50478312150772a17664de13" compoundref="_player_controller_8cs" startline="40">maxHealth</references>
+        <references refid="class_player_controller_1a73dc7d7771c2112158f16c7a681c3373" compoundref="_player_controller_8cs" startline="114">playerLevel</references>
+        <referencedby refid="class_player_controller_1a022a9ca74a9acea745914b6bf1db23d0" compoundref="_player_controller_8cs" startline="517" endline="528">GainExperience</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a0df85d99ad851aeed951c7541086a13c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.LoseDeathPenalty</definition>
+        <argsstring>()</argsstring>
+        <name>LoseDeathPenalty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="563" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="563" bodyend="568"/>
+        <references refid="class_player_controller_1a12f420333a3cd14b1d3bbcd56af20837" compoundref="_player_controller_8cs" startline="55">healthLostOnDeath</references>
+        <references refid="class_player_controller_1a09eec8cb50478312150772a17664de13" compoundref="_player_controller_8cs" startline="40">maxHealth</references>
+        <referencedby refid="class_player_controller_1a7abc3c8e6b0502773a5c4795ceddb29d" compoundref="_player_controller_8cs" startline="428" endline="440">OnTriggerEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void PlayerController.Die</definition>
+        <argsstring>()</argsstring>
+        <name>Die</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="578" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="578" bodyend="592"/>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">TwoDimensionalPlayerMovement.canMove</references>
+        <references refid="class_player_controller_1a6fa444654addfaacb99c3f08d92b7377" compoundref="_player_controller_8cs" startline="110">deadBody</references>
+        <references refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" compoundref="_player_controller_8cs" startline="640" endline="661">DeathTimer</references>
+        <referencedby refid="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f" compoundref="_player_controller_8cs" startline="367" endline="379">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.SetDashLocation</definition>
+        <argsstring>()</argsstring>
+        <name>SetDashLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="599" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="599" bodyend="627"/>
+        <references refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" compoundref="_player_controller_8cs" startline="67">canDash</references>
+        <references refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" compoundref="_two_dimensional_player_movement_8cs" startline="110">TwoDimensionalPlayerMovement.canMove</references>
+        <references refid="class_player_controller_1a648409f8edb264a61c7d1d1e2a2091ef" compoundref="_player_controller_8cs" startline="87">dashLocation</references>
+        <references refid="class_player_controller_1ad6a3b13c95b7de2c6ef5fb3ddb42ccb7" compoundref="_player_controller_8cs" startline="82">dashObstacles</references>
+        <references refid="class_player_controller_1ad17c7f995506873432b1ab92d0933cbf" compoundref="_player_controller_8cs" startline="169">dashSound</references>
+        <references refid="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" compoundref="_player_controller_8cs" startline="387" endline="395">DashTimer</references>
+        <references refid="class_two_dimensional_player_movement_1a9acf8f978aa57c81686336e451dd3683" compoundref="_two_dimensional_player_movement_8cs" startline="53">TwoDimensionalPlayerMovement.direction</references>
+        <references refid="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" compoundref="_player_controller_8cs" startline="71">isDashing</references>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator PlayerController.DeathTimer</definition>
+        <argsstring>()</argsstring>
+        <name>DeathTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="640" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="640" bodyend="661"/>
+        <references refid="class_player_controller_1ae3b30f35c2d5814c7e42b4cb32a888a3" compoundref="_player_controller_8cs" startline="50">currentHealth</references>
+        <references refid="class_player_controller_1a12f420333a3cd14b1d3bbcd56af20837" compoundref="_player_controller_8cs" startline="55">healthLostOnDeath</references>
+        <references refid="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" compoundref="_player_controller_8cs" startline="103">isFalling</references>
+        <references refid="class_player_controller_1ab419e1403c603cf37b84d51d6fddba75" compoundref="_player_controller_8cs" startline="57">isRespawning</references>
+        <references refid="class_player_controller_1a68f2c81bc94f07d74e6412ed18aa0e82" compoundref="_player_controller_8cs" startline="93">levelToRespawnIn</references>
+        <references refid="class_player_controller_1a09eec8cb50478312150772a17664de13" compoundref="_player_controller_8cs" startline="40">maxHealth</references>
+        <referencedby refid="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" compoundref="_player_controller_8cs" startline="578" endline="592">Die</referencedby>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">OnTriggerStay2D</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void PlayerController.TakeDamage</definition>
+        <argsstring>(int damage)</argsstring>
+        <name>TakeDamage</name>
+        <reimplements refid="interface_i_hurtable_1a1534dfb601f49ac6649cb410960ad1a4">TakeDamage</reimplements>
+        <param>
+          <type>int</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="367" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="367" bodyend="379"/>
+        <references refid="class_player_controller_1ae3b30f35c2d5814c7e42b4cb32a888a3" compoundref="_player_controller_8cs" startline="50">currentHealth</references>
+        <references refid="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" compoundref="_player_controller_8cs" startline="578" endline="592">Die</references>
+        <referencedby refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" compoundref="_player_controller_8cs" startline="401" endline="424">OnCollisionEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a022a9ca74a9acea745914b6bf1db23d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerController.GainExperience</definition>
+        <argsstring>(int experience)</argsstring>
+        <name>GainExperience</name>
+        <param>
+          <type>int</type>
+          <declname>experience</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="517" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="517" bodyend="528"/>
+        <references refid="class_player_controller_1a5cddfc01cc02a606899eb1da1f1d35a2" compoundref="_player_controller_8cs" startline="117">experienceGained</references>
+        <references refid="class_player_controller_1a4a6634125e2c01a360d1175e6fb5b9fe" compoundref="_player_controller_8cs" startline="122">experienceToLevelUp</references>
+        <references refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" compoundref="_player_controller_8cs" startline="533" endline="558">LevelUp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_controller_1a4f336250e0cc55e9fa2e1cec516be83a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void PlayerController.ChangeDashType</definition>
+        <argsstring>(bool type)</argsstring>
+        <name>ChangeDashType</name>
+        <param>
+          <type>bool</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="594" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="594" bodyend="597"/>
+        <references refid="class_player_controller_1a4c968f29e030d721c544c768df4d56db" compoundref="_player_controller_8cs" startline="176">dashInMouseDirection</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="218">
+        <label>TwoDimensionalPlayerMovement</label>
+        <link refid="class_two_dimensional_player_movement"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="220">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="217">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+        <childnode refid="220" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="221">
+        <label>ManningsLootSystemPlayerController</label>
+        <link refid="class_mannings_loot_system_player_controller"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="223">
+        <label>TwoDimensionalPlayerMovement</label>
+        <link refid="class_two_dimensional_player_movement"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="222">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>playerInstance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="224">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/PlayerController.cs" bodystart="15" bodyend="666"/>
+    <listofallmembers>
+      <member refid="class_player_controller_1a8c84ce358549ea3ff7865db7df15ae1c" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>_canDash</name></member>
+      <member refid="class_player_controller_1a37e7e273bd66ee5caaebc98cc5946514" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>_currentHealth</name></member>
+      <member refid="class_player_controller_1af67d52dc34cc78baa7fea9576d1a03e3" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>_experienceGained</name></member>
+      <member refid="class_player_controller_1a593016b97c48b6fb27b7e3d52da8f2ef" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>_experienceToLevelUp</name></member>
+      <member refid="class_player_controller_1a77c5957ac8aa6aca5b872d1a132da3da" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>_instance</name></member>
+      <member refid="class_player_controller_1aa6be111e1b45ec8f92d2f80d7bbc6606" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>_maxHealth</name></member>
+      <member refid="class_player_controller_1af9482d789d35d36df9a7d6095979d494" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>_playerLevel</name></member>
+      <member refid="class_two_dimensional_player_movement_1aebe4db8bc6846a5997ee7563564ae039" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>_speedModifier</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9c1240d457b35456855b0017f2fda48e" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>anim</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6600a733ecc329c4c2fa3b263f119fcc" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>animateRotation</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad76d40595f691e0fd9de1700f5464b1e" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>audio</name></member>
+      <member refid="class_player_controller_1ab89a69dbd089b54f9701b62c9fa2c221" prot="protected" virt="virtual"><scope>PlayerController</scope><name>Awake</name></member>
+      <member refid="class_player_controller_1a1449d34b1ec73e0f73f370c31521e3e0" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>baseHealth</name></member>
+      <member refid="class_player_controller_1ada8c0fc99479083a288d69d92ddf130f" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>beenPlaced</name></member>
+      <member refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>canDash</name></member>
+      <member refid="class_player_controller_1ab1c0be3d38179fba037a9de30c875ae1" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>canDashparticles</name></member>
+      <member refid="class_player_controller_1a06aeaa9181db773f16cacd77cd8f6700" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>canDashSound</name></member>
+      <member refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>canMove</name></member>
+      <member refid="class_player_controller_1a4f336250e0cc55e9fa2e1cec516be83a" prot="public" virt="virtual"><scope>PlayerController</scope><name>ChangeDashType</name></member>
+      <member refid="class_two_dimensional_player_movement_1aa905b5badaeed93f1b8993961ee0f354" prot="public" virt="virtual"><scope>PlayerController</scope><name>ChangeSpeedModifier</name></member>
+      <member refid="class_player_controller_1ae3b30f35c2d5814c7e42b4cb32a888a3" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>currentHealth</name></member>
+      <member refid="class_two_dimensional_player_movement_1ac0c270a9e1c4ed140942e39c6d82340e" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>currentMoveSpeed</name></member>
+      <member refid="class_player_controller_1a185c5f22bc79974dcd03635b90090e03" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashCoolDownTime</name></member>
+      <member refid="class_player_controller_1ac9c0b9d6121b9965f1b7b1e5c81a3716" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashDamage</name></member>
+      <member refid="class_player_controller_1a66ed4909c172286ed23ff1e15e1cd46c" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashDamageIncreaseOnLevel</name></member>
+      <member refid="class_player_controller_1a5d935814e6bb12a3b495fcdbbc050bfb" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashDistance</name></member>
+      <member refid="class_player_controller_1a86636262610b8315c83dcded7bae2555" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashHitParticles</name></member>
+      <member refid="class_player_controller_1a4c968f29e030d721c544c768df4d56db" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashInMouseDirection</name></member>
+      <member refid="class_player_controller_1a648409f8edb264a61c7d1d1e2a2091ef" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashLocation</name></member>
+      <member refid="class_player_controller_1ad6a3b13c95b7de2c6ef5fb3ddb42ccb7" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashObstacles</name></member>
+      <member refid="class_player_controller_1ad17c7f995506873432b1ab92d0933cbf" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashSound</name></member>
+      <member refid="class_player_controller_1a2e02b617c6cff333e547079ff235104d" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashSpeed</name></member>
+      <member refid="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>DashTimer</name></member>
+      <member refid="class_player_controller_1a0364275ce053c332b631131218171241" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>dashTimerDecreaseOnLevel</name></member>
+      <member refid="class_player_controller_1a6fa444654addfaacb99c3f08d92b7377" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>deadBody</name></member>
+      <member refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>DeathTimer</name></member>
+      <member refid="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" prot="protected" virt="virtual"><scope>PlayerController</scope><name>Die</name></member>
+      <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476c" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>Direction</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9acf8f978aa57c81686336e451dd3683" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>direction</name></member>
+      <member refid="class_player_controller_1a5cddfc01cc02a606899eb1da1f1d35a2" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>experienceGained</name></member>
+      <member refid="class_player_controller_1a14436d45b14262e4766debc4072f0346" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>experienceRequiredPercentageIncrease</name></member>
+      <member refid="class_player_controller_1a4a6634125e2c01a360d1175e6fb5b9fe" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>experienceToLevelUp</name></member>
+      <member refid="class_player_controller_1acc8ca3c748bf9f834796aefe8848c313" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>fallPos</name></member>
+      <member refid="class_player_controller_1af5779e32a3bffe0961ed4b9aa2f6251f" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>fallSpeed</name></member>
+      <member refid="class_player_controller_1a022a9ca74a9acea745914b6bf1db23d0" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>GainExperience</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6c1b140bd3b49927e8a45ffd65305f78" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>gravityStrength</name></member>
+      <member refid="class_player_controller_1aca9f7488a5b8b8d2ad781e4d6294e6b4" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>healthGainOnLevelUp</name></member>
+      <member refid="class_player_controller_1a12f420333a3cd14b1d3bbcd56af20837" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>healthLostOnDeath</name></member>
+      <member refid="class_player_controller_1a8c80baa1756be3ba0d35cec66197ffdd" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>hitSounds</name></member>
+      <member refid="class_player_controller_1a7c7537f54160d265fd8bfea33e43631c" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>instance</name></member>
+      <member refid="class_player_controller_1a9bec1b62de6e46a4cd2bcb332da2b7b5" prot="public" virt="non-virtual"><scope>PlayerController</scope><name>Instance</name></member>
+      <member refid="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>isDashing</name></member>
+      <member refid="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>isFalling</name></member>
+      <member refid="class_two_dimensional_player_movement_1a64c4ae16e03d8dc4888217f43350c1a3" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>isGrounded</name></member>
+      <member refid="class_two_dimensional_player_movement_1a93c60e89e2059c7c6387247d77d257e9" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>isMoving</name></member>
+      <member refid="class_player_controller_1ab419e1403c603cf37b84d51d6fddba75" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>isRespawning</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad8ee6701e9172a0839536774edeb386a" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>isRunning</name></member>
+      <member refid="class_two_dimensional_player_movement_1af39295d576ee833176a42619d47d62ee" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>jumpForce</name></member>
+      <member refid="class_player_controller_1a68f2c81bc94f07d74e6412ed18aa0e82" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>levelToRespawnIn</name></member>
+      <member refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>LevelUp</name></member>
+      <member refid="class_player_controller_1a1480cad6c6acaf2e9c16747f4d043068" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>levelUpEffects</name></member>
+      <member refid="class_player_controller_1a15a5a7dde3f4e9785e6b13a42ce76c49" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>levelUpSound</name></member>
+      <member refid="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5c" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>LookMode</name></member>
+      <member refid="class_two_dimensional_player_movement_1a1cbb7e4848f5cb1b95217a2cbf2cd471" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>lookMode</name></member>
+      <member refid="class_player_controller_1a74f139f409853d84d1e06ca483d1e050" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>lootCollectedSound</name></member>
+      <member refid="class_player_controller_1a0df85d99ad851aeed951c7541086a13c" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>LoseDeathPenalty</name></member>
+      <member refid="class_player_controller_1a09eec8cb50478312150772a17664de13" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>maxHealth</name></member>
+      <member refid="class_two_dimensional_player_movement_1a04196c1e41ed8e8707a42fbb3ec74717" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>mousePos</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad30f05d799e8e45c0e3bfdf403ec1429" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>moveDirection</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6113e2dcb0490977f70c1f9e38bd3974" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>moveDirectionNum</name></member>
+      <member refid="class_two_dimensional_player_movement_1a721f76873e964879fca72d009d7d768b" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>moveDownButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a13e3feadca3a57cfe2a3d403b3f3e600" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>moveLeftButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0b" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>MovementType</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9c78e37994e7dad20feef161a226eccf" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>moveRightButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a45848c1d10b2b982ed848377dc29bcc4" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>moveUpButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>oldPosition</name></member>
+      <member refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" prot="protected" virt="virtual"><scope>PlayerController</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>OnSceneLoaded</name></member>
+      <member refid="class_player_controller_1a7abc3c8e6b0502773a5c4795ceddb29d" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>OnTriggerStay2D</name></member>
+      <member refid="class_player_controller_1a083d20d96a312f509039fb72d04210a8" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>playerInstance</name></member>
+      <member refid="class_player_controller_1a73dc7d7771c2112158f16c7a681c3373" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>playerLevel</name></member>
+      <member refid="class_two_dimensional_player_movement_1aae010358d2b3bc10171bbf5f5dcc1673" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>rb</name></member>
+      <member refid="class_two_dimensional_player_movement_1a379ff082e4742843d12087b4257a0d9c" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>runButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a61ea4f8836d82b189de5c0842e66d9df" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>runSpeed</name></member>
+      <member refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>SetDashLocation</name></member>
+      <member refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" prot="protected" virt="virtual"><scope>PlayerController</scope><name>SetMoveDirection</name></member>
+      <member refid="class_two_dimensional_player_movement_1aa454c81b879dc3bf6ba996f7030a8aff" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>speedModifier</name></member>
+      <member refid="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3" prot="protected" virt="virtual"><scope>PlayerController</scope><name>Start</name></member>
+      <member refid="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f" prot="public" virt="virtual"><scope>PlayerController</scope><name>TakeDamage</name></member>
+      <member refid="class_player_controller_1a40fc8627eccd7a7fa2d81a7f4cd3ece9" prot="private" virt="non-virtual"><scope>PlayerController</scope><name>test</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9b783cf6e0e4eb46d9b012a896fbcd80" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>thisPos</name></member>
+      <member refid="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>Travel</name></member>
+      <member refid="class_player_controller_1a61f633c01737840d2b9809c6894c71bd" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>travelLocation</name></member>
+      <member refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" prot="protected" virt="virtual"><scope>PlayerController</scope><name>Update</name></member>
+      <member refid="class_two_dimensional_player_movement_1afec2cc9c19003a1b4f6f49aa2be76a8e" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>walkingSounds</name></member>
+      <member refid="class_two_dimensional_player_movement_1a056a9e5683d2e9175a77a5f5a7e464e2" prot="protected" virt="non-virtual"><scope>PlayerController</scope><name>walkSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

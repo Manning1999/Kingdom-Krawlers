@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_spriter2_unity_d_x" kind="namespace">
+    <compoundname>Spriter2UnityDX</compoundname>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_entity_renderer" prot="public">Spriter2UnityDX::EntityRenderer</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_sorting_order_updater" prot="public">Spriter2UnityDX::SortingOrderUpdater</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_texture_controller" prot="public">Spriter2UnityDX::TextureController</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_s2_u_settings" prot="public">Spriter2UnityDX::S2USettings</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_settings_editor" prot="public">Spriter2UnityDX::SettingsEditor</innerclass>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_scml_processing_info" prot="public">Spriter2UnityDX::ScmlProcessingInfo</innerclass>
+    <innernamespace refid="namespace_spriter2_unity_d_x_1_1_animations">Spriter2UnityDX::Animations</innernamespace>
+    <innernamespace refid="namespace_spriter2_unity_d_x_1_1_editors">Spriter2UnityDX::Editors</innernamespace>
+    <innernamespace refid="namespace_spriter2_unity_d_x_1_1_importing">Spriter2UnityDX::Importing</innernamespace>
+    <innernamespace refid="namespace_spriter2_unity_d_x_1_1_post_processing">Spriter2UnityDX::PostProcessing</innernamespace>
+    <innernamespace refid="namespace_spriter2_unity_d_x_1_1_prefabs">Spriter2UnityDX::Prefabs</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_spriter2_unity_d_x_1a89827f563ba4efb91f843c2337c70180" prot="public" static="no">
+        <name>AnimationImportOption</name>
+        <enumvalue id="namespace_spriter2_unity_d_x_1a89827f563ba4efb91f843c2337c70180aee442191470eeca2d9e254330f3fc5b8" prot="public">
+          <name>NestedInPrefab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_spriter2_unity_d_x_1a89827f563ba4efb91f843c2337c70180ac9dfe6aa65ddf26cbe4f075fcc58dd3c" prot="public">
+          <name>SeparateFolder</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/S2USettings.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/EntityRenderer.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

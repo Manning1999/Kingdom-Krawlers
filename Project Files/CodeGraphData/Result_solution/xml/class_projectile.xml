@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_projectile" kind="class" prot="public">
+    <compoundname>Projectile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_projectile_1a08b05673dcd2da844c04ad812f04b3aa" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Projectile.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 50f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_projectile_1a003e4365f5c68afdebfbefa39a3fd7bc" compoundref="_projectile_8cs" startline="34" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projectile_1a4274f7b3ad22794f7cc4be95da235bf4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Projectile.damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_projectile_1a3d433e65ed8b13ae287567ee636e66a0" compoundref="_projectile_8cs" startline="49" endline="63">OnTriggerEnter2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projectile_1a08c871de76b1ab89774d22eaad22ff85" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Projectile.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_projectile_1ac7e861ae0d04774ce1ce5832dcd2281f" compoundref="_projectile_8cs" startline="24" endline="31">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projectile_1ab4df76e2dc294fa2c033b29d0d6557f4" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 Projectile.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_projectile_1ac7e861ae0d04774ce1ce5832dcd2281f" compoundref="_projectile_8cs" startline="24" endline="31">Start</referencedby>
+        <referencedby refid="class_projectile_1a003e4365f5c68afdebfbefa39a3fd7bc" compoundref="_projectile_8cs" startline="34" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projectile_1a6b7589441d9b125af99978a7b154d202" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Projectile.lifeTimer</definition>
+        <argsstring></argsstring>
+        <name>lifeTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="17" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_projectile_1ac7e861ae0d04774ce1ce5832dcd2281f" compoundref="_projectile_8cs" startline="24" endline="31">Start</referencedby>
+        <referencedby refid="class_projectile_1a003e4365f5c68afdebfbefa39a3fd7bc" compoundref="_projectile_8cs" startline="34" endline="48">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_projectile_1a087945e2a8cd3563693028b21d88fb1e" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Projectile.bloodParticles</definition>
+        <argsstring></argsstring>
+        <name>bloodParticles</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_projectile_1a03acc8cdf70ec006ca80bbe7322b3688" compoundref="_projectile_8cs" startline="65" endline="70">DestroyProjectile</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_projectile_1a0e74456dd1cf469233b947b880bcec6b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Projectile.lifeDuration</definition>
+        <argsstring></argsstring>
+        <name>lifeDuration</name>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_projectile_1ac7e861ae0d04774ce1ce5832dcd2281f" compoundref="_projectile_8cs" startline="24" endline="31">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_projectile_1ac7e861ae0d04774ce1ce5832dcd2281f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectile.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="24" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="24" bodyend="31"/>
+        <references refid="class_projectile_1a0e74456dd1cf469233b947b880bcec6b" compoundref="_projectile_8cs" startline="16">lifeDuration</references>
+        <references refid="class_projectile_1a6b7589441d9b125af99978a7b154d202" compoundref="_projectile_8cs" startline="17">lifeTimer</references>
+        <references refid="class_projectile_1a08c871de76b1ab89774d22eaad22ff85" compoundref="_projectile_8cs" startline="13">player</references>
+        <references refid="class_projectile_1ab4df76e2dc294fa2c033b29d0d6557f4" compoundref="_projectile_8cs" startline="14">target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_projectile_1a003e4365f5c68afdebfbefa39a3fd7bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectile.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="34" bodyend="48"/>
+        <references refid="class_projectile_1a03acc8cdf70ec006ca80bbe7322b3688" compoundref="_projectile_8cs" startline="65" endline="70">DestroyProjectile</references>
+        <references refid="class_projectile_1a6b7589441d9b125af99978a7b154d202" compoundref="_projectile_8cs" startline="17">lifeTimer</references>
+        <references refid="class_projectile_1a08b05673dcd2da844c04ad812f04b3aa" compoundref="_projectile_8cs" startline="8">speed</references>
+        <references refid="class_projectile_1ab4df76e2dc294fa2c033b29d0d6557f4" compoundref="_projectile_8cs" startline="14">target</references>
+      </memberdef>
+      <memberdef kind="function" id="class_projectile_1a3d433e65ed8b13ae287567ee636e66a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectile.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="49" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="49" bodyend="63"/>
+        <references refid="class_projectile_1a4274f7b3ad22794f7cc4be95da235bf4" compoundref="_projectile_8cs" startline="11">damage</references>
+        <references refid="class_projectile_1a03acc8cdf70ec006ca80bbe7322b3688" compoundref="_projectile_8cs" startline="65" endline="70">DestroyProjectile</references>
+      </memberdef>
+      <memberdef kind="function" id="class_projectile_1a03acc8cdf70ec006ca80bbe7322b3688" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Projectile.DestroyProjectile</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyProjectile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="65" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="65" bodyend="70"/>
+        <references refid="class_projectile_1a087945e2a8cd3563693028b21d88fb1e" compoundref="_projectile_8cs" startline="20">bloodParticles</references>
+        <referencedby refid="class_projectile_1a3d433e65ed8b13ae287567ee636e66a0" compoundref="_projectile_8cs" startline="49" endline="63">OnTriggerEnter2D</referencedby>
+        <referencedby refid="class_projectile_1a003e4365f5c68afdebfbefa39a3fd7bc" compoundref="_projectile_8cs" startline="34" endline="48">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="287">
+        <label>Projectile</label>
+        <link refid="class_projectile"/>
+        <childnode refid="288" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="289">
+        <label>Projectile</label>
+        <link refid="class_projectile"/>
+        <childnode refid="290" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="290">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Enemies/Projectile.cs" bodystart="5" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_projectile_1a087945e2a8cd3563693028b21d88fb1e" prot="private" virt="non-virtual"><scope>Projectile</scope><name>bloodParticles</name></member>
+      <member refid="class_projectile_1a4274f7b3ad22794f7cc4be95da235bf4" prot="private" virt="non-virtual"><scope>Projectile</scope><name>damage</name></member>
+      <member refid="class_projectile_1a03acc8cdf70ec006ca80bbe7322b3688" prot="private" virt="non-virtual"><scope>Projectile</scope><name>DestroyProjectile</name></member>
+      <member refid="class_projectile_1a0e74456dd1cf469233b947b880bcec6b" prot="public" virt="non-virtual"><scope>Projectile</scope><name>lifeDuration</name></member>
+      <member refid="class_projectile_1a6b7589441d9b125af99978a7b154d202" prot="private" virt="non-virtual"><scope>Projectile</scope><name>lifeTimer</name></member>
+      <member refid="class_projectile_1a3d433e65ed8b13ae287567ee636e66a0" prot="private" virt="non-virtual"><scope>Projectile</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_projectile_1a08c871de76b1ab89774d22eaad22ff85" prot="private" virt="non-virtual"><scope>Projectile</scope><name>player</name></member>
+      <member refid="class_projectile_1a08b05673dcd2da844c04ad812f04b3aa" prot="private" virt="non-virtual"><scope>Projectile</scope><name>speed</name></member>
+      <member refid="class_projectile_1ac7e861ae0d04774ce1ce5832dcd2281f" prot="private" virt="non-virtual"><scope>Projectile</scope><name>Start</name></member>
+      <member refid="class_projectile_1ab4df76e2dc294fa2c033b29d0d6557f4" prot="private" virt="non-virtual"><scope>Projectile</scope><name>target</name></member>
+      <member refid="class_projectile_1a003e4365f5c68afdebfbefa39a3fd7bc" prot="private" virt="non-virtual"><scope>Projectile</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

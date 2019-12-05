@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fireball" kind="class" prot="public">
+    <compoundname>Fireball</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_fireball_1a3cadcd8b4a322993c57eb499bb3fa994" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Fireball.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_fireball_1acbd251a54117d2fc092f4cd6fed3d7ac" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Fireball.lifeDuration</definition>
+        <argsstring></argsstring>
+        <name>lifeDuration</name>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_fireball_1a1c651f9a18a80fa7b646ae9f715d8c5c" compoundref="_fireball_8cs" startline="14" endline="17">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_fireball_1a93189c4e2b6113adea73bb7ff7894888" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fireball.damage</definition>
+        <argsstring></argsstring>
+        <name>damage</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fireball_1a7018cd40db258216c9a38ffe39da8abb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Fireball.lifeTimer</definition>
+        <argsstring></argsstring>
+        <name>lifeTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_fireball_1a1c651f9a18a80fa7b646ae9f715d8c5c" compoundref="_fireball_8cs" startline="14" endline="17">OnEnable</referencedby>
+        <referencedby refid="class_fireball_1af2d2c9558b22ed0122343fa3874d3fd1" compoundref="_fireball_8cs" startline="19" endline="32">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_fireball_1a1c651f9a18a80fa7b646ae9f715d8c5c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Fireball.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_fireball_1acbd251a54117d2fc092f4cd6fed3d7ac" compoundref="_fireball_8cs" startline="8">lifeDuration</references>
+        <references refid="class_fireball_1a7018cd40db258216c9a38ffe39da8abb" compoundref="_fireball_8cs" startline="11">lifeTimer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fireball_1af2d2c9558b22ed0122343fa3874d3fd1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Fireball.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" bodystart="19" bodyend="32"/>
+        <references refid="class_fireball_1a7018cd40db258216c9a38ffe39da8abb" compoundref="_fireball_8cs" startline="11">lifeTimer</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="93">
+        <label>Fireball</label>
+        <link refid="class_fireball"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="96">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="95">
+        <label>Fireball</label>
+        <link refid="class_fireball"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Fireball.cs" bodystart="5" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_fireball_1a93189c4e2b6113adea73bb7ff7894888" prot="public" virt="non-virtual"><scope>Fireball</scope><name>damage</name></member>
+      <member refid="class_fireball_1acbd251a54117d2fc092f4cd6fed3d7ac" prot="public" virt="non-virtual"><scope>Fireball</scope><name>lifeDuration</name></member>
+      <member refid="class_fireball_1a7018cd40db258216c9a38ffe39da8abb" prot="private" virt="non-virtual"><scope>Fireball</scope><name>lifeTimer</name></member>
+      <member refid="class_fireball_1a1c651f9a18a80fa7b646ae9f715d8c5c" prot="private" virt="non-virtual"><scope>Fireball</scope><name>OnEnable</name></member>
+      <member refid="class_fireball_1a3cadcd8b4a322993c57eb499bb3fa994" prot="public" virt="non-virtual"><scope>Fireball</scope><name>speed</name></member>
+      <member refid="class_fireball_1af2d2c9558b22ed0122343fa3874d3fd1" prot="private" virt="non-virtual"><scope>Fireball</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

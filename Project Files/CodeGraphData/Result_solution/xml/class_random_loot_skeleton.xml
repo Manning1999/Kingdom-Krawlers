@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_random_loot_skeleton" kind="class" prot="public">
+    <compoundname>RandomLootSkeleton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_random_loot_skeleton_1a187cdad3242010b9b743d905426c977c" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; RandomLootSkeleton.loot</definition>
+        <argsstring></argsstring>
+        <name>loot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_random_loot_skeleton_1a6026faef211472e31b1dff4bdac4fe95" compoundref="_random_loot_skeleton_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_skeleton_1a7de1d4e374d0498a92eb862282ae2c89" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] RandomLootSkeleton.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <initializer>=
+    {
+     1, 
+     4, 
+     5, 
+     10, 
+     15, 
+     15, 
+     50, 
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_random_loot_skeleton_1a6026faef211472e31b1dff4bdac4fe95" compoundref="_random_loot_skeleton_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_skeleton_1adf9f1e1a09e266e976d4feb9bdf80efa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootSkeleton.total</definition>
+        <argsstring></argsstring>
+        <name>total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_random_loot_skeleton_1a6026faef211472e31b1dff4bdac4fe95" compoundref="_random_loot_skeleton_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_skeleton_1a742b6f0db505e7b120c79c13fde28b47" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootSkeleton.randomNumber</definition>
+        <argsstring></argsstring>
+        <name>randomNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_random_loot_skeleton_1a6026faef211472e31b1dff4bdac4fe95" compoundref="_random_loot_skeleton_8cs" startline="21" endline="69">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_random_loot_skeleton_1a6026faef211472e31b1dff4bdac4fe95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomLootSkeleton.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" bodystart="21" bodyend="69"/>
+        <references refid="class_random_loot_skeleton_1a187cdad3242010b9b743d905426c977c" compoundref="_random_loot_skeleton_8cs" startline="7">loot</references>
+        <references refid="class_random_loot_skeleton_1a742b6f0db505e7b120c79c13fde28b47" compoundref="_random_loot_skeleton_8cs" startline="20">randomNumber</references>
+        <references refid="class_random_loot_skeleton_1a7de1d4e374d0498a92eb862282ae2c89" compoundref="_random_loot_skeleton_8cs" startline="8">table</references>
+        <references refid="class_random_loot_skeleton_1adf9f1e1a09e266e976d4feb9bdf80efa" compoundref="_random_loot_skeleton_8cs" startline="19">total</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="316">
+        <label>RandomLootSkeleton</label>
+        <link refid="class_random_loot_skeleton"/>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="318">
+        <label>RandomLootSkeleton</label>
+        <link refid="class_random_loot_skeleton"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootSkeleton.cs" bodystart="5" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_random_loot_skeleton_1a187cdad3242010b9b743d905426c977c" prot="public" virt="non-virtual"><scope>RandomLootSkeleton</scope><name>loot</name></member>
+      <member refid="class_random_loot_skeleton_1a742b6f0db505e7b120c79c13fde28b47" prot="public" virt="non-virtual"><scope>RandomLootSkeleton</scope><name>randomNumber</name></member>
+      <member refid="class_random_loot_skeleton_1a6026faef211472e31b1dff4bdac4fe95" prot="private" virt="non-virtual"><scope>RandomLootSkeleton</scope><name>Start</name></member>
+      <member refid="class_random_loot_skeleton_1a7de1d4e374d0498a92eb862282ae2c89" prot="public" virt="non-virtual"><scope>RandomLootSkeleton</scope><name>table</name></member>
+      <member refid="class_random_loot_skeleton_1adf9f1e1a09e266e976d4feb9bdf80efa" prot="public" virt="non-virtual"><scope>RandomLootSkeleton</scope><name>total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

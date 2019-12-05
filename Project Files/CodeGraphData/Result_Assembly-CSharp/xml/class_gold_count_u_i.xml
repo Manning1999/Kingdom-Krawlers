@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_gold_count_u_i" kind="class" prot="public">
+    <compoundname>GoldCountUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_gold_count_u_i_1a9a04f42363db085b175925df79816876" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_gold_count_u_i" kindref="compound">GoldCountUI</ref></type>
+        <definition>GoldCountUI GoldCountUI.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_gold_count_u_i_1a83af180c2822b3f1f1189c3e4ab6fa59" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_gold_count_u_i" kindref="compound">GoldCountUI</ref></type>
+        <definition>GoldCountUI GoldCountUI._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_gold_count_u_i_1af77cd4686d25e6487f7c9cf8d57015a5" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_gold_count_u_i" kindref="compound">GoldCountUI</ref></type>
+        <definition>GoldCountUI GoldCountUI.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gold_count_u_i_1a1d3e5ee45bbdbc49605e4699eed161ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoldCountUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" line="30" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_gold_count_u_i_1a09e3affacae1bb7e9cdf1d0b33fd8322" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoldCountUI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" line="36" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_gold_count_u_i_1a5f969153c40f408d17482189b70976c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GoldCountUI.UpdateGoldCount</definition>
+        <argsstring>(int goldCount)</argsstring>
+        <name>UpdateGoldCount</name>
+        <param>
+          <type>int</type>
+          <declname>goldCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" line="43" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="105">
+        <label>GoldCountUI</label>
+        <link refid="class_gold_count_u_i"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="108">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="107">
+        <label>GoldCountUI</label>
+        <link refid="class_gold_count_u_i"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/GoldCountUI.cs" bodystart="6" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_gold_count_u_i_1a83af180c2822b3f1f1189c3e4ab6fa59" prot="private" virt="non-virtual"><scope>GoldCountUI</scope><name>_instance</name></member>
+      <member refid="class_gold_count_u_i_1a9a04f42363db085b175925df79816876" prot="public" virt="non-virtual"><scope>GoldCountUI</scope><name>instance</name></member>
+      <member refid="class_gold_count_u_i_1af77cd4686d25e6487f7c9cf8d57015a5" prot="public" virt="non-virtual"><scope>GoldCountUI</scope><name>Instance</name></member>
+      <member refid="class_gold_count_u_i_1a1d3e5ee45bbdbc49605e4699eed161ea" prot="private" virt="non-virtual"><scope>GoldCountUI</scope><name>Start</name></member>
+      <member refid="class_gold_count_u_i_1a09e3affacae1bb7e9cdf1d0b33fd8322" prot="private" virt="non-virtual"><scope>GoldCountUI</scope><name>Update</name></member>
+      <member refid="class_gold_count_u_i_1a5f969153c40f408d17482189b70976c9" prot="public" virt="non-virtual"><scope>GoldCountUI</scope><name>UpdateGoldCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

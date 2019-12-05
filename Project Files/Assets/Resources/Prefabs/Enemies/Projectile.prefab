@@ -94,6 +94,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   damage: 7
+  lifeDuration: 10
+  bloodParticles: {fileID: 1348113823818967717, guid: 98ce7f4721e91e84392cb53156a7a790,
+    type: 3}
 --- !u!61 &-9123137041929343033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118,5 +121,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.05, y: 1.84}
+  m_Size: {x: 0.62, y: 0.71}
   m_EdgeRadius: 0

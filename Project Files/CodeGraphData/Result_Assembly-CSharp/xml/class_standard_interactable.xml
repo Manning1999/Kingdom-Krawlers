@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_standard_interactable" kind="class" prot="public">
+    <compoundname>StandardInteractable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_interactable" prot="public" virt="non-virtual">IInteractable</basecompoundref>
+    <derivedcompoundref refid="class_interactable_coin_example" prot="public" virt="non-virtual">InteractableCoinExample</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_standard_interactable_1a0b70aadc648539e509b372d4abcaae23" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent StandardInteractable.OnInteract</definition>
+        <argsstring></argsstring>
+        <name>OnInteract</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" line="10" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_standard_interactable_1af9cc4b32e87d7519b293ee02dc6be3d6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void StandardInteractable.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_standard_interactable_1a8e530b02fca50ecd5f20f7e94275a0f1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void StandardInteractable.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" line="20" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_standard_interactable_1a2c8e5314f2e4c26ac141f5cda11109e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void StandardInteractable.InteractWith</definition>
+        <argsstring>()</argsstring>
+        <name>InteractWith</name>
+        <reimplements refid="interface_i_interactable_1a5c9af76f0cd78f4553169f8e23399b3c">InteractWith</reimplements>
+        <reimplementedby refid="class_interactable_coin_example_1ab3853684e02563496d305d62bda620a3">InteractWith</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="316">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="318">
+        <label>InteractableCoinExample</label>
+        <link refid="class_interactable_coin_example"/>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>StandardInteractable</label>
+        <link refid="class_standard_interactable"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>IInteractable</label>
+        <link refid="interface_i_interactable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="320">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="319">
+        <label>StandardInteractable</label>
+        <link refid="class_standard_interactable"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+        <childnode refid="321" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>IInteractable</label>
+        <link refid="interface_i_interactable"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Manning's 2D Games stuff/2D Movement + Interaction + Weapons/Scripts/StandardInteractable.cs" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_standard_interactable_1a2c8e5314f2e4c26ac141f5cda11109e5" prot="public" virt="virtual"><scope>StandardInteractable</scope><name>InteractWith</name></member>
+      <member refid="class_standard_interactable_1a0b70aadc648539e509b372d4abcaae23" prot="public" virt="non-virtual"><scope>StandardInteractable</scope><name>OnInteract</name></member>
+      <member refid="class_standard_interactable_1af9cc4b32e87d7519b293ee02dc6be3d6" prot="protected" virt="virtual"><scope>StandardInteractable</scope><name>Start</name></member>
+      <member refid="class_standard_interactable_1a8e530b02fca50ecd5f20f7e94275a0f1" prot="protected" virt="virtual"><scope>StandardInteractable</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

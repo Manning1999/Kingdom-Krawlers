@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_entry_point" kind="class" prot="public">
+    <compoundname>EntryPoint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_entry_point_1a806bace7cc75bd965911760800276bb4" prot="public" static="no">
+        <name>SpawnDirection</name>
+        <enumvalue id="class_entry_point_1a806bace7cc75bd965911760800276bb4a5b469fd01889ec12f1e84c6e66829fc1" prot="public">
+          <name>Above</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_entry_point_1a806bace7cc75bd965911760800276bb4ae59dd8d25c0b6bb6697eac0617ccd412" prot="public">
+          <name>Below</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_entry_point_1a806bace7cc75bd965911760800276bb4a945d5e233cf7d6240f6b783b36a374ff" prot="public">
+          <name>Left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_entry_point_1a806bace7cc75bd965911760800276bb4a92b09c7c48c520c3c55e497875da437c" prot="public">
+          <name>Right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_entry_point_1aef2b409df71b763126c0eda2bc08167a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_entry_point_1a806bace7cc75bd965911760800276bb4" kindref="member">SpawnDirection</ref></type>
+        <definition>SpawnDirection EntryPoint.spawnDirection</definition>
+        <argsstring></argsstring>
+        <name>spawnDirection</name>
+        <initializer>= SpawnDirection.Below</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a15971bd224b83d560a03bde60b5ac648" compoundref="_player_controller_8cs" startline="236" endline="361">PlayerController.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_entry_point_1a99fba038e9d300b1cc28d17b2f4b2618" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EntryPoint.spawnDistance</definition>
+        <argsstring></argsstring>
+        <name>spawnDistance</name>
+        <initializer>= 1.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_entry_point_1a36e1582fd93667b587456f2b39b86244" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string EntryPoint.linkedScene</definition>
+        <argsstring></argsstring>
+        <name>linkedScene</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_entry_point_1ad4b378523e52aac51942ed51db829ba5" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string EntryPoint.linkedEntrance</definition>
+        <argsstring></argsstring>
+        <name>linkedEntrance</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_entry_point_1a32689e53de601f215b99f4344b6746b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string EntryPoint._linkedEntrance</definition>
+        <argsstring></argsstring>
+        <name>_linkedEntrance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_entry_point_1ab1dcfc5218ee7f0a24bd99bfc2ddd13b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string EntryPoint._linkedScene</definition>
+        <argsstring></argsstring>
+        <name>_linkedScene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="30" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" compoundref="_player_controller_8cs" startline="492" endline="508">PlayerController.Travel</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_entry_point_1a96c5b70b168663fd721ba45e20e03e77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float EntryPoint._spawnDistance</definition>
+        <argsstring></argsstring>
+        <name>_spawnDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="102">
+        <label>EntryPoint</label>
+        <link refid="class_entry_point"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>EntryPoint</label>
+        <link refid="class_entry_point"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/EntryPoint.cs" bodystart="5" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_entry_point_1a32689e53de601f215b99f4344b6746b3" prot="public" virt="non-virtual"><scope>EntryPoint</scope><name>_linkedEntrance</name></member>
+      <member refid="class_entry_point_1ab1dcfc5218ee7f0a24bd99bfc2ddd13b" prot="public" virt="non-virtual"><scope>EntryPoint</scope><name>_linkedScene</name></member>
+      <member refid="class_entry_point_1a96c5b70b168663fd721ba45e20e03e77" prot="public" virt="non-virtual"><scope>EntryPoint</scope><name>_spawnDistance</name></member>
+      <member refid="class_entry_point_1ad4b378523e52aac51942ed51db829ba5" prot="protected" virt="non-virtual"><scope>EntryPoint</scope><name>linkedEntrance</name></member>
+      <member refid="class_entry_point_1a36e1582fd93667b587456f2b39b86244" prot="protected" virt="non-virtual"><scope>EntryPoint</scope><name>linkedScene</name></member>
+      <member refid="class_entry_point_1aef2b409df71b763126c0eda2bc08167a" prot="public" virt="non-virtual"><scope>EntryPoint</scope><name>spawnDirection</name></member>
+      <member refid="class_entry_point_1a806bace7cc75bd965911760800276bb4" prot="public" virt="non-virtual"><scope>EntryPoint</scope><name>SpawnDirection</name></member>
+      <member refid="class_entry_point_1a99fba038e9d300b1cc28d17b2f4b2618" prot="protected" virt="non-virtual"><scope>EntryPoint</scope><name>spawnDistance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Importing::TimeLineKey</compoundname>
+    <basecompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.ScmlElement</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1ad3fd0126c13aeeca6fbf4e67a1734c13" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.TimeLineKey._time</definition>
+        <argsstring></argsstring>
+        <name>_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="103" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a770070d2ba5fc80c1fb455af7557ceff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.TimeLineKey.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="104" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a252d21bcefbb97426eafadbd123c50f0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_spriter2_unity_d_x_1_1_importing_1a4e88e0eb55dc560ad34997b6cbfa18dc" kindref="member">CurveType</ref></type>
+        <definition>CurveType Spriter2UnityDX.Importing.TimeLineKey.curve_type</definition>
+        <argsstring></argsstring>
+        <name>curve_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="108" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a1af8015088423250f515206b5fcb95c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.TimeLineKey.c1</definition>
+        <argsstring></argsstring>
+        <name>c1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="109" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a34fb1beb41d3bad161fd8b47d50b6231" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.TimeLineKey.c2</definition>
+        <argsstring></argsstring>
+        <name>c2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="110" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1ac7855a60b08f53c9a8c8248aedce8071" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.TimeLineKey.spin</definition>
+        <argsstring></argsstring>
+        <name>spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="111" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1afc2ab37a17204bb3a7297548272280b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" kindref="compound">SpatialInfo</ref></type>
+        <definition>SpatialInfo Spriter2UnityDX.Importing.TimeLineKey.info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="113" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a512a678e009d58b4b4be10142c7d7142" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Spriter2UnityDX.Importing.TimeLineKey.TimeLineKey</definition>
+        <argsstring>()</argsstring>
+        <name>TimeLineKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="102" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="430">
+        <label>Spriter2UnityDX.Importing.TimeLineKey</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key"/>
+        <childnode refid="431" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>ScmlElement</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="432">
+        <label>Spriter2UnityDX.Importing.TimeLineKey</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key"/>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>ScmlElement</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="101" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="101" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1ad3fd0126c13aeeca6fbf4e67a1734c13" prot="private" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>_time</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a1af8015088423250f515206b5fcb95c0" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>c1</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a34fb1beb41d3bad161fd8b47d50b6231" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>c2</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a252d21bcefbb97426eafadbd123c50f0" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>curve_type</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_element_1a3da3be7d801db591f021df32ba7c195e" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>id</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1afc2ab37a17204bb3a7297548272280b5" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>info</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1ac7855a60b08f53c9a8c8248aedce8071" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>spin</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a770070d2ba5fc80c1fb455af7557ceff" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>time</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_time_line_key_1a512a678e009d58b4b4be10142c7d7142" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::TimeLineKey</scope><name>TimeLineKey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_loot_drop_behaviour" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::LootDropBehaviour</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <innerclass refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop" prot="public">ManningsLootSystem::LootDropBehaviour::PotentialLootDrop</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_drop_behaviour_1a8ccb6868f21f72e879916383a9d3e7ef" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop" kindref="compound">PotentialLootDrop</ref> &gt;</type>
+        <definition>List&lt;PotentialLootDrop&gt; ManningsLootSystem.LootDropBehaviour.potentialLootDropList</definition>
+        <argsstring></argsstring>
+        <name>potentialLootDropList</name>
+        <initializer>= new List&lt;<ref refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop" kindref="compound">PotentialLootDrop</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a04d73a7bbd829680a8b5057f79d65ce3" compoundref="_loot_drop_behaviour_8cs" startline="35" endline="56">ManningsLootSystem.LootDropBehaviour.DecideLootToDrop</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_drop_behaviour_1a8d89b5cb801b1f558b6df3adc342d8cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.LootDropBehaviour.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_drop_behaviour_1a23da68f69956aff4fe44b0092a94129e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.LootDropBehaviour.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_drop_behaviour_1abc9a6459861c4b48d974a119a5061463" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.LootDropBehaviour.DropLoot</definition>
+        <argsstring>(Loot lootToDrop)</argsstring>
+        <name>DropLoot</name>
+        <param>
+          <type><ref refid="class_mannings_loot_system_1_1_loot" kindref="compound">Loot</ref></type>
+          <declname>lootToDrop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="58" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="58" bodyend="63"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a04d73a7bbd829680a8b5057f79d65ce3" compoundref="_loot_drop_behaviour_8cs" startline="35" endline="56">ManningsLootSystem.LootDropBehaviour.DecideLootToDrop</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mannings_loot_system_1_1_loot_drop_behaviour_1a04d73a7bbd829680a8b5057f79d65ce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystem.LootDropBehaviour.DecideLootToDrop</definition>
+        <argsstring>()</argsstring>
+        <name>DecideLootToDrop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="35" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="35" bodyend="56"/>
+        <references refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1abc9a6459861c4b48d974a119a5061463" compoundref="_loot_drop_behaviour_8cs" startline="58" endline="63">ManningsLootSystem.LootDropBehaviour.DropLoot</references>
+        <references refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop_1a07974940beb95072c6149a042b3a100c" compoundref="_loot_drop_behaviour_8cs" startline="13">ManningsLootSystem.LootDropBehaviour.PotentialLootDrop.loot</references>
+        <references refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a8ccb6868f21f72e879916383a9d3e7ef" compoundref="_loot_drop_behaviour_8cs" startline="19">ManningsLootSystem.LootDropBehaviour.potentialLootDropList</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="213">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="212">
+        <label>ManningsLootSystem.LootDropBehaviour</label>
+        <link refid="class_mannings_loot_system_1_1_loot_drop_behaviour"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="215">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="214">
+        <label>ManningsLootSystem.LootDropBehaviour</label>
+        <link refid="class_mannings_loot_system_1_1_loot_drop_behaviour"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="7" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a04d73a7bbd829680a8b5057f79d65ce3" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootDropBehaviour</scope><name>DecideLootToDrop</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1abc9a6459861c4b48d974a119a5061463" prot="private" virt="non-virtual"><scope>ManningsLootSystem::LootDropBehaviour</scope><name>DropLoot</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a8ccb6868f21f72e879916383a9d3e7ef" prot="private" virt="non-virtual"><scope>ManningsLootSystem::LootDropBehaviour</scope><name>potentialLootDropList</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a8d89b5cb801b1f558b6df3adc342d8cd" prot="private" virt="non-virtual"><scope>ManningsLootSystem::LootDropBehaviour</scope><name>Start</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a23da68f69956aff4fe44b0092a94129e" prot="private" virt="non-virtual"><scope>ManningsLootSystem::LootDropBehaviour</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

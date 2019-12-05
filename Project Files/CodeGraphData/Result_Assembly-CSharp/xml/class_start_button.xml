@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_start_button" kind="class" prot="public">
+    <compoundname>StartButton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_start_button_1a7a3ccf4543081e9d6be528f6a1197d7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StartButton.ButtonClick</definition>
+        <argsstring>()</argsstring>
+        <name>ButtonClick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/StartButton.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/StartButton.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="323">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="322">
+        <label>StartButton</label>
+        <link refid="class_start_button"/>
+        <childnode refid="323" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="325">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="324">
+        <label>StartButton</label>
+        <link refid="class_start_button"/>
+        <childnode refid="325" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/StartButton.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/StartButton.cs" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_start_button_1a7a3ccf4543081e9d6be528f6a1197d7d" prot="public" virt="non-virtual"><scope>StartButton</scope><name>ButtonClick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

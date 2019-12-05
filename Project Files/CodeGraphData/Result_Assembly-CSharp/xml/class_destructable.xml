@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_destructable" kind="class" prot="public">
+    <compoundname>Destructable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_hurtable" prot="public" virt="non-virtual">IHurtable</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_destructable_1a6012a43db8c1a99ab27094cdb64381f9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Destructable.useHealth</definition>
+        <argsstring></argsstring>
+        <name>useHealth</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" compoundref="_destructable_8cs" startline="69" endline="104">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_1af9925abd85a1beae8a153958c7648069" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Destructable.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" compoundref="_destructable_8cs" startline="41" endline="61">Start</referencedby>
+        <referencedby refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" compoundref="_destructable_8cs" startline="69" endline="104">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_1a2d14b60712856014492b721e0f28720e" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Destructable.baseHealth</definition>
+        <argsstring></argsstring>
+        <name>baseHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="21" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" compoundref="_destructable_8cs" startline="41" endline="61">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_1aa7f9482eba4fc2377af0cfb2c7b4fca6" prot="protected" static="no" mutable="no">
+        <type>List&lt; Sprite &gt;</type>
+        <definition>List&lt;Sprite&gt; Destructable.damageStates</definition>
+        <argsstring></argsstring>
+        <name>damageStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="25" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" compoundref="_destructable_8cs" startline="41" endline="61">Start</referencedby>
+        <referencedby refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" compoundref="_destructable_8cs" startline="69" endline="104">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_1a3b2bcfd70c511d37a0de90548c31bd7f" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Destructable.reachedState</definition>
+        <argsstring></argsstring>
+        <name>reachedState</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="27" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" compoundref="_destructable_8cs" startline="69" endline="104">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_1a2b6ae8d8ca8881185793a5d17f1c3e2f" prot="protected" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; Destructable.damageStateRanges</definition>
+        <argsstring></argsstring>
+        <name>damageStateRanges</name>
+        <initializer>= new List&lt;int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="33" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" compoundref="_destructable_8cs" startline="69" endline="104">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_1ab0ffbd656f4181d334704e70c7536b25" prot="protected" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator Destructable.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="37" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" compoundref="_destructable_8cs" startline="41" endline="61">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_destructable_1afe488a6f242cc34df2ae4d46f5ab3bc0" prot="protected" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer Destructable.rend</definition>
+        <argsstring></argsstring>
+        <name>rend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="38" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" compoundref="_destructable_8cs" startline="41" endline="61">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_destructable_1af0ce07faaa7afae0dd0feb49b64401eb" prot="public" static="no" mutable="no">
+        <type>UnityEvent</type>
+        <definition>UnityEvent Destructable.OnDestroy</definition>
+        <argsstring></argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="29" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Destructable.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="41" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="41" bodyend="61"/>
+        <references refid="class_destructable_1ab0ffbd656f4181d334704e70c7536b25" compoundref="_destructable_8cs" startline="37">anim</references>
+        <references refid="class_destructable_1a2d14b60712856014492b721e0f28720e" compoundref="_destructable_8cs" startline="21">baseHealth</references>
+        <references refid="class_destructable_1aa7f9482eba4fc2377af0cfb2c7b4fca6" compoundref="_destructable_8cs" startline="25">damageStates</references>
+        <references refid="class_destructable_1af9925abd85a1beae8a153958c7648069" compoundref="_destructable_8cs" startline="19">health</references>
+        <references refid="class_destructable_1afe488a6f242cc34df2ae4d46f5ab3bc0" compoundref="_destructable_8cs" startline="38">rend</references>
+      </memberdef>
+      <memberdef kind="function" id="class_destructable_1ab8ab14c22f31f4da6f2b5c8f0ac89f82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Destructable.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="64" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_destructable_1a172b81415af8a69351ada3ed869a76a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Destructable.TakeDamage</definition>
+        <argsstring>(int damage)</argsstring>
+        <name>TakeDamage</name>
+        <reimplements refid="interface_i_hurtable_1a1534dfb601f49ac6649cb410960ad1a4">TakeDamage</reimplements>
+        <param>
+          <type>int</type>
+          <declname>damage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="69" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="69" bodyend="104"/>
+        <references refid="class_destructable_1a2b6ae8d8ca8881185793a5d17f1c3e2f" compoundref="_destructable_8cs" startline="33">damageStateRanges</references>
+        <references refid="class_destructable_1aa7f9482eba4fc2377af0cfb2c7b4fca6" compoundref="_destructable_8cs" startline="25">damageStates</references>
+        <references refid="class_destructable_1ab0f2cf7eec9b853ae68a5f82c8944ba7" compoundref="_destructable_8cs" startline="107" endline="116">Destruction</references>
+        <references refid="class_destructable_1af9925abd85a1beae8a153958c7648069" compoundref="_destructable_8cs" startline="19">health</references>
+        <references refid="class_destructable_1a3b2bcfd70c511d37a0de90548c31bd7f" compoundref="_destructable_8cs" startline="27">reachedState</references>
+        <references refid="class_destructable_1a6012a43db8c1a99ab27094cdb64381f9" compoundref="_destructable_8cs" startline="16">useHealth</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_destructable_1ab0f2cf7eec9b853ae68a5f82c8944ba7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Destructable.Destruction</definition>
+        <argsstring>()</argsstring>
+        <name>Destruction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="107" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="107" bodyend="116"/>
+        <references refid="class_destructable_1a13a53dcceca1d410d1a61c104254bda0" compoundref="_destructable_8cs" startline="119" endline="123">DestroyTimer</references>
+        <referencedby refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" compoundref="_destructable_8cs" startline="69" endline="104">TakeDamage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_destructable_1a13a53dcceca1d410d1a61c104254bda0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Destructable.DestroyTimer</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="119" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="119" bodyend="123"/>
+        <referencedby refid="class_destructable_1ab0f2cf7eec9b853ae68a5f82c8944ba7" compoundref="_destructable_8cs" startline="107" endline="116">Destruction</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="64">
+        <label>Destructable</label>
+        <link refid="class_destructable"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="65">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="67">
+        <label>Destructable</label>
+        <link refid="class_destructable"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="68">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Destructable.cs" bodystart="11" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_destructable_1ab0ffbd656f4181d334704e70c7536b25" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>anim</name></member>
+      <member refid="class_destructable_1a2d14b60712856014492b721e0f28720e" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>baseHealth</name></member>
+      <member refid="class_destructable_1a2b6ae8d8ca8881185793a5d17f1c3e2f" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>damageStateRanges</name></member>
+      <member refid="class_destructable_1aa7f9482eba4fc2377af0cfb2c7b4fca6" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>damageStates</name></member>
+      <member refid="class_destructable_1a13a53dcceca1d410d1a61c104254bda0" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>DestroyTimer</name></member>
+      <member refid="class_destructable_1ab0f2cf7eec9b853ae68a5f82c8944ba7" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>Destruction</name></member>
+      <member refid="class_destructable_1af9925abd85a1beae8a153958c7648069" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>health</name></member>
+      <member refid="class_destructable_1af0ce07faaa7afae0dd0feb49b64401eb" prot="public" virt="non-virtual"><scope>Destructable</scope><name>OnDestroy</name></member>
+      <member refid="class_destructable_1a3b2bcfd70c511d37a0de90548c31bd7f" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>reachedState</name></member>
+      <member refid="class_destructable_1afe488a6f242cc34df2ae4d46f5ab3bc0" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>rend</name></member>
+      <member refid="class_destructable_1a93c9d47e148747187d0e1f424e47b86c" prot="private" virt="non-virtual"><scope>Destructable</scope><name>Start</name></member>
+      <member refid="class_destructable_1a172b81415af8a69351ada3ed869a76a8" prot="public" virt="non-virtual"><scope>Destructable</scope><name>TakeDamage</name></member>
+      <member refid="class_destructable_1ab8ab14c22f31f4da6f2b5c8f0ac89f82" prot="private" virt="non-virtual"><scope>Destructable</scope><name>Update</name></member>
+      <member refid="class_destructable_1a6012a43db8c1a99ab27094cdb64381f9" prot="protected" virt="non-virtual"><scope>Destructable</scope><name>useHealth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

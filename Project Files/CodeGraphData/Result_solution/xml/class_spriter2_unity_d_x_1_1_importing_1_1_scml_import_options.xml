@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Importing::ScmlImportOptions</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_1aa541e80d345769ab76c57cc92176498b" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options" kindref="compound">ScmlImportOptions</ref></type>
+        <definition>ScmlImportOptions Spriter2UnityDX.Importing.ScmlImportOptions.options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlImportOptions.cs" line="37" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlImportOptions.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a2e6ab2251737b0a691f480a4a6a472de" compoundref="_prefab_builder_8cs" startline="164" endline="186">Spriter2UnityDX.Prefabs.PrefabBuilder.GetSpriteAtPath</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_window_1a14a419abc090f4701e041d6f2ba4783a" compoundref="_scml_import_options_8cs" startline="11" endline="18">Spriter2UnityDX.Importing.ScmlImportOptionsWindow.OnEnable</referencedby>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_post_processing_1_1_scml_post_processor_1ac52c1fe12f9aa630ed4cd4ea93a1c252" compoundref="_scml_post_processor_8cs" startline="21" endline="54">Spriter2UnityDX.PostProcessing.ScmlPostProcessor.OnPostprocessAllAssets</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_1abb697ad7bfdb3083fd49029629af688c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.ScmlImportOptions.pixelsPerUnit</definition>
+        <argsstring></argsstring>
+        <name>pixelsPerUnit</name>
+        <initializer>= 100f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlImportOptions.cs" line="39" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlImportOptions.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_spriter2_unity_d_x_1_1_prefabs_1_1_prefab_builder_1a2e6ab2251737b0a691f480a4a6a472de" compoundref="_prefab_builder_8cs" startline="164" endline="186">Spriter2UnityDX.Prefabs.PrefabBuilder.GetSpriteAtPath</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="356">
+        <label>Spriter2UnityDX.Importing.ScmlImportOptions</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options"/>
+        <childnode refid="356" relation="usage">
+          <edgelabel>options</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlImportOptions.cs" line="36" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlImportOptions.cs" bodystart="35" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_1aa541e80d345769ab76c57cc92176498b" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::ScmlImportOptions</scope><name>options</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_scml_import_options_1abb697ad7bfdb3083fd49029629af688c" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::ScmlImportOptions</scope><name>pixelsPerUnit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

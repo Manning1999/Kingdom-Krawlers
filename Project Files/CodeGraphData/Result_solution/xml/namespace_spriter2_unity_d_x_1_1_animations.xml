@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_spriter2_unity_d_x_1_1_animations" kind="namespace">
+    <compoundname>Spriter2UnityDX::Animations</compoundname>
+    <innerclass refid="class_spriter2_unity_d_x_1_1_animations_1_1_animation_builder" prot="public">Spriter2UnityDX::Animations::AnimationBuilder</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/AnimationBuilder.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

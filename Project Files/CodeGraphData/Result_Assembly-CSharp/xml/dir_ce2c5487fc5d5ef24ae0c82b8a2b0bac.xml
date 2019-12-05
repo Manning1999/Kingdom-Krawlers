@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ce2c5487fc5d5ef24ae0c82b8a2b0bac" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts</compoundname>
+    <innerdir refid="dir_ba56571bc522daf080223929fddcb6ce">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts</innerdir>
+    <innerfile refid="_game_01_manager_8cs">Game Manager.cs</innerfile>
+    <innerfile refid="_new_behaviour_script_8cs">NewBehaviourScript.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/"/>
+  </compounddef>
+</doxygen>

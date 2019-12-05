@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_inventory_controller_1_1_potions" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::InventoryController::Potions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a952bde9cacf30165c927750ca0fe251e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_potion" kindref="compound">Potion</ref></type>
+        <definition>Potion ManningsLootSystem.InventoryController.Potions.potionType</definition>
+        <argsstring></argsstring>
+        <name>potionType</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="56" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1acc1c1235820830fe4fddbc942b10fe8e" compoundref="_inventory_controller_8cs" startline="107" endline="133">ManningsLootSystem.InventoryController.Awake</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a8d72a4fcb6358bdf29520df8400764b0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.InventoryController.Potions.quantityOwned</definition>
+        <argsstring></argsstring>
+        <name>quantityOwned</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="57" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" compoundref="_inventory_controller_8cs" startline="136" endline="161">ManningsLootSystem.InventoryController.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a360a6e583077addb613fbd24a268f354" prot="public" static="no" mutable="no">
+        <type>KeyCode</type>
+        <definition>KeyCode ManningsLootSystem.InventoryController.Potions.usePotionButton</definition>
+        <argsstring></argsstring>
+        <name>usePotionButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="58" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_inventory_controller_1a34cf7889daec8208ec52c6f97da56a16" compoundref="_inventory_controller_8cs" startline="136" endline="161">ManningsLootSystem.InventoryController.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a151cfc9e98630d813debac7478f3d383" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI ManningsLootSystem.InventoryController.Potions.inventoryText</definition>
+        <argsstring></argsstring>
+        <name>inventoryText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="59" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="240">
+        <label>ManningsLootSystem.InventoryController.Potions</label>
+        <link refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions"/>
+        <childnode refid="241" relation="usage">
+          <edgelabel>potionType</edgelabel>
+        </childnode>
+      </node>
+      <node id="242">
+        <label>Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="241">
+        <label>ManningsLootSystem.Potion</label>
+        <link refid="class_mannings_loot_system_1_1_potion"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" line="55" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/InventoryController.cs" bodystart="54" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a151cfc9e98630d813debac7478f3d383" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController::Potions</scope><name>inventoryText</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a952bde9cacf30165c927750ca0fe251e" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController::Potions</scope><name>potionType</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a8d72a4fcb6358bdf29520df8400764b0" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController::Potions</scope><name>quantityOwned</name></member>
+      <member refid="class_mannings_loot_system_1_1_inventory_controller_1_1_potions_1a360a6e583077addb613fbd24a268f354" prot="public" virt="non-virtual"><scope>ManningsLootSystem::InventoryController::Potions</scope><name>usePotionButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

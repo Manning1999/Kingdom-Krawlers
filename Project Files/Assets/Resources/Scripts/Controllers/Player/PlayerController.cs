@@ -197,7 +197,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         else
         {
             
-            Debug.Log("base destroying player now");
+
             Destroy(gameObject);
         }
 

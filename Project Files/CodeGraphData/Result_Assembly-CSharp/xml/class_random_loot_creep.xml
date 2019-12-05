@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_random_loot_creep" kind="class" prot="public">
+    <compoundname>RandomLootCreep</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_random_loot_creep_1a8342e7af64695f211d60072baf8e7e6e" prot="public" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; RandomLootCreep.loot</definition>
+        <argsstring></argsstring>
+        <name>loot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_random_loot_creep_1aed769e8999040f5501f03b52f3bac4f3" compoundref="_random_loot_creep_8cs" startline="28" endline="78">SpawnLoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_creep_1ab5e80408008d39a66de33c06aba6ab37" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] RandomLootCreep.table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <initializer>=
+    {
+     1, 
+     4, 
+     5, 
+     10, 
+     15, 
+     65, 
+     
+     
+           
+     
+     
+
+
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_random_loot_creep_1aed769e8999040f5501f03b52f3bac4f3" compoundref="_random_loot_creep_8cs" startline="28" endline="78">SpawnLoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_creep_1a06406f5fb5aa05bd9131b25883656858" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootCreep.total</definition>
+        <argsstring></argsstring>
+        <name>total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" line="26" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_random_loot_creep_1aed769e8999040f5501f03b52f3bac4f3" compoundref="_random_loot_creep_8cs" startline="28" endline="78">SpawnLoot</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_random_loot_creep_1a798a3428450a1e183ac202e44d6a7810" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RandomLootCreep.randomNumber</definition>
+        <argsstring></argsstring>
+        <name>randomNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" line="27" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_random_loot_creep_1aed769e8999040f5501f03b52f3bac4f3" compoundref="_random_loot_creep_8cs" startline="28" endline="78">SpawnLoot</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_random_loot_creep_1aed769e8999040f5501f03b52f3bac4f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RandomLootCreep.SpawnLoot</definition>
+        <argsstring>()</argsstring>
+        <name>SpawnLoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" line="28" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" bodystart="28" bodyend="78"/>
+        <references refid="class_random_loot_creep_1a8342e7af64695f211d60072baf8e7e6e" compoundref="_random_loot_creep_8cs" startline="8">loot</references>
+        <references refid="class_random_loot_creep_1a798a3428450a1e183ac202e44d6a7810" compoundref="_random_loot_creep_8cs" startline="27">randomNumber</references>
+        <references refid="class_random_loot_creep_1ab5e80408008d39a66de33c06aba6ab37" compoundref="_random_loot_creep_8cs" startline="9">table</references>
+        <references refid="class_random_loot_creep_1a06406f5fb5aa05bd9131b25883656858" compoundref="_random_loot_creep_8cs" startline="26">total</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="265">
+        <label>RandomLootCreep</label>
+        <link refid="class_random_loot_creep"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="266">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="267">
+        <label>RandomLootCreep</label>
+        <link refid="class_random_loot_creep"/>
+        <childnode refid="268" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="268">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/RandomLootCreep.cs" bodystart="6" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_random_loot_creep_1a8342e7af64695f211d60072baf8e7e6e" prot="public" virt="non-virtual"><scope>RandomLootCreep</scope><name>loot</name></member>
+      <member refid="class_random_loot_creep_1a798a3428450a1e183ac202e44d6a7810" prot="public" virt="non-virtual"><scope>RandomLootCreep</scope><name>randomNumber</name></member>
+      <member refid="class_random_loot_creep_1aed769e8999040f5501f03b52f3bac4f3" prot="private" virt="non-virtual"><scope>RandomLootCreep</scope><name>SpawnLoot</name></member>
+      <member refid="class_random_loot_creep_1ab5e80408008d39a66de33c06aba6ab37" prot="public" virt="non-virtual"><scope>RandomLootCreep</scope><name>table</name></member>
+      <member refid="class_random_loot_creep_1a06406f5fb5aa05bd9131b25883656858" prot="public" virt="non-virtual"><scope>RandomLootCreep</scope><name>total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

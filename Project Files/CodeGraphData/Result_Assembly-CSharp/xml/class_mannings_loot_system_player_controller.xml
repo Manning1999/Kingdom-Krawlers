@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_player_controller" kind="class" prot="public">
+    <compoundname>ManningsLootSystemPlayerController</compoundname>
+    <basecompoundref refid="class_player_controller" prot="public" virt="non-virtual">PlayerController</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_player_controller_1a57b3dcf873a82e3b86a981705587c9fb" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_mannings_loot_system_player_controller" kindref="compound">ManningsLootSystemPlayerController</ref></type>
+        <definition>ManningsLootSystemPlayerController ManningsLootSystemPlayerController.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_player_controller_1a841c4a489549e64738546d92f52e5f92" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_mannings_loot_system_player_controller" kindref="compound">ManningsLootSystemPlayerController</ref></type>
+        <definition>ManningsLootSystemPlayerController ManningsLootSystemPlayerController._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_mannings_loot_system_player_controller_1a9c40819f1dc28a71f9a93e84ac0001ce" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_mannings_loot_system_player_controller" kindref="compound">ManningsLootSystemPlayerController</ref></type>
+        <definition>ManningsLootSystemPlayerController ManningsLootSystemPlayerController.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1ac090a6a2ffb1d72b5fcf0d1489336dc7" compoundref="_bow_8cs" startline="67" endline="75">ManningsLootSystem.Bow.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1aa6891b5c73cff9b593dcd54b0643a00e" compoundref="_sword_8cs" startline="76" endline="88">ManningsLootSystem.Sword.AddToInventory</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1ad15389c8bd92974717e0ec960ecc24b0" compoundref="_sword_8cs" startline="92" endline="113">ManningsLootSystem.Sword.Equip</referencedby>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_1a2286d1b9a2bdf47a24e0ddc99717c533" compoundref="_loot_8cs" startline="68" endline="80">ManningsLootSystem.Loot.Update</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_player_controller_1ac85e7524270c73912c557773b838fcea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_sword" kindref="compound">Sword</ref></type>
+        <definition>Sword ManningsLootSystemPlayerController._equippedSword</definition>
+        <argsstring></argsstring>
+        <name>_equippedSword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_sword_1aa6891b5c73cff9b593dcd54b0643a00e" compoundref="_sword_8cs" startline="76" endline="88">ManningsLootSystem.Sword.AddToInventory</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_player_controller_1a241bff1dd3f31c82e57c850d56ed9750" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_bow" kindref="compound">Bow</ref></type>
+        <definition>Bow ManningsLootSystemPlayerController._equippedBow</definition>
+        <argsstring></argsstring>
+        <name>_equippedBow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="35" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_bow_1ac090a6a2ffb1d72b5fcf0d1489336dc7" compoundref="_bow_8cs" startline="67" endline="75">ManningsLootSystem.Bow.AddToInventory</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_player_controller_1a277ebed8307b69f47d37501fc6ce0aa6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystemPlayerController._bowSlot</definition>
+        <argsstring></argsstring>
+        <name>_bowSlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="39" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mannings_loot_system_player_controller_1a9b0ebd5ab09da2c366cbe27e41fed9d1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystemPlayerController._swordSlot</definition>
+        <argsstring></argsstring>
+        <name>_swordSlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="43" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_player_controller_1aec284fe6d1f02f7a5ebb6ef51e5b77cc" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_sword" kindref="compound">Sword</ref></type>
+        <definition>Sword ManningsLootSystemPlayerController.equippedSword</definition>
+        <argsstring></argsstring>
+        <name>equippedSword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="30" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_player_controller_1a62a250d396770d4fc78fc12ba9b2efd1" compoundref="_mannings_loot_system_player_controller_8cs" startline="125" endline="135">EquipSword</referencedby>
+        <referencedby refid="class_mannings_loot_system_player_controller_1ac875c9b4b3039ec90e2dd1ac32b6a2f1" compoundref="_mannings_loot_system_player_controller_8cs" startline="55" endline="107">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_player_controller_1aeca5f54564bf7b0bc855ac4c78210b3d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_bow" kindref="compound">Bow</ref></type>
+        <definition>Bow ManningsLootSystemPlayerController.equippedBow</definition>
+        <argsstring></argsstring>
+        <name>equippedBow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="34" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_player_controller_1a14cd7e4f3fdf7bfce18c6f4f16875446" compoundref="_mannings_loot_system_player_controller_8cs" startline="113" endline="123">EquipBow</referencedby>
+        <referencedby refid="class_mannings_loot_system_player_controller_1ac875c9b4b3039ec90e2dd1ac32b6a2f1" compoundref="_mannings_loot_system_player_controller_8cs" startline="55" endline="107">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_player_controller_1a90f5944603689799f23eb9e94d75eda8" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystemPlayerController.bowSlot</definition>
+        <argsstring></argsstring>
+        <name>bowSlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="38" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_player_controller_1a4c3ce1df77de65cd061f29ce324a49c5" prot="protected" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ManningsLootSystemPlayerController.swordSlot</definition>
+        <argsstring></argsstring>
+        <name>swordSlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="42" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_mannings_loot_system_player_controller_1af466a732e2846d17b4e316f14c03f512" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ManningsLootSystemPlayerController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <reimplements refid="class_player_controller_1a05f06e36f5d572ba47410bc5493a3ac3">Start</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="47" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_player_controller_1ac875c9b4b3039ec90e2dd1ac32b6a2f1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ManningsLootSystemPlayerController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <reimplements refid="class_two_dimensional_player_movement_1a5adb655d75b55b643cf076246158dba6">Update</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="55" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="55" bodyend="107"/>
+        <references refid="class_mannings_loot_system_player_controller_1aeca5f54564bf7b0bc855ac4c78210b3d" compoundref="_mannings_loot_system_player_controller_8cs" startline="34">equippedBow</references>
+        <references refid="class_mannings_loot_system_player_controller_1aec284fe6d1f02f7a5ebb6ef51e5b77cc" compoundref="_mannings_loot_system_player_controller_8cs" startline="30">equippedSword</references>
+        <references refid="class_two_dimensional_player_movement_1a6113e2dcb0490977f70c1f9e38bd3974" compoundref="_two_dimensional_player_movement_8cs" startline="115">TwoDimensionalPlayerMovement.moveDirectionNum</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mannings_loot_system_player_controller_1a14cd7e4f3fdf7bfce18c6f4f16875446" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystemPlayerController.EquipBow</definition>
+        <argsstring>(Bow bow)</argsstring>
+        <name>EquipBow</name>
+        <param>
+          <type><ref refid="class_mannings_loot_system_1_1_bow" kindref="compound">Bow</ref></type>
+          <declname>bow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="113" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="113" bodyend="123"/>
+        <references refid="class_mannings_loot_system_player_controller_1aeca5f54564bf7b0bc855ac4c78210b3d" compoundref="_mannings_loot_system_player_controller_8cs" startline="34">equippedBow</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mannings_loot_system_player_controller_1a62a250d396770d4fc78fc12ba9b2efd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManningsLootSystemPlayerController.EquipSword</definition>
+        <argsstring>(Sword sword)</argsstring>
+        <name>EquipSword</name>
+        <param>
+          <type><ref refid="class_mannings_loot_system_1_1_sword" kindref="compound">Sword</ref></type>
+          <declname>sword</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="125" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="125" bodyend="135"/>
+        <references refid="class_mannings_loot_system_player_controller_1aec284fe6d1f02f7a5ebb6ef51e5b77cc" compoundref="_mannings_loot_system_player_controller_8cs" startline="30">equippedSword</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="186">
+        <label>TwoDimensionalPlayerMovement</label>
+        <link refid="class_two_dimensional_player_movement"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="185">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="184">
+        <label>ManningsLootSystemPlayerController</label>
+        <link refid="class_mannings_loot_system_player_controller"/>
+        <childnode refid="185" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="191">
+        <label>TwoDimensionalPlayerMovement</label>
+        <link refid="class_two_dimensional_player_movement"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>IHurtable</label>
+        <link refid="interface_i_hurtable"/>
+      </node>
+      <node id="190">
+        <label>PlayerController</label>
+        <link refid="class_player_controller"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+        <childnode refid="190" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>playerInstance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+      <node id="194">
+        <label>ManningsLootSystem.Bow</label>
+        <link refid="class_mannings_loot_system_1_1_bow"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="195">
+        <label>Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="196">
+        <label>ManningsLootSystem.Sword</label>
+        <link refid="class_mannings_loot_system_1_1_sword"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>ManningsLootSystemPlayerController</label>
+        <link refid="class_mannings_loot_system_player_controller"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+        <childnode refid="194" relation="usage">
+          <edgelabel>equippedBow</edgelabel>
+        </childnode>
+        <childnode refid="196" relation="usage">
+          <edgelabel>equippedSword</edgelabel>
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>_instance</edgelabel>
+          <edgelabel>instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player/ManningsLootSystemPlayerController.cs" bodystart="6" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_player_controller_1a277ebed8307b69f47d37501fc6ce0aa6" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_bowSlot</name></member>
+      <member refid="class_player_controller_1a8c84ce358549ea3ff7865db7df15ae1c" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_canDash</name></member>
+      <member refid="class_player_controller_1a37e7e273bd66ee5caaebc98cc5946514" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_currentHealth</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a241bff1dd3f31c82e57c850d56ed9750" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_equippedBow</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1ac85e7524270c73912c557773b838fcea" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_equippedSword</name></member>
+      <member refid="class_player_controller_1af67d52dc34cc78baa7fea9576d1a03e3" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_experienceGained</name></member>
+      <member refid="class_player_controller_1a593016b97c48b6fb27b7e3d52da8f2ef" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_experienceToLevelUp</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a841c4a489549e64738546d92f52e5f92" prot="private" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_instance</name></member>
+      <member refid="class_player_controller_1aa6be111e1b45ec8f92d2f80d7bbc6606" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_maxHealth</name></member>
+      <member refid="class_player_controller_1af9482d789d35d36df9a7d6095979d494" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_playerLevel</name></member>
+      <member refid="class_two_dimensional_player_movement_1aebe4db8bc6846a5997ee7563564ae039" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_speedModifier</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a9b0ebd5ab09da2c366cbe27e41fed9d1" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>_swordSlot</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9c1240d457b35456855b0017f2fda48e" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>anim</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6600a733ecc329c4c2fa3b263f119fcc" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>animateRotation</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad76d40595f691e0fd9de1700f5464b1e" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>audio</name></member>
+      <member refid="class_player_controller_1ab89a69dbd089b54f9701b62c9fa2c221" prot="protected" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>Awake</name></member>
+      <member refid="class_player_controller_1a1449d34b1ec73e0f73f370c31521e3e0" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>baseHealth</name></member>
+      <member refid="class_player_controller_1ada8c0fc99479083a288d69d92ddf130f" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>beenPlaced</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a90f5944603689799f23eb9e94d75eda8" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>bowSlot</name></member>
+      <member refid="class_player_controller_1a5c6de9406c71b0bcb6a86bd120608114" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>canDash</name></member>
+      <member refid="class_player_controller_1ab1c0be3d38179fba037a9de30c875ae1" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>canDashparticles</name></member>
+      <member refid="class_player_controller_1a06aeaa9181db773f16cacd77cd8f6700" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>canDashSound</name></member>
+      <member refid="class_two_dimensional_player_movement_1afe7850ffb221ae22ba94684a2f1dbdae" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>canMove</name></member>
+      <member refid="class_player_controller_1a4f336250e0cc55e9fa2e1cec516be83a" prot="public" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>ChangeDashType</name></member>
+      <member refid="class_two_dimensional_player_movement_1aa905b5badaeed93f1b8993961ee0f354" prot="public" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>ChangeSpeedModifier</name></member>
+      <member refid="class_player_controller_1ae3b30f35c2d5814c7e42b4cb32a888a3" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>currentHealth</name></member>
+      <member refid="class_two_dimensional_player_movement_1ac0c270a9e1c4ed140942e39c6d82340e" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>currentMoveSpeed</name></member>
+      <member refid="class_player_controller_1a185c5f22bc79974dcd03635b90090e03" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashCoolDownTime</name></member>
+      <member refid="class_player_controller_1ac9c0b9d6121b9965f1b7b1e5c81a3716" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashDamage</name></member>
+      <member refid="class_player_controller_1a66ed4909c172286ed23ff1e15e1cd46c" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashDamageIncreaseOnLevel</name></member>
+      <member refid="class_player_controller_1a5d935814e6bb12a3b495fcdbbc050bfb" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashDistance</name></member>
+      <member refid="class_player_controller_1a86636262610b8315c83dcded7bae2555" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashHitParticles</name></member>
+      <member refid="class_player_controller_1a4c968f29e030d721c544c768df4d56db" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashInMouseDirection</name></member>
+      <member refid="class_player_controller_1a648409f8edb264a61c7d1d1e2a2091ef" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashLocation</name></member>
+      <member refid="class_player_controller_1ad6a3b13c95b7de2c6ef5fb3ddb42ccb7" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashObstacles</name></member>
+      <member refid="class_player_controller_1ad17c7f995506873432b1ab92d0933cbf" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashSound</name></member>
+      <member refid="class_player_controller_1a2e02b617c6cff333e547079ff235104d" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashSpeed</name></member>
+      <member refid="class_player_controller_1a84cb0b7defd2849238645bdf08c4f07b" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>DashTimer</name></member>
+      <member refid="class_player_controller_1a0364275ce053c332b631131218171241" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>dashTimerDecreaseOnLevel</name></member>
+      <member refid="class_player_controller_1a6fa444654addfaacb99c3f08d92b7377" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>deadBody</name></member>
+      <member refid="class_player_controller_1a9f7de7cf33baa2f1ed41d563e1b4652f" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>DeathTimer</name></member>
+      <member refid="class_player_controller_1ac54a40477ac8b5024ffe09bb7623e4f2" prot="protected" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>Die</name></member>
+      <member refid="class_two_dimensional_player_movement_1a65e1ec4e8dab93f8135da016758c476c" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>Direction</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9acf8f978aa57c81686336e451dd3683" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>direction</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a14cd7e4f3fdf7bfce18c6f4f16875446" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>EquipBow</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1aeca5f54564bf7b0bc855ac4c78210b3d" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>equippedBow</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1aec284fe6d1f02f7a5ebb6ef51e5b77cc" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>equippedSword</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a62a250d396770d4fc78fc12ba9b2efd1" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>EquipSword</name></member>
+      <member refid="class_player_controller_1a5cddfc01cc02a606899eb1da1f1d35a2" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>experienceGained</name></member>
+      <member refid="class_player_controller_1a14436d45b14262e4766debc4072f0346" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>experienceRequiredPercentageIncrease</name></member>
+      <member refid="class_player_controller_1a4a6634125e2c01a360d1175e6fb5b9fe" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>experienceToLevelUp</name></member>
+      <member refid="class_player_controller_1acc8ca3c748bf9f834796aefe8848c313" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>fallPos</name></member>
+      <member refid="class_player_controller_1af5779e32a3bffe0961ed4b9aa2f6251f" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>fallSpeed</name></member>
+      <member refid="class_player_controller_1a022a9ca74a9acea745914b6bf1db23d0" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>GainExperience</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6c1b140bd3b49927e8a45ffd65305f78" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>gravityStrength</name></member>
+      <member refid="class_player_controller_1aca9f7488a5b8b8d2ad781e4d6294e6b4" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>healthGainOnLevelUp</name></member>
+      <member refid="class_player_controller_1a12f420333a3cd14b1d3bbcd56af20837" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>healthLostOnDeath</name></member>
+      <member refid="class_player_controller_1a8c80baa1756be3ba0d35cec66197ffdd" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>hitSounds</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a57b3dcf873a82e3b86a981705587c9fb" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>instance</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a9c40819f1dc28a71f9a93e84ac0001ce" prot="public" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>Instance</name></member>
+      <member refid="class_player_controller_1a92b04cab7c50125a7ba2121be58a803d" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>isDashing</name></member>
+      <member refid="class_player_controller_1a9bb289f98a0ddcb8363ff44cb2c59924" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>isFalling</name></member>
+      <member refid="class_two_dimensional_player_movement_1a64c4ae16e03d8dc4888217f43350c1a3" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>isGrounded</name></member>
+      <member refid="class_two_dimensional_player_movement_1a93c60e89e2059c7c6387247d77d257e9" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>isMoving</name></member>
+      <member refid="class_player_controller_1ab419e1403c603cf37b84d51d6fddba75" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>isRespawning</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad8ee6701e9172a0839536774edeb386a" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>isRunning</name></member>
+      <member refid="class_two_dimensional_player_movement_1af39295d576ee833176a42619d47d62ee" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>jumpForce</name></member>
+      <member refid="class_player_controller_1a68f2c81bc94f07d74e6412ed18aa0e82" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>levelToRespawnIn</name></member>
+      <member refid="class_player_controller_1af6369eee5fe0a5ae1193a243b0163097" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>LevelUp</name></member>
+      <member refid="class_player_controller_1a1480cad6c6acaf2e9c16747f4d043068" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>levelUpEffects</name></member>
+      <member refid="class_player_controller_1a15a5a7dde3f4e9785e6b13a42ce76c49" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>levelUpSound</name></member>
+      <member refid="class_two_dimensional_player_movement_1a1cbb7e4848f5cb1b95217a2cbf2cd471" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>lookMode</name></member>
+      <member refid="class_two_dimensional_player_movement_1ae6020923b2edd15496c46810a90d5f5c" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>LookMode</name></member>
+      <member refid="class_player_controller_1a74f139f409853d84d1e06ca483d1e050" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>lootCollectedSound</name></member>
+      <member refid="class_player_controller_1a0df85d99ad851aeed951c7541086a13c" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>LoseDeathPenalty</name></member>
+      <member refid="class_player_controller_1a09eec8cb50478312150772a17664de13" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>maxHealth</name></member>
+      <member refid="class_two_dimensional_player_movement_1a04196c1e41ed8e8707a42fbb3ec74717" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>mousePos</name></member>
+      <member refid="class_two_dimensional_player_movement_1ad30f05d799e8e45c0e3bfdf403ec1429" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>moveDirection</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6113e2dcb0490977f70c1f9e38bd3974" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>moveDirectionNum</name></member>
+      <member refid="class_two_dimensional_player_movement_1a721f76873e964879fca72d009d7d768b" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>moveDownButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a13e3feadca3a57cfe2a3d403b3f3e600" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>moveLeftButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a35df4dd988b0a4e266e0c6ce36e21e0b" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>MovementType</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9c78e37994e7dad20feef161a226eccf" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>moveRightButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a45848c1d10b2b982ed848377dc29bcc4" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>moveUpButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a6d52ee070db81df057878fd4c6f29f0d" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>oldPosition</name></member>
+      <member refid="class_player_controller_1a63b9dcafb3a373fc9904e0fe03f2fb89" prot="protected" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_player_controller_1a4243c36c24affb7e111a42240984607d" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>OnSceneLoaded</name></member>
+      <member refid="class_player_controller_1a7abc3c8e6b0502773a5c4795ceddb29d" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>OnTriggerStay2D</name></member>
+      <member refid="class_player_controller_1a73dc7d7771c2112158f16c7a681c3373" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>playerLevel</name></member>
+      <member refid="class_two_dimensional_player_movement_1aae010358d2b3bc10171bbf5f5dcc1673" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>rb</name></member>
+      <member refid="class_two_dimensional_player_movement_1a379ff082e4742843d12087b4257a0d9c" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>runButton</name></member>
+      <member refid="class_two_dimensional_player_movement_1a61ea4f8836d82b189de5c0842e66d9df" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>runSpeed</name></member>
+      <member refid="class_player_controller_1ab51051c81e24f713dcd1efdc72c770e5" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>SetDashLocation</name></member>
+      <member refid="class_two_dimensional_player_movement_1ae19dd18c9fb8150e7d05ab55eaf95348" prot="protected" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>SetMoveDirection</name></member>
+      <member refid="class_two_dimensional_player_movement_1aa454c81b879dc3bf6ba996f7030a8aff" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>speedModifier</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1af466a732e2846d17b4e316f14c03f512" prot="protected" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>Start</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1a4c3ce1df77de65cd061f29ce324a49c5" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>swordSlot</name></member>
+      <member refid="class_player_controller_1aae0d16f81d4578f0ad8f33065329758f" prot="public" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>TakeDamage</name></member>
+      <member refid="class_two_dimensional_player_movement_1a9b783cf6e0e4eb46d9b012a896fbcd80" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>thisPos</name></member>
+      <member refid="class_player_controller_1aebab07baae18f3c8859b18945c4d9b4e" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>Travel</name></member>
+      <member refid="class_player_controller_1a61f633c01737840d2b9809c6894c71bd" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>travelLocation</name></member>
+      <member refid="class_mannings_loot_system_player_controller_1ac875c9b4b3039ec90e2dd1ac32b6a2f1" prot="protected" virt="virtual"><scope>ManningsLootSystemPlayerController</scope><name>Update</name></member>
+      <member refid="class_two_dimensional_player_movement_1afec2cc9c19003a1b4f6f49aa2be76a8e" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>walkingSounds</name></member>
+      <member refid="class_two_dimensional_player_movement_1a056a9e5683d2e9175a77a5f5a7e464e2" prot="protected" virt="non-virtual"><scope>ManningsLootSystemPlayerController</scope><name>walkSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

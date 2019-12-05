@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info" kind="class" prot="public">
+    <compoundname>Spriter2UnityDX::Importing::SpriteInfo</compoundname>
+    <basecompoundref refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info" prot="public" virt="non-virtual">Spriter2UnityDX.Importing.SpatialInfo</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1a9e6d66d03188cf535be13d52a4de9738" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.SpriteInfo.folder</definition>
+        <argsstring></argsstring>
+        <name>folder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="208" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1aefc48f29018e00f1a0071f0706993b28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Spriter2UnityDX.Importing.SpriteInfo.file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="209" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1a086dcad6ba0fd5bca437942cff10660f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.SpriteInfo.pivot_x</definition>
+        <argsstring></argsstring>
+        <name>pivot_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="210" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1a051ccd24817e5e7a4f95ef914e53d147" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Spriter2UnityDX.Importing.SpriteInfo.pivot_y</definition>
+        <argsstring></argsstring>
+        <name>pivot_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="211" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1ad5e9b2e826a2f226d34f45782421041c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Spriter2UnityDX.Importing.SpriteInfo.SpriteInfo</definition>
+        <argsstring>()</argsstring>
+        <name>SpriteInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="207" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="207" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="400">
+        <label>SpatialInfo</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info"/>
+      </node>
+      <node id="399">
+        <label>Spriter2UnityDX.Importing.SpriteInfo</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="402">
+        <label>SpatialInfo</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info"/>
+      </node>
+      <node id="401">
+        <label>Spriter2UnityDX.Importing.SpriteInfo</label>
+        <link refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info"/>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" line="206" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Editor/ScmlSupport.cs" bodystart="206" bodyend="212"/>
+    <listofallmembers>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1a0b225494410cb1f058f39f9dea534386" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>a</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1a90ddada059b63349d7e33ca23e74e90d" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>angle</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1aefc48f29018e00f1a0071f0706993b28" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>file</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1a9e6d66d03188cf535be13d52a4de9738" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>folder</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1a086dcad6ba0fd5bca437942cff10660f" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>pivot_x</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1a051ccd24817e5e7a4f95ef914e53d147" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>pivot_y</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1a9e0446d1132065fc44c3e703eb898971" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>Process</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1ae87a4cf5799f5b3bdef3f3e9664ec8a2" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>processed</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1a1273584a6b14507d4133c895259c1861" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>rotation</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1a906c0733273523ea254f45733144a97b" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>scale_x</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1ad82aba5beb3e6bf5b97eb3d702656f39" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>scale_y</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1a6e261ea1f78a266f3381823da1bdc160" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>SpatialInfo</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_sprite_info_1ad5e9b2e826a2f226d34f45782421041c" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>SpriteInfo</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1ad428278c496d1a95e5076a0b392cf5b9" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>x</name></member>
+      <member refid="class_spriter2_unity_d_x_1_1_importing_1_1_spatial_info_1a57a8a43592209d20df44cbbd41a78caf" prot="public" virt="non-virtual"><scope>Spriter2UnityDX::Importing::SpriteInfo</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

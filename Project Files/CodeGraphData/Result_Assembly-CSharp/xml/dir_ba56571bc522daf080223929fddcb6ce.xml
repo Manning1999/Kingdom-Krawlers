@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ba56571bc522daf080223929fddcb6ce" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts</compoundname>
+    <innerfile refid="_coin_script_8cs">CoinScript.cs</innerfile>
+    <innerfile refid="_loot_boss_8cs">LootBoss.cs</innerfile>
+    <innerfile refid="_random_loot_chest_8cs">RandomLootChest.cs</innerfile>
+    <innerfile refid="_random_loot_creep_8cs">RandomLootCreep.cs</innerfile>
+    <innerfile refid="_random_loot_golem_8cs">RandomLootGolem.cs</innerfile>
+    <innerfile refid="_random_loot_skeleton_8cs">RandomLootSkeleton.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/"/>
+  </compounddef>
+</doxygen>

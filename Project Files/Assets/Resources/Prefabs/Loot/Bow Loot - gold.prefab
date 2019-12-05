@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1508686281516805691}
   - component: {fileID: 1508686281516805700}
   - component: {fileID: 1508686281516805701}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bow Loot - gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508686281516805702}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.5227848, y: -2.688, z: -0.010000021}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2943649710136103269, guid: cdf7e64f8a593bc488754b135ad3a9e0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -144,11 +144,11 @@ MonoBehaviour:
   icon: {fileID: 0}
   name: 
   value: 0
-  description: 
+  description: Use to stab that person way over there
   owner: {fileID: 0}
   tier: gold
   damage: 0
   attackSpeed: 0
-  arrow: {fileID: 0}
+  arrow: {fileID: 1736480442732098868, guid: 47473eace684a6a49871b3291613f51e, type: 3}
   isEquipped: 0
   aimingDirection: {x: 0, y: 0, z: 0}

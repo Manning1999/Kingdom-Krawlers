@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ac5addf794a4cd67b4940d31731b0bfe" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime</compoundname>
+    <innerfile refid="_entity_renderer_8cs">EntityRenderer.cs</innerfile>
+    <innerfile refid="_sorting_order_updater_8cs">SortingOrderUpdater.cs</innerfile>
+    <innerfile refid="_texture_controller_8cs">TextureController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Spriter2UnityDX/Runtime/"/>
+  </compounddef>
+</doxygen>

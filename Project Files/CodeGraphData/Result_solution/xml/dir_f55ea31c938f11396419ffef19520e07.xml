@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f55ea31c938f11396419ffef19520e07" kind="dir">
+    <compoundname>C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers</compoundname>
+    <innerdir refid="dir_67f4d8b086397785ebf42e5d39d1f1b4">C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/Player</innerdir>
+    <innerfile refid="_gameplay_settings_8cs">GameplaySettings.cs</innerfile>
+    <innerfile refid="_inventory_controller_8cs">InventoryController.cs</innerfile>
+    <innerfile refid="_loot_controller_8cs">LootController.cs</innerfile>
+    <innerfile refid="_quality_controller_8cs">QualityController.cs</innerfile>
+    <innerfile refid="_quality_setting_8cs">QualitySetting.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/"/>
+  </compounddef>
+</doxygen>

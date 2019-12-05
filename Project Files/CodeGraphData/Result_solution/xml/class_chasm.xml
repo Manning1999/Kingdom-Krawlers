@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_chasm" kind="class" prot="public">
+    <compoundname>Chasm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aea" prot="public" static="no">
+        <name>FallDirection</name>
+        <enumvalue id="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aeaa8833f67c0f8e2339c154ffc91e15eb8c" prot="public">
+          <name>UpDown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aeaa955322c98b1fc571e8b6b688ae7d9ee4" prot="public">
+          <name>LeftRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_chasm_1a559f9e6ffb8cf8141b62aff8e7b808c1" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aea" kindref="member">FallDirection</ref></type>
+        <definition>FallDirection Chasm.fallDirection</definition>
+        <argsstring></argsstring>
+        <name>fallDirection</name>
+        <initializer>= FallDirection.LeftRight</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_chasm_1ae339855a53a22bd28f3c6e1b514221b6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aea" kindref="member">FallDirection</ref></type>
+        <definition>FallDirection Chasm._fallDirection</definition>
+        <argsstring></argsstring>
+        <name>_fallDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_player_controller_1a6075ebc6888ce834c2f983c1aff44d06" compoundref="_player_controller_8cs" startline="447" endline="486">PlayerController.OnTriggerStay2D</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="53">
+        <label>Chasm</label>
+        <link refid="class_chasm"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="55">
+        <label>Chasm</label>
+        <link refid="class_chasm"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Other/Chasm.cs" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_chasm_1ae339855a53a22bd28f3c6e1b514221b6" prot="public" virt="non-virtual"><scope>Chasm</scope><name>_fallDirection</name></member>
+      <member refid="class_chasm_1a5ff0057c94fbcf8d09a20e7e12650aea" prot="public" virt="non-virtual"><scope>Chasm</scope><name>FallDirection</name></member>
+      <member refid="class_chasm_1a559f9e6ffb8cf8141b62aff8e7b808c1" prot="protected" virt="non-virtual"><scope>Chasm</scope><name>fallDirection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

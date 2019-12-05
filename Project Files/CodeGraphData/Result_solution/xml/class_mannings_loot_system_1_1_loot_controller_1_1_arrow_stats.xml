@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::LootController::ArrowStats</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a0280cc16e29a15cba2dcc33db0a9253a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManningsLootSystem.LootController.ArrowStats.createMultipleArrows</definition>
+        <argsstring></argsstring>
+        <name>createMultipleArrows</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="103" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a2437b1901b609be71c2314c29e839b06" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootController.ArrowStats.minArrowsInDrop</definition>
+        <argsstring></argsstring>
+        <name>minArrowsInDrop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="106" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a845ab5d4da1ee934269cf113b7f005f0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootController.ArrowStats.maxArrowsInDrop</definition>
+        <argsstring></argsstring>
+        <name>maxArrowsInDrop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="109" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" line="102" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/LootController.cs" bodystart="101" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a0280cc16e29a15cba2dcc33db0a9253a" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::ArrowStats</scope><name>createMultipleArrows</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a845ab5d4da1ee934269cf113b7f005f0" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::ArrowStats</scope><name>maxArrowsInDrop</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_controller_1_1_arrow_stats_1a2437b1901b609be71c2314c29e839b06" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootController::ArrowStats</scope><name>minArrowsInDrop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

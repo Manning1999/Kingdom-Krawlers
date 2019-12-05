@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_coin_script" kind="class" prot="public">
+    <compoundname>CoinScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_coin_script_1ac5ba0ac6bf1e07eaa5ba125c3b3fad46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CoinScript.amountOfCoin</definition>
+        <argsstring></argsstring>
+        <name>amountOfCoin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_coin_script_1ad9cdff800db09d06178e34430977421d" compoundref="_coin_script_8cs" startline="13" endline="16">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_script_1a25910cc81520392ee9f339e52d416f48" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CoinScript.coinsMin</definition>
+        <argsstring></argsstring>
+        <name>coinsMin</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" line="8" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_coin_script_1ad9cdff800db09d06178e34430977421d" compoundref="_coin_script_8cs" startline="13" endline="16">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_coin_script_1af26a34eb2cf1da98d564a6dafa4f92f3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CoinScript.coinsMax</definition>
+        <argsstring></argsstring>
+        <name>coinsMax</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" line="9" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_coin_script_1ad9cdff800db09d06178e34430977421d" compoundref="_coin_script_8cs" startline="13" endline="16">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_coin_script_1ad9cdff800db09d06178e34430977421d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoinScript.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_coin_script_1ac5ba0ac6bf1e07eaa5ba125c3b3fad46" compoundref="_coin_script_8cs" startline="7">amountOfCoin</references>
+        <references refid="class_coin_script_1af26a34eb2cf1da98d564a6dafa4f92f3" compoundref="_coin_script_8cs" startline="9">coinsMax</references>
+        <references refid="class_coin_script_1a25910cc81520392ee9f339e52d416f48" compoundref="_coin_script_8cs" startline="8">coinsMin</references>
+      </memberdef>
+      <memberdef kind="function" id="class_coin_script_1a1288ee0f5b05f7e039cc681d91231fcc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoinScript.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="57">
+        <label>CoinScript</label>
+        <link refid="class_coin_script"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="60">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="59">
+        <label>CoinScript</label>
+        <link refid="class_coin_script"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" line="6" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Johns Stuff/Scripts/Loot Scripts/CoinScript.cs" bodystart="5" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_coin_script_1ac5ba0ac6bf1e07eaa5ba125c3b3fad46" prot="public" virt="non-virtual"><scope>CoinScript</scope><name>amountOfCoin</name></member>
+      <member refid="class_coin_script_1af26a34eb2cf1da98d564a6dafa4f92f3" prot="public" virt="non-virtual"><scope>CoinScript</scope><name>coinsMax</name></member>
+      <member refid="class_coin_script_1a25910cc81520392ee9f339e52d416f48" prot="public" virt="non-virtual"><scope>CoinScript</scope><name>coinsMin</name></member>
+      <member refid="class_coin_script_1ad9cdff800db09d06178e34430977421d" prot="private" virt="non-virtual"><scope>CoinScript</scope><name>Start</name></member>
+      <member refid="class_coin_script_1a1288ee0f5b05f7e039cc681d91231fcc" prot="private" virt="non-virtual"><scope>CoinScript</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

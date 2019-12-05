@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_quality_controller" kind="class" prot="public">
+    <compoundname>QualityController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quality_controller_1aeec87e170670936a8cfef47386997ef3" prot="private" static="no" mutable="no">
+        <type>TMPro.TMP_Dropdown</type>
+        <definition>TMPro.TMP_Dropdown QualityController.resolutionDropDown</definition>
+        <argsstring></argsstring>
+        <name>resolutionDropDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="11" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quality_controller_1a4ae6ae3e0184ac6b7c033293146f6556" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QualityController.isFullScreen</definition>
+        <argsstring></argsstring>
+        <name>isFullScreen</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_quality_controller_1a4f410f107b53f4f3e9ba0be0e0421147" compoundref="_quality_controller_8cs" startline="124" endline="128">SetFullScreen</referencedby>
+        <referencedby refid="class_quality_controller_1a6304a5f12cc43fcb1c1b87ebe8879e3c" compoundref="_quality_controller_8cs" startline="108" endline="120">SetResolution</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quality_controller_1a1068fccd198b2a3d589d7b770246d86d" prot="private" static="no" mutable="no">
+        <type>List&lt; UnityEngine.UI.Button &gt;</type>
+        <definition>List&lt;UnityEngine.UI.Button&gt; QualityController.overallQualityButtons</definition>
+        <argsstring></argsstring>
+        <name>overallQualityButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="16" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_quality_controller_1a30459899ca4f38d441e7586f76248983" compoundref="_quality_controller_8cs" startline="87" endline="97">SetAntiAliasing</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quality_controller_1aeb0c2f666abc85be82c456a69c8d70b9" prot="private" static="no" mutable="no">
+        <type>List&lt; UnityEngine.UI.Button &gt;</type>
+        <definition>List&lt;UnityEngine.UI.Button&gt; QualityController.antiAliasingButtons</definition>
+        <argsstring></argsstring>
+        <name>antiAliasingButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="19" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_quality_controller_1a8bf896835412dc4c518aa6ac958e48d6" compoundref="_quality_controller_8cs" startline="43" endline="84">SetOverallQuality</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quality_controller_1a3a30802bbff28fbd0f6247e23cb0434d" prot="private" static="no" mutable="no">
+        <type>List&lt; UnityEngine.UI.Button &gt;</type>
+        <definition>List&lt;UnityEngine.UI.Button&gt; QualityController.vSyncButtons</definition>
+        <argsstring></argsstring>
+        <name>vSyncButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="22" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_quality_controller_1a8bf896835412dc4c518aa6ac958e48d6" compoundref="_quality_controller_8cs" startline="43" endline="84">SetOverallQuality</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_quality_controller_1a5fa720857464e6acf324dfbcc20c009f" prot="private" static="no" mutable="no">
+        <type>List&lt; UnityEngine.UI.Button &gt;</type>
+        <definition>List&lt;UnityEngine.UI.Button&gt; QualityController.textureQualityButtons</definition>
+        <argsstring></argsstring>
+        <name>textureQualityButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="25" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_quality_controller_1a8bf896835412dc4c518aa6ac958e48d6" compoundref="_quality_controller_8cs" startline="43" endline="84">SetOverallQuality</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quality_controller_1a3ea8ffd7d7468d4bc1904240cfcd9bba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="31" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quality_controller_1a139c04e3731d73cee544035a56ad438c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="37" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quality_controller_1a8bf896835412dc4c518aa6ac958e48d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.SetOverallQuality</definition>
+        <argsstring>(int qualityLevel)</argsstring>
+        <name>SetOverallQuality</name>
+        <param>
+          <type>int</type>
+          <declname>qualityLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="43" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="43" bodyend="84"/>
+        <references refid="class_quality_controller_1aeb0c2f666abc85be82c456a69c8d70b9" compoundref="_quality_controller_8cs" startline="19">antiAliasingButtons</references>
+        <references refid="class_quality_controller_1a5fa720857464e6acf324dfbcc20c009f" compoundref="_quality_controller_8cs" startline="25">textureQualityButtons</references>
+        <references refid="class_quality_controller_1a3a30802bbff28fbd0f6247e23cb0434d" compoundref="_quality_controller_8cs" startline="22">vSyncButtons</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quality_controller_1a30459899ca4f38d441e7586f76248983" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.SetAntiAliasing</definition>
+        <argsstring>(int quality)</argsstring>
+        <name>SetAntiAliasing</name>
+        <param>
+          <type>int</type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="87" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="87" bodyend="97"/>
+        <references refid="class_quality_controller_1a1068fccd198b2a3d589d7b770246d86d" compoundref="_quality_controller_8cs" startline="16">overallQualityButtons</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quality_controller_1aaae4dd2210931590267e0772d089f231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.SetVsync</definition>
+        <argsstring>(int quality)</argsstring>
+        <name>SetVsync</name>
+        <param>
+          <type>int</type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="101" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quality_controller_1a6304a5f12cc43fcb1c1b87ebe8879e3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.SetResolution</definition>
+        <argsstring>(int chosenOption)</argsstring>
+        <name>SetResolution</name>
+        <param>
+          <type>int</type>
+          <declname>chosenOption</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="108" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="108" bodyend="120"/>
+        <references refid="class_quality_controller_1a4ae6ae3e0184ac6b7c033293146f6556" compoundref="_quality_controller_8cs" startline="13">isFullScreen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quality_controller_1a4f410f107b53f4f3e9ba0be0e0421147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.SetFullScreen</definition>
+        <argsstring>(bool set)</argsstring>
+        <name>SetFullScreen</name>
+        <param>
+          <type>bool</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="124" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="124" bodyend="128"/>
+        <references refid="class_quality_controller_1a4ae6ae3e0184ac6b7c033293146f6556" compoundref="_quality_controller_8cs" startline="13">isFullScreen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_quality_controller_1af9577e34bc3c08632e944d00f151c410" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QualityController.SetTextureQuality</definition>
+        <argsstring>(int quality)</argsstring>
+        <name>SetTextureQuality</name>
+        <param>
+          <type>int</type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="130" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="130" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="291">
+        <label>QualityController</label>
+        <link refid="class_quality_controller"/>
+        <childnode refid="292" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="292">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="293">
+        <label>QualityController</label>
+        <link refid="class_quality_controller"/>
+        <childnode refid="294" relation="public-inheritance">
+        </childnode>
+        <childnode refid="295" relation="usage">
+          <edgelabel>resolutionDropDown</edgelabel>
+        </childnode>
+      </node>
+      <node id="295">
+        <label>TMPro</label>
+      </node>
+      <node id="294">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" line="7" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Controllers/QualityController.cs" bodystart="6" bodyend="135"/>
+    <listofallmembers>
+      <member refid="class_quality_controller_1aeb0c2f666abc85be82c456a69c8d70b9" prot="private" virt="non-virtual"><scope>QualityController</scope><name>antiAliasingButtons</name></member>
+      <member refid="class_quality_controller_1a4ae6ae3e0184ac6b7c033293146f6556" prot="private" virt="non-virtual"><scope>QualityController</scope><name>isFullScreen</name></member>
+      <member refid="class_quality_controller_1a1068fccd198b2a3d589d7b770246d86d" prot="private" virt="non-virtual"><scope>QualityController</scope><name>overallQualityButtons</name></member>
+      <member refid="class_quality_controller_1aeec87e170670936a8cfef47386997ef3" prot="private" virt="non-virtual"><scope>QualityController</scope><name>resolutionDropDown</name></member>
+      <member refid="class_quality_controller_1a30459899ca4f38d441e7586f76248983" prot="public" virt="non-virtual"><scope>QualityController</scope><name>SetAntiAliasing</name></member>
+      <member refid="class_quality_controller_1a4f410f107b53f4f3e9ba0be0e0421147" prot="public" virt="non-virtual"><scope>QualityController</scope><name>SetFullScreen</name></member>
+      <member refid="class_quality_controller_1a8bf896835412dc4c518aa6ac958e48d6" prot="public" virt="non-virtual"><scope>QualityController</scope><name>SetOverallQuality</name></member>
+      <member refid="class_quality_controller_1a6304a5f12cc43fcb1c1b87ebe8879e3c" prot="public" virt="non-virtual"><scope>QualityController</scope><name>SetResolution</name></member>
+      <member refid="class_quality_controller_1af9577e34bc3c08632e944d00f151c410" prot="public" virt="non-virtual"><scope>QualityController</scope><name>SetTextureQuality</name></member>
+      <member refid="class_quality_controller_1aaae4dd2210931590267e0772d089f231" prot="public" virt="non-virtual"><scope>QualityController</scope><name>SetVsync</name></member>
+      <member refid="class_quality_controller_1a3ea8ffd7d7468d4bc1904240cfcd9bba" prot="private" virt="non-virtual"><scope>QualityController</scope><name>Start</name></member>
+      <member refid="class_quality_controller_1a5fa720857464e6acf324dfbcc20c009f" prot="private" virt="non-virtual"><scope>QualityController</scope><name>textureQualityButtons</name></member>
+      <member refid="class_quality_controller_1a139c04e3731d73cee544035a56ad438c" prot="private" virt="non-virtual"><scope>QualityController</scope><name>Update</name></member>
+      <member refid="class_quality_controller_1a3a30802bbff28fbd0f6247e23cb0434d" prot="private" virt="non-virtual"><scope>QualityController</scope><name>vSyncButtons</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

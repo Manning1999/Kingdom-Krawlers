@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop" kind="class" prot="public">
+    <compoundname>ManningsLootSystem::LootDropBehaviour::PotentialLootDrop</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop_1a07974940beb95072c6149a042b3a100c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_mannings_loot_system_1_1_loot" kindref="compound">Loot</ref></type>
+        <definition>Loot ManningsLootSystem.LootDropBehaviour.PotentialLootDrop.loot</definition>
+        <argsstring></argsstring>
+        <name>loot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="13" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1a04d73a7bbd829680a8b5057f79d65ce3" compoundref="_loot_drop_behaviour_8cs" startline="35" endline="56">ManningsLootSystem.LootDropBehaviour.DecideLootToDrop</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop_1a1d34f480605b26aa2089b04323d23d78" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManningsLootSystem.LootDropBehaviour.PotentialLootDrop.dropChance</definition>
+        <argsstring></argsstring>
+        <name>dropChance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="14" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="228">
+        <label>ManningsLootSystem.Loot</label>
+        <link refid="class_mannings_loot_system_1_1_loot"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>ManningsLootSystem.LootDropBehaviour.PotentialLootDrop</label>
+        <link refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop"/>
+        <childnode refid="228" relation="usage">
+          <edgelabel>loot</edgelabel>
+        </childnode>
+      </node>
+      <node id="229">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" line="12" column="1" bodyfile="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/Loot/LootDropBehaviour.cs" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop_1a1d34f480605b26aa2089b04323d23d78" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootDropBehaviour::PotentialLootDrop</scope><name>dropChance</name></member>
+      <member refid="class_mannings_loot_system_1_1_loot_drop_behaviour_1_1_potential_loot_drop_1a07974940beb95072c6149a042b3a100c" prot="public" virt="non-virtual"><scope>ManningsLootSystem::LootDropBehaviour::PotentialLootDrop</scope><name>loot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_information_scripts_8cs" kind="file">
+    <compoundname>InformationScripts.cs</compoundname>
+    <innerclass refid="class_information_scripts" prot="public">InformationScripts</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_information_scripts" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_information_scripts" kindref="compound">InformationScripts</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_information_scripts_1ae65456fbbb20f5ec11488749f278ca4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_information_scripts_1ae65456fbbb20f5ec11488749f278ca4e" kindref="member">itemNameText</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_information_scripts_1ad7a34a56425252cb5a056b85fa490e3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_information_scripts_1ad7a34a56425252cb5a056b85fa490e3c" kindref="member">descriptionText</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_information_scripts_1a73e9b450b0f839980e313333d4fa5f38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_information_scripts_1a73e9b450b0f839980e313333d4fa5f38" kindref="member">damageText</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_information_scripts_1aa1ab55eec6d4f50e7db146c31d20fd9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_information_scripts_1aa1ab55eec6d4f50e7db146c31d20fd9a" kindref="member">speedText</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_information_scripts_1ab606470f5f6589ac747de20b596613d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_information_scripts_1ab606470f5f6589ac747de20b596613d6" kindref="member">valueText</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_information_scripts_1a548bca978e59877e98a11342ce773221" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Text<sp/><ref refid="class_information_scripts_1a548bca978e59877e98a11342ce773221" kindref="member">informationText</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>is<sp/>called<sp/>once<sp/>per<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_information_scripts_1a4864b13654749d03e6eb067b899e5d43" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>informationText.text<sp/>=<sp/><ref refid="class_information_scripts_1ae65456fbbb20f5ec11488749f278ca4e" kindref="member">itemNameText</ref><sp/>+<sp/><ref refid="class_information_scripts_1ad7a34a56425252cb5a056b85fa490e3c" kindref="member">descriptionText</ref><sp/>+<sp/><ref refid="class_information_scripts_1a73e9b450b0f839980e313333d4fa5f38" kindref="member">damageText</ref><sp/>+<sp/><ref refid="class_information_scripts_1aa1ab55eec6d4f50e7db146c31d20fd9a" kindref="member">speedText</ref><sp/>+<sp/><ref refid="class_information_scripts_1ab606470f5f6589ac747de20b596613d6" kindref="member">valueText</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/manni/OneDrive/Documents/kingdomkrawlers/Project Files/Assets/Resources/Scripts/UI/InformationScripts.cs"/>
+  </compounddef>
+</doxygen>
