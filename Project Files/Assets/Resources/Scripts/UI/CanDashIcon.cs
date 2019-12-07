@@ -7,6 +7,8 @@ public class CanDashIcon : MonoBehaviour
 {
     //public GameObject Player;
     public Material statusMaterial;
+    public Sprite canDashImage;
+    public Sprite canNotDashImage;
 
     protected bool canDash;
     
@@ -28,13 +30,13 @@ public class CanDashIcon : MonoBehaviour
         if (canDash == true)
         {
             
-            GetComponent<Image>().color = Color.green;
+            GetComponent<Image>().sprite = canDashImage;
         }
 
         if (canDash == false)
         {
             
-            GetComponent<Image>().color = Color.red;
+            GetComponent<Image>().sprite = canNotDashImage;
         }
 
         
