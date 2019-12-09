@@ -568,7 +568,7 @@ MonoBehaviour:
   timeToMove: 2
   speed: 0.5
   range: 2
-  damage: 40
+  damage: 30
   health: 150
 --- !u!1 &5945409904611542646
 GameObject:
