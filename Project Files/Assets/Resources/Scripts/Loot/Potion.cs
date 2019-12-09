@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace ManningsLootSystem
 {
 
-    public class Potion : Loot
+    public class Potion : Loot, IInteractable
     {
 
         [SerializeField]
@@ -19,16 +20,22 @@ namespace ManningsLootSystem
             audio = transform.GetComponent<AudioSource>();
         }
 
-        public override void Use()
+        public virtual void Use()
         {
-            audio.clip = useSound;
-            audio.Play();
+            try
+            {
+                audio.clip = useSound;
+                audio.Play();
+            }
+            catch (Exception e) { }
         }
 
 
         public override void AddToInventory()
         {
             InventoryController.Instance.AddPotion(this);
+            audio.clip = useSound;
+            audio.Play();
             Debug.Log(this);
             if (purchasable == true)
             {
@@ -43,6 +50,27 @@ namespace ManningsLootSystem
             }
         }
 
+
+        protected virtual void OnTriggerEnter2D(Collider2D col)
+        {
+            if (purchasable == false)
+            {
+                if (inInventory == false)
+                {
+                    if (col.transform.GetComponent<PlayerController>() != null)
+                    {
+                        Debug.Log("Should be adding now");
+                        AddToInventory();
+
+                    }
+                }
+            }
+        }
+
     }
+
+
+
+   
 
 }

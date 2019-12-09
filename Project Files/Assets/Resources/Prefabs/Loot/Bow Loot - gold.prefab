@@ -145,6 +145,8 @@ MonoBehaviour:
   name: 
   value: 0
   description: Use to stab that person way over there
+  purchasable: 0
+  replenishable: 0
   owner: {fileID: 0}
   tier: gold
   damage: 0

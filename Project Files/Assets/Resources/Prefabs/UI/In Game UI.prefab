@@ -14357,7 +14357,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8506993130986708498}
-  - component: {fileID: 2142748680}
+  - component: {fileID: 1329670214243565664}
   m_Layer: 0
   m_Name: In Game UI
   m_TagString: Untagged
@@ -14380,7 +14380,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2142748680
+--- !u!114 &1329670214243565664
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14389,9 +14389,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8506993130986708497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d38f042b2a724184e8f9ae0ca51aa13f, type: 3}
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key: InGameUI
+  instanceList: []
 --- !u!1 &8506993131118682948
 GameObject:
   m_ObjectHideFlags: 0
@@ -14640,6 +14642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5384f7a6bcabbc942b54f636d09ce670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonSound: {fileID: 0}
 --- !u!1 &8506993131237493507
 GameObject:
   m_ObjectHideFlags: 0

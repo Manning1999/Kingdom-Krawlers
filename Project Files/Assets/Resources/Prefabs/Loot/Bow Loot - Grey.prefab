@@ -145,6 +145,8 @@ MonoBehaviour:
   name: Basic Bow
   value: 10
   description: Careful not to shoot your foot
+  purchasable: 0
+  replenishable: 0
   owner: {fileID: 0}
   tier: grey
   damage: 5

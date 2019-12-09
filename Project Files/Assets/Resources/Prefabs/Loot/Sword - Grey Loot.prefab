@@ -50,6 +50,8 @@ MonoBehaviour:
   name: Example Sword
   value: 0
   description: This sword is an example
+  purchasable: 0
+  replenishable: 0
   owner: {fileID: 0}
   tier: Grey
   isEquipped: 0

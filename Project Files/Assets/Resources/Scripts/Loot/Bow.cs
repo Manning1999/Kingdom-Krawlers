@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace ManningsLootSystem
 {
-    public class Bow : Loot
+    public class Bow : Loot, IInteractable
     {
 
         [SerializeField]
@@ -12,6 +12,8 @@ namespace ManningsLootSystem
 
         [SerializeField]
         protected int damage;
+
+        public int _damage { get { return damage; } }
 
         [SerializeField]
         protected float attackSpeed;
@@ -90,7 +92,7 @@ namespace ManningsLootSystem
 
 
 
-        public override void Use()
+        public void Use()
         {
             if (canAttack == true && InventoryController.Instance._arrowCount > 0)
             {

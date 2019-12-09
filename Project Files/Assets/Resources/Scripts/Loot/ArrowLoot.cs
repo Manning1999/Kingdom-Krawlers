@@ -24,5 +24,23 @@ namespace ManningsLootSystem
             InventoryController.Instance.UpdateArrows(arrows);
             Destroy(gameObject);
         }
+
+
+
+        protected virtual void OnTriggerEnter2D(Collider2D col)
+        {
+            if (purchasable == false)
+            {
+                if (inInventory == false)
+                {
+                    if (col.transform.GetComponent<PlayerController>() != null)
+                    {
+                        Debug.Log("Should be adding now");
+                        AddToInventory();
+
+                    }
+                }
+            }
+        }
     }
 }

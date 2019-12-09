@@ -27,6 +27,7 @@ namespace ManningsLootSystem
         private IEnumerator Timer()
         {
             yield return new WaitForSeconds(duration);
+            Debug.Log("Time is up");
             PlayerController.Instance.ChangeSpeedModifier(1);
 
         }

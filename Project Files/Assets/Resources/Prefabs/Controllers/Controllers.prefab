@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2312269451081714890}
   - component: {fileID: 1754304428}
   - component: {fileID: 1211034640}
+  - component: {fileID: 470898118289686518}
   m_Layer: 0
   m_Name: Controllers
   m_TagString: Untagged
@@ -160,28 +161,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventorySize: 25
   inventoryItems: []
-  playerMoney: 0
+  playerMoney: 100
   arrowCount: 0
   collectLootSound: {fileID: 8300000, guid: 55650176947db4b4d9de42741757fba9, type: 3}
   potions:
-  - potionType: {fileID: 644903787108217887, guid: 8c089fe623180d347a1af430e964eefb,
-      type: 3}
+  - potionType: {fileID: 6228338536597266071}
     quantityOwned: 2
     usePotionButton: 49
     inventoryText: {fileID: 0}
-  - potionType: {fileID: -8867225434995239306, guid: 0c636639463b9d2489119654c430cd85,
-      type: 3}
+  - potionType: {fileID: 2312269451081714890}
     quantityOwned: 2
     usePotionButton: 50
     inventoryText: {fileID: 0}
-  - potionType: {fileID: 6668600611627904910, guid: 8d81fca90950fad4787edcdda51c4e03,
-      type: 3}
+  - potionType: {fileID: 5894496856495271060}
     quantityOwned: 2
     usePotionButton: 51
     inventoryText: {fileID: 0}
   inventoryObject: {fileID: 0}
   inventoryBox: {fileID: 1430638488509360970, guid: b83f54c2d8b245c46a485ec57d456336,
     type: 3}
+  sellButton: {fileID: 0}
   selectedLoot: {fileID: 0}
   scrollViewContent: {fileID: 0}
   infoBox: {fileID: 0}
@@ -199,12 +198,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 7f1608cbc97144c4c86993a03173c0ea, type: 3}
   name: Speed Potion
-  value: 0
+  value: 15
   description: 
   purchasable: 0
   replenishable: 0
   owner: {fileID: 0}
-  useSound: {fileID: 0}
+  useSound: {fileID: 8300000, guid: a0a079cd84ac2a047b7105600bf07db5, type: 3}
   duration: 7
   speedModifier: 2
 --- !u!114 &6228338536597266071
@@ -226,7 +225,7 @@ MonoBehaviour:
   purchasable: 0
   replenishable: 0
   owner: {fileID: 0}
-  useSound: {fileID: 0}
+  useSound: {fileID: 8300000, guid: a0a079cd84ac2a047b7105600bf07db5, type: 3}
 --- !u!114 &2312269451081714890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,12 +240,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 7f1608cbc97144c4c86993a03173c0ea, type: 3}
   name: Regeneration Potion
-  value: 0
+  value: 10
   description: 
   purchasable: 0
   replenishable: 0
   owner: {fileID: 0}
-  useSound: {fileID: 0}
+  useSound: {fileID: 8300000, guid: a0a079cd84ac2a047b7105600bf07db5, type: 3}
   regenerationSpeed: 3
   regenerationTime: 10
 --- !u!82 &1754304428
@@ -360,3 +359,18 @@ MonoBehaviour:
   pauseMenu: {fileID: 0}
   hud: {fileID: 0}
   escapePress: 0
+--- !u!114 &470898118289686518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300732307028333066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Controller
+  originalScene: 
+  instanceList: []

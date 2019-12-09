@@ -36,7 +36,7 @@ namespace ManningsLootSystem
         [SerializeField]
         protected List<GameObject> inventoryItems = new List<GameObject>();
 
-        private InventoryController inventoryInstance;
+  
 
         [SerializeField]
         protected int playerMoney;
@@ -70,8 +70,13 @@ namespace ManningsLootSystem
 
         [SerializeField]
         protected GameObject inventoryObject = null;
+
         [SerializeField]
+        [Tooltip("This should be a prefab that has the InventoryBox script attached")]
         protected GameObject inventoryBox = null;
+
+        [SerializeField]
+        protected GameObject sellButton = null;
 
         [SerializeField]
         protected GameObject selectedLoot = null;
@@ -86,11 +91,12 @@ namespace ManningsLootSystem
         protected TextMeshProUGUI infoBox = null;
 
 
-        protected AudioSource audio;
+        protected new AudioSource audio;
 
         protected bool showingInventory = false;
 
-
+        protected bool canSell = false;
+        public bool _canSell { get { return canSell; } }
 
 
 
@@ -109,18 +115,11 @@ namespace ManningsLootSystem
 
         private void Awake()
         {
-            if (inventoryInstance == null)
-            {
-                inventoryInstance = this;
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
+           
 
             audio = transform.GetComponent<AudioSource>();
 
-            DontDestroyOnLoad(gameObject);
+       
 
 
 
@@ -230,6 +229,18 @@ namespace ManningsLootSystem
             GoldCountUI.Instance.UpdateGoldCount(playerMoney);
         }
 
+
+        public void SellButton()
+        {
+            if(selectedLoot != null)
+            {
+                SellObject(selectedLoot.transform.GetComponent<Loot>()._value);
+                inventoryItems.Remove(selectedLoot);
+                PopulateInventory();
+                Destroy(selectedLoot.gameObject);
+            }
+        }
+
         public void BuyObject(int moneySpent)
         {
            
@@ -262,7 +273,7 @@ namespace ManningsLootSystem
             }
         }
 
-
+        //Create all the inventory tiles
         protected void PopulateInventoryTiles()
         {
 
@@ -276,18 +287,17 @@ namespace ManningsLootSystem
             PopulateInventory();
         }
 
+
+        //Display all the inventory items int he inventory tiles
         [ContextMenu("Show loot collected")]
         public void PopulateInventory()
         {
-            /*for (int i = 0; i < inventoryItems.Count; i++)
-            {
-                boxes[i].transform.GetComponent<InventoryBox>().SetDetails(inventoryItems[i]);
-            } */
+           
             for(int i = 0; i<inventorySize; i++)
             {
                 if(i < inventoryItems.Count) {
                     
-                        boxes[i].transform.GetComponent<InventoryBox>().SetDetails(inventoryItems[i]);
+                    boxes[i].transform.GetComponent<InventoryBox>().SetDetails(inventoryItems[i]);
                     boxes[i].transform.GetComponent<InventoryBox>().Select(false);
 
 
@@ -295,12 +305,14 @@ namespace ManningsLootSystem
                 else
                 {
                     boxes[i].transform.GetComponent<InventoryBox>().SetDetails(null);
-                    break;
+                    
                 }
             }
+
+            infoBox.text = "";
         }
 
-
+        
         public void SelectLoot(GameObject loot)
         {
             if (loot != null)
@@ -330,14 +342,7 @@ namespace ManningsLootSystem
         {
             if (selectedLoot != null)
             {
-                /* if (selectedLoot.transform.GetComponent<Sword>() != null)
-                 {
-                    // ManningsLootSystemPlayerController.Instance.EquipSword(selectedLoot.transform.GetComponent<Sword>());
-                 }
-                 else if (selectedLoot.transform.GetComponent<Bow>() != null)
-                 {
-                     ManningsLootSystemPlayerController.Instance.EquipBow(selectedLoot.transform.GetComponent<Bow>());
-                 }  */
+               
                 if (selectedLoot.transform.GetComponent<Sword>() != null)
                 {
                     //  selectedLoot.transform.GetComponent<Sword>().Equip(true);
@@ -354,16 +359,20 @@ namespace ManningsLootSystem
         }
 
 
-        public void ShowInventory(bool show)
+        public void ShowInventory(bool show, bool showCanSellButton = false)
         {
             if(show == true)
             {
                 Time.timeScale = 0;
+               
             }
             else
             {
                 Time.timeScale = 1;
             }
+
+            canSell = showCanSellButton;
+            sellButton.SetActive(canSell);
 
 
             showingInventory = !showingInventory;

@@ -99,6 +99,8 @@ MonoBehaviour:
   name: Arrow
   value: 0
   description: 
+  purchasable: 0
+  replenishable: 0
   owner: {fileID: 0}
   arrows: 0
 --- !u!61 &6221714936288078086

@@ -26,26 +26,22 @@ public class Interactor : MonoBehaviour
     protected bool showNameOfInteractable = true;
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
 
 
-        
-
-            Vector3 mousePos3D = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, transform.position.z);
-
-            transform.right = mousePos3D - transform.position;
 
 
-        
-        if(objectToInteractWith != null)
+        Vector3 mousePos3D = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y, transform.position.z);
+
+        transform.right = mousePos3D - transform.position;
+
+
+
+        if (objectToInteractWith != null)
         {
             if (Input.GetKeyDown("e"))
             {
@@ -56,18 +52,21 @@ public class Interactor : MonoBehaviour
                 try
                 {
                     interactionIcon.transform.position = Camera.main.WorldToScreenPoint(objectToInteractWith.transform.position);
+
+
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     interactionIcon.SetActive(false);
                 }
             }
         }
 
+
     }
 
     //if an interactable object enters the trigger zone, add it to the list of interactables
-    private void OnTriggerEnter2D(Collider2D col)
+    protected virtual void OnTriggerEnter2D(Collider2D col)
     {
 
         if (col.transform.GetComponent<IInteractable>() != null)
@@ -83,7 +82,7 @@ public class Interactor : MonoBehaviour
 
 
     //if an interactable object leaves the trigger zone then remove it from the list of interactables
-    private void OnTriggerExit2D(Collider2D col)
+    protected virtual void OnTriggerExit2D(Collider2D col)
     {
 
 
@@ -102,7 +101,7 @@ public class Interactor : MonoBehaviour
 
 
     //check what is closest to the player out of the things in the list of interactables
-    private void CheckList()
+    protected virtual void CheckList()
     {
 
 
@@ -125,10 +124,10 @@ public class Interactor : MonoBehaviour
             }
             if (interactionIcon.activeSelf == false)
             {
-                
-                if(showNameOfInteractable == true)
+
+                if (showNameOfInteractable == true)
                 {
-                    interactionIconText.text = objectToInteractWith.name;
+                    ShowText();
                 }
                 interactionIcon.SetActive(true);
 
@@ -143,4 +142,22 @@ public class Interactor : MonoBehaviour
             objectToInteractWith = null;
         }
     }
+
+    protected virtual void ShowText()
+    {
+        if (objectToInteractWith.transform.GetComponent<ICustomDescription>() != null)
+        {
+            interactionIconText.text = objectToInteractWith.transform.GetComponent<ICustomDescription>().description();
+        }
+        else
+        {
+
+
+            interactionIconText.text = objectToInteractWith.name;
+        }
+    }
+
 }
+
+
+

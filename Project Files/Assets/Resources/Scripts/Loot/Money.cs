@@ -7,10 +7,24 @@ namespace ManningsLootSystem
 {
     public class Money : Loot
     {
-       
 
-      
-      
+
+        protected virtual void OnTriggerEnter2D(Collider2D col)
+        {
+            if (purchasable == false)
+            {
+                if (inInventory == false)
+                {
+                    if (col.transform.GetComponent<PlayerController>() != null)
+                    {
+                        Debug.Log("Should be adding now");
+                        AddToInventory();
+
+                    }
+                }
+            }
+        }
+
 
         public override void Generate()
         {
@@ -34,4 +48,8 @@ namespace ManningsLootSystem
             Destroy(gameObject);
         }
     }
+
+
+
+    
 }

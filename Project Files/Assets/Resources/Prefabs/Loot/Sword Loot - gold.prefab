@@ -50,6 +50,8 @@ MonoBehaviour:
   name: Example Sword
   value: 0
   description: Stick em with the pointy end
+  purchasable: 0
+  replenishable: 0
   owner: {fileID: 0}
   tier: gold
   isEquipped: 0

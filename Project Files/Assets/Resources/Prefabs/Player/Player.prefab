@@ -354,8 +354,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5084317045261050005}
   - component: {fileID: 5084317045261050003}
-  - component: {fileID: 5084317045261050002}
   - component: {fileID: 5084317045261050001}
+  - component: {fileID: 1867396070}
   m_Layer: 10
   m_Name: Interactor
   m_TagString: Untagged
@@ -408,24 +408,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.15}
   m_EdgeRadius: 0
---- !u!114 &5084317045261050002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5084317045261050004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 371724884d606491d932be718afb9362, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  listOfInteractables: []
-  objectToInteractWith: {fileID: 0}
-  interactionIcon: {fileID: 0}
-  interactionIconText: {fileID: 0}
-  showIconAtObject: 1
-  showNameOfInteractable: 1
 --- !u!222 &5084317045261050001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -434,6 +416,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5084317045261050004}
   m_CullTransparentMesh: 0
+--- !u!114 &1867396070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5084317045261050004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d486e8d7465d948aac9f6f5a843142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listOfInteractables: []
+  objectToInteractWith: {fileID: 0}
+  interactionIcon: {fileID: 0}
+  interactionIconText: {fileID: 0}
+  showIconAtObject: 1
+  showNameOfInteractable: 1
 --- !u!1 &5084317046183880083
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,6 +449,7 @@ GameObject:
   - component: {fileID: 5084317046183880090}
   - component: {fileID: 4416347863077761908}
   - component: {fileID: 5425592639944328594}
+  - component: {fileID: 3782630711740895858}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -735,6 +736,21 @@ MonoBehaviour:
   equippedBow: {fileID: 0}
   bowSlot: {fileID: 4502639557292720353}
   swordSlot: {fileID: 5820394027660845557}
+--- !u!114 &3782630711740895858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5084317046183880083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: Player
+  originalScene: 
+  instanceList: []
 --- !u!1 &5820394027660845557
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,7 +776,7 @@ Transform:
   m_GameObject: {fileID: 5820394027660845557}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -5, y: 5, z: 1}
+  m_LocalScale: {x: -4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 5084317046183880093}
   m_RootOrder: 3

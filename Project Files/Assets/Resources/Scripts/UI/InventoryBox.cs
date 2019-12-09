@@ -76,6 +76,7 @@ public class InventoryBox : MonoBehaviour
                 try
                 {
                     image.enabled = false;
+                    Select(false);
                     
                 }
                 catch (Exception e) { }

@@ -5,8 +5,10 @@ using UnityEngine;
 
 namespace ManningsLootSystem
 {
-    public class Loot : MonoBehaviour, IInteractable
+    public class Loot : MonoBehaviour
     {
+
+        
 
         [SerializeField]
         protected Sprite icon = null;
@@ -19,7 +21,7 @@ namespace ManningsLootSystem
 
         [SerializeField]
         protected int value;
-        public string _value { get { return name; } }
+        public int _value { get { return value; } }
 
         [SerializeField]
         [TextArea(2, 5)]
@@ -90,7 +92,7 @@ namespace ManningsLootSystem
             Debug.Log("The loot stats are being generated now");
         }
 
-
+         /*
         protected virtual void OnTriggerEnter2D(Collider2D col)
         {
             if (purchasable == false)
@@ -105,7 +107,7 @@ namespace ManningsLootSystem
                     }
                 }
             }
-        }
+        }   */
 
 
 
@@ -140,10 +142,7 @@ namespace ManningsLootSystem
 
 
 
-        public virtual void Use()
-        {
-            Debug.Log("This object has been used");
-        }
+       
 
         public virtual void InteractWith()
         {

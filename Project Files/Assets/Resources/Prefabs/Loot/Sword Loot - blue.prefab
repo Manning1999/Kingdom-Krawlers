@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7571801918316215}
   - component: {fileID: 7571801918316212}
   m_Layer: 0
-  m_Name: Example Sword Loot - blue
+  m_Name: Sword Loot - blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,6 +50,8 @@ MonoBehaviour:
   name: Example Sword
   value: 0
   description: This sword is an example
+  purchasable: 0
+  replenishable: 0
   owner: {fileID: 0}
   tier: blue
   isEquipped: 0

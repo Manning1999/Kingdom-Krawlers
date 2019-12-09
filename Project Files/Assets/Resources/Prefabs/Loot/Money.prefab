@@ -119,6 +119,8 @@ MonoBehaviour:
   name: 
   value: 0
   description: 
+  purchasable: 0
+  replenishable: 0
   owner: {fileID: 0}
 --- !u!61 &1591679541148319765
 BoxCollider2D:

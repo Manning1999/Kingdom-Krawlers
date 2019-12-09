@@ -181,13 +181,13 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
 
 
 
-    private static PlayerController playerInstance;
+   // private static PlayerController playerInstance;
 
     // Start is called before the first frame update
     protected override void Awake()
     {
         base.Awake();
-        DontDestroyOnLoad(this);
+       /* DontDestroyOnLoad(this);
 
 
         if (playerInstance == null)
@@ -199,7 +199,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
             
 
             Destroy(gameObject);
-        }
+        }  */
 
         dashInMouseDirection = GameplaySettings.Instance._dashTowardsMousePosition;
 

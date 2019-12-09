@@ -29,23 +29,13 @@ public class GameplaySettings : MonoBehaviour
     public bool _dashTowardsMousePosition { get { return dashTowardsMousePosition; } private set { dashTowardsMousePosition = value; } }
 
 
-    protected static GameplaySettings settingsInstance;
+   
 
 
     // Start is called before the first frame update
     void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
-        ChangeDashType(dashTowardsMousePosition);
-
-        if (settingsInstance == null)
-        {
-            settingsInstance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+       
     }
 
     // Update is called once per frame

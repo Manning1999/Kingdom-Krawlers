@@ -5,13 +5,15 @@ using UnityEngine;
 namespace ManningsLootSystem
 {
 
-    public class Sword : Loot
+    public class Sword : Loot, IInteractable
     {
         //0 = bottom tier, 3 = top tier
         [SerializeField]
         protected string tier;
 
         protected int damage;
+
+        public int _damage { get { return damage; } }
 
         protected float attackSpeed;
 
@@ -64,7 +66,7 @@ namespace ManningsLootSystem
            
         }
 
-        public override void Use()
+        public void Use()
         {
             anim.SetTrigger("Use");
             isAttacking = true;
