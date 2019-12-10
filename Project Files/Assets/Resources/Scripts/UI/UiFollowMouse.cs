@@ -19,7 +19,7 @@ public class UiFollowMouse : MonoBehaviour
     public void MoveObject()
     {
         Vector3 pos = Input.mousePosition + offset;
-        pos.z = basisObject.position.z;
+        pos.z = 0;
         movingObject.position = cam.ScreenToWorldPoint(pos);
     }
 }
