@@ -69718,13 +69718,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bf8e4c4fe31574a8f87642d557d703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 600
+  health: 800
   speed: 0
   stoppingDistance: 0
   retreatDistance: 0
   timeBtwShots: 1
   startTimeBtwShots: 2
   projectile: {fileID: 8031358605437981452, guid: ef0e679790ec552418d3e841e7f25c49,
+    type: 3}
+  player: {fileID: 0}
+--- !u!114 &992620151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992620149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25bf8e4c4fe31574a8f87642d557d703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  speed: 0
+  stoppingDistance: 0
+  retreatDistance: 0
+  timeBtwShots: 7
+  startTimeBtwShots: 7
+  projectile: {fileID: 6896224061963034568, guid: d084e1800c849e549befaf1debf9fcae,
     type: 3}
   player: {fileID: 0}
 --- !u!1 &1002848328
