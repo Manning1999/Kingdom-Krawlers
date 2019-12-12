@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -516,31 +516,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI 1
       objectReference: {fileID: 0}
-    - target: {fileID: 863165486589120585, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_Name
-      value: Credit UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 863165486589120585, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1880867364436728122, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6837920859470943011, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_Text
-      value: Credits
-      objectReference: {fileID: 0}
-    - target: {fileID: 588322454285307615, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -15
-      objectReference: {fileID: 0}
     - target: {fileID: 3505338298617039645, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -596,6 +571,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3505338298898365775, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3505338298212480586, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -611,7 +591,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3505338298898365775, guid: 7fa827352942d1e4cbb40cded87e1faa,
+    - target: {fileID: 863165486589120585, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_Name
+      value: Credit UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 863165486589120585, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -631,20 +616,35 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 588322454285307615, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627704771692865564, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3505338298632200613, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880867364436728122, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6307366316530594574, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7196941091458990816, guid: 7fa827352942d1e4cbb40cded87e1faa,
+    - target: {fileID: 7074153191695845425, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8545931366470748417, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
@@ -791,11 +791,6 @@ PrefabInstance:
       propertyPath: videoUI
       value: 
       objectReference: {fileID: 65068365}
-    - target: {fileID: 3052230534024369924, guid: 7fa827352942d1e4cbb40cded87e1faa,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8459480986170811027, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -836,6 +831,21 @@ PrefabInstance:
       propertyPath: videoUI
       value: 
       objectReference: {fileID: 65068365}
+    - target: {fileID: 6837920859470943011, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_Text
+      value: Credits
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196941091458990816, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052230534024369924, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fa827352942d1e4cbb40cded87e1faa, type: 3}
 --- !u!1 &1894070540 stripped
