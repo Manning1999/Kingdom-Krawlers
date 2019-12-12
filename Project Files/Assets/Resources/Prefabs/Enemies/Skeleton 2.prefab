@@ -168,6 +168,6 @@ MonoBehaviour:
   retreatDistance: 0.75
   timeBtwShots: 1
   startTimeBtwShots: 2
-  projectile: {fileID: 113143415506899066, guid: 207487371c262a149a038a1ab390c0ec,
+  projectile: {fileID: 5695755414519927197, guid: b44cb1f1b12a4414eae0a256c5a35487,
     type: 3}
   player: {fileID: 0}
