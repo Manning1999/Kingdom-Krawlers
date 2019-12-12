@@ -1471,11 +1471,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword - Grey Loot
       objectReference: {fileID: 0}
-    - target: {fileID: 5623468307686142958, guid: 10e773b9c75800d48a7b45ce7a3ab911,
-        type: 3}
-      propertyPath: purchasable
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5623468307686142945, guid: 10e773b9c75800d48a7b45ce7a3ab911,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1545,6 +1540,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.0373
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623468307686142958, guid: 10e773b9c75800d48a7b45ce7a3ab911,
+        type: 3}
+      propertyPath: purchasable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10e773b9c75800d48a7b45ce7a3ab911, type: 3}
@@ -3352,65 +3352,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: In Game UI
       objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_margin.z
-      value: -4332.321
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 453.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_margin.w
-      value: -2307.6426
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_fontSizeMin
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_charWidthMaxAdj
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_fontSizeMax
-      value: 453.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 256
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506993131788443350, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1182477929, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8506993130986708498, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3465,6 +3406,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390897434, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 835920714}
+    - target: {fileID: 1390897434, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RemoveFromInventory
       objectReference: {fileID: 0}
     - target: {fileID: 437553383694410540, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
@@ -3526,11 +3475,70 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.041032553
       objectReference: {fileID: 0}
-    - target: {fileID: 3344110334042576996, guid: ef260c1e5a26fa046840c385e6d7462f,
+    - target: {fileID: 8506993131788443350, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
-      propertyPath: pauseMenu
-      value: 
-      objectReference: {fileID: 641765292}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506993131118682949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182477929, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -4332.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 453.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_margin.w
+      value: -2307.6426
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_fontSizeMin
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_charWidthMaxAdj
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 453.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 2567042236210714567, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3581,16 +3589,6 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 437553383855318432, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 956.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 437553383855318432, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 956.68
-      objectReference: {fileID: 0}
     - target: {fileID: 1814321310, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -3603,6 +3601,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 437553383855318432, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 956.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 437553383855318432, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 956.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3344110334042576996, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 641765292}
     - target: {fileID: 1886393561, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -3618,19 +3631,6 @@ PrefabInstance:
     - target: {fileID: 1602224384, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506993131118682949, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1390897434, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 835920714}
-    - target: {fileID: 1390897434, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RemoveFromInventory
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
@@ -3684,7 +3684,7 @@ PrefabInstance:
     - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.09
+      value: 1.172
       objectReference: {fileID: 0}
     - target: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
         type: 3}
@@ -49879,7 +49879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnDirection: 1
   spawnDistance: 1
-  linkedScene: SampleScene
+  linkedScene: Dungeon
   linkedEntrance: Cave Exit 1
 --- !u!4 &2105506503
 Transform:

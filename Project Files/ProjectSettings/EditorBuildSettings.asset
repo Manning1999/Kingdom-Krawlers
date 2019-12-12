@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Resources/Scenes/UI Prototype.unity
     guid: d78d547f50beafb4d82da10b2efc15fd
+  - enabled: 1
+    path: Assets/Johns Stuff/Dungeon.unity
+    guid: 9bfe8dcb8f3d30b408771dcd650aa20a
   m_configObjects: {}
