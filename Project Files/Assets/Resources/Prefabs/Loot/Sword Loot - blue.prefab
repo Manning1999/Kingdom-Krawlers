@@ -54,8 +54,11 @@ MonoBehaviour:
   replenishable: 0
   owner: {fileID: 0}
   tier: blue
+  damage: 0
   isEquipped: 0
   swordAnimator: {fileID: 9100000, guid: 4eb458ce28b42fb41adb75814aa70218, type: 2}
+  bloodSpurt: {fileID: 1348113823818967717, guid: 98ce7f4721e91e84392cb53156a7a790,
+    type: 3}
 --- !u!212 &7571801918316216
 SpriteRenderer:
   m_ObjectHideFlags: 0

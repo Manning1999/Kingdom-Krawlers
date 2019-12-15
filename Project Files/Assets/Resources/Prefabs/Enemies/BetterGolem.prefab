@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 7431798383091406810}
   - component: {fileID: 7431798383091406809}
   - component: {fileID: 7431798383091406808}
+  - component: {fileID: 5693079172488722676}
+  - component: {fileID: -3502671834362632681}
   m_Layer: 0
   m_Name: BetterGolem
   m_TagString: Untagged
@@ -93,14 +95,14 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.5, y: 0.5}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -142,10 +144,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7bacc7a96cdc44ea3e25f272841114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.3
+  health: 150
+  moveSpeed: 0.5
   timeBetweenMove: 1
   timeToMove: 1.5
   speed: 0.3
-  range: 0.7
+  range: 1
   damage: 30
-  health: 150
+  OnDie:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5693079172488722676}
+        m_MethodName: DecideLootToDrop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5693079172488722676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7431798383091406815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64cb7eef408a7d4bbcdc06d52406593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potentialLootDropList:
+  - loot: {fileID: 1591679541148319753, guid: 0de875563e0f7de48af5ac3f25512b31, type: 3}
+    dropChance: 20
+  - loot: {fileID: 644903787108217887, guid: 8c089fe623180d347a1af430e964eefb, type: 3}
+    dropChance: 15
+  - loot: {fileID: -8867225434995239306, guid: 0c636639463b9d2489119654c430cd85, type: 3}
+    dropChance: 5
+  - loot: {fileID: 6668600611627904910, guid: 8d81fca90950fad4787edcdda51c4e03, type: 3}
+    dropChance: 5
+  - loot: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac, type: 3}
+    dropChance: 15
+  - loot: {fileID: 1587619264327156366, guid: 6a369ffabdee0cf4b996edce9cd2fc76, type: 3}
+    dropChance: 10
+  - loot: {fileID: 7571801918316217, guid: 9f044faa821b2d74286128db4e2d8d0a, type: 3}
+    dropChance: 10
+  - loot: {fileID: 5623468307686142958, guid: 10e773b9c75800d48a7b45ce7a3ab911, type: 3}
+    dropChance: 15
+  - loot: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921, type: 3}
+    dropChance: 5
+--- !u!114 &-3502671834362632681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7431798383091406815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 
+  originalScene: 
+  instanceList: []

@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class EnemyController : MonoBehaviour, IHurtable
+public class EnemyController : EnemyIdentifier, IHurtable
 {
 
     private Rigidbody2D myRigidbody;
@@ -26,12 +27,16 @@ public class EnemyController : MonoBehaviour, IHurtable
     [SerializeField]
     private int damage = 10;
 
-    [SerializeField]
-    private int health;
+
+
+    public UnityEvent OnDie;
 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
+        base.Start();
+
+
         target = FindObjectOfType<PlayerController>().transform;
         Debug.Log(target);
 
@@ -91,9 +96,11 @@ public class EnemyController : MonoBehaviour, IHurtable
         }
     }
 
+    [ContextMenu("Kill")]
     private void Die()
     {
-        Destroy(gameObject);
+        OnDie.Invoke();
+        gameObject.SetActive(false);
     }
 
 

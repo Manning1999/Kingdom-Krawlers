@@ -42,7 +42,7 @@ public class GoldCountUI : MonoBehaviour
 
     public void UpdateGoldCount(int goldCount)
     {
-        Debug.Log("Gold: " + goldCount);
+
         GetComponent<Text>().text = goldCount.ToString();
     }
 }

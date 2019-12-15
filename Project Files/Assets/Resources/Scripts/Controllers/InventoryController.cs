@@ -260,11 +260,11 @@ namespace ManningsLootSystem
         {
             audio.clip = collectLootSound;
             audio.Play();
-
+            Debug.Log("Added potion");
             foreach (Potions potion in potions)
             {
-                Debug.Log(potion.potionType + "    :    " + pot);
-                if (pot.ToString() == potion.potionType.ToString())
+                Debug.Log(potion.potionType.GetType() + "    :    " + pot.GetType());
+                if (pot.GetType() == potion.potionType.GetType())
                 {
                     Debug.Log(pot);
                     potion.quantityOwned++;

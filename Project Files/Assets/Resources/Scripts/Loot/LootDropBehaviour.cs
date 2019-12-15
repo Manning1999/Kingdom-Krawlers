@@ -16,27 +16,34 @@ namespace ManningsLootSystem
 
         [SerializeField]
         [Tooltip("Enter what loot you want this object to be able to drop and the chance of it dropping that loot")]
-        private List<PotentialLootDrop> potentialLootDropList = new List<PotentialLootDrop>();
+        protected List<PotentialLootDrop> potentialLootDropList = new List<PotentialLootDrop>();
+
+
+        protected int totalPercentage;
 
         // Start is called before the first frame update
-        void Start()
+        protected virtual void Start()
         {
 
+            foreach(PotentialLootDrop drop in potentialLootDropList)
+            {
+                totalPercentage += drop.dropChance;
+            }
         }
 
         // Update is called once per frame
-        void Update()
+        protected virtual void Update()
         {
 
         }
 
 
 
-        public void DecideLootToDrop()
+        public virtual void DecideLootToDrop()
         {
 
 
-            int chance = Random.Range(0, 100);
+            int chance = Random.Range(0, totalPercentage);
 
             int dropChanceSoFar = 0;
 
@@ -55,7 +62,7 @@ namespace ManningsLootSystem
 
         }
 
-        private void DropLoot(Loot lootToDrop)
+        protected virtual void DropLoot(Loot lootToDrop)
         {
             Debug.Log("Created a " + lootToDrop);
             Debug.Log(transform.position);

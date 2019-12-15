@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[DisallowMultipleComponent]
 public class SingletonDontDestroyOnLoad : MonoBehaviour
 {
 
     [SerializeField]
-    [Tooltip("This is the key used to uniquely identify this object. When a new scene loads the object will destroy everything else that has the same key to ensure that only one instance of the object is in the scene at a same")]
+    [Tooltip("This is the key used to uniquely identify this object. When a new scene loads the object will destroy everything else that has the same key to ensure that only one instance of the object is in the scene at a same. If this is left empty, the key will be set to be the gameObject's position")]
     private string key;
 
     public string _key { get { return key; } }
@@ -26,7 +27,10 @@ public class SingletonDontDestroyOnLoad : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
         
-
+        if(key == "")
+        {
+            key = transform.position.ToString();
+        }
         
 
     }

@@ -31,12 +31,14 @@ public class PauseTransition : MonoBehaviour
         {
             hud.SetActive(true);
             pauseMenu.SetActive(false);
+            Time.timeScale = 1;
         }
 
         if (escapePress == true)
         {
             hud.SetActive(false);
             pauseMenu.SetActive(true);
+            Time.timeScale = 0;
             InventoryController.Instance.ShowInventory(false);
         }
     }

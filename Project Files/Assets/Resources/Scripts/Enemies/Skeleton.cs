@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class Skeleton : MonoBehaviour, IHurtable
+public class Skeleton : EnemyIdentifier, IHurtable
 {
 
-    [SerializeField]
-    private int health;
+   
 
     [SerializeField]
     private float speed;
@@ -30,9 +30,15 @@ public class Skeleton : MonoBehaviour, IHurtable
     [SerializeField]
     private Transform player;
 
+
+    public UnityEvent OnDie;
+
+
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
+        base.Start(); 
+
         if (player == null)
         {
             // player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -83,6 +89,8 @@ public class Skeleton : MonoBehaviour, IHurtable
 
     private void Die()
     {
-        Destroy(gameObject);
+        OnDie.Invoke();
+        // Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

@@ -104,57 +104,58 @@ public class Interactor : MonoBehaviour
     protected virtual void CheckList()
     {
 
-
-        if (listOfInteractables.Count > 0)
+        try
         {
-            objectToInteractWith = listOfInteractables[0];
-
-            foreach (GameObject interaction in listOfInteractables)
+            if (listOfInteractables.Count > 0)
             {
-                Vector2 previousPos2D = new Vector2(objectToInteractWith.transform.position.x, objectToInteractWith.transform.position.y);
-                Vector2 otherPos2D = new Vector2(interaction.transform.position.x, interaction.transform.position.y);
-                Vector2 thisPos2D = new Vector2(transform.position.x, transform.position.y);
+                objectToInteractWith = listOfInteractables[0];
 
-                if (Vector2.Distance(otherPos2D, thisPos2D) < Vector2.Distance(previousPos2D, thisPos2D))
+                foreach (GameObject interaction in listOfInteractables)
                 {
-                    objectToInteractWith = interaction;
+                    Vector2 previousPos2D = new Vector2(objectToInteractWith.transform.position.x, objectToInteractWith.transform.position.y);
+                    Vector2 otherPos2D = new Vector2(interaction.transform.position.x, interaction.transform.position.y);
+                    Vector2 thisPos2D = new Vector2(transform.position.x, transform.position.y);
+
+                    if (Vector2.Distance(otherPos2D, thisPos2D) < Vector2.Distance(previousPos2D, thisPos2D))
+                    {
+                        objectToInteractWith = interaction;
+                    }
+
+
                 }
+                if (interactionIcon.activeSelf == false)
+                {
 
+                    if (showNameOfInteractable == true)
+                    {
+                        ShowText();
+                    }
+                    interactionIcon.SetActive(true);
 
+                }
             }
-            if (interactionIcon.activeSelf == false)
+            else
             {
-
-                if (showNameOfInteractable == true)
+                if (interactionIcon.activeSelf == true)
                 {
-                    ShowText();
+                    interactionIcon.SetActive(false);
                 }
-                interactionIcon.SetActive(true);
-
+                objectToInteractWith = null;
             }
         }
-        else
+        catch(Exception e)
         {
-            if (interactionIcon.activeSelf == true)
-            {
-                interactionIcon.SetActive(false);
-            }
-            objectToInteractWith = null;
+            interactionIcon.SetActive(false);
         }
     }
 
     protected virtual void ShowText()
     {
-        if (objectToInteractWith.transform.GetComponent<ICustomDescription>() != null)
-        {
-            interactionIconText.text = objectToInteractWith.transform.GetComponent<ICustomDescription>().description();
-        }
-        else
-        {
+       
 
 
             interactionIconText.text = objectToInteractWith.name;
-        }
+       
     }
 
 }

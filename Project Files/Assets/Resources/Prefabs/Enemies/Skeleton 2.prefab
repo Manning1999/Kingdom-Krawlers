@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 2778104798939335262}
   - component: {fileID: 2778104798939335249}
   - component: {fileID: 2778104798939335261}
+  - component: {fileID: -5156464835334007506}
+  - component: {fileID: -2430472591177604789}
   m_Layer: 9
   m_Name: Skeleton 2
   m_TagString: Untagged
@@ -171,3 +173,63 @@ MonoBehaviour:
   projectile: {fileID: 5695755414519927197, guid: b44cb1f1b12a4414eae0a256c5a35487,
     type: 3}
   player: {fileID: 0}
+  OnDie:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5156464835334007506}
+        m_MethodName: DecideLootToDrop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-5156464835334007506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778104798939335253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64cb7eef408a7d4bbcdc06d52406593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potentialLootDropList:
+  - loot: {fileID: 1591679541148319753, guid: 0de875563e0f7de48af5ac3f25512b31, type: 3}
+    dropChance: 20
+  - loot: {fileID: 644903787108217887, guid: 8c089fe623180d347a1af430e964eefb, type: 3}
+    dropChance: 15
+  - loot: {fileID: -8867225434995239306, guid: 0c636639463b9d2489119654c430cd85, type: 3}
+    dropChance: 5
+  - loot: {fileID: 6668600611627904910, guid: 8d81fca90950fad4787edcdda51c4e03, type: 3}
+    dropChance: 5
+  - loot: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac, type: 3}
+    dropChance: 15
+  - loot: {fileID: 1587619264327156366, guid: 6a369ffabdee0cf4b996edce9cd2fc76, type: 3}
+    dropChance: 10
+  - loot: {fileID: 7571801918316217, guid: 9f044faa821b2d74286128db4e2d8d0a, type: 3}
+    dropChance: 10
+  - loot: {fileID: 5623468307686142958, guid: 10e773b9c75800d48a7b45ce7a3ab911, type: 3}
+    dropChance: 15
+  - loot: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921, type: 3}
+    dropChance: 5
+--- !u!114 &-2430472591177604789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2778104798939335253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 
+  originalScene: 
+  instanceList: []

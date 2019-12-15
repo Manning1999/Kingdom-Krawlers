@@ -11,6 +11,7 @@ namespace ManningsLootSystem
         [SerializeField]
         protected string tier;
 
+        [SerializeField]
         protected int damage;
 
         public int _damage { get { return damage; } }
@@ -28,6 +29,9 @@ namespace ManningsLootSystem
 
         //used to make sure no enemies are hit twice during a single attack
         protected List<GameObject> hitEnemies = new List<GameObject>();
+
+        [SerializeField]
+        protected GameObject bloodSpurt = null;
 
 
         // Start is called before the first frame update
@@ -138,9 +142,13 @@ namespace ManningsLootSystem
                     if (!hitEnemies.Contains(col.gameObject))
                     {
                         if (col.transform.GetComponent<IHurtable>() != null){
-                            Debug.Log("Dealt damage to: " + col.transform.name);
-                            col.transform.GetComponent<IHurtable>().TakeDamage(damage);
-                            hitEnemies.Add(col.gameObject);
+                            if (col.gameObject != owner)
+                            {
+                                Debug.Log("Dealt damage to: " + col.transform.name);
+                                col.transform.GetComponent<IHurtable>().TakeDamage(damage);
+                                hitEnemies.Add(col.gameObject);
+                                Instantiate(bloodSpurt, col.ClosestPoint(col.transform.position), Quaternion.identity);
+                            }
                         }
                     }
                     

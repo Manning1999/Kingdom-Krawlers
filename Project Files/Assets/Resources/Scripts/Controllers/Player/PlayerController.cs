@@ -424,6 +424,17 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     }
 
 
+    protected virtual void OnCollisionStay2D(Collision2D col)
+    {
+
+        if (isDashing == true)
+        {
+            isDashing = false;
+            canMove = true;
+        }
+    }
+
+
 
     protected void OnTriggerEnter2D(Collider2D col)
     {
@@ -450,6 +461,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         //if the player has entered a chasm and is NOT dashing then set them to faling, move them towards the chasm's center, play the falling animation and start the death timer
         if(col.transform.GetComponent<Chasm>() != null && isDashing == false && isFalling == false)
         {
+            Debug.Log("Falling now");
             isFalling = true;
 
 
@@ -577,6 +589,7 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
     [ContextMenu("Die")]
     protected virtual void Die()
     {
+        
         Debug.Log("Player is now dead");
         //Death animation
         StartCoroutine(DeathTimer());
@@ -656,7 +669,8 @@ public class PlayerController : TwoDimensionalPlayerMovement, IHurtable
         isFalling = false;
         maxHealth -= healthLostOnDeath;
         currentHealth = maxHealth;
-
+        GameController.Instance.ResetEnemies();
+        GameController.Instance.ResetChests();
 
     }
 
