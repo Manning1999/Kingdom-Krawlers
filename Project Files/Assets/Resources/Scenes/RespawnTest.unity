@@ -196,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2637854370478930454, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -246979719000684924, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -220,7 +220,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &87340314 stripped
 MonoBehaviour:
@@ -310,7 +310,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6671951363204389234, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -6390608278072906656, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -334,7 +334,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &107288716
 GameObject:
@@ -650,7 +650,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1816002508366711071, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -9076201783783436568, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -674,7 +674,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &131097430
 BoxCollider2D:
@@ -756,11 +756,6 @@ PrefabInstance:
       propertyPath: key
       value: Shop Regeneration Potion
       objectReference: {fileID: 0}
-    - target: {fileID: 3394324661840169468, guid: 0c636639463b9d2489119654c430cd85,
-        type: 3}
-      propertyPath: m_Name
-      value: Regeneration Potion
-      objectReference: {fileID: 0}
     - target: {fileID: -8867225434995239306, guid: 0c636639463b9d2489119654c430cd85,
         type: 3}
       propertyPath: purchasable
@@ -770,6 +765,11 @@ PrefabInstance:
         type: 3}
       propertyPath: replenishable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3394324661840169468, guid: 0c636639463b9d2489119654c430cd85,
+        type: 3}
+      propertyPath: m_Name
+      value: Regeneration Potion
       objectReference: {fileID: 0}
     - target: {fileID: 3394324661840169471, guid: 0c636639463b9d2489119654c430cd85,
         type: 3}
@@ -839,11 +839,6 @@ PrefabInstance:
       propertyPath: key
       value: Shop Health Potion
       objectReference: {fileID: 0}
-    - target: {fileID: 644903787108217886, guid: 8c089fe623180d347a1af430e964eefb,
-        type: 3}
-      propertyPath: m_Name
-      value: Health Potion
-      objectReference: {fileID: 0}
     - target: {fileID: 644903787108217887, guid: 8c089fe623180d347a1af430e964eefb,
         type: 3}
       propertyPath: purchasable
@@ -853,6 +848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: replenishable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 644903787108217886, guid: 8c089fe623180d347a1af430e964eefb,
+        type: 3}
+      propertyPath: m_Name
+      value: Health Potion
       objectReference: {fileID: 0}
     - target: {fileID: 644903787108217885, guid: 8c089fe623180d347a1af430e964eefb,
         type: 3}
@@ -973,7 +973,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5385777677260159880, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: 7001450576969808628, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -997,7 +997,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &445426792
 BoxCollider2D:
@@ -1241,7 +1241,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1816002508366711071, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -9076201783783436568, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1265,7 +1265,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &605936140
 BoxCollider2D:
@@ -1334,7 +1334,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.25, y: 0.62}
+    oldSize: {x: 0.19, y: 0.57}
     newSize: {x: 0.25, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1381,7 +1381,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7771773558658441671, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: 1550896185230560979, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1405,7 +1405,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &791416514
 PrefabInstance:
@@ -1418,15 +1418,15 @@ PrefabInstance:
       propertyPath: key
       value: Shop Grey Sword
       objectReference: {fileID: 0}
-    - target: {fileID: 5623468307686142956, guid: 10e773b9c75800d48a7b45ce7a3ab911,
-        type: 3}
-      propertyPath: m_Name
-      value: Sword - Grey Loot
-      objectReference: {fileID: 0}
     - target: {fileID: 5623468307686142958, guid: 10e773b9c75800d48a7b45ce7a3ab911,
         type: 3}
       propertyPath: purchasable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623468307686142956, guid: 10e773b9c75800d48a7b45ce7a3ab911,
+        type: 3}
+      propertyPath: m_Name
+      value: Sword - Grey Loot
       objectReference: {fileID: 0}
     - target: {fileID: 5623468307686142945, guid: 10e773b9c75800d48a7b45ce7a3ab911,
         type: 3}
@@ -1556,7 +1556,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1816002508366711071, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -9076201783783436568, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1580,7 +1580,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &801872016
 BoxCollider2D:
@@ -1643,7 +1643,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.25, y: 0.62}
+    oldSize: {x: 0.19, y: 0.57}
     newSize: {x: 0.25, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1690,7 +1690,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7771773558658441671, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: 1550896185230560979, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1714,7 +1714,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &876420178 stripped
 GameObject:
@@ -1758,6 +1758,86 @@ MonoBehaviour:
   key: shop speed potion
   originalScene: 
   instanceList: []
+--- !u!1 &967514325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 967514327}
+  - component: {fileID: 967514326}
+  m_Layer: 0
+  m_Name: Player Run Blue left clone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &967514326
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967514325}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 1c4871966c2e7d843ae453e8fba1c0a5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.64, y: 0.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &967514327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967514325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.937, y: 4.137, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1001920919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,7 +2722,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1816002508366711071, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -9076201783783436568, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2666,7 +2746,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1026553690
 BoxCollider2D:
@@ -2792,86 +2872,6 @@ MonoBehaviour:
   key: shop blue bow
   originalScene: 
   instanceList: []
---- !u!1 &1216643285
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1216643287}
-  - component: {fileID: 1216643286}
-  m_Layer: 0
-  m_Name: Shopkeeper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1216643286
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216643285}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fac6af77aaf70bd4a9f775a6d7c957b0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2, y: 3.6}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1216643287
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216643285}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.996, y: 4.21, z: -0.04}
-  m_LocalScale: {x: 0.113166146, y: 0.113166146, z: 0.113166146}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1241952955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2982,15 +2982,15 @@ PrefabInstance:
       propertyPath: key
       value: Shop Grey Bow
       objectReference: {fileID: 0}
-    - target: {fileID: 5284866346633092262, guid: aa9ee5c0483d64b4f8962089396554ac,
-        type: 3}
-      propertyPath: m_Name
-      value: Bow Loot - Grey
-      objectReference: {fileID: 0}
     - target: {fileID: 5284866346633092261, guid: aa9ee5c0483d64b4f8962089396554ac,
         type: 3}
       propertyPath: purchasable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284866346633092262, guid: aa9ee5c0483d64b4f8962089396554ac,
+        type: 3}
+      propertyPath: m_Name
+      value: Bow Loot - Grey
       objectReference: {fileID: 0}
     - target: {fileID: 5284866346633092313, guid: aa9ee5c0483d64b4f8962089396554ac,
         type: 3}
@@ -3178,11 +3178,6 @@ PrefabInstance:
       propertyPath: key
       value: Shop Speed Potion
       objectReference: {fileID: 0}
-    - target: {fileID: 8327349943009950174, guid: 8d81fca90950fad4787edcdda51c4e03,
-        type: 3}
-      propertyPath: m_Name
-      value: Speed Potion
-      objectReference: {fileID: 0}
     - target: {fileID: 6668600611627904910, guid: 8d81fca90950fad4787edcdda51c4e03,
         type: 3}
       propertyPath: purchasable
@@ -3192,6 +3187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: replenishable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327349943009950174, guid: 8d81fca90950fad4787edcdda51c4e03,
+        type: 3}
+      propertyPath: m_Name
+      value: Speed Potion
       objectReference: {fileID: 0}
     - target: {fileID: 8327349943009950173, guid: 8d81fca90950fad4787edcdda51c4e03,
         type: 3}
@@ -3406,10 +3406,6 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 641765292}
-    - target: {fileID: 1182477929, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 437553383143140752, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
       propertyPath: m_margin.z
@@ -3464,6 +3460,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 339
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182477929, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 437553383855318435, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
@@ -3606,7 +3606,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2333691742414540322, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -6434482867217239202, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3630,7 +3630,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1466438635
 BoxCollider2D:
@@ -3649,7 +3649,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.65}
+    oldSize: {x: 0.26, y: 0.64}
     newSize: {x: 0.28, y: 0.65}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3669,13 +3669,13 @@ PrefabInstance:
       propertyPath: key
       value: Shop blue sword
       objectReference: {fileID: 0}
-    - target: {fileID: 7571801918316219, guid: 9f044faa821b2d74286128db4e2d8d0a, type: 3}
-      propertyPath: m_Name
-      value: Sword Loot - blue
-      objectReference: {fileID: 0}
     - target: {fileID: 7571801918316217, guid: 9f044faa821b2d74286128db4e2d8d0a, type: 3}
       propertyPath: purchasable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7571801918316219, guid: 9f044faa821b2d74286128db4e2d8d0a, type: 3}
+      propertyPath: m_Name
+      value: Sword Loot - blue
       objectReference: {fileID: 0}
     - target: {fileID: 7571801918316214, guid: 9f044faa821b2d74286128db4e2d8d0a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4079,15 +4079,15 @@ PrefabInstance:
       propertyPath: key
       value: Shop blue bow
       objectReference: {fileID: 0}
-    - target: {fileID: 1587619264327156365, guid: 6a369ffabdee0cf4b996edce9cd2fc76,
-        type: 3}
-      propertyPath: m_Name
-      value: Bow Loot - Blue
-      objectReference: {fileID: 0}
     - target: {fileID: 1587619264327156366, guid: 6a369ffabdee0cf4b996edce9cd2fc76,
         type: 3}
       propertyPath: value
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587619264327156365, guid: 6a369ffabdee0cf4b996edce9cd2fc76,
+        type: 3}
+      propertyPath: m_Name
+      value: Bow Loot - Blue
       objectReference: {fileID: 0}
     - target: {fileID: 1587619264327156466, guid: 6a369ffabdee0cf4b996edce9cd2fc76,
         type: 3}
@@ -4201,7 +4201,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.25, y: 0.62}
+    oldSize: {x: 0.19, y: 0.57}
     newSize: {x: 0.25, y: 0.62}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4248,7 +4248,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7771773558658441671, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: 1550896185230560979, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4272,7 +4272,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682682646 stripped
 GameObject:
@@ -48507,15 +48507,15 @@ PrefabInstance:
       propertyPath: key
       value: Shop Sword Gold
       objectReference: {fileID: 0}
-    - target: {fileID: 2859963698811759549, guid: 85ba9be1002336245ab12b9cb5eae921,
-        type: 3}
-      propertyPath: m_Name
-      value: Sword Loot - gold
-      objectReference: {fileID: 0}
     - target: {fileID: 2859963698811759551, guid: 85ba9be1002336245ab12b9cb5eae921,
         type: 3}
       propertyPath: purchasable
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859963698811759549, guid: 85ba9be1002336245ab12b9cb5eae921,
+        type: 3}
+      propertyPath: m_Name
+      value: Sword Loot - gold
       objectReference: {fileID: 0}
     - target: {fileID: 2859963698811759536, guid: 85ba9be1002336245ab12b9cb5eae921,
         type: 3}
@@ -48645,7 +48645,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2333691742414540322, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -6434482867217239202, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -48669,7 +48669,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1802406958
 BoxCollider2D:
@@ -48688,7 +48688,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.65}
+    oldSize: {x: 0.26, y: 0.64}
     newSize: {x: 0.28, y: 0.65}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -48753,8 +48753,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -976374018529422954, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -5716433793937368688, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -48778,7 +48778,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1876021840
 BoxCollider2D:
@@ -48797,7 +48797,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.38}
+    oldSize: {x: 0.64, y: 0.36}
     newSize: {x: 0.64, y: 0.38}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -48874,7 +48874,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2333691742414540322, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -6434482867217239202, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -48898,7 +48898,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1878616737
 BoxCollider2D:
@@ -48917,7 +48917,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.28, y: 0.65}
+    oldSize: {x: 0.26, y: 0.64}
     newSize: {x: 0.28, y: 0.65}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -48982,7 +48982,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5385777677260159880, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: 7001450576969808628, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -49006,7 +49006,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1915340560
 BoxCollider2D:
@@ -49235,7 +49235,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1816002508366711071, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -9076201783783436568, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -49259,7 +49259,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2000568019
 BoxCollider2D:
@@ -49341,8 +49341,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7199006964400315002, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 5195232101701127241, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -49366,7 +49366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065607250
 GameObject:
@@ -49424,7 +49424,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1816002508366711071, guid: 70ceac25014b2e04b9506b3abd99fc93,
+  m_Sprite: {fileID: -9076201783783436568, guid: 7e22b308b7d8f864d9ca2196442f9fe5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -49448,7 +49448,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2065607253
 BoxCollider2D:
@@ -49556,7 +49556,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2076045324
 BoxCollider2D:
