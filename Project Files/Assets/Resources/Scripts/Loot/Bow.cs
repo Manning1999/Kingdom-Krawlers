@@ -51,7 +51,7 @@ namespace ManningsLootSystem
             {
                 if (bowTier.tier == tier)
                 {
-                    Debug.Log("generating stats now");
+
                     icon = bowTier.possibleSprites[Random.Range(0, bowTier.possibleSprites.Count)];
 
                     damage = Random.Range(bowTier.minDamage, bowTier.maxDamage);

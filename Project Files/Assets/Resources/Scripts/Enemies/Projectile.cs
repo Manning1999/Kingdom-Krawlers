@@ -51,6 +51,8 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.transform.GetComponent<IHurtable>().TakeDamage(damage);
+            GameObject blood = Instantiate(bloodParticles, transform.position, Quaternion.identity) as GameObject;
+            blood.transform.position = transform.position;
             DestroyProjectile();
         } 
 
@@ -64,9 +66,7 @@ public class Projectile : MonoBehaviour
     }
 
     void DestroyProjectile()
-    {
-        GameObject blood = Instantiate(bloodParticles, transform.position, Quaternion.identity) as GameObject;
-        blood.transform.position = transform.position;
+    { 
         Destroy(gameObject);
     }
 }

@@ -21,7 +21,7 @@ public class EnemyIdentifier : MonoBehaviour
     {
         if(originalScene.Equals(""))
         {
-            Debug.Log("Setting original scene");
+
             originalScene = SceneManager.GetActiveScene().name;
         }
         if (baseHealth == 0)

@@ -2468,7 +2468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -14205,6 +14205,36 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1569807207652465088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963743639979084952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e1f70c1fc1f2ef478ac0b3c96b9cdef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies: []
+  chests: []
+--- !u!114 &5774536811707281587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6963743639979084952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde0108897eb69049bf88e6ebb9e8e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movingObject: {fileID: 0}
+  offset: {x: 15, y: -5, z: 0}
+  basisObject: {fileID: 0}
+  canvas: {fileID: 8506993131118682944}
 --- !u!1 &7079804376102611460
 GameObject:
   m_ObjectHideFlags: 0
@@ -16182,6 +16212,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 470898118289686518, guid: 14c5a3c7334bcaa4e9fefc48c097cd13, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 14c5a3c7334bcaa4e9fefc48c097cd13, type: 3}
+--- !u!1 &6963743639979084952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2300732307028333066, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,
+    type: 3}
+  m_PrefabInstance: {fileID: 9172134958283005586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6963743639979084954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2300732307028333064, guid: 14c5a3c7334bcaa4e9fefc48c097cd13,

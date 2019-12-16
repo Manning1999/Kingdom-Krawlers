@@ -70135,12 +70135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &1429810156 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8422870489895278307, guid: ef260c1e5a26fa046840c385e6d7462f,
-    type: 3}
-  m_PrefabInstance: {fileID: 553836108}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1434885935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70314,12 +70308,6 @@ MonoBehaviour:
     dropChance: 20
   - loot: {fileID: 1587619264327156366, guid: 6a369ffabdee0cf4b996edce9cd2fc76, type: 3}
     dropChance: 10
---- !u!224 &1553106187 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2264866624656997537, guid: ef260c1e5a26fa046840c385e6d7462f,
-    type: 3}
-  m_PrefabInstance: {fileID: 553836108}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1581976671 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2778104798939335253, guid: 5becba93b0db05d4b94d32ed1fc00346,
@@ -76222,26 +76210,6 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 4416347863077761907}
-    - target: {fileID: 5806942169222394206, guid: aeb52e2fa2eca644c8d6ed728ca5b99e,
-        type: 3}
-      propertyPath: movingObject
-      value: 
-      objectReference: {fileID: 1553106187}
-    - target: {fileID: 5806942169222394206, guid: aeb52e2fa2eca644c8d6ed728ca5b99e,
-        type: 3}
-      propertyPath: basisObject
-      value: 
-      objectReference: {fileID: 1429810156}
-    - target: {fileID: 5806942169222394206, guid: aeb52e2fa2eca644c8d6ed728ca5b99e,
-        type: 3}
-      propertyPath: offset.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5806942169222394206, guid: aeb52e2fa2eca644c8d6ed728ca5b99e,
-        type: 3}
-      propertyPath: offset.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aeb52e2fa2eca644c8d6ed728ca5b99e, type: 3}
 --- !u!1001 &6221714936133903072

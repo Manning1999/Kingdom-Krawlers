@@ -32,7 +32,7 @@ public class GameController : MonoBehaviour
     private List<ChestLootDropBehaviour> chests = new List<ChestLootDropBehaviour>();
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
        
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -57,7 +57,23 @@ public class GameController : MonoBehaviour
         
         foreach (EnemyIdentifier enemy in GameObject.FindObjectsOfType<EnemyIdentifier>())
         {
-            enemies.Add(enemy);
+            bool canAdd = true;
+            if (!enemies.Contains(enemy))
+            {
+                
+                foreach (EnemyIdentifier enem in enemies)
+                {
+                    if (enem.transform.GetComponent<SingletonDontDestroyOnLoad>()._key == enemy.transform.GetComponent<SingletonDontDestroyOnLoad>()._key)
+                    {
+                        enemies.Remove(enemy);
+                        Destroy(enemy.gameObject);
+                        canAdd = false;
+                        break;
+                    }
+                }
+                if (canAdd == true) enemies.Add(enemy);
+
+            }
         }
         SetEnemies();
 
@@ -78,22 +94,25 @@ public class GameController : MonoBehaviour
     {
         foreach(EnemyIdentifier enemy in enemies)
         {
-            if(enemy._health <= 0)
+            if (!enemy._originalScene.Equals(""))
             {
-                enemy.gameObject.SetActive(false);
-                Debug.Log("Set Inactive");
-            }
-            else
-            {
-                if (enemy._originalScene == SceneManager.GetActiveScene().name)
-                {
-                    enemy.gameObject.SetActive(true);
-                    Debug.Log("Set Active");
-                }
-                else
+                if (enemy._health <= 0)
                 {
                     enemy.gameObject.SetActive(false);
                     Debug.Log("Set Inactive");
+                }
+                else
+                {
+                    if (enemy._originalScene == SceneManager.GetActiveScene().name)
+                    {
+                        enemy.gameObject.SetActive(true);
+                        Debug.Log("Set Active");
+                    }
+                    else
+                    {
+                        enemy.gameObject.SetActive(false);
+                        Debug.Log("Set Inactive");
+                    }
                 }
             }
         }
@@ -101,17 +120,7 @@ public class GameController : MonoBehaviour
 
     private void SetChests()
     {
-        foreach(ChestLootDropBehaviour chest in chests)
-        {
-            if(chest._originalLevel == SceneManager.GetActiveScene().name)
-            {
-                chest.gameObject.SetActive(true);
-            }
-            else
-            {
-                chest.gameObject.SetActive(false);
-            }
-        }
+       
     }
 
 

@@ -5,10 +5,18 @@ using UnityEngine.UI;
 
 public class UiFollowMouse : MonoBehaviour
 {
-    public RectTransform movingObject;
-    public Vector3 offset;
-    public RectTransform basisObject;
-    public Camera cam;
+   // [SerializeField]
+   // private RectTransform movingObject;
+
+    [SerializeField]
+    private Vector3 offset;
+
+    [SerializeField]
+    private GameObject basisObject;
+
+    [SerializeField]
+    private Canvas canvas = null;
+
 
     // Update is called once per frame
     void Update()
@@ -16,10 +24,16 @@ public class UiFollowMouse : MonoBehaviour
         MoveObject();
     }
 
+   
+
     public void MoveObject()
     {
-        Vector3 pos = Input.mousePosition + offset;
-        pos.z = 0;
-        movingObject.position = cam.ScreenToWorldPoint(pos);
+         Vector2 pos;
+         RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.transform as RectTransform, Input.mousePosition, canvas.worldCamera, out pos);
+          basisObject.transform.position = canvas.transform.TransformPoint(pos);
+
+       // basisObject.transform.position = Camera.main.WorldToScreenPoint(Input.mousePosition);
     }
+
+   
 }

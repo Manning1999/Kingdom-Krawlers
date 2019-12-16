@@ -17,7 +17,7 @@ namespace ManningsLootSystem
                 {
                     if (col.transform.GetComponent<PlayerController>() != null)
                     {
-                        Debug.Log("Should be adding now");
+
                         AddToInventory();
 
                     }

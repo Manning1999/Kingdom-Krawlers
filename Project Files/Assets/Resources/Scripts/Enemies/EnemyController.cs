@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -27,9 +28,18 @@ public class EnemyController : EnemyIdentifier, IHurtable
     [SerializeField]
     private int damage = 10;
 
+    [SerializeField]
+    private float timeBetweenAttacks = 1.3f;
 
+    private bool canAttack = true;
 
     public UnityEvent OnDie;
+
+    [SerializeField]
+    private int experienceGainedOnDeath = 10;
+
+    [SerializeField]
+    private GameObject bloodParticles;
 
     // Start is called before the first frame update
     protected override void Start()
@@ -38,7 +48,7 @@ public class EnemyController : EnemyIdentifier, IHurtable
 
 
         target = FindObjectOfType<PlayerController>().transform;
-        Debug.Log(target);
+
 
         myRigidbody = GetComponent<Rigidbody2D>();
 
@@ -70,7 +80,7 @@ public class EnemyController : EnemyIdentifier, IHurtable
                 moving = true;
                 timeToMoveCounter = timeToMove;
 
-                moveDirection = new Vector3(Random.Range(-1f, 1f) * Random.Range(-1f, 1f) * moveSpeed, 0f);
+                moveDirection = new Vector3(UnityEngine.Random.Range(-1f, 1f) * UnityEngine.Random.Range(-1f, 1f) * moveSpeed, 0f);
             }
         }
 
@@ -100,17 +110,38 @@ public class EnemyController : EnemyIdentifier, IHurtable
     private void Die()
     {
         OnDie.Invoke();
+        PlayerController.Instance.GainExperience(experienceGainedOnDeath);
         gameObject.SetActive(false);
     }
 
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionStay2D(Collision2D other)
     {
         if (other.transform.GetComponent<IHurtable>() != null)
         {
-            Debug.Log("Dealt damage");
-            other.transform.GetComponent<IHurtable>().TakeDamage(damage);
+            if (canAttack == true)
+            {
+                Debug.Log("Dealt damage");
+                other.transform.GetComponent<IHurtable>().TakeDamage(damage);
+                canAttack = false;
+                Instantiate(bloodParticles, other.transform.position, Quaternion.identity);
+
+                //In a try catch statement to prevent errors if the enemy is trying to attack while it is dying
+                try
+                {
+                    StartCoroutine(AttackTimer());
+                }
+                catch (Exception e) { }
+            }
         }
     }
+
+
+    private IEnumerator AttackTimer()
+    {
+        yield return new WaitForSeconds(timeBetweenAttacks);
+        canAttack = true;
+    }
+
 
 }

@@ -3263,6 +3263,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5774536811707281587, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: basisObject
+      value: 
+      objectReference: {fileID: 1771837064}
+    - target: {fileID: 5774536811707281587, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: movingObject
+      value: 
+      objectReference: {fileID: 1771837064}
+    - target: {fileID: 5774536811707281587, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774536811707281587, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774536811707281587, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1589331531}
     - target: {fileID: 8506993130986708497, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
       propertyPath: m_Name
@@ -3401,11 +3426,41 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8422870489895278307, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -243.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422870489895278307, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422870489895278307, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 3344110334042576996, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 641765292}
+    - target: {fileID: 7016627155193880825, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7016627155193880825, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016627155193880825, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1182477929, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4047,6 +4102,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!223 &1589331531 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 8506993131118682944, guid: ef260c1e5a26fa046840c385e6d7462f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1377641672}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1666904744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 644903787108217886, guid: 8c089fe623180d347a1af430e964eefb,
