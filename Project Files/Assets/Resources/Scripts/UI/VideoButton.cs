@@ -7,10 +7,14 @@ public class VideoButton : MonoBehaviour
 {
     public GameObject mainMenuUI;
     public GameObject videoUI;
+    public AudioSource buttonSound;
+
 
     public void ButtonClick()
     {
+        buttonSound.Play(0);
         mainMenuUI.SetActive(false);
         videoUI.SetActive(true);
+        
     }
 }
