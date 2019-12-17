@@ -516,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 863165486589120585, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5840914484065243961, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
@@ -531,7 +531,7 @@ PrefabInstance:
     - target: {fileID: 8135255704006338264, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 588322454285307615, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}
@@ -737,6 +737,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331693687059347601, guid: 7fa827352942d1e4cbb40cded87e1faa,
+        type: 3}
+      propertyPath: m_Text
+      value: "Credit\n\nManning Copeland\n\nJack Sinpkin\n\nJohn McGuirk\n\nAden Klitscher\n\nSpecial
+        Thanks To Daniel Beaumont and \nAcademy of Interactive Entertainment (AIE).\n\n\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5548668621749039835, guid: 7fa827352942d1e4cbb40cded87e1faa,
         type: 3}

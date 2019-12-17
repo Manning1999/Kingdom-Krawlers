@@ -120,6 +120,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &12801762 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3351959668416590342, guid: ef260c1e5a26fa046840c385e6d7462f,
+    type: 3}
+  m_PrefabInstance: {fileID: 553836108}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a0b1477e54d71429be828dc97f5979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &35545896 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7431798383091406815, guid: 4c9bc29499ba1cd46b68663d2fde3caa,
@@ -68716,16 +68728,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5774536811707281587, guid: ef260c1e5a26fa046840c385e6d7462f,
-        type: 3}
-      propertyPath: basisObject
-      value: 
-      objectReference: {fileID: 1337384985}
     - target: {fileID: 8506993130986708497, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
       propertyPath: m_Name
       value: In Game UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5774536811707281587, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: basisObject
+      value: 
+      objectReference: {fileID: 1337384985}
     - target: {fileID: 8506993130986708498, guid: ef260c1e5a26fa046840c385e6d7462f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -68818,6 +68830,81 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f07bb1e84269a15469dc3107adfbba06,
         type: 3}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[3].potionType
+      value: 
+      objectReference: {fileID: 12801762}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[3].quantityOwned
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[3].usePotionButton
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[3].inventoryText
+      value: 
+      objectReference: {fileID: 1600600214}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[4].potionType
+      value: 
+      objectReference: {fileID: 12801762}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[4].quantityOwned
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[4].usePotionButton
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[4].inventoryText
+      value: 
+      objectReference: {fileID: 1600600214}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[5].potionType
+      value: 
+      objectReference: {fileID: 12801762}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[5].quantityOwned
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[5].usePotionButton
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963743639979084949, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: potions.Array.data[5].inventoryText
+      value: 
+      objectReference: {fileID: 1600600214}
+    - target: {fileID: 8800859979827068094, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 426.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8537167769621892105, guid: ef260c1e5a26fa046840c385e6d7462f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 355.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef260c1e5a26fa046840c385e6d7462f, type: 3}
 --- !u!1 &589609148 stripped
@@ -69664,6 +69751,18 @@ MonoBehaviour:
     dropChance: 20
   - loot: {fileID: 1587619264327156366, guid: 6a369ffabdee0cf4b996edce9cd2fc76, type: 3}
     dropChance: 10
+--- !u!114 &1600600214 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 932822905140617000, guid: ef260c1e5a26fa046840c385e6d7462f,
+    type: 3}
+  m_PrefabInstance: {fileID: 553836108}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1639967638
 GameObject:
   m_ObjectHideFlags: 0
