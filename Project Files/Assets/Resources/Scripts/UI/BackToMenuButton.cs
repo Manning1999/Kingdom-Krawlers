@@ -12,8 +12,15 @@ public class BackToMenuButton : MonoBehaviour
     public void ButtonClick()
     {
         buttonSound.Play(0);
+        StartCoroutine(AfterButtonClick());
+    }
+
+    public IEnumerator AfterButtonClick()
+    {
+        yield return new WaitForSeconds(0.1f);
         mainMenuUI.SetActive(true);
         videoUI.SetActive(false);
         audioUI.SetActive(false);
+
     }
 }
