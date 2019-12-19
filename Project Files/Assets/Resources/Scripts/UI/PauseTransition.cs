@@ -50,8 +50,9 @@ public class PauseTransition : MonoBehaviour
     }
 
 
-    public void Pause(bool set)
+    public void Pause(bool set) 
     {
+        isPaused = set;
         if (set == true)
         {
             hud.SetActive(false);
