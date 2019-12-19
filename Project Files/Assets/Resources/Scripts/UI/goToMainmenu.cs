@@ -14,6 +14,12 @@ public class goToMainmenu : MonoBehaviour
     public void ButtonClick()
     {
         buttonSound.Play(0);
+        StartCoroutine(AfterButtonClick());
+    }
+
+    public IEnumerator AfterButtonClick()
+    {
+        yield return new WaitForSeconds(0.1f);
         pauseMenu.SetActive(false);
         SceneManager.LoadScene("Main Menu");
     }
