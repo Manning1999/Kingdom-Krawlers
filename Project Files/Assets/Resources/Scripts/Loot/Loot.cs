@@ -70,6 +70,14 @@ namespace ManningsLootSystem
                 
             DontDestroyOnLoad(gameObject);
 
+            if(owner == null)
+            {
+                if (transform.GetComponent<SingletonDontDestroyOnLoad>() == null)
+                {
+                    gameObject.AddComponent<SingletonDontDestroyOnLoad>();
+                    transform.GetComponent<SingletonDontDestroyOnLoad>().GenerateKey();
+                }
+            }
         }
 
         // Update is called once per frame
@@ -89,7 +97,7 @@ namespace ManningsLootSystem
 
         public virtual void Generate()
         {
-            Debug.Log("The loot stats are being generated now");
+            
         }
 
          /*
@@ -122,6 +130,7 @@ namespace ManningsLootSystem
 
                 owner = PlayerController.Instance.gameObject;
                 transform.GetComponent<Collider2D>().enabled = false;
+           // Destroy(transform.GetComponent<SingletonDontDestroyOnLoad>());
            
         }
 

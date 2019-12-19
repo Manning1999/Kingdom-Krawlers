@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1294360493}
   - component: {fileID: -8867225434995239306}
   - component: {fileID: -2446547637535718419}
+  - component: {fileID: -5497453862955687651}
   m_Layer: 12
   m_Name: Regeneration Potion
   m_TagString: Untagged
@@ -227,3 +228,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-5497453862955687651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394324661840169468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 
+  originalScene: 
+  instanceList: []

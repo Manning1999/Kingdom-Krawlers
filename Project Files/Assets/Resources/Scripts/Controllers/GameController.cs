@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using ManningsLootSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,6 +33,12 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private List<ChestLootDropBehaviour> chests = new List<ChestLootDropBehaviour>();
 
+   
+    //The key in this dictionary is the key from a piece of loot's SingletonDontDestroyOnLoad key
+    private Dictionary<string, Loot> lootDictionary = new Dictionary<string, Loot>();
+
+
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -44,35 +52,94 @@ public class GameController : MonoBehaviour
 
         UpdateEnemyList();
         UpdateChestList();
-
+        UpdateLootList();
     }
-        // Update is called once per frame
-        void Update()
+
+
+    // Update is called once per frame
+    void Update()
     {
         
     }
+
+
+
+     
+    private void UpdateLootList()
+    {
+        foreach (Loot loot in FindObjectsOfType<Loot>())
+        {
+            if (loot.transform.GetComponent<SingletonDontDestroyOnLoad>() != null)
+            {
+
+                if (!lootDictionary.ContainsKey(loot.transform.GetComponent<SingletonDontDestroyOnLoad>()._key))
+                {
+                    lootDictionary.Add(loot.transform.GetComponent<SingletonDontDestroyOnLoad>()._key, loot);
+                }
+               /* else
+                {
+                    Destroy(loot.gameObject);
+                } */ 
+            }
+        }
+    } 
+    
+
+    private void SetLoot()
+    {
+        foreach(Loot loot in FindObjectsOfType<Loot>())
+        {
+            if (lootDictionary.ContainsKey(loot.transform.GetComponent<SingletonDontDestroyOnLoad>()._key))
+            {
+                Loot currentLoot = lootDictionary[loot.transform.GetComponent<SingletonDontDestroyOnLoad>()._key];
+
+               
+
+                if (SceneManager.GetActiveScene().name == currentLoot.transform.GetComponent<SingletonDontDestroyOnLoad>()._originalScene)
+                {
+                    currentLoot.gameObject.SetActive(true);
+                }
+                else
+                {
+                    currentLoot.gameObject.SetActive(false);
+                }
+
+            }
+        }
+        SetLoot();
+    }
+        
+
+
 
     private void UpdateEnemyList()
     {
         
         foreach (EnemyIdentifier enemy in GameObject.FindObjectsOfType<EnemyIdentifier>())
         {
-            bool canAdd = true;
-            if (!enemies.Contains(enemy))
+            try
             {
-                
-                foreach (EnemyIdentifier enem in enemies)
+                bool canAdd = true;
+                if (!enemies.Contains(enemy))
                 {
-                    if (enem.transform.GetComponent<SingletonDontDestroyOnLoad>()._key == enemy.transform.GetComponent<SingletonDontDestroyOnLoad>()._key)
-                    {
-                        enemies.Remove(enemy);
-                        Destroy(enemy.gameObject);
-                        canAdd = false;
-                        break;
-                    }
-                }
-                if (canAdd == true) enemies.Add(enemy);
 
+                    foreach (EnemyIdentifier enem in enemies)
+                    {
+                        if (enem.transform.GetComponent<SingletonDontDestroyOnLoad>()._key == enemy.transform.GetComponent<SingletonDontDestroyOnLoad>()._key)
+                        {
+                            enemies.Remove(enemy);
+                            Destroy(enemy.gameObject);
+                            canAdd = false;
+                            break;
+                        }
+                    }
+                    if (canAdd == true) enemies.Add(enemy);
+
+                }
+            }
+            catch(Exception e)
+            {
+                continue;
             }
         }
         SetEnemies();
@@ -94,26 +161,32 @@ public class GameController : MonoBehaviour
     {
         foreach(EnemyIdentifier enemy in enemies)
         {
-            if (!enemy._originalScene.Equals(""))
+            try
             {
-                if (enemy._health <= 0)
+                if (!enemy._originalScene.Equals(""))
                 {
-                    enemy.gameObject.SetActive(false);
-                    Debug.Log("Set Inactive");
-                }
-                else
-                {
-                    if (enemy._originalScene == SceneManager.GetActiveScene().name)
-                    {
-                        enemy.gameObject.SetActive(true);
-                        Debug.Log("Set Active");
-                    }
-                    else
+                    if (enemy._health <= 0)
                     {
                         enemy.gameObject.SetActive(false);
                         Debug.Log("Set Inactive");
                     }
+                    else
+                    {
+                        if (enemy._originalScene == SceneManager.GetActiveScene().name)
+                        {
+                            enemy.gameObject.SetActive(true);
+                            Debug.Log("Set Active");
+                        }
+                        else
+                        {
+                            enemy.gameObject.SetActive(false);
+                            Debug.Log("Set Inactive");
+                        }
+                    }
                 }
+            }
+            catch (Exception e) {
+                continue;
             }
         }
     }

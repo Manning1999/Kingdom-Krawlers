@@ -98,6 +98,7 @@ public class EnemyController : EnemyIdentifier, IHurtable
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("Taken damage");
         health -= damage;
 
         if (health <= 0)
@@ -109,6 +110,7 @@ public class EnemyController : EnemyIdentifier, IHurtable
     [ContextMenu("Kill")]
     private void Die()
     {
+        Debug.Log("Died");
         OnDie.Invoke();
         PlayerController.Instance.GainExperience(experienceGainedOnDeath);
         gameObject.SetActive(false);
@@ -117,11 +119,11 @@ public class EnemyController : EnemyIdentifier, IHurtable
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        if (other.transform.GetComponent<IHurtable>() != null)
+        if (other.transform.GetComponent<IHurtable>() != null && other.transform.GetComponent<Destructable>() == null && other.transform.GetComponent<EnemyIdentifier>() == null)
         {
             if (canAttack == true)
             {
-                Debug.Log("Dealt damage");
+                Debug.Log(transform.name + "   Dealt damage to " + other.transform.name);
                 other.transform.GetComponent<IHurtable>().TakeDamage(damage);
                 canAttack = false;
                 Instantiate(bloodParticles, other.transform.position, Quaternion.identity);

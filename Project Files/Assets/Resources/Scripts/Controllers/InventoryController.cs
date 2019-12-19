@@ -368,7 +368,14 @@ namespace ManningsLootSystem
             }
             else
             {
-                Time.timeScale = 1;
+                if (PauseTransition.Instance._isPaused == false)
+                {
+                    Time.timeScale = 1;
+                }
+                else
+                {
+                    Time.timeScale = 0;
+                }
             }
 
             canSell = showCanSellButton;

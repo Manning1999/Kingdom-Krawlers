@@ -61,7 +61,7 @@ public class ChestLootDropBehaviour : LootDropBehaviour, ICustomDescription
         {
             try
             {
-                droppedLoot.transform.position = Vector3.MoveTowards(droppedLoot.transform.position, transform.position + transform.up * dropDistance, 0.01f * Time.timeScale);
+                droppedLoot.transform.position = Vector3.MoveTowards(droppedLoot.transform.position, transform.position + transform.up * dropDistance, 0.01f * Time.deltaTime);
             }
             catch (Exception e) { }
         }

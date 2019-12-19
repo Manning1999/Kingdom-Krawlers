@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2859963698811759550}
   - component: {fileID: 2859963698811759537}
   - component: {fileID: 2859963698811759538}
+  - component: {fileID: -3778799053143082629}
   m_Layer: 12
   m_Name: Sword Loot - gold
   m_TagString: Untagged
@@ -154,3 +155,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-3778799053143082629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2859963698811759549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 
+  originalScene: 
+  instanceList: []

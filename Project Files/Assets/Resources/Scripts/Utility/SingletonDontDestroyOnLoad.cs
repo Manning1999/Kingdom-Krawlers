@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -27,19 +28,37 @@ public class SingletonDontDestroyOnLoad : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
         
-        if(key == "")
-        {
-            key = transform.position.ToString();
-        }
+        
         
 
     }
 
-   
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+
+    public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
 
+        GenerateKey();
+
+    }
+
+
+    public void GenerateKey() {
+        try
+        {
+            if (key == "")
+            {
+
+                key = transform.position.ToString();
+
+            }
+        }
+        catch(Exception e)
+        {
+            Debug.Log(transform.name);
+        }
+
+        
         instanceList.Clear();
 
        
@@ -68,7 +87,7 @@ public class SingletonDontDestroyOnLoad : MonoBehaviour
                 if (instance._originalScene == "")
                 {
                     Destroy(instance.gameObject);
-                    Debug.Log("Destroying a " + key);
+
                 }
             }
         }

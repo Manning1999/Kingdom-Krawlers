@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5284866346633092315}
   - component: {fileID: 5284866346633092260}
   - component: {fileID: 5284866346633092261}
+  - component: {fileID: 228988629217531374}
   m_Layer: 12
   m_Name: Bow Loot - Grey
   m_TagString: Untagged
@@ -154,3 +155,18 @@ MonoBehaviour:
   arrow: {fileID: 1736480442732098868, guid: 47473eace684a6a49871b3291613f51e, type: 3}
   isEquipped: 0
   aimingDirection: {x: 0, y: 0, z: 0}
+--- !u!114 &228988629217531374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5284866346633092262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48bb073788087d4faf035f2a43aa41e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 
+  originalScene: 
+  instanceList: []
