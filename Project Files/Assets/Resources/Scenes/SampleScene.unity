@@ -69347,13 +69347,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25bf8e4c4fe31574a8f87642d557d703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 800
+  health: 750
   speed: 0
   detectionDistance: 3
   stoppingDistance: 0
   retreatDistance: 0
   timeBtwShots: 2
-  startTimeBtwShots: 3
+  startTimeBtwShots: 3.5
   projectile: {fileID: 8031358605437981452, guid: ef0e679790ec552418d3e841e7f25c49,
     type: 3}
   player: {fileID: 4416347863077761915}
