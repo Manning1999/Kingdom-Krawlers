@@ -61,7 +61,7 @@ public class EnemyController : EnemyIdentifier, IHurtable
     void Update()
     {
 
-        if(target == null)
+        if (target == null)
         {
             try
             {
@@ -69,36 +69,38 @@ public class EnemyController : EnemyIdentifier, IHurtable
             }
             catch (Exception e) { }
 
-        if (moving)
-        {
-            timeToMoveCounter -= Time.deltaTime;
-            myRigidbody.velocity = moveDirection;
-
-            if(timeToMoveCounter < 0f)
+            if (moving)
             {
-                moving = false;
-                timeBetweenMoveCounter = timeBetweenMove;
-            }
-        }
-        else
-        {
-            timeBetweenMoveCounter -= Time.deltaTime;
-            myRigidbody.velocity = Vector2.zero;
+                timeToMoveCounter -= Time.deltaTime;
+                myRigidbody.velocity = moveDirection;
 
-            if(timeBetweenMoveCounter < 0f)
+                if (timeToMoveCounter < 0f)
+                {
+                    moving = false;
+                    timeBetweenMoveCounter = timeBetweenMove;
+                }
+            }
+            else
             {
-                moving = true;
-                timeToMoveCounter = timeToMove;
+                timeBetweenMoveCounter -= Time.deltaTime;
+                myRigidbody.velocity = Vector2.zero;
 
-                moveDirection = new Vector3(UnityEngine.Random.Range(-1f, 1f) * UnityEngine.Random.Range(-1f, 1f) * moveSpeed, 0f);
+                if (timeBetweenMoveCounter < 0f)
+                {
+                    moving = true;
+                    timeToMoveCounter = timeToMove;
+
+                    moveDirection = new Vector3(UnityEngine.Random.Range(-1f, 1f) * UnityEngine.Random.Range(-1f, 1f) * moveSpeed, 0f);
+                }
             }
+
+            if (Vector3.Distance(target.position, transform.position) <= range)
+            {
+                FollowPlayer();
+            }
+
         }
 
-        if (Vector3.Distance(target.position, transform.position) <= range)
-        {
-            FollowPlayer();
-        }
-        
     }
 
     public void FollowPlayer()
