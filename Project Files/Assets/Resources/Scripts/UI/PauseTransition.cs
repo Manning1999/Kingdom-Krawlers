@@ -47,7 +47,6 @@ public class PauseTransition : MonoBehaviour
             isPaused = !isPaused;
             Pause(isPaused);
         }
-        Debug.Log(Time.timeScale);
     }
 
 

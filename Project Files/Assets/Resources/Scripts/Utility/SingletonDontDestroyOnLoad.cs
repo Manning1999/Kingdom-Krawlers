@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This script is used to prevent double ups of items when scenes reload
+
 [DisallowMultipleComponent]
 public class SingletonDontDestroyOnLoad : MonoBehaviour
 {
@@ -69,13 +71,16 @@ public class SingletonDontDestroyOnLoad : MonoBehaviour
             if (instance._key == key)
             {
                 instanceList.Add(instance);
+               // Debug.Log(instanceList.Count + " instances of " + transform.name + "     key: " + key);
+
             }
-
+            
         }
+       
 
-        
 
-        if(instanceList.Count == 1)
+
+        if (instanceList.Count == 1)
         {
             if (originalScene == "")
             {
@@ -89,6 +94,7 @@ public class SingletonDontDestroyOnLoad : MonoBehaviour
                 if (instance._originalScene == "" && instanceList.Count > 1)
                 {
                     Destroy(instance.gameObject);
+                    //instance.gameObject.SetActive(false);
                     Debug.Log("Destroying");
                 }
             }

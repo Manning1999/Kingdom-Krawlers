@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
     protected void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
 
-        UpdateEnemyList();
+      //  UpdateEnemyList();
         UpdateChestList();
         UpdateLootList();
     }
@@ -111,10 +111,10 @@ public class GameController : MonoBehaviour
         
 
 
-
+    //Not in use any more. It caused a major bug that would destroy all the enemies if you started in a scene that didn't contain them.
     private void UpdateEnemyList()
     {
-        
+         //Get every enemy in the scene
         foreach (EnemyIdentifier enemy in GameObject.FindObjectsOfType<EnemyIdentifier>())
         {
             try
@@ -122,13 +122,15 @@ public class GameController : MonoBehaviour
                 bool canAdd = true;
                 if (!enemies.Contains(enemy))
                 {
-
+                     //get every enemy already in the list of enemies
                     foreach (EnemyIdentifier enem in enemies)
                     {
+                        //if the enemy is already in the list then destroy it
                         if (enem.transform.GetComponent<SingletonDontDestroyOnLoad>()._key == enemy.transform.GetComponent<SingletonDontDestroyOnLoad>()._key)
                         {
                             enemies.Remove(enemy);
                             Destroy(enemy.gameObject);
+                            Debug.Log("Controller destroying");
                             canAdd = false;
                             break;
                         }
@@ -157,7 +159,8 @@ public class GameController : MonoBehaviour
     }
 
 
-   private void SetEnemies()
+    //Not in use any more. It caused a major bug that would destroy all the enemies if you started in a scene that didn't contain them.
+    private void SetEnemies()
     {
         foreach(EnemyIdentifier enemy in enemies)
         {
