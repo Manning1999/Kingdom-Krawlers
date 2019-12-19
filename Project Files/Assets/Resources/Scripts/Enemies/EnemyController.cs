@@ -19,6 +19,7 @@ public class EnemyController : EnemyIdentifier, IHurtable
 
     private Vector3 moveDirection;
  
+    [SerializeField]
     private Transform target;
     [SerializeField]
     private float speed;
@@ -47,7 +48,7 @@ public class EnemyController : EnemyIdentifier, IHurtable
         base.Start();
 
 
-        target = FindObjectOfType<PlayerController>().transform;
+        
 
 
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -59,6 +60,15 @@ public class EnemyController : EnemyIdentifier, IHurtable
     // Update is called once per frame
     void Update()
     {
+
+        if(target == null)
+        {
+            try
+            {
+                target = PlayerController.Instance.transform;
+            }
+            catch (Exception e) { }
+
         if (moving)
         {
             timeToMoveCounter -= Time.deltaTime;
