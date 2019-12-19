@@ -73,6 +73,8 @@ public class SingletonDontDestroyOnLoad : MonoBehaviour
 
         }
 
+        
+
         if(instanceList.Count == 1)
         {
             if (originalScene == "")
@@ -84,10 +86,10 @@ public class SingletonDontDestroyOnLoad : MonoBehaviour
         {
             foreach (SingletonDontDestroyOnLoad instance in instanceList)
             {
-                if (instance._originalScene == "")
+                if (instance._originalScene == "" && instanceList.Count > 1)
                 {
                     Destroy(instance.gameObject);
-
+                    Debug.Log("Destroying");
                 }
             }
         }

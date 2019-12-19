@@ -8,6 +8,10 @@ public class StartButton : MonoBehaviour
 {
     public AudioSource buttonSound;
 
+    [SerializeField]
+    private string sceneToLoad;
+
+
     public void ButtonClick()
     {
         StartCoroutine(AfterButtonClick());
@@ -17,6 +21,6 @@ public class StartButton : MonoBehaviour
     public IEnumerator AfterButtonClick()
     {
         yield return new WaitForSeconds(0.1f);
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
